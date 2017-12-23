@@ -101,9 +101,13 @@ build-nocheck: configemail $(SPECFILE) upstream $(SRPMFILE)
 fmvpatches: results/build.log
 	@perl $(TOPLVL)/projects/common/fmvpatches.pl $(PKG_NAME)
 
-#help shell: Puts you in a shell into your build root.
-shell:
+#help rootshell: Puts you in a root shell at the top of your build root.
+rootshell:
 	$(MOCK) --result=results/ --no-cleanup-after --shell --uniqueext=$(PKG_NAME)
+
+#help shell: Puts you in a user shell in the home directory in the build root.
+shell:
+	$(MOCK) --result=results/ --no-cleanup-after --shell --uniqueext=$(PKG_NAME) --unpriv "/bin/sh -c 'cd ; exec \$$SHELL -l -i'"
 
 # Always rebuild the source rpm
 .PHONY: $(SRPMFILE)
