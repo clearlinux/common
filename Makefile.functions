@@ -1,0 +1,97 @@
+#-*-makefile-*-
+
+define loopup
+	@[ "$(DEVICE)" ] || exit -1
+	@set -x; [ -z "$(FORCE)" ] || rm -rf $(TOPLVL)/image
+	@if [ -d $(TOPLVL)/image ]; then \
+		echo "Previous image mount in place at $(TOPLVL)/image. Run \`make loop-down\` to clean up first!"; \
+		exit 1; \
+	fi
+	@echo "Setting up loopback and mounting image..."
+	@mkdir -p $(TOPLVL)/image
+	@sudo losetup -d /dev/loop$(DEVICE) &> /dev/null || true
+	@sudo losetup /dev/loop$(DEVICE) $(TARGET)
+	@sudo partprobe /dev/loop$(DEVICE)
+	@sleep 1
+	@if [ -e /dev/loop$(DEVICE)p3 ]; then \
+	   sudo mount /dev/loop$(DEVICE)p3 $(TOPLVL)/image; \
+	else \
+	   sudo mount /dev/loop$(DEVICE)p2 $(TOPLVL)/image; \
+	fi
+	@sudo mount /dev/loop$(DEVICE)p1 $(TOPLVL)/image/boot
+endef
+
+define loopdown
+	@if [ ! -d $(TOPLVL)/image ]; then \
+		echo "Nothing to clean up."; \
+		exit 1; \
+	fi
+	@echo "Unmounting image and tearing down loopback..."
+	@sudo losetup -d /dev/loop$(DEVICE)p3 2>/dev/null || true
+	@sudo losetup -d /dev/loop$(DEVICE)p2 2>/dev/null || true
+	@sudo losetup -d /dev/loop$(DEVICE)p1 2>/dev/null || true
+	@sudo losetup -d /dev/loop$(DEVICE)   2>/dev/null || true
+	@sudo umount -l $(TOPLVL)/image/proc    2>/dev/null || true
+	@sudo umount -l $(TOPLVL)/image/sys     2>/dev/null || true
+	@sudo umount -l $(TOPLVL)/image/dev     2>/dev/null || true
+	@sudo umount -l $(TOPLVL)/image/boot    2>/dev/null || true
+	@sudo umount -l -R $(TOPLVL)/image; if [ $$? != 0 ]; then \
+		sudo umount -l $(TOPLVL)/image; \
+	fi
+	@sync
+	@sleep 1
+	@rmdir $(TOPLVL)/image
+endef
+
+define subjectprefix
+	git config format.subjectPrefix "PATCH $(1)"
+endef
+
+# If GITOLITE_BASE_URL is defined, sets a repo's push URL for that gitolite
+# instance. Accepts one argument: the path to the repo on gitolite. If
+# GITOLITE_BASE_URL is not defined, no push URL is set -- the shell's null
+# command is executed to act as a no-op.
+define gitoliteurl
+$(if $(GITOLITE_BASE_URL),git remote set-url --push origin $(GITOLITE_BASE_URL):$(1),:)
+endef
+
+# If USE_PACKAGE_MAPPING is defined, looks up the remote repo name for the
+# local repo name (passed as the argument) according to the mapping found in
+# the "pkg-mapping" file. Otherwise, return the local repo name.
+define remotepkgname
+$(if $(USE_PACKAGE_MAPPING),$$(awk -v P="$(1)" '$$1 == P { res=$$2 } END { print res ? res : P }' $(TOPLVL)/projects/common/pkg-mapping),$(1))
+endef
+
+.PHONY: help
+##### Code
+# Make sure that HELPSPACE has exactly HELPLEN spaces in it
+EMPTY:= # An empty string
+HELPSPACE :=${EMPTY}                  ${EMPTY}
+HELPLEN := 18
+define HELPSCRIPTBODY :=
+# Skip all non help lines
+/^#help[ \t]/!d
+# see if this is a target, defined to be "#help" a single space or tab a word
+# and then a ":". You can therefore escape something like http://localhost
+# by adding an extra space. We lose extra indent, but we will anyhow
+# as we will feed this to fmt -t
+s/^#help[ \t]\([^ \t]*:\)[ \t]*/\1\n/
+ttarget
+# This is a continuation line
+s/^#help[ \t]*/${HELPSPACE}/
+b
+:target
+# Add on spaces to pad it out, then remove extra ones and the newline
+# almost does the correct thing if there are not enough spaces
+s/[\t ]*\n[ \t]*/${HELPSPACE}\n/
+s/^\(.\{${HELPLEN}\}\) */\1/
+s/\n//
+endef
+
+# Debugging hint, add 	'@echo "$${HELPSCRIPT}" | hexdump -C'
+help: export HELPSCRIPT=${HELPSCRIPTBODY}
+help:
+	@printf "%s\n" "The output below describes commands that can be invoked in this directory."
+	@printf "\n\nPossible commands:\n\n"
+	@sed "$${HELPSCRIPT}" ${MAKEFILE_LIST} | { fmt -t -w $${COLUMNS:-75} || cat ; }
+

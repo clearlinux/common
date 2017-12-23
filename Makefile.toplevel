@@ -1,0 +1,208 @@
+#-*-makefile-*-
+
+all: clone
+
+TOPLVL  = .
+
+include $(TOPLVL)/projects/common/Makefile.functions
+include $(TOPLVL)/projects/common/Makefile.config
+
+SHELL   = /bin/bash
+
+PKGS    = $(shell cat $(PACKAGES_FILE))
+
+proj_PKGS = $(addprefix proj_,$(PROJ_PKGS))
+clone_PKGS = $(addprefix clone_,$(PKGS))
+
+#help clone: Clones any new package/project in the git tree that you didn't
+#help already check out. If you already have a package checked out,
+#help it will not clone that package
+clone: $(proj_PKGS) $(clone_PKGS)
+
+#help clone-packages: Same action as 'make clone', but for package repos only.
+clone-packages: $(clone_PKGS)
+
+#help clone-projects: Same action as 'make clone', but for project repos only.
+clone-projects: $(proj_PKGS)
+
+$(proj_PKGS):
+	@proj=$(patsubst proj_%,%,$@); \
+	[ -d projects/$$proj ] || ( \
+	echo "Checking out: projects/$$proj"; \
+	git clone $(PRJ_BASE_URL)/$$proj projects/$$proj; \
+	cd projects/$$proj; \
+	if [ "$$proj" = "autospec" ] ; then \
+		git remote set-url --push origin https://github.com/clearlinux/autospec.git; \
+	else \
+		$(call gitoliteurl,projects/$$proj); \
+	fi; \
+	$(call subjectprefix,$$proj); \
+	)
+
+packages/common/Makefile.common:
+	@mkdir -p $(dir $@)
+	@ln -s ../../projects/common/Makefile.common $@
+
+$(clone_PKGS): $(PACKAGES_FILE) packages/common/Makefile.common
+	@pkg=$(patsubst clone_%,%,$@); \
+	remotepkg=$(call remotepkgname,$$pkg); \
+	[ -d packages/$$pkg ] || ( \
+	echo "Checking out: packages/$$pkg"; \
+	git clone $(PKG_BASE_URL)/$$remotepkg packages/$$pkg; \
+	cd packages/$$pkg; \
+	$(call gitoliteurl,packages/$$pkg); \
+	$(call subjectprefix,$$pkg); \
+	)
+
+#help cvecheck: Checks for common vulnerabilities and exposures in your code.
+cvecheck:
+	# https://github.com/ikeydoherty/cve-check-tool
+	# Installation: https://github.com/ikeydoherty/cve-check-tool/wiki
+	cve-check-tool -n -M $(TOPLVL)/projects/common/mapping $(PACKAGES_FILE)
+
+#help pull: Performs a git pull --rebase for each package repo, avoiding the creation
+#help of merge commits, while displaying any changes since your last pull. It is
+#help silent if there are no changes.
+.PHONY: pull ${PULL_PKGS} 
+PULL_PKGS:= $(addprefix PULL_projects/,$(PROJ_PKGS)) $(addprefix PULL_packages/,$(PKGS))
+${PULL_PKGS}:
+	@p=$(patsubst PULL_%,%,$@) ; \
+	if [ ! -d "$$p/.git" ]; then echo "Nothing to pull for $$p - $$p/.git missing"; exit 0; fi; \
+	cd "$$p" ; \
+	if git remote | grep origin >/dev/null 2>&1; then \
+		O=$$(git rev-parse origin/master 2>/dev/null); \
+		git fetch --tags origin >/dev/null 2>&1; \
+		N=$$(git rev-parse origin/master); \
+		if [ "$$O" != "$$N" ]; then \
+			echo "Updating: $$p"; \
+			if ! git merge --ff-only origin/master 2>/dev/null; then \
+				echo "$$p: Cannot fast-forward $$(git rev-parse --abbrev-ref HEAD) to origin/master" ; \
+			fi ; \
+			git --no-pager log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit $$O..$$N; echo; \
+		fi ; \
+		$(call gitoliteurl,$$p); \
+	else \
+		echo "$$p: no such remote 'origin'"; \
+	fi ; \
+	case "$$p" in \
+		("projects/"*|"packages/"*) P=$${p#*/} ;; \
+		(*) P="$$p";; \
+	esac; \
+	$(call subjectprefix,$$P);
+
+# If a user runs "make -j pull", set the job count to 4 to rate limit client
+# requests to the server hosting package git repos. Finding the value that is
+# passed to -j and changing it to limit it to 4 is even harder, see
+# http://blog.jgc.org/2015/03/gnu-make-insanity-finding-value-of-j.html
+# for a discussion, Simplified it comes to
+### # Default target depends on parallel, and outputs the job count
+### all: | compute_job_count
+###      @echo ${JOB_COUNT}
+### # get the number of words in .parallel file and clean up.
+### compute_job_count: .parallel
+### 	@$(eval JOB_COUNT := $(words $(file < $<)))rm $<
+### THIS_MAKEFILE := $(CURDIR)/$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))
+### # run a submake, sending the output (one word per job until failure) to the .parallel file
+### .parallel: FORCE
+### 	@$(MAKE) --no-print-directory -f ${THIS_MAKEFILE}  par 2>/dev/null >$@ || true
+### FORCE: ;
+### # par depends on par-1 par-2 ... par-24
+### par: $(addprefix par-,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24)
+### # Each job outputs a word, waits for a second and fails. So eventually
+### # you have n tasks in sleep, then one fails and the job fails.
+### # par-%: ; @echo $@ && sleep 1 && false
+ifeq (pull,$(filter pull,${MAKECMDGOALS}))
+ ifeq (3,$(word 1,$(subst ., ,${MAKE_VERSION})))
+ $(warning *************** This version of make is too old to pull in parallel )
+ else
+ MAKEFLAGS += -j4 -Otarget
+ endif
+endif
+pull: ${PULL_PKGS}
+
+#help clean-pkgs-dir: For packages that are no longer present in the distro,
+#help removes the associated package repos from the ./packages tree
+clean-pkgs-dir: $(PACKAGES_FILE)
+	@for p in `ls packages`; do \
+		if ! grep -wq "^$$p$$" "$<" && [ "$$p" != common ]; then \
+			echo "Removing $$p from packages, it is no longer in common/packages."; \
+			rm -rf packages/$$p; \
+		fi \
+	done
+	@echo "packages directory cleaned";
+
+clean_PKGS = $(addprefix clean_,$(PKGS))
+#help clean: Run 'make clean' for every package.
+clean: $(clean_PKGS)
+
+proper_PKGS = $(addprefix proper_,$(PKGS))
+#help proper: Run 'make proper' for every package, and purge the local
+#help repo and image.
+proper: $(proper_PKGS)
+	rm -rf repo
+	rm -f clear.img
+	rm -f image-content.lst
+	rm -f report.html
+
+.PHONY: $(clean_PKGS)
+.PHONY: $(proper_PKGS)
+
+$(clean_PKGS):
+	-@$(MAKE) -s -j -C $(addprefix packages/,$(patsubst clean_%,%,$@)) clean
+
+$(proper_PKGS):
+	-@$(MAKE) -s -j -C $(addprefix packages/,$(patsubst proper_%,%,$@)) proper
+
+#help status: Runs git status for all package repos, thus displaying untracked
+#help and unstaged files in addition to staged files.
+status: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS))
+	@for p in projects/common $(addprefix packages/,$(PKGS)); do \
+		(cd $$p ; git status | grep -q 'nothing to commit, working [^ ]* clean' || (echo "Uncommitted changes in $$p:"; git status)) ;\
+	done
+
+#help diff: Runs git diff for all package repos and displays the output using
+#help diffstat. Requires that diffstat is installed.
+diff: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS))
+	@for p in projects/common $(addprefix packages/,$(PKGS)); do \
+		(cd $$p ; git status | grep -q 'nothing to commit, working [^ ]* clean' || (echo "Uncommitted changes in: $$p"; git diff |diffstat -p1)) ;\
+	done
+
+#help versions: Displays the version of each package in the ./packages tree.
+versions: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS))
+	@for p in $(addprefix packages/,$(PKGS)); do \
+		(cd $$p; if ls *.spec &> /dev/null; then rpmspec -q --queryformat '%{NAME}-%{VERSION}\n' *.spec | head -n1; fi) ;\
+	done
+
+#help releases: Like 'make versions', but also displays the release number.
+releases: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS))
+	@for p in $(addprefix packages/,$(PKGS)); do \
+		(cd $$p; if ls *.spec &> /dev/null; then rpmspec -q --queryformat '%{NAME}-%{VERSION}-%{RELEASE}\n' *.spec | head -n1; fi) ;\
+	done
+
+#help provides:     Is used to find out which RPM package provides some file.
+#help               Params: FP=<file_fullpath> RN=<release_number>, i.e. 'make provides FP=/usr/bin/ls'
+provides:
+	@$(TOPLVL)/projects/common/provides.sh -f $(FP) -r $(RN)
+
+#help autospecnew: Creates a new autospec package with for a given URL=$(URL)
+#help with NAME=$(NAME). Several files used by autospec will be created in the
+#help process. For more information about autospec, see the project page on Github https://github.com/clearlinux/autospec
+autospecnew:
+	@if [ -z $(NAME) ] || [ -z $(URL) ]; then \
+		echo "Please specify NAME and URL"; \
+		exit 1; \
+	fi
+	@git clone $(PKG_BASE_URL)/$(NAME) $(TOPLVL)/packages/$(NAME) &> /dev/null || true
+	@if [ ! -d $(TOPLVL)/packages/$(NAME)/.git ]; then \
+		echo "no remote repository found, creating new package repository and running autospec"; \
+		mkdir -p $(TOPLVL)/packages/$(NAME); \
+		printf 'PKG_NAME := %s\nURL = %s\n\n\ninclude ../common/Makefile.common\n' $(NAME) '$(value URL)' > $(TOPLVL)/packages/$(NAME)/Makefile; \
+		python3 $(TOPLVL)/projects/autospec/autospec/autospec.py --integrity -t packages/$(NAME) --config $(AUTOSPEC_CONF) $(URL) --name $(NAME); \
+		$(TOPLVL)/projects/common/checkblacklist.sh $(TOPLVL)/projects/common/blacklist $(TOPLVL)/packages/${NAME}/results/*.rpm; \
+	else \
+		echo "$(NAME) already exists at $(TOPLVL)/packages/$(NAME)"; \
+		exit 1; \
+	fi
+
+# Define site local toplevel targets in a separate makefile
+-include $(TOPLVL)/projects/common/Makefile.toplevel.site_local
