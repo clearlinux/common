@@ -107,7 +107,7 @@ rootshell:
 
 #help shell: Puts you in a user shell in the home directory in the build root.
 shell:
-	$(MOCK) --result=results/ --no-cleanup-after --shell --uniqueext=$(PKG_NAME) --unpriv "/bin/sh -c 'cd ; exec \$$SHELL -l -i'"
+	$(MOCK) --result=results/ --no-cleanup-after --shell --uniqueext=$(PKG_NAME) --unpriv "cd && exec \$$SHELL -l -i"
 
 # Always rebuild the source rpm
 .PHONY: $(SRPMFILE)
