@@ -152,6 +152,7 @@ compat-libical-soname2
 compat-libpng-soname12
 compat-libwebp-soname6
 compat-llvm-soname4
+compat-mpfr-soname4
 compat-opencv-soname32
 compat-readline
 compat-SDL2-soname1
@@ -1311,6 +1312,7 @@ Thunar
 thunar-volman
 thunderbird
 thunderbolt-software-user-space
+tiff
 tig
 tigervnc
 time
