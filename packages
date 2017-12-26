@@ -341,6 +341,7 @@ glog
 glproto
 glslang
 glu
+glusterfs
 gmic
 gmime
 gmp
@@ -1143,6 +1144,7 @@ R-openssl
 R-pbdZMQ
 R-pbkrtest
 rpcbind
+R-pillar
 R-pkgconfig
 R-plyr
 rpm
@@ -1346,6 +1348,7 @@ urlgrabber
 urllib3
 usbutils
 usermode
+userspace-rcu
 usrbinpython
 util-linux
 util-macros
