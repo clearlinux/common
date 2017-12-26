@@ -146,6 +146,7 @@ colord-gtk
 comedilib
 compat-efivar-soname0
 compat-fuse-soname2
+compat-gc-soname1
 compat-glew-soname1
 compat-guile-soname20
 compat-libical-soname2
