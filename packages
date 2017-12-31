@@ -153,7 +153,6 @@ compat-libical-soname2
 compat-libpng-soname12
 compat-libwebp-soname6
 compat-llvm-soname4
-compat-mpfr-soname4
 compat-opencv-soname32
 compat-opencv-soname33
 compat-readline
