@@ -81,11 +81,13 @@ configemail:
 checkblacklist:
 	@$(TOPLVL)/projects/common/checkblacklist.sh $(TOPLVL)/projects/common/blacklist results/*.rpm
 
+prebuild-checks:
+
 #help build: Builds from current directory on your machine and puts log
 #help files and rpms in the results directory of your package.  If there
 #help are mutlple tar.gz files for a package, make will do make sources,
 #help which creates a src.rpm file from the spec file.
-build: configemail $(SPECFILE) upstream $(SRPMFILE)
+build: prebuild-checks configemail $(SPECFILE) upstream $(SRPMFILE)
 	$(MOCK) $(SRPMFILE) --result=results/ --no-cleanup-after --uniqueext=$(PKG_NAME)
 	@perl $(TOPLVL)/projects/common/logcheck.pl results/build.log
 	@perl $(TOPLVL)/projects/common/count.pl results/build.log &> testresults
@@ -228,10 +230,12 @@ else
 	rm -rf "$$tmp";
 endif
 
+prekoji-checks:
+
 #help koji: Creates a git tag on the latest local commit, then asks koji to
 #help build from that tag on the server. If you have uncommitted local changes,
 #help they will not be included.
-koji: kojidef
+koji: prekoji-checks kojidef
 	@$(MAKE) spdxcheck
 	@$(MAKE) checkblacklist
 	git pull --rebase
