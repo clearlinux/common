@@ -19,8 +19,9 @@ building Clear Linux packages.
 
 ### Automated setup
 
-Download the [user setup](user-setup.sh) script and run it on your
-Clear Linux system as an unprivileged user.
+Download the [user setup](user-setup.sh) script and run it on your Clear Linux
+system as an unprivileged user. After the script completes, make sure to logout
+and login again to complete the setup process.
 
 The script either accepts no options, or all (3) options in case you are
 configuring the Koji CLI for remote building on a Koji server. The options are
