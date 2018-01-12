@@ -532,10 +532,12 @@ libatasmart
 libatomic_ops
 libb64
 libblockdev
+libburn
 libbytesize
 libcanberra
 libcap
 libcap-ng
+libcdio
 libcgroup
 libcomps
 libconfig
@@ -573,6 +575,7 @@ libICE
 libidn
 libinput
 libiscsi
+libisofs
 libjpeg-turbo
 libjpeg-turbo-soname8
 libksba
@@ -989,6 +992,7 @@ powertop
 presentproto
 pretend
 prettytable
+proc-macro2
 processor-trace
 procps-ng
 prompt_toolkit
@@ -1350,6 +1354,7 @@ tzdata
 tzlocal
 udisks2
 uhttpmock
+unicode-xid
 unifdef
 unittest2
 unzip
@@ -1434,6 +1439,7 @@ xf86bigfontproto
 xf86dgaproto
 xf86driproto
 xf86vidmodeproto
+xfburn
 xfce4-appfinder
 xfce4-dev-tools
 xfce4-notifyd
