@@ -238,10 +238,13 @@ prekoji-checks:
 koji: prekoji-checks kojidef
 	@$(MAKE) spdxcheck
 	@$(MAKE) checkblacklist
+	@if ! git branch | grep -q -E '^\* master'; then \
+		echo "Error: Must be on the master branch to submit to koji" >&2; \
+		exit 1; \
+	fi
 	git pull --rebase
 	git tag $(SRPMVERS)
-	git push --follow-tags
-	git push --tags
+	git push origin master refs/tags/$(SRPMVERS)
 	$(KOJI_CMD) build $$KOJI_NOWAIT $(KOJI_TAG) $(PKG_BASE_URL)/$(PKG_NAME)?#$(SRPMVERS)
 
 #help rekoji: In case a previous 'make koji' failed, trigger a rebuild for the
