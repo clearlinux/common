@@ -148,7 +148,7 @@ autospec: pullrebase
 		echo "Specfile already exists and was not created by autospec.py! Aborting."; \
 		exit 1; \
 	fi
-	@printf 'PKG_NAME := %s\nURL = %s\n\n\ninclude ../common/Makefile.common\n' $(PKG_NAME) '$(firstword $(value NEWURL) $(value URL))' > Makefile
+	@printf 'PKG_NAME := %s\nURL = %s\nARCHIVES = %s\n\ninclude ../common/Makefile.common\n' $(PKG_NAME) '$(firstword $(value NEWURL) $(value URL))' '$(value ARCHIVES)' > Makefile
 	python3 $(TOPLVL)/projects/autospec/autospec/autospec.py -t . --integrity \
 		${NON_INTERACTIVE} --config "$(AUTOSPEC_CONF)" ${SKIP_GIT} \
 		$(firstword $(NEWURL) $(URL)) --name $(PKG_NAME) ${CLEANUP} \
