@@ -127,6 +127,7 @@ clr-power-tweaks
 clr-python-timestamp
 clr-R-helpers
 clr-rpm-config
+clr-service-restart
 clr-systemd-config
 clr-update-triggers
 clr-wallpapers
