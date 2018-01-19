@@ -73,6 +73,7 @@ R-gtable
 R-gtools
 R-highr
 R-hms
+R-htmltools
 R-httpuv
 R-httr
 R-iterators
@@ -123,6 +124,8 @@ R-rstudioapi
 R-rversions
 R-sandwich
 R-scales
+R-shiny
+R-sourcetools
 R-sp
 R-statmod
 R-stringi
@@ -140,6 +143,7 @@ R-viridisLite
 R-whisker
 R-withr
 R-xml2
+R-xtable
 R-xts
 R-yaml
 R-zoo
@@ -272,6 +276,7 @@ certbot
 certifi
 cffi
 cgdb
+cgit
 chardet
 check
 cheese
@@ -1390,6 +1395,7 @@ virt-viewer
 virtualenv
 vlc
 volume_key
+vsqlite
 vte
 vulkan-sdk
 waitress
