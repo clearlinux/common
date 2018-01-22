@@ -48,6 +48,7 @@ R-TTR
 R-XML
 R-assertthat
 R-backports
+R-base64enc
 R-bitops
 R-brew
 R-car
@@ -118,6 +119,7 @@ R-randomForest
 R-repr
 R-reshape2
 R-rlang
+R-rmarkdown
 R-roxygen2
 R-rprojroot
 R-rstudioapi
@@ -1376,6 +1378,7 @@ upower
 uritemplate
 urlgrabber
 urllib3
+usbredir
 usbutils
 usermode
 userspace-rcu
@@ -1483,6 +1486,7 @@ xz
 yajl
 yaml
 yasm
+yelp
 yelp-tools
 yelp-xsl
 yum
