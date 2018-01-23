@@ -300,6 +300,7 @@ clr-boot-manager
 clr-debug-info
 clr-desktop-defaults
 clr-hardware-files
+clr-init
 clr-man-pages
 clr-power-tweaks
 clr-python-timestamp
@@ -1295,6 +1296,7 @@ speex
 speexdsp
 sphinxcontrib-newsfeed
 sphinxcontrib-websupport
+spi-tools
 spice
 spice-gtk
 spice-protocol
