@@ -202,6 +202,7 @@ arc-theme
 argcomplete
 argparse
 asciidoc
+asio
 asn1crypto
 aspell
 aspell-en
@@ -269,6 +270,7 @@ cairo
 cairomm
 cargo
 caribou
+catch2
 catkin
 catkin_pkg
 ccache
