@@ -148,6 +148,7 @@ proper: $(proper_PKGS)
 .PHONY: $(proper_PKGS)
 
 $(clean_PKGS):
+	@echo "cleaning $(patsubst clean_%,%,$@)"
 	-@$(MAKE) -s -j -C $(addprefix packages/,$(patsubst clean_%,%,$@)) clean
 
 $(proper_PKGS):
