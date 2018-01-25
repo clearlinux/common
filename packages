@@ -1010,10 +1010,12 @@ p7zip
 packaging
 pacrunner
 pandas
+pandoc
 pandocfilters
 pango
 pangomm
 parallel
+parameter-framework
 paramiko
 parsedatetime
 parso
@@ -1183,6 +1185,7 @@ pygobject
 pyliblzma
 pylint
 pynacl
+pypandoc
 pyparsing
 pypy
 pyquery
