@@ -157,7 +157,7 @@ $(proper_PKGS):
 #help and unstaged files in addition to staged files.
 status: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS))
 	@for p in projects/common $(addprefix packages/,$(PKGS)); do \
-		(cd $$p ; git status | grep -q 'nothing to commit, working [^ ]* clean' || (echo "Uncommitted changes in $$p:"; git status)) ;\
+	if [ -d "$$p/.git" ] &&  [ -n "$$(git -C $$p status -uno --porcelain)" ]; then echo "Uncommitted changes in $$p:"; git -C "$$p" status --short; fi ;\
 	done
 
 #help diff: Runs git diff for all package repos and displays the output using
