@@ -162,6 +162,7 @@ SDL_mixer
 SDL_net
 SDL_ttf
 SQLAlchemy
+Send2Trash
 SocksiPy-branch
 Sphinx
 SuiteSparse
@@ -227,6 +228,7 @@ autogen
 automake
 awscli
 azure-configs
+babeltrace
 babl
 backports.functools_lru_cache
 backports.ssl_match_hostname
@@ -449,6 +451,7 @@ extras
 faba-icon-theme
 fann
 farstream
+fasteners
 fcgi
 fftw
 file
@@ -849,6 +852,7 @@ libxkbcommon
 libxkbfile
 libxklavier
 libxml2
+libxml2-legacy
 libxshmfence
 libxslt
 libzip
@@ -1189,7 +1193,6 @@ pylint
 pynacl
 pypandoc
 pyparsing
-pypy
 pyquery
 pyrfc3339
 pyserial
