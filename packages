@@ -800,6 +800,7 @@ libnftnl
 libnice
 libnl
 libnotify
+libnsl
 liboauth
 libogg
 libosinfo
@@ -1174,11 +1175,11 @@ ptyprocess
 pugixml
 pulseaudio
 py
-py2cairo
 pyOpenSSL
 pyaml
 pyasn1
 pyasn1-modules
+pycairo
 pycodestyle
 pycparser
 pycrypto
