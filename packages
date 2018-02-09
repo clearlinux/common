@@ -870,6 +870,7 @@ linux-hyperv-mini
 linux-kvm
 linux-libc-headers
 linux-lts
+linux-pk414
 linux-steam-integration
 linux-tools
 llvm
