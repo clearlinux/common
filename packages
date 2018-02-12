@@ -288,6 +288,7 @@ chardet
 check
 cheese
 chrome-gnome-shell
+chrony
 chrpath
 cifs-utils
 clear-config-management
@@ -332,7 +333,6 @@ comedilib
 compat-SDL2-soname1
 compat-efivar-soname0
 compat-fuse-soname2
-compat-gc-soname1
 compat-glew-soname1
 compat-guile-soname20
 compat-libical-soname2
@@ -800,7 +800,6 @@ libnftnl
 libnice
 libnl
 libnotify
-libnsl
 liboauth
 libogg
 libosinfo
@@ -915,6 +914,7 @@ mistune
 mixer-tools
 mkfontdir
 mkfontscale
+mkosi
 mock
 mod_wsgi
 moka-icon-theme
