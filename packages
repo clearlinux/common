@@ -424,6 +424,7 @@ ecdsa
 ed
 edk2
 efibootmgr
+efitools
 efivar
 eigen
 elasticsearch
