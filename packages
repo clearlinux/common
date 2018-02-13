@@ -291,6 +291,7 @@ chrome-gnome-shell
 chrony
 chrpath
 cifs-utils
+clamav
 clear-config-management
 clear-containers-agent
 clear-containers-image
@@ -669,7 +670,6 @@ isort
 ister
 itstool
 iw
-javapackages-tools
 jedi
 jedi-vim
 jemalloc
@@ -1062,6 +1062,7 @@ perl-Eval-Closure
 perl-Exception-Class
 perl-Exporter-Tiny
 perl-File-Listing
+perl-File-Slurp
 perl-HTML-Parser
 perl-HTML-Tagset
 perl-HTTP-Cookies
