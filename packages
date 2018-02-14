@@ -1445,7 +1445,9 @@ xauth
 xbitmaps
 xcb-proto
 xcb-util
+xcb-util-image
 xcb-util-keysyms
+xcb-util-wm
 xclip
 xcmiscproto
 xcursor-themes
