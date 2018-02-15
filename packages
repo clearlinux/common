@@ -856,6 +856,7 @@ libxml2
 libxml2-legacy
 libxshmfence
 libxslt
+libyami
 libzip
 linecache2
 links
@@ -948,6 +949,7 @@ ncurses
 ncurses-compat
 ndctl
 ndg_httpsclient
+neofetch
 neon
 net-snmp
 net-tools
@@ -1002,6 +1004,7 @@ openconnect
 opencv
 openjade
 openjdk
+openjdk9
 openldap
 openmpi
 opensm
