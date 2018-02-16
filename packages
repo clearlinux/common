@@ -945,6 +945,7 @@ nasm
 nautilus
 nbconvert
 nbformat
+nbsphinx
 ncurses
 ncurses-compat
 ndctl
@@ -1337,6 +1338,7 @@ sox
 spark-dep
 speex
 speexdsp
+sphinx_rtd_theme
 sphinxcontrib-newsfeed
 sphinxcontrib-websupport
 spi-tools
