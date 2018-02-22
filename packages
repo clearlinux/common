@@ -270,6 +270,7 @@ c_rehash
 ca-certs
 ca-certs-static
 cabextract
+cached-property
 cairo
 cairomm
 cargo
@@ -391,6 +392,7 @@ dbus-glib
 dconf
 deap
 decorator
+defusedxml
 dejagnu
 desktop-file-utils
 dfc
@@ -670,6 +672,7 @@ irssi
 isa-l
 iso-codes
 iso8601
+isodate
 isort
 ister
 itstool
@@ -1236,6 +1239,7 @@ python-systemd
 python-tappy
 python-toml
 python-urwid
+python-zeep
 python3
 pytz
 pyudev
@@ -1408,6 +1412,7 @@ tiptop
 tk
 tmux
 tokyocabinet
+toolbelt
 tornado
 totem
 totem-pl-parser
