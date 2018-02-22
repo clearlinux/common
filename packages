@@ -9,6 +9,7 @@ Jinja2
 Keras
 LS_COLORS
 LVM2
+LibRaw
 LibVNCServer
 Linux-PAM
 LuaJIT
@@ -254,6 +255,7 @@ bluez
 bndl-lamp-basic
 bokeh
 boost
+borgbackup
 boto
 boto3
 botocore
@@ -333,6 +335,7 @@ comedilib
 compat-SDL2-soname1
 compat-efivar-soname0
 compat-fuse-soname2
+compat-gegl
 compat-glew-soname1
 compat-guile-soname20
 compat-libical-soname2
@@ -508,6 +511,7 @@ geoclue
 geocode-glib
 gettext
 gevent
+gexiv2
 gflags
 ghostscript
 gimp
@@ -928,6 +932,7 @@ mozjs38
 mpc
 mpfr
 mpg123
+msgpack-python
 msmtp
 msr-tools
 mstflint
