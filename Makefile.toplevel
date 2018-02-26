@@ -193,10 +193,16 @@ autospecnew:
 		echo "Please specify NAME and URL. The ARCHIVES variable is optional."; \
 		exit 1; \
 	fi
-	@git clone $(PKG_BASE_URL)/$(NAME) $(TOPLVL)/packages/$(NAME) &> /dev/null || true
 	@if [ ! -d $(TOPLVL)/packages/$(NAME)/.git ]; then \
 		echo "no remote repository found, creating new package repository and running autospec"; \
 		mkdir -p $(TOPLVL)/packages/$(NAME); \
+		( \
+			cd $(TOPLVL)/packages/$(NAME); \
+			git init; \
+			git remote add origin $(PKG_BASE_URL)/$(NAME); \
+			$(call gitoliteurl,packages/$(NAME)); \
+			$(call subjectprefix,$(NAME)); \
+		); \
 		printf 'PKG_NAME := %s\nURL = %s\nARCHIVES = %s\n\ninclude ../common/Makefile.common\n' $(NAME) '$(value URL)' '$(value ARCHIVES)' > $(TOPLVL)/packages/$(NAME)/Makefile; \
 		python3 $(TOPLVL)/projects/autospec/autospec/autospec.py --integrity -t packages/$(NAME) --config $(AUTOSPEC_CONF) $(URL) --name $(NAME); \
 		$(TOPLVL)/projects/common/checkblacklist.sh $(TOPLVL)/projects/common/blacklist $(TOPLVL)/packages/${NAME}/results/*.rpm; \
