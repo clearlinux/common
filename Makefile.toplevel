@@ -222,6 +222,9 @@ repoenable: $(TOPLVL)/repo ; $(call localrepoenable,${PM_CONF},${MOCK_CONF})
 #help repodisable: Disables the local RPM repository.
 repodisable: localrepodisable ;
 
+#help repostatus: Summarizes the local RPM repository status.
+repostatus: localrepostatus ;
+
 
 # Define site local toplevel targets in a separate makefile
 -include $(TOPLVL)/projects/common/Makefile.toplevel.site_local

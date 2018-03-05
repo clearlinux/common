@@ -86,6 +86,35 @@ localrepodisable:
 localrepocreate:
 	( cd $(TOPLVL)/repo ; if type createrepo_c 1>/dev/null 2>&1; then createrepo_c .; else createrepo .; fi );
 
+# Summarizes the local RPM repo status
+localrepostatus:
+	@if [ ! -d $(TOPLVL)/repo ]; then \
+		echo '** Local repo not found'; \
+		exit 0; \
+	fi; \
+	if [ -f $(TOPLVL)/repo/.yum.conf ]; then \
+		echo '** Local repo enabled for Yum/DNF.'; \
+	else \
+		echo '** Local repo not enabled for Yum/DNF.'; \
+	fi; \
+	if [ -f $(TOPLVL)/repo/.clear.cfg ]; then \
+		echo '** Local repo enabled for Mock.'; \
+	else \
+		echo '** Local repo not enabled for Mock.'; \
+	fi; \
+	echo -n '** Local repo package list: '; \
+	( \
+		cd "$(TOPLVL)/repo"; \
+		LC_COLLATE="C"; \
+		shopt -s nullglob; \
+		set -- *.rpm; \
+		if [ -n "$$1" ]; then \
+			printf '\n'; printf '%q\n' "$$@"; \
+		else \
+			printf 'none found\n'; \
+		fi; \
+	)
+
 
 .PHONY: help
 ##### Code
