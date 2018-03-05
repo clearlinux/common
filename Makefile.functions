@@ -86,6 +86,10 @@ localrepodisable:
 localrepocreate:
 	( cd $(TOPLVL)/repo ; if type createrepo_c 1>/dev/null 2>&1; then createrepo_c .; else createrepo .; fi );
 
+# Remove all RPMs from the local RPM repo
+localrepoclean:
+	@find $(TOPLVL)/repo -maxdepth 1 -name '*.rpm' -delete
+
 # Summarizes the local RPM repo status
 localrepostatus:
 	@if [ ! -d $(TOPLVL)/repo ]; then \
