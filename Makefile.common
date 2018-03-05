@@ -19,7 +19,12 @@ RPMS ?= $(LATEST_RPMS)
 
 WITH_SUDO = $(shell cmp /usr/bin/mock /usr/sbin/mock &> /dev/null && echo sudo )
 
-MOCK     ?= $(WITH_SUDO) /usr/bin/mock -r clear
+ifeq ($(wildcard $(TOPLVL)/repo/.clear.cfg),)
+MOCK ?= $(WITH_SUDO) /usr/bin/mock -r $(MOCK_CONF)
+else
+MOCK ?= $(WITH_SUDO) /usr/bin/mock -r $(TOPLVL)/repo/.clear.cfg
+USE_LOCAL_REPO = 1
+endif
 
 ifneq ($(wildcard upstream),)
 __allsources := $(notdir $(strip $(shell cat upstream)))
@@ -115,6 +120,13 @@ shell:
 .PHONY: $(SRPMFILE)
 $(SRPMFILE): $(SPECFILE) $(__allsources)
 	@$(MAKE) spdxcheck
+	@if [ -n "${USE_LOCAL_REPO}" ]; then \
+		printf '\n\n** NOTICE: Using local repo for the build. Continuing after 3 seconds.\n'; \
+		printf '** If this is not desired, run `make repodisable`.\n'; \
+		printf '** The repo can be re-enabled later with `make repoenable`.\n'; \
+		printf '** Run `touch $(TOPLVL)/repo/opt-in-build` to prevent the 3 second delay.\n\n\n'; \
+		[ -f $(TOPLVL)/repo/opt-in-build ] || sleep 3; \
+	fi >&2
 	$(MOCK) --buildsrpm --source=./ --spec=$(SPECFILE) --result=results/ --no-cleanup-after --uniqueext=$(PKG_NAME)
 
 # Do a git fetch and a git rebase rather than a git pull so aborting
