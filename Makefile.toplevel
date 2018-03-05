@@ -211,5 +211,17 @@ autospecnew:
 		exit 1; \
 	fi
 
+$(TOPLVL)/repo:
+	@echo "Creating local RPM repository $(TOPLVL)/repo"
+	mkdir $(TOPLVL)/repo
+
+#help repoenable: Enables the local RPM repository for use with Yum/DNF and
+#help Mock. If this repository does not yet exist, it is created.
+repoenable: $(TOPLVL)/repo ; $(call localrepoenable,${PM_CONF},${MOCK_CONF})
+
+#help repodisable: Disables the local RPM repository.
+repodisable: localrepodisable ;
+
+
 # Define site local toplevel targets in a separate makefile
 -include $(TOPLVL)/projects/common/Makefile.toplevel.site_local

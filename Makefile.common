@@ -276,7 +276,9 @@ $(TOPLVL)/repo:
 	@echo "Creating local RPM repository $(TOPLVL)/repo"
 	mkdir $(TOPLVL)/repo
 
-#help repoadd: Creates a local Yum repository in the $(TOPLVL)/repo directory.
+#help repoadd: Adds locally-built RPMs for this package to the local RPM
+#help repository. If this repository does not yet exist, it is created and
+#help enabled.
 repoadd: results/build.log $(TOPLVL)/repo
 	@if [ -z "`grep '^Wrote: .*$(shell basename $(SRPMFILE))$$' results/build.log`" ]; then \
 		echo "You have not yet succesfully built this release yet"; exit 1; \
@@ -291,11 +293,10 @@ repoadd: results/build.log $(TOPLVL)/repo
 	fi
 	for r in $(LATEST_RPMS); do echo "+$$r"; echo $$(basename $$r) >> .repo-index; cp $$r $(TOPLVL)/repo; done
 	( cd $(TOPLVL)/repo ; if type createrepo_c 1>/dev/null 2>&1; then createrepo_c .; else createrepo .; fi );
-	@cp $(TOPLVL)/projects/common/image-creator/yum.conf $(TOPLVL)/repo/.yum.conf
-	@printf "\n\n[local]\nname=Local\nfailovermethod=priority\nenabled=1\ngpgcheck=0\n" >> $(TOPLVL)/repo/.yum.conf
-	@printf "baseurl=file://$$(realpath $(TOPLVL))/repo/\n\n" >> $(TOPLVL)/repo/.yum.conf
+	$(call localrepoenable,${PM_CONF},${MOCK_CONF})
 
-#help repodel: Removes package from local Yum repository.
+#help repodel: Removes RPMs from the local RPM repository that were
+#help previously added by 'make repoadd' for this package.
 repodel:
 	@if [ -f .repo-index ]; then \
 		echo "Cleaning old rpms:"; \
@@ -305,6 +306,13 @@ repodel:
 		done; \
 		rm .repo-index; \
 	fi
+
+#help repoenable: Enables the local RPM repository for use with Yum/DNF and
+#help Mock. If this repository does not yet exist, it is created.
+repoenable: $(TOPLVL)/repo ; $(call localrepoenable,${PM_CONF},${MOCK_CONF})
+
+#help repodisable: Disables the local RPM repository.
+repodisable: localrepodisable ;
 
 loop-up:
 	$(loopup)

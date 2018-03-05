@@ -62,6 +62,27 @@ define remotepkgname
 $(if $(USE_PACKAGE_MAPPING),$$(awk -v P="$(1)" '$$1 == P { res=$$2 } END { print res ? res : P }' $(TOPLVL)/projects/common/pkg-mapping),$(1))
 endef
 
+# Enables the local RPM repo by installing package manager and Mock configs.
+# First argument is the path to the package manager config, and the second
+# argument is the path to the mock config. Each of these config files is
+# augmented for local repo support.
+define localrepoenable
+	@cp $(1) $(TOPLVL)/repo/.yum.conf
+	@printf "\n\n[local]\nname=Local\nfailovermethod=priority\nenabled=1\ngpgcheck=0\n" >> $(TOPLVL)/repo/.yum.conf
+	@printf "baseurl=file://$$(realpath $(TOPLVL))/repo/\n\n" >> $(TOPLVL)/repo/.yum.conf
+	@cp $(2) $(TOPLVL)/repo/.clear.cfg
+	@printf "\n\n[localrepo]\nname=Local repo\nfailovermethod=priority\nenabled=1\ngpgcheck=0\n" >> $(TOPLVL)/repo/.clear.cfg
+	@printf "baseurl=file://$$(realpath $(TOPLVL))/repo/\n\n" >> $(TOPLVL)/repo/.clear.cfg
+	@sed -i '/^"""/d; $$a"""' $(TOPLVL)/repo/.clear.cfg
+endef
+
+# Disables the local RPM repo by removing the installed package manager and
+# Mock configuration files.
+localrepodisable:
+	@rm -f $(TOPLVL)/repo/.yum.conf
+	@rm -f $(TOPLVL)/repo/.clear.cfg
+
+
 .PHONY: help
 ##### Code
 # Make sure that HELPSPACE has exactly HELPLEN spaces in it
