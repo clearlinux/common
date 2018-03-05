@@ -287,7 +287,7 @@ repoadd: results/build.log $(TOPLVL)/repo
 		echo "Cleaning old rpms:"; \
 		for r in `cat .repo-index`; do \
 			echo "-$$r"; \
-			rm $(TOPLVL)/repo/$$r; \
+			rm -f $(TOPLVL)/repo/$$r; \
 		done; \
 		rm .repo-index; \
 	fi
