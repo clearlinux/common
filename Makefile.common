@@ -292,7 +292,7 @@ repoadd: results/build.log $(TOPLVL)/repo
 		rm .repo-index; \
 	fi
 	for r in $(LATEST_RPMS); do echo "+$$r"; echo $$(basename $$r) >> .repo-index; cp $$r $(TOPLVL)/repo; done
-	( cd $(TOPLVL)/repo ; if type createrepo_c 1>/dev/null 2>&1; then createrepo_c .; else createrepo .; fi );
+	$(MAKE) localrepocreate
 	$(call localrepoenable,${PM_CONF},${MOCK_CONF})
 
 #help repodel: Removes RPMs from the local RPM repository that were
@@ -305,6 +305,7 @@ repodel:
 			rm -f $(TOPLVL)/repo/$$r; \
 		done; \
 		rm .repo-index; \
+		$(MAKE) localrepocreate; \
 	fi
 
 #help repoenable: Enables the local RPM repository for use with Yum/DNF and

@@ -82,6 +82,10 @@ localrepodisable:
 	@rm -f $(TOPLVL)/repo/.yum.conf
 	@rm -f $(TOPLVL)/repo/.clear.cfg
 
+# Runs createrepo_c (or createrepo) for the local RPM repo
+localrepocreate:
+	( cd $(TOPLVL)/repo ; if type createrepo_c 1>/dev/null 2>&1; then createrepo_c .; else createrepo .; fi );
+
 
 .PHONY: help
 ##### Code
