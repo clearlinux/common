@@ -19,10 +19,10 @@ RPMS ?= $(LATEST_RPMS)
 
 WITH_SUDO = $(shell cmp /usr/bin/mock /usr/sbin/mock &> /dev/null && echo sudo )
 
-ifeq ($(wildcard $(TOPLVL)/repo/.clear.cfg),)
+ifeq ($(wildcard $(TOPLVL)/repo/clear.cfg),)
 MOCK ?= $(WITH_SUDO) /usr/bin/mock -r $(MOCK_CONF)
 else
-MOCK ?= $(WITH_SUDO) /usr/bin/mock -r $(TOPLVL)/repo/.clear.cfg
+MOCK ?= $(WITH_SUDO) /usr/bin/mock -r $(TOPLVL)/repo/clear.cfg
 USE_LOCAL_REPO = 1
 endif
 
