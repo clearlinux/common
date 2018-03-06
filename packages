@@ -1532,6 +1532,7 @@ xkbcomp
 xkeyboard-config
 xlog
 xmlsec1
+xmlstarlet
 xmlto
 xorg-server
 xorriso
