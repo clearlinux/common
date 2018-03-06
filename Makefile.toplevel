@@ -214,6 +214,7 @@ autospecnew:
 $(TOPLVL)/repo:
 	@echo "Creating local RPM repository $(TOPLVL)/repo"
 	mkdir $(TOPLVL)/repo
+	$(MAKE) localrepocreate
 
 #help repoenable: Enables the local RPM repository for use with Yum/DNF and
 #help Mock. If this repository does not yet exist, it is created.

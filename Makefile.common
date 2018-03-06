@@ -287,6 +287,7 @@ logcheck:
 $(TOPLVL)/repo:
 	@echo "Creating local RPM repository $(TOPLVL)/repo"
 	mkdir $(TOPLVL)/repo
+	$(MAKE) localrepocreate
 
 #help repoadd: Adds locally-built RPMs for this package to the local RPM
 #help repository. If this repository does not yet exist, it is created and
