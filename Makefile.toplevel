@@ -4,8 +4,8 @@ all: clone
 
 TOPLVL  = .
 
-include $(TOPLVL)/projects/common/Makefile.functions
 include $(TOPLVL)/projects/common/Makefile.config
+include $(TOPLVL)/projects/common/Makefile.shared
 
 SHELL   = /bin/bash
 
