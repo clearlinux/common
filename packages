@@ -182,6 +182,8 @@ accountsservice
 acl
 acme
 acpica-unix2
+acrn-devicemodel
+acrn-hypervisor
 adwaita-icon-theme
 aeon
 alabaster
@@ -273,6 +275,7 @@ cabextract
 cached-property
 cairo
 cairomm
+cantarell-fonts
 cargo
 caribou
 catch2
@@ -413,6 +416,7 @@ docbook-xml
 docker
 docker-py
 docutils
+dogtail
 dos2unix
 dosfstools
 double-conversion
@@ -477,6 +481,7 @@ flex
 flmsg
 flnet
 fltk
+folks
 font-adobe-100dpi
 font-adobe-75dpi
 font-bitstream-type1
@@ -514,6 +519,7 @@ geocode-glib
 gettext
 gevent
 gexiv2
+gfbgraph
 gflags
 ghostscript
 gimp
@@ -542,6 +548,7 @@ gnome-bluetooth
 gnome-calculator
 gnome-calendar
 gnome-characters
+gnome-color-manager
 gnome-common
 gnome-control-center
 gnome-desktop
@@ -550,7 +557,10 @@ gnome-font-viewer
 gnome-icon-theme
 gnome-initial-setup
 gnome-keyring
+gnome-logs
+gnome-maps
 gnome-menus
+gnome-music
 gnome-online-accounts
 gnome-panel
 gnome-screenshot
@@ -558,9 +568,13 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
+gnome-system-monitor
 gnome-terminal
 gnome-themes-standard
+gnome-todo
 gnome-tweak-tool
+gnome-user-docs
+gnome-video-effects
 gnu-efi
 gnupg
 gnuplot
@@ -568,6 +582,7 @@ gnutls
 go
 gobject-introspection
 golang-github-cpuguy83-go-md2man
+gom
 goocanvas
 google-api-python-client
 google-apitools
@@ -580,6 +595,7 @@ gpredict
 gptfdisk
 gradle
 gradle-dep
+graphene
 graphviz
 greenlet
 grep
@@ -590,6 +606,7 @@ groff
 grub
 gsettings-desktop-schemas
 gsl
+gsound
 gspell
 gst-plugins-bad
 gst-plugins-base
@@ -755,6 +772,7 @@ libcap
 libcap-ng
 libcdio
 libcgroup
+libchamplain
 libcomps
 libconfig
 libcroco
@@ -773,6 +791,7 @@ libgcrypt
 libgd
 libgdata
 libgee
+libgepub
 libgfortran-avx
 libgfortran-compat-soname3
 libgit2
@@ -1195,6 +1214,7 @@ pyOpenSSL
 pyaml
 pyasn1
 pyasn1-modules
+pyatspi
 pycairo
 pycodestyle
 pycparser
@@ -1320,6 +1340,7 @@ screen
 scripttest
 scrnsaverproto
 seaborn
+seahorse
 secretstorage
 sed
 setproctitle
@@ -1421,6 +1442,7 @@ tqdm
 traceback2
 traceroute
 tracker
+tracker-miners
 traitlets
 tree
 typed-ast
@@ -1452,6 +1474,7 @@ videoproto
 vim
 vim-go
 vinagre
+vino
 virt-manager
 virt-viewer
 virtualenv
