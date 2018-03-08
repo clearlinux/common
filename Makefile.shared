@@ -129,6 +129,14 @@ MOCK_CONFIG_VAL = $(realpath $(TOPLVL)/repo/clear.cfg)
 USE_LOCAL_REPO = 1
 endif
 
+localreponotice:
+	@if [ -n "${USE_LOCAL_REPO}" ]; then \
+		printf '\n\n** NOTICE: Using local repo for the build. Continuing after 3 seconds.\n'; \
+		printf '** If this is not desired, run `make repodisable`.\n'; \
+		printf '** The repo can be re-enabled later with `make repoenable`.\n'; \
+		printf '** Run `touch $(TOPLVL)/repo/opt-in-build` to prevent the 3 second delay.\n\n\n'; \
+		[ -f $(TOPLVL)/repo/opt-in-build ] || sleep 3; \
+	fi >&2
 
 .PHONY: help
 ##### Code

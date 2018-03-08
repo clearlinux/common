@@ -188,7 +188,7 @@ provides:
 #help autospecnew: Creates a new autospec package with for a given URL=$(URL)
 #help with NAME=$(NAME). Several files used by autospec will be created in the
 #help process. For more information about autospec, see the project page on Github https://github.com/clearlinux/autospec
-autospecnew:
+autospecnew: localreponotice
 	@if [ -z $(NAME) ] || [ -z $(URL) ]; then \
 		echo "Please specify NAME and URL. The ARCHIVES variable is optional."; \
 		exit 1; \
