@@ -19,12 +19,9 @@ RPMS ?= $(LATEST_RPMS)
 
 WITH_SUDO = $(shell cmp /usr/bin/mock /usr/sbin/mock &> /dev/null && echo sudo )
 
-ifeq ($(wildcard $(TOPLVL)/repo/clear.cfg),)
-MOCK ?= $(WITH_SUDO) /usr/bin/mock -r $(MOCK_CONF)
-else
-MOCK ?= $(WITH_SUDO) /usr/bin/mock -r $(TOPLVL)/repo/clear.cfg
-USE_LOCAL_REPO = 1
-endif
+# MOCK_CONFIG_VAL is set in Makefile.shared
+MOCK ?= $(WITH_SUDO) /usr/bin/mock -r $(MOCK_CONFIG_VAL)
+
 
 ifneq ($(wildcard upstream),)
 __allsources := $(notdir $(strip $(shell cat upstream)))
@@ -164,7 +161,8 @@ autospec: pullrebase
 	python3 $(TOPLVL)/projects/autospec/autospec/autospec.py -t . --integrity \
 		${NON_INTERACTIVE} --config "$(AUTOSPEC_CONF)" ${SKIP_GIT} \
 		$(firstword $(NEWURL) $(URL)) --name $(PKG_NAME) ${CLEANUP} \
-		$${SETVERSION:+ -v $${SETVERSION}} -a $(ARCHIVES)
+		$${SETVERSION:+ -v $${SETVERSION}} -a $(ARCHIVES) \
+		-m $(MOCK_CONFIG_VAL)
 	@$(MAKE) spdxcheck
 	@$(MAKE) checkblacklist
 	@if [ -e update_changelog.sh ] && [ -z "$$SKIP_GIT" ] ; then \

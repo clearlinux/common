@@ -204,7 +204,7 @@ autospecnew:
 			$(call subjectprefix,$(NAME)); \
 		); \
 		printf 'PKG_NAME := %s\nURL = %s\nARCHIVES = %s\n\ninclude ../common/Makefile.common\n' $(NAME) '$(value URL)' '$(value ARCHIVES)' > $(TOPLVL)/packages/$(NAME)/Makefile; \
-		python3 $(TOPLVL)/projects/autospec/autospec/autospec.py --integrity -t packages/$(NAME) --config $(AUTOSPEC_CONF) $(URL) --name $(NAME); \
+		python3 $(TOPLVL)/projects/autospec/autospec/autospec.py --integrity -t packages/$(NAME) --config $(AUTOSPEC_CONF) $(URL) --name $(NAME) -m $(MOCK_CONFIG_VAL); \
 		$(TOPLVL)/projects/common/checkblacklist.sh $(TOPLVL)/projects/common/blacklist $(TOPLVL)/packages/${NAME}/results/*.rpm; \
 	else \
 		echo "$(NAME) already exists at $(TOPLVL)/packages/$(NAME)"; \

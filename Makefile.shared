@@ -119,6 +119,16 @@ localrepostatus:
 		fi; \
 	)
 
+# Detection of whether to use the local RPM repo occurs on-the-fly. Normally,
+# variable definitions appear in Makefile.config, but these variables are not
+# intended to be user-modifiable.
+ifeq ($(wildcard $(TOPLVL)/repo/clear.cfg),)
+MOCK_CONFIG_VAL = $(realpath $(MOCK_CONF))
+else
+MOCK_CONFIG_VAL = $(realpath $(TOPLVL)/repo/clear.cfg)
+USE_LOCAL_REPO = 1
+endif
+
 
 .PHONY: help
 ##### Code
