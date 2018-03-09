@@ -666,6 +666,7 @@ init-rdahead
 inotify-tools
 inputproto
 intltool
+invm-frameworks
 ioping
 iotop
 ipaddr
