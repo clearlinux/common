@@ -235,6 +235,7 @@ babl
 backports.functools_lru_cache
 backports.ssl_match_hostname
 backports.weakref
+baobab
 bash
 bash-completion
 bash_kernel
@@ -563,6 +564,7 @@ gnome-menus
 gnome-music
 gnome-online-accounts
 gnome-panel
+gnome-photos
 gnome-screenshot
 gnome-session
 gnome-settings-daemon
@@ -575,6 +577,7 @@ gnome-todo
 gnome-tweak-tool
 gnome-user-docs
 gnome-video-effects
+gnome-weather
 gnu-efi
 gnupg
 gnuplot
