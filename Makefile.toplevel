@@ -80,7 +80,11 @@ ${PULL_PKGS}:
 			fi ; \
 			git --no-pager log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit $$O..$$N; echo; \
 		fi ; \
-		$(call gitoliteurl,$$p); \
+		if [ "$$p" = "projects/autospec" ] ; then \
+			git remote set-url --push origin https://github.com/clearlinux/autospec.git; \
+		else \
+			$(call gitoliteurl,$$p); \
+		fi ; \
 	else \
 		echo "$$p: no such remote 'origin'"; \
 	fi ; \
