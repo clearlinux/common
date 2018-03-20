@@ -1624,6 +1624,7 @@ qtsvg
 qttools
 qttranslations
 qtvirtualkeyboard
+qtwayland
 qtwebchannel
 qtwebsockets
 qtx11extras
