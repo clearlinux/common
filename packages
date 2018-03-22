@@ -590,6 +590,7 @@ boto
 boto3
 botocore
 bridge-utils
+brotli
 bsdiff
 btrfs-progs
 bundle-chroot-builder
@@ -1831,6 +1832,7 @@ wget
 wheel
 which
 widgetsnbextension
+woff2
 wol
 wpa_supplicant
 wrapt
