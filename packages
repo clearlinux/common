@@ -1174,6 +1174,7 @@ libpthread-stubs
 libpwquality
 librepo
 librsvg
+librtlsdr
 libsamplerate
 libseccomp
 libsecret
@@ -1182,6 +1183,7 @@ libsndfile
 libsolv
 libsoup
 libspectre
+libsrtp
 libssh
 libssh2
 libstoragemgmt
