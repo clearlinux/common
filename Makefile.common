@@ -119,12 +119,19 @@ $(SRPMFILE): $(SPECFILE) $(__allsources) localreponotice
 	@$(MAKE) spdxcheck
 	$(MOCK) --buildsrpm --source=./ --spec=$(SPECFILE) --result=results/ --no-cleanup-after --uniqueext=$(PKG_NAME)
 
-# Do a git fetch and a git rebase rather than a git pull so aborting
-# the git pull at a password prompt doesn't leave local changes stashed
-# Do the the git status dance so we only apply a stash we create
+# Do a git fetch and a git rebase to apply local commits on top of latest
+# commits from the remote. A git fetch/rebase is used rather than a git pull so
+# aborting the git pull at a password prompt doesn't leave local changes
+# stashed. Do the git status dance so we only apply a stash we create. Note
+# that a fetch/rebase is not attempted if the remote 'origin' is not
+# initialized locally, or if the remote contains no commits.
 pullrebase:
 	if [ -z "$$SKIP_GIT" ] && [ -e .git ]; then \
 		set -x ; \
+		if ! git rev-parse --verify --quiet origin/master > /dev/null; then \
+			echo "Remote not yet initialized. Continuing."; \
+			exit 0; \
+		fi; \
 		git fetch; \
 		if ! git rev-parse --verify --quiet FETCH_HEAD > /dev/null; then \
 			echo "No commits exist in remote. Continuing."; \
