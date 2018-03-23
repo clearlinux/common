@@ -126,17 +126,18 @@ $(SRPMFILE): $(SPECFILE) $(__allsources) localreponotice
 # that a fetch/rebase is not attempted if the remote 'origin' is not
 # initialized locally, or if the remote contains no commits.
 pullrebase:
-	if [ -z "$$SKIP_GIT" ] && [ -e .git ]; then \
-		set -x ; \
+	@if [ -z "$$SKIP_GIT" ] && [ -e .git ]; then \
 		if ! git rev-parse --verify --quiet origin/master > /dev/null; then \
 			echo "Remote not yet initialized. Continuing."; \
 			exit 0; \
 		fi; \
+		echo "Fetching origin"; \
 		git fetch; \
 		if ! git rev-parse --verify --quiet FETCH_HEAD > /dev/null; then \
 			echo "No commits exist in remote. Continuing."; \
 			exit 0; \
 		fi; \
+		echo "Rebasing to origin/master"; \
 		if git status --porcelain | grep -q '^.[^?]'; \
 		then \
 			git stash save; \
