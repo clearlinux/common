@@ -159,11 +159,16 @@ autospec: pullrebase localreponotice
 		exit 1; \
 	fi
 	@printf 'PKG_NAME := %s\nURL = %s\nARCHIVES = %s\n\ninclude ../common/Makefile.common\n' $(PKG_NAME) '$(firstword $(value NEWURL) $(value URL))' '$(value ARCHIVES)' > Makefile
-	python3 $(TOPLVL)/projects/autospec/autospec/autospec.py -t . --integrity \
-		${NON_INTERACTIVE} --config "$(AUTOSPEC_CONF)" ${SKIP_GIT} \
-		$(firstword $(NEWURL) $(URL)) --name $(PKG_NAME) ${CLEANUP} \
-		$${SETVERSION:+ -v $${SETVERSION}} -a $(ARCHIVES) \
-		-m $(MOCK_CONFIG_VAL)
+	python3 $(TOPLVL)/projects/autospec/autospec/autospec.py \
+		--target . \
+		--integrity \
+		--config "$(AUTOSPEC_CONF)" \
+		--name $(PKG_NAME) \
+		--archives $(ARCHIVES) \
+		--mock-config $(MOCK_CONFIG_VAL) \
+		$${SETVERSION:+ --version $${SETVERSION}} \
+		${NON_INTERACTIVE} ${SKIP_GIT} ${CLEANUP} \
+		$(firstword $(NEWURL) $(URL));
 	@$(MAKE) spdxcheck
 	@$(MAKE) checkblacklist
 	@if [ -e update_changelog.sh ] && [ -z "$$SKIP_GIT" ] ; then \
