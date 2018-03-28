@@ -37,6 +37,7 @@ R-Brobdingnag
 R-CVST
 R-Cairo
 R-CircStats
+R-ClustVarLV
 R-Cubist
 R-DBI
 R-DBItest
@@ -553,6 +554,7 @@ augeas
 authconfig
 autoconf
 autoconf-archive
+autoconf213
 autofs
 autogen
 automake
@@ -982,6 +984,7 @@ httpretty
 hub
 hunspell
 hwloc
+hyperscan
 hyperstart
 hypothesis
 i2c-tools
@@ -1031,6 +1034,7 @@ ister
 itstool
 iw
 ixpdimm_sw
+jansson
 jedi
 jedi-vim
 jemalloc
@@ -1054,6 +1058,7 @@ kexec-tools
 keyring
 keyutils
 khal
+kiwisolver
 kmod
 koji
 krb5
@@ -1177,6 +1182,7 @@ librepo
 librsvg
 librtlsdr
 libsamplerate
+libsass
 libseccomp
 libsecret
 libsigc++
@@ -1289,6 +1295,7 @@ motd-update
 motif
 mozjs
 mozjs38
+mozjs52
 mpc
 mpfr
 mpg123
@@ -1637,6 +1644,7 @@ qtx11extras
 qtxmlpatterns
 quagga
 quilt
+ragel
 randrproto
 rdma-core
 re2c
@@ -1665,6 +1673,7 @@ rxvt-unicode
 s2tc
 s3transfer
 samba
+sassc
 satyr
 sbc
 sbsigntools
@@ -1727,6 +1736,7 @@ strace
 subunit
 sudo
 sure
+suricata
 swig
 swupd-client
 swupd-overdue
