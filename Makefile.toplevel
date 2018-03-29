@@ -210,7 +210,7 @@ autospecnew: localreponotice
 		printf 'PKG_NAME := %s\nURL = %s\nARCHIVES = %s\n\ninclude ../common/Makefile.common\n' $(NAME) '$(value URL)' '$(value ARCHIVES)' > $(TOPLVL)/packages/$(NAME)/Makefile; \
 		python3 $(TOPLVL)/projects/autospec/autospec/autospec.py \
 			--target packages/$(NAME) \
-		        --integrity \
+			--integrity \
 			--config "$(AUTOSPEC_CONF)" \
 			--name $(NAME) \
 			--archives $(ARCHIVES) \
