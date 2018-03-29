@@ -149,4 +149,4 @@ fi
 echo -en "\n************************\n"
 
 echo 'Workspace has been set up in the "clearlinux" directory'
-echo 'NOTE: logout and log back in or run "newgrp kvm" to finalize the setup process'
+echo 'NOTE: logout and log back in to finalize the setup process'
