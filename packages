@@ -539,6 +539,7 @@ asio
 asn1crypto
 aspell
 aspell-en
+astor
 astroid
 at
 at-spi2-atk
@@ -1051,6 +1052,8 @@ jupyter-notebook-gist
 jupyter_client
 jupyter_console
 jupyter_core
+jupyterlab
+jupyterlab_launcher
 kafka-dep
 kbd
 kbproto
