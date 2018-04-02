@@ -142,6 +142,7 @@ R-broom
 R-caTools
 R-callr
 R-car
+R-carData
 R-caret
 R-cclust
 R-cellranger
@@ -321,6 +322,7 @@ R-nortest
 R-numDeriv
 R-nycflights13
 R-openssl
+R-openxlsx
 R-optparse
 R-packrat
 R-pamr
@@ -383,6 +385,7 @@ R-reshape2
 R-reticulate
 R-rgenoud
 R-rgl
+R-rio
 R-rlang
 R-rmarkdown
 R-rms
