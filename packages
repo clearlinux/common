@@ -541,6 +541,7 @@ aspell
 aspell-en
 astor
 astroid
+astunparse
 at
 at-spi2-atk
 at-spi2-core
@@ -655,6 +656,7 @@ clr-systemd-config
 clr-update-triggers
 clr-wallpapers
 clrtrust
+clucene-core
 clutter
 clutter-gst
 clutter-gtk
@@ -683,6 +685,7 @@ compat-llvm-soname5
 compat-mpfr-soname4
 compat-opencv-soname32
 compat-opencv-soname33
+compat-protobuf-soname14
 compat-readline
 component
 compositeproto
@@ -833,6 +836,7 @@ functools32
 fuse
 futures
 garcon
+gast
 gawk
 gc
 gcab
@@ -940,6 +944,7 @@ grig
 grilo
 grilo-plugins
 groff
+grpcio
 grub
 gsettings-desktop-schemas
 gsl
@@ -1041,6 +1046,7 @@ jedi-vim
 jemalloc
 jmespath
 joe
+josepy
 jq
 json-c
 json-glib
