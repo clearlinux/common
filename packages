@@ -681,6 +681,7 @@ compat-fuse-soname2
 compat-gegl
 compat-glew-soname1
 compat-guile-soname20
+compat-icu4c-soname55
 compat-libical-soname2
 compat-libpng-soname12
 compat-libwebp-soname6
