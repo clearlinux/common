@@ -567,6 +567,7 @@ awscli
 azure-configs
 babeltrace
 babl
+backcall
 backports.functools_lru_cache
 backports.ssl_match_hostname
 backports.weakref
@@ -1331,7 +1332,6 @@ nbconvert
 nbformat
 nbsphinx
 ncurses
-ncurses-compat
 ndctl
 ndg_httpsclient
 neofetch
