@@ -151,6 +151,7 @@ R-chron
 R-circlize
 R-classInt
 R-cli
+R-clue
 R-clustMixType
 R-coda
 R-coin
@@ -432,6 +433,7 @@ R-sourcetools
 R-sp
 R-spData
 R-spam
+R-spatstat
 R-spatstat.data
 R-spatstat.utils
 R-spdep
@@ -681,7 +683,6 @@ compat-fuse-soname2
 compat-gegl
 compat-glew-soname1
 compat-guile-soname20
-compat-icu4c-soname55
 compat-libical-soname2
 compat-libpng-soname12
 compat-libwebp-soname6
