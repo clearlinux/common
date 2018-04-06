@@ -39,6 +39,7 @@ R-Cairo
 R-CircStats
 R-ClustVarLV
 R-Cubist
+R-DAAG
 R-DBI
 R-DBItest
 R-DEoptim
@@ -1437,7 +1438,9 @@ perl-B-Hooks-EndOfScope
 perl-CPAN-Meta-Check
 perl-Capture-Tiny
 perl-Class-Data-Inheritable
+perl-Class-Inspector
 perl-Class-Singleton
+perl-Class-Tiny
 perl-Crypt-SSLeay
 perl-DBI
 perl-DateTime
@@ -1453,7 +1456,13 @@ perl-Error
 perl-Eval-Closure
 perl-Exception-Class
 perl-Exporter-Tiny
+perl-ExtUtils-Config
+perl-ExtUtils-Helpers
+perl-ExtUtils-InstallPaths
+perl-File-Copy-Recursive
 perl-File-Listing
+perl-File-ShareDir
+perl-File-ShareDir-Install
 perl-File-Slurp
 perl-HTML-Parser
 perl-HTML-Tagset
@@ -1478,6 +1487,7 @@ perl-MIME-Base64
 perl-MRO-Compat
 perl-Math-BigInt-GMP
 perl-Module-Build
+perl-Module-Build-Tiny
 perl-Module-Implementation
 perl-Module-Install
 perl-Module-Pluggable
@@ -1490,6 +1500,7 @@ perl-Package-Stash
 perl-Params-Validate
 perl-Params-ValidationCompiler
 perl-Path-Class
+perl-Path-Tiny
 perl-Role-Tiny
 perl-Scope-Guard
 perl-Specio
@@ -1497,10 +1508,14 @@ perl-Sub-Exporter-Progressive
 perl-Sub-Identify
 perl-Sub-Info
 perl-Sub-Quote
+perl-Sub-Uplevel
 perl-TAP-Harness-Archive
 perl-Term-Table
 perl-Test-Deep
+perl-Test-Exception
 perl-Test-Fatal
+perl-Test-File
+perl-Test-File-ShareDir-Dist
 perl-Test-Needs
 perl-Test-NoWarnings
 perl-Test-Output
@@ -1508,7 +1523,9 @@ perl-Test-Pod
 perl-Test-Requires
 perl-Test-Simple
 perl-Test-Taint
+perl-Test-Warn
 perl-Test-Warnings
+perl-Test-utf8
 perl-Test2-Suite
 perl-Text-Autoformat
 perl-Text-CSV_XS
