@@ -483,6 +483,7 @@ R-xtable
 R-xts
 R-yaml
 R-zoo
+Remmina
 SDL
 SDL2
 SDL2_gfx
@@ -1403,6 +1404,7 @@ openvswitch
 opus
 opusfile
 orc
+orca
 ordereddict
 ostree
 ovirt-guest-agent
@@ -1860,6 +1862,7 @@ virt-viewer
 virtualenv
 vlc
 volume_key
+vorbis-tools
 vsqlite
 vte
 vulkan-sdk
@@ -1878,6 +1881,7 @@ wget
 wheel
 which
 widgetsnbextension
+wireless-regdb-master
 woff2
 wol
 wpa_supplicant
