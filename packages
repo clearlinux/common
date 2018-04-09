@@ -618,6 +618,7 @@ cached-property
 cairo
 cairomm
 cantarell-fonts
+capnproto
 cargo
 caribou
 catch2
@@ -996,6 +997,7 @@ httpd
 httplib2
 httpretty
 hub
+hugo
 hunspell
 hwloc
 hyperscan
@@ -1278,6 +1280,7 @@ lzip
 lzo
 m4
 make
+makedepend
 man-db
 man-pages
 mariadb
@@ -1696,6 +1699,7 @@ rng-tools
 rope
 rpcbind
 rpm
+rr
 rsa
 rsync
 ruby
