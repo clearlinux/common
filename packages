@@ -687,6 +687,7 @@ compat-efivar-soname0
 compat-fuse-soname2
 compat-gegl
 compat-glew-soname1
+compat-gtksourceview-soname3
 compat-guile-soname20
 compat-libical-soname2
 compat-libpng-soname12
@@ -1140,6 +1141,7 @@ libconfig
 libcroco
 libcryptui
 libdatrie
+libdazzle
 libdmx
 libdnf
 libdrm
@@ -1856,6 +1858,7 @@ util-linux
 util-macros
 uwsgi
 v4l-utils
+vala
 valgrind
 vcversioner
 videoproto
