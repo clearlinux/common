@@ -68,6 +68,7 @@ R-LearnBayes
 R-Matching
 R-MatrixModels
 R-ModelMetrics
+R-NADA
 R-NLP
 R-NMF
 R-NMOF
@@ -482,6 +483,7 @@ R-xml2
 R-xtable
 R-xts
 R-yaml
+R-zCompositions
 R-zoo
 Remmina
 SDL
