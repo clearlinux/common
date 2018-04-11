@@ -689,6 +689,7 @@ compat-gegl
 compat-glew-soname1
 compat-gtksourceview-soname3
 compat-guile-soname20
+compat-ipset-soname10
 compat-libical-soname2
 compat-libpng-soname12
 compat-libwebp-soname6
