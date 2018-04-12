@@ -766,6 +766,7 @@ docbook-utils
 docbook-xml
 docker
 docker-py
+dockerpy-creds
 docutils
 dogtail
 dos2unix
