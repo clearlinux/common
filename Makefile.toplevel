@@ -204,6 +204,7 @@ autospecnew: localreponotice
 			cd $(TOPLVL)/packages/$(NAME); \
 			git init; \
 			git remote add origin $(PKG_BASE_URL)/$(NAME); \
+			git branch -u origin/master master; \
 			$(call gitoliteurl,packages/$(NAME)); \
 			$(call subjectprefix,$(NAME)); \
 		); \
