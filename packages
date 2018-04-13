@@ -750,6 +750,7 @@ defusedxml
 dejagnu
 desktop-file-utils
 dfc
+dfu-util
 dhcp
 dialog
 diffoscope
@@ -778,6 +779,7 @@ dracut
 dri2proto
 dri3proto
 dstat
+dtc
 e2fsprogs
 ebtables
 ecdsa
@@ -1843,6 +1845,7 @@ tzdata
 tzlocal
 udisks2
 uhttpmock
+unbundle
 unicode-xid
 unifdef
 unittest2
