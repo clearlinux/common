@@ -1268,9 +1268,11 @@ linux-hyperv-mini
 linux-kvm
 linux-libc-headers
 linux-lts
+linux-oracle
 linux-pk414
 linux-steam-integration
 linux-tools
+linuxptp
 llvm
 llvmlite
 lmdb
@@ -1718,6 +1720,7 @@ rxvt-unicode
 s2tc
 s3transfer
 samba
+sane-backends
 sassc
 satyr
 sbc
@@ -1745,6 +1748,7 @@ shared-mime-info
 sharutils
 shim
 siege
+simple-scan
 simplegeneric
 simplejson
 sip
