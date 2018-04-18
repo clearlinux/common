@@ -1591,6 +1591,7 @@ pkcs11-helper
 pkg-config
 pluggy
 ply
+pmdk
 polkit
 poppler
 popt
@@ -1625,7 +1626,6 @@ pyatspi
 pycairo
 pycodestyle
 pycparser
-pycrypto
 pycurl
 pydot
 pydot_ng
@@ -1651,7 +1651,6 @@ python-augeas
 python-dateutil
 python-future
 python-gflags
-python-keyczar
 python-krbV
 python-magic
 python-memcached
