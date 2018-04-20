@@ -613,6 +613,7 @@ bkcharts
 bleach
 blktrace
 bluez
+bmap-tools
 bndl-lamp-basic
 bokeh
 boost
@@ -1491,6 +1492,7 @@ perl-ExtUtils-Helpers
 perl-ExtUtils-InstallPaths
 perl-File-Copy-Recursive
 perl-File-Listing
+perl-File-MMagic
 perl-File-ShareDir
 perl-File-ShareDir-Install
 perl-File-Slurp
@@ -1797,6 +1799,7 @@ startup-notification
 stow
 strace
 subunit
+subversion
 sudo
 sure
 suricata
