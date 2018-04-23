@@ -221,7 +221,7 @@ ifneq ($(strip $(SOURCES_URL)),)
 		    *://*) n="$$u" ;; \
 		    *)     n="$(SOURCES_URL)/$$u" ;; \
 		esac; \
-		curl --fail --noproxy "*" "$$n" -o `basename "$$n"`; \
+		curl --fail -L "$$n" -o `basename "$$n"`; \
 	done < upstream
 else
 	@tmp=$$(mktemp -d -p "."); \
