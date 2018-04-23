@@ -221,7 +221,10 @@ ifneq ($(strip $(SOURCES_URL)),)
 			*://*) n="$$u" ;; \
 			*)     n="$(SOURCES_URL)/$$u" ;; \
 		esac; \
-		curl --fail -L "$$n" -o `basename "$$n"`; \
+		if ! curl --fail -L "$$n" -o `basename "$$n"`; then \
+			echo "Failed to download $$n"; \
+			exit 1; \
+		fi; \
 	done < upstream
 else
 	@tmp=$$(mktemp -d -p "."); \
@@ -370,7 +373,10 @@ generateupstream:
 	for url in $$urls; do \
 		filename=$$(basename $$url); \
 		if [ ! -e $$filename ]; then \
-			curl --fail -L -O $$url; \
+			if ! curl --fail -L -O $$url; then \
+				echo "Failed to download $$url"; \
+				exit 1; \
+			fi; \
 		fi; \
 		echo $$(sha1sum $$filename | cut -d\  -f1)/$$filename >> upstream; \
 	done
