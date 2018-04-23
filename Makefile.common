@@ -205,28 +205,7 @@ bumpnogit:
 
 $(__missingsources): sources
 
-#help sources: If SOURCES_URL is defined, download required upstream source
-#help files from that location. Otherwise, try to extract source files from the
-#help SRPM in the latest Clear Linux release, as specified by the LATEST_SRPMS
-#help variable. This will run automatically, as a dependency. NOTE: A Koji
-#help server can make use of this "make sources" command, since it lives in a
-#help repo named "common". If you use this makefile in Koji, ensure
-#help "make sources" continues to work for both remote and local builds, since
-#help it is a prerequisite of several commands for building packages.
-sources: upstream
-ifneq ($(strip $(SOURCES_URL)),)
-	while read u; do \
-		case "$$u" in \
-			"")    continue ;; \
-			*://*) n="$$u" ;; \
-			*)     n="$(SOURCES_URL)/$$u" ;; \
-		esac; \
-		if ! curl --fail -L "$$n" -o `basename "$$n"`; then \
-			echo "Failed to download $$n"; \
-			exit 1; \
-		fi; \
-	done < upstream
-else
+fetch-from-srpm:
 	@tmp=$$(mktemp -d -p "."); \
 	srpm=$$(rpmspec --srpm -q --qf "%{NVR}.src.rpm\n" $(SPECFILE)); \
 	if cd "$$tmp" && ! curl -f -L -O $(LATEST_SRPMS)/$$srpm; then \
@@ -247,6 +226,31 @@ else
 		echo "Retrieved source file $$s ..."; \
 	done; \
 	rm -rf "$$tmp";
+
+#help sources: If SOURCES_URL is defined, download required upstream source
+#help files from that location. Otherwise, try to extract source files from the
+#help SRPM in the latest Clear Linux release, as specified by the LATEST_SRPMS
+#help variable. This will run automatically, as a dependency. NOTE: A Koji
+#help server can make use of this "make sources" command, since it lives in a
+#help repo named "common". If you use this makefile in Koji, ensure
+#help "make sources" continues to work for both remote and local builds, since
+#help it is a prerequisite of several commands for building packages.
+ifneq ($(strip $(SOURCES_URL)),)
+sources: upstream
+	while read u; do \
+		case "$$u" in \
+			"")    continue ;; \
+			*://*) n="$$u" ;; \
+			*)     n="$(SOURCES_URL)/$$u" ;; \
+		esac; \
+		if ! curl --fail -L "$$n" -o `basename "$$n"`; then \
+			echo "Failed to download $$n"; \
+			exit 1; \
+		fi; \
+	done < upstream
+else
+sources:
+	$(MAKE) fetch-from-srpm
 endif
 
 prekoji-checks:
