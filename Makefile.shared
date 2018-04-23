@@ -14,9 +14,9 @@ define loopup
 	@sudo partprobe /dev/loop$(DEVICE)
 	@sleep 1
 	@if [ -e /dev/loop$(DEVICE)p3 ]; then \
-	   sudo mount /dev/loop$(DEVICE)p3 $(TOPLVL)/image; \
+		sudo mount /dev/loop$(DEVICE)p3 $(TOPLVL)/image; \
 	else \
-	   sudo mount /dev/loop$(DEVICE)p2 $(TOPLVL)/image; \
+		sudo mount /dev/loop$(DEVICE)p2 $(TOPLVL)/image; \
 	fi
 	@sudo mount /dev/loop$(DEVICE)p1 $(TOPLVL)/image/boot
 endef

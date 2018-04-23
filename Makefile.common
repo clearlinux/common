@@ -217,9 +217,9 @@ sources: upstream
 ifneq ($(strip $(SOURCES_URL)),)
 	while read u; do \
 		case "$$u" in \
-		    "")    continue ;; \
-		    *://*) n="$$u" ;; \
-		    *)     n="$(SOURCES_URL)/$$u" ;; \
+			"")    continue ;; \
+			*://*) n="$$u" ;; \
+			*)     n="$(SOURCES_URL)/$$u" ;; \
 		esac; \
 		curl --fail -L "$$n" -o `basename "$$n"`; \
 	done < upstream
@@ -368,11 +368,11 @@ generateupstream:
 	@rm -f upstream
 	@urls=$$(rpmspec -D '_vendor clr' -P $(SPECFILE) | sed -n "s|^Source[0-9]*[[:blank:]]*:[[:blank:]]*\(..*://..*\)$$|\1|p"); \
 	for url in $$urls; do \
-	    filename=$$(basename $$url); \
-	    if [ ! -e $$filename ]; then \
-		curl --fail -L -O $$url; \
-	    fi; \
-	    echo $$(sha1sum $$filename | cut -d\  -f1)/$$filename >> upstream; \
+		filename=$$(basename $$url); \
+		if [ ! -e $$filename ]; then \
+			curl --fail -L -O $$url; \
+		fi; \
+		echo $$(sha1sum $$filename | cut -d\  -f1)/$$filename >> upstream; \
 	done
 	@cat upstream
 
