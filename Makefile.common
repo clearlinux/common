@@ -366,7 +366,7 @@ install:
 #help it for packages managed with autospec.
 generateupstream:
 	@rm -f upstream
-	@urls=$$(rpmspec -D '_vendor clr' -P $(SPECFILE) | grep Source | cut -d: -f2- | grep '://'); \
+	@urls=$$(rpmspec -D '_vendor clr' -P $(SPECFILE) | sed -n "s|^Source[0-9]*[[:blank:]]*:[[:blank:]]*\(..*://..*\)$$|\1|p"); \
 	for url in $$urls; do \
 	    filename=$$(basename $$url); \
 	    if [ ! -e $$filename ]; then \
