@@ -1097,6 +1097,7 @@ jupyterlab_launcher
 kafka-dep
 kbd
 kbproto
+kernel-install
 kexec-tools
 keyring
 keyutils
