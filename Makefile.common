@@ -391,20 +391,20 @@ install:
 #help calculating their hashes. Autospec performs this step automatically, so ignore
 #help it for packages managed with autospec.
 generateupstream:
-	@mv upstream upstream.bak
-	@urls=$$(rpmspec -D '_vendor clr' -P $(SPECFILE) | sed -n "s|^Source[0-9]*[[:blank:]]*:[[:blank:]]*\(..*://..*\)$$|\1|p"); \
+	@[ -e upstream ] && mv upstream upstream.bak; \
+	urls=$$(rpmspec -D '_vendor clr' -P $(SPECFILE) | sed -n "s|^Source[0-9]*[[:blank:]]*:[[:blank:]]*\(..*://..*\)$$|\1|p"); \
 	for url in $$urls; do \
 		filename=$$(basename $$url); \
 		if [ ! -e $$filename ]; then \
 			if ! curl --fail -L -O $$url; then \
 				echo "Failed to download $$url"; \
-				mv --no-clobber upstream.bak upstream; \
+				[ -e upstream.bak ] && mv --no-clobber upstream.bak upstream; \
 				exit 1; \
 			fi; \
 		fi; \
 		echo $$(sha1sum $$filename | cut -d\  -f1)/$$filename >> upstream; \
 	done
-	@rm upstream.bak
+	@rm -f upstream.bak
 	@cat upstream
 
 #help drop-abandoned: Remove all unused patches from the git tree
