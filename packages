@@ -703,6 +703,7 @@ compat-SDL2-soname1
 compat-efivar-soname0
 compat-fuse-soname2
 compat-gegl
+compat-gegl-0.3
 compat-glew-soname1
 compat-gtksourceview-soname3
 compat-guile-soname20
@@ -1203,6 +1204,7 @@ libmediaart
 libmnl
 libmspack
 libmtp
+libmypaint
 libndp
 libnetfilter_conntrack
 libnetfilter_cthelper
@@ -1358,6 +1360,7 @@ murrine
 musl
 mutt
 mutter
+mypaint-brushes
 mypy
 nagios-plugins
 nano
@@ -1596,6 +1599,7 @@ ply
 pmdk
 polkit
 poppler
+poppler-data
 popt
 portaudio
 posix_ipc
