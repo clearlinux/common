@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 SCRIPT=$(/usr/bin/basename $0)
 PEM=""
