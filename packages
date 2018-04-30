@@ -596,6 +596,7 @@ backports.weakref
 baobab
 bash
 bash-completion
+bash.static
 bash_kernel
 bashdb
 bats
