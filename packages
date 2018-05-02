@@ -1234,6 +1234,7 @@ libsass
 libseccomp
 libsecret
 libsigc++
+libsmi
 libsndfile
 libsolv
 libsoup
@@ -1788,6 +1789,7 @@ soundmodem
 source-code-pro
 source-highlight
 sox
+spandsp
 spark-dep
 speex
 speexdsp
