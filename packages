@@ -724,6 +724,7 @@ compositeproto
 compute-image-packages
 configobj
 configparser
+confuse
 connect-proxy
 connman
 connman-gtk
@@ -776,6 +777,7 @@ diffoscope
 diffstat
 diffutils
 dist-pam-configs
+dmenu
 dmidecode
 dmxproto
 dnf
@@ -1030,6 +1032,9 @@ hyperscan
 hyperstart
 hypothesis
 i2c-tools
+i3
+i3lock
+i3status
 ibus
 icalendar
 icdiff
@@ -1170,6 +1175,7 @@ libdmx
 libdnf
 libdrm
 libepoxy
+libev
 libevdev
 libevent
 libexif
@@ -1926,6 +1932,7 @@ wheel
 which
 widgetsnbextension
 wireless-regdb-master
+wireshark
 woff2
 wol
 wpa_supplicant
@@ -1938,9 +1945,12 @@ xauth
 xbitmaps
 xcb-proto
 xcb-util
+xcb-util-cursor
 xcb-util-image
 xcb-util-keysyms
+xcb-util-renderutil
 xcb-util-wm
+xcb-util-xrm
 xclip
 xcmiscproto
 xcursor-themes
