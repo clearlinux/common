@@ -22,7 +22,6 @@ WITH_SUDO = $(shell cmp /usr/bin/mock /usr/sbin/mock &> /dev/null && echo sudo )
 # MOCK_CONFIG_VAL is set in Makefile.shared
 MOCK ?= $(WITH_SUDO) /usr/bin/mock -r $(MOCK_CONFIG_VAL) $(MOCK_OPTS)
 
-
 ifneq ($(wildcard upstream),)
 __allsources := $(notdir $(strip $(shell cat upstream)))
 __missingsources := $(filter-out $(wildcard ${__allsources}), ${__allsources})
@@ -210,7 +209,7 @@ $(__missingsources): sources
 define fetch-from-srpm
 	tmp=$$(mktemp -d -p "."); \
 	srpm=$$(rpmspec --srpm -q --qf "%{NVR}.src.rpm\n" $(SPECFILE)); \
-	if cd "$$tmp" && ! curl -s -S -f -L -O $(DOWNLOAD_MIRROR)/releases/$(1)/clear/source/SRPMS/$$srpm; then \
+	if cd "$$tmp" && ! curl -s -S -f -L -O $(MIRROR_CURL_OPTS) $(DOWNLOAD_MIRROR)/releases/$(1)/clear/source/SRPMS/$$srpm; then \
 		echo "Failed to download $$srpm from Clear Linux release $(1)." >&2; \
 		cd .. && rm -rf "$$tmp"; \
 		exit 1; \
@@ -247,7 +246,7 @@ sources: upstream
 			*://*) n="$$u" ;; \
 			*)     n="$(SOURCES_URL)/$$u" ;; \
 		esac; \
-		if ! curl --fail -L "$$n" -o `basename "$$n"`; then \
+		if ! curl --fail -L -o `basename "$$n"` $(SOURCES_CURL_OPTS) "$$n"; then \
 			echo "Failed to download $$n"; \
 			exit 1; \
 		fi; \
@@ -261,7 +260,7 @@ sources:
 	for b in $$latest_builds; do \
 		url="$(DOWNLOAD_MIRROR)/releases/$$b/clear/source/package-sources"; \
 		echo "Checking for source files in build $$b ..."; \
-		if grep -q "$$nvr" <(curl -s -f -L $$url); then \
+		if grep -q "$$nvr" <(curl -s -f -L $(MIRROR_CURL_OPTS) $$url); then \
 			$(call fetch-from-srpm,$$b); \
 			if [ $$? -eq 0 ]; then \
 				echo "Source files retrieved from build $$b"; \
@@ -389,15 +388,17 @@ install:
 
 #help generateupstream: Run this rule to create or update the 'upstream' file
 #help by downloading the upstream source tarballs listed in the spec file and
-#help calculating their hashes. Autospec performs this step automatically, so ignore
-#help it for packages managed with autospec.
+#help calculating their hashes. Autospec performs this step automatically, so
+#help ignore it for packages managed with autospec. Additional curl options
+#help may be used for downloading the upstream source tarballs by defining the
+#help CURL_OPTS variable for this rule.
 generateupstream:
 	@[ -e upstream ] && mv upstream upstream.bak; \
 	urls=$$(rpmspec -D '_vendor clr' -P $(SPECFILE) | sed -n "s|^Source[0-9]*[[:blank:]]*:[[:blank:]]*\(..*://..*\)$$|\1|p"); \
 	for url in $$urls; do \
 		filename=$$(basename $$url); \
 		if [ ! -e $$filename ]; then \
-			if ! curl --fail -L -O $$url; then \
+			if ! curl --fail -L -O $(CURL_OPTS) $$url; then \
 				echo "Failed to download $$url"; \
 				[ -e upstream.bak ] && mv --no-clobber upstream.bak upstream; \
 				exit 1; \
