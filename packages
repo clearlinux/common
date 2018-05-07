@@ -872,6 +872,8 @@ funcsigs
 functools32
 fuse
 futures
+fwupd
+fwupdate
 garcon
 gast
 gawk
@@ -1050,6 +1052,7 @@ iniparse
 init-rdahead
 inotify-tools
 inputproto
+intel-gpu-tools
 intltool
 invm-frameworks
 ioping
@@ -1240,6 +1243,7 @@ libsass
 libseccomp
 libsecret
 libsigc++
+libsmbios
 libsmi
 libsndfile
 libsolv
