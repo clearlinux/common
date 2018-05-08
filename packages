@@ -1053,6 +1053,7 @@ init-rdahead
 inotify-tools
 inputproto
 intel-gpu-tools
+intel-hybrid-driver
 intltool
 invm-frameworks
 ioping
