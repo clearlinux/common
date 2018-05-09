@@ -20,7 +20,7 @@ RPMS ?= $(LATEST_RPMS)
 WITH_SUDO = $(shell cmp /usr/bin/mock /usr/sbin/mock &> /dev/null && echo sudo )
 
 # MOCK_CONFIG_VAL is set in Makefile.shared
-MOCK ?= $(WITH_SUDO) /usr/bin/mock -r $(MOCK_CONFIG_VAL)
+MOCK ?= $(WITH_SUDO) /usr/bin/mock -r $(MOCK_CONFIG_VAL) $(MOCK_OPTS)
 
 
 ifneq ($(wildcard upstream),)
@@ -89,6 +89,7 @@ prebuild-checks:
 #help files and rpms in the results directory of your package.  If there
 #help are mutlple tar.gz files for a package, make will do make sources,
 #help which creates a src.rpm file from the spec file.
+#help Use MOCK_OPTS environment varible to pass down arbitrary mock options.
 build: prebuild-checks configemail $(SPECFILE) upstream $(SRPMFILE)
 	$(MOCK) $(SRPMFILE) --result=results/ --no-cleanup-after --uniqueext=$(PKG_NAME)
 	@perl $(TOPLVL)/projects/common/logcheck.pl results/build.log
