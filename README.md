@@ -36,40 +36,8 @@ documented in the script's `--help` output. Note that if you are supplying any
 of the three Koji cert options (`-k`, `-s`, or `-c`), the other two options
 must be supplied as well.
 
-
-### Manual setup
-
-On your Clear Linux system, create a workspace for Clear Linux development
-work:
-
-```
-$ mkdir clearlinux
-```
-
-Clone this repo into a `projects` directory within the workspace:
-
-```
-$ cd clearlinux
-$ mkdir projects
-$ git clone https://github.com/clearlinux/common projects/common
-```
-
-Create the toplevel tooling Makefile:
-
-```
-$ ln -s projects/common/Makefile.toplevel Makefile
-```
-
-Clone all Clear Linux package and project repositories:
-
-```
-$ make clone
-```
-
-Note: You can clone the repos in parallel by using make's `-j` option.
-
-At this point, the `packages` directory will contain all Clear Linux package
-repos, and `projects` will contain common, clr-bundles, and autospec repos.
+If you do not wish to run the user-setup script, see the "Manual setup" section
+below for hints about how to initialize the tooling workspace.
 
 ## Example usage
 
@@ -143,3 +111,44 @@ package, a `make bump` command is available for this purpose.
 $ make bump
 $ make build
 ```
+
+## Other topics
+
+### Manual setup
+
+If you did not run the user-setup script (see "Automated setup" section above),
+you will want to set up the developer tooling workspace manually. This section
+provides general documentation for the manual setup process, and it is not
+meant to be exhaustive.
+
+On your Clear Linux system, create a workspace for Clear Linux development
+work:
+
+```
+$ mkdir clearlinux
+```
+
+Clone this repo into a `projects` directory within the workspace:
+
+```
+$ cd clearlinux
+$ mkdir projects
+$ git clone https://github.com/clearlinux/common projects/common
+```
+
+Create the toplevel tooling Makefile:
+
+```
+$ ln -s projects/common/Makefile.toplevel Makefile
+```
+
+Clone all Clear Linux package and project repositories:
+
+```
+$ make clone
+```
+
+Note: You can clone the repos in parallel by using make's `-j` option.
+
+At this point, the `packages` directory will contain all Clear Linux package
+repos, and `projects` will contain common, clr-bundles, and autospec repos.
