@@ -31,9 +31,11 @@ $ ./user-setup.sh
 After the script completes, make sure to logout and login again to complete the
 setup process.
 
-The script either accepts no options, or all (3) options in case you are
-configuring the Koji CLI for remote building on a Koji server. The options are
-documented in the script's `--help` output.
+The script accepts several options, or no options at all. The options are
+documented in the script's `--help` output. Note that if you are supplying any
+of the three Koji cert options (`-k`, `-s`, or `-c`), the other two options
+must be supplied as well.
+
 
 ### Manual setup
 
