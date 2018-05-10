@@ -191,7 +191,10 @@ provides:
 
 #help autospecnew: Creates a new autospec package with for a given URL=$(URL)
 #help with NAME=$(NAME). Several files used by autospec will be created in the
-#help process. For more information about autospec, see the project page on Github https://github.com/clearlinux/autospec
+#help process.
+#help Use MOCK_OPTS environment varible to pass down arbitrary mock options
+#help to autospec.
+#help For more information about autospec, see the project page on Github https://github.com/clearlinux/autospec
 autospecnew: localreponotice
 	@if [ -z $(NAME) ] || [ -z $(URL) ]; then \
 		echo "Please specify NAME and URL. The ARCHIVES variable is optional."; \
@@ -215,6 +218,7 @@ autospecnew: localreponotice
 			--name $(NAME) \
 			--archives $(ARCHIVES) \
 			--mock-config $(MOCK_CONFIG_VAL) \
+			--mock-opts "$(MOCK_OPTS)" \
 			$${SETVERSION:+ --version $${SETVERSION}} \
 			${NON_INTERACTIVE} ${SKIP_GIT} ${CLEANUP} \
 			$(URL); \
