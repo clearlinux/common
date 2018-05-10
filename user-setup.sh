@@ -9,6 +9,9 @@ help() {
   printf "%s\n" >&2 "Usage: $SCRIPT [options]" \
     "" \
     "Options:" \
+    "" \
+    "-j --jobs [NUM]: Clone repos with NUM jobs. If NUM is not given, it is set to the available CPU count." \
+    "" \
     "-k --client-cert PEM_FILE: Enable client user cert for koji configuration; requires a PEM file argument" \
     "-s --server-ca PEM_FILE: Enable server CA cert for koji configuration; requires a PEM file argument" \
     "-c --client-ca PEM_FILE: Enable client CA cert for koji configuration; requires a PEM file argument" \
@@ -32,6 +35,14 @@ while [ $# -gt 0 ]; do
     "--client-ca"|"-c")
       shift
       CLIENTCA="$PWD/$1"
+      ;;
+    "--jobs"|"-j")
+      if echo "$2" | grep -qx "[1-9][0-9]*"; then
+        shift
+        JOBS="$1"
+      elif [ -f /proc/cpuinfo ]; then
+        JOBS=$(grep -Ec '^processor.*:.*[0-9]+$' /proc/cpuinfo)
+      fi
       ;;
     *)
       help
@@ -63,6 +74,10 @@ else
     error "Missing koji client CA PEM file"
   fi
   USE_KOJI="yes"
+fi
+
+if [ -n "$JOBS" ]; then
+  JOBS_ARG="-j $JOBS"
 fi
 
 required_progs() {
@@ -127,11 +142,11 @@ echo "Adding user to kvm group . . ."
 sudo usermod -a -G kvm $USER
 
 echo "Cloning special project repositories . . ."
-make clone-projects
+make ${JOBS_ARG} clone-projects
 
 if [ -z "$NO_PACKAGE_REPOS" ]; then
   echo "Cloning all package repositories . . ."
-  make clone-packages
+  make ${JOBS_ARG} clone-packages
 fi
 
 if [ "$USE_KOJI" ]; then
