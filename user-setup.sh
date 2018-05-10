@@ -5,6 +5,7 @@ PEM=""
 SERVERCA=""
 CLIENTCA=""
 WORKSPACE="clearlinux"
+PACKAGE_REPOS=
 
 help() {
   printf "%s\n" >&2 "Usage: $SCRIPT [options]" \
@@ -12,6 +13,7 @@ help() {
     "Options:" \
     "" \
     "-d --directory NAME: Set up workspace in the given directory." \
+    "-a --clone-packages: Clone all package repos." \
     "-j --jobs [NUM]: Clone repos with NUM jobs. If NUM is not given, it is set to the available CPU count." \
     "" \
     "-k --client-cert PEM_FILE: Enable client user cert for koji configuration; requires a PEM file argument" \
@@ -57,6 +59,9 @@ while [ $# -gt 0 ]; do
       [ "${2:0:1}" = "-" ] && error "Directory name cannot begin with \"-\""
       shift
       WORKSPACE="$1"
+      ;;
+    "--clone-packages"|"-a")
+      PACKAGE_REPOS=1
       ;;
     *)
       help
@@ -153,7 +158,7 @@ sudo usermod -a -G kvm $USER
 echo "Cloning special project repositories . . ."
 make ${JOBS_ARG} clone-projects
 
-if [ -z "$NO_PACKAGE_REPOS" ]; then
+if [ -n "$PACKAGE_REPOS" ]; then
   echo "Cloning all package repositories . . ."
   make ${JOBS_ARG} clone-packages
 fi
@@ -173,6 +178,10 @@ fi
 echo -en "\n************************\n"
 
 echo "Workspace has been set up in \"$WORKSPACE\""
+if [ -z "$PACKAGE_REPOS" ]; then
+  echo "NOTE: To clone all package repos, run \"cd $WORKSPACE; make [-j NUM] clone-packages\""
+  echo "NOTE: To clone a single package repo with NAME, run \"cd $WORKSPACE; make clone_NAME\""
+fi
 echo 'NOTE: logout and log back in to finalize the setup process'
 
 
