@@ -1,21 +1,29 @@
-#!/bin/sh
+#!/bin/bash
 
 SCRIPT=$(/usr/bin/basename $0)
 PEM=""
 SERVERCA=""
 CLIENTCA=""
+WORKSPACE="clearlinux"
 
 help() {
   printf "%s\n" >&2 "Usage: $SCRIPT [options]" \
     "" \
     "Options:" \
     "" \
+    "-d --directory NAME: Set up workspace in the given directory." \
     "-j --jobs [NUM]: Clone repos with NUM jobs. If NUM is not given, it is set to the available CPU count." \
     "" \
     "-k --client-cert PEM_FILE: Enable client user cert for koji configuration; requires a PEM file argument" \
     "-s --server-ca PEM_FILE: Enable server CA cert for koji configuration; requires a PEM file argument" \
     "-c --client-ca PEM_FILE: Enable client CA cert for koji configuration; requires a PEM file argument" \
     ""
+}
+
+error() {
+  echo -e "Error: $1\n" >&2
+  help
+  exit 1
 }
 
 while [ $# -gt 0 ]; do
@@ -44,6 +52,12 @@ while [ $# -gt 0 ]; do
         JOBS=$(grep -Ec '^processor.*:.*[0-9]+$' /proc/cpuinfo)
       fi
       ;;
+    "--directory"|"-d")
+      [ -z "$2" ] && error "Must supply a directory name to the -d option"
+      [ "${2:0:1}" = "-" ] && error "Directory name cannot begin with \"-\""
+      shift
+      WORKSPACE="$1"
+      ;;
     *)
       help
       exit 1
@@ -52,11 +66,6 @@ while [ $# -gt 0 ]; do
   shift
 done
 
-error() {
-  echo -e "Error: $1\n" >&2
-  help
-  exit 1
-}
 
 if [ -z "$PEM" ] && [ -z "$SERVERCA" ] && [ -z "$CLIENTCA" ]; then
   USE_KOJI=
@@ -80,6 +89,11 @@ if [ -n "$JOBS" ]; then
   JOBS_ARG="-j $JOBS"
 fi
 
+if [ -d "$WORKSPACE" ]; then
+  error "Directory \"$WORKSPACE\" already exists. \
+Either remove this workspace, or use a different workspace name."
+fi
+
 required_progs() {
   local bindir="/usr/bin"
   for f in git mock rpm rpmbuild ; do
@@ -96,15 +110,10 @@ required_progs() {
 
 required_progs
 
-echo 'Initializing development workspace in "clearlinux" . . .'
-if [ -d "clearlinux" ]; then
-  echo 'Directory "clearlinux" already exists in current directory.' >&2
-  echo "Cannot initialize workspace." >&2
-  exit 1
-fi
+echo "Initializing development workspace in \"$WORKSPACE\" . . ."
 
-mkdir clearlinux
-cd clearlinux
+mkdir "$WORKSPACE"
+cd "$WORKSPACE"
 
 echo "Setting up common repo . . ."
 mkdir projects
@@ -163,7 +172,7 @@ fi
 
 echo -en "\n************************\n"
 
-echo 'Workspace has been set up in the "clearlinux" directory'
+echo "Workspace has been set up in \"$WORKSPACE\""
 echo 'NOTE: logout and log back in to finalize the setup process'
 
 
