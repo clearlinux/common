@@ -801,6 +801,7 @@ dri2proto
 dri3proto
 dstat
 dtc
+dyskctl
 e2fsprogs
 ebtables
 ecdsa
@@ -1288,6 +1289,7 @@ libxml2-legacy
 libxshmfence
 libxslt
 libyami
+libyami-utils
 libzip
 linecache2
 links
@@ -1354,6 +1356,7 @@ mkosi
 mock
 mod_wsgi
 moka-icon-theme
+more-itertools
 mosh
 motd-update
 motif
@@ -1618,6 +1621,7 @@ poppler
 poppler-data
 popt
 portaudio
+portend
 posix_ipc
 postgresql
 powerline-fonts
@@ -1781,6 +1785,7 @@ setproctitle
 setserial
 setuptools
 setuptools_scm
+setuptools_scm_git_archive
 shadow
 shared-mime-info
 sharutils
@@ -1847,6 +1852,7 @@ tcpdump
 telemetrics-client
 telepathy-glib
 telepathy-logger
+tempora
 tensorboard
 tensorflow
 termcolor
