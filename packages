@@ -606,7 +606,6 @@ bcrypt
 bdftopcf
 beautifulsoup4
 beignet
-bigreqsproto
 bind-utils
 binutils
 bison
@@ -655,6 +654,8 @@ cgit
 chardet
 check
 cheese
+cheroot
+cherrypy
 chrome-gnome-shell
 chrony
 chrpath
@@ -720,7 +721,6 @@ compat-opencv-soname33
 compat-protobuf-soname14
 compat-readline
 component
-compositeproto
 compute-image-packages
 configobj
 configparser
@@ -756,7 +756,6 @@ cups-pk-helper
 curl
 cve-check-tool
 cycler
-damageproto
 dapl
 darktable
 dask
@@ -779,7 +778,6 @@ diffutils
 dist-pam-configs
 dmenu
 dmidecode
-dmxproto
 dnf
 dnf-plugins-core
 dnsmasq
@@ -797,8 +795,6 @@ double-conversion
 doxygen
 dpdk
 dracut
-dri2proto
-dri3proto
 dstat
 dtc
 dyskctl
@@ -847,7 +843,6 @@ findutils
 fio
 firefox
 fish
-fixesproto
 fixtures
 flac
 flake8
@@ -863,7 +858,6 @@ font-adobe-75dpi
 font-bitstream-type1
 font-util
 fontconfig
-fontsproto
 freeglut
 freeipmi
 freetype
@@ -913,7 +907,6 @@ glibc
 glibmm
 global
 glog
-glproto
 glslang
 glu
 glusterfs
@@ -1049,10 +1042,10 @@ imagesize
 imapfilter
 indent
 infiniband-diags
+influxdb
 iniparse
 init-rdahead
 inotify-tools
-inputproto
 intel-gpu-tools
 intel-hybrid-driver
 intltool
@@ -1108,7 +1101,6 @@ jupyterlab
 jupyterlab_launcher
 kafka-dep
 kbd
-kbproto
 kernel-install
 kexec-tools
 keyring
@@ -1410,6 +1402,7 @@ ninja
 nlopt
 nodejs
 nose
+nose-cov
 nose-parameterized
 nosync
 notebook
@@ -1428,6 +1421,7 @@ numba
 numpy
 numpydoc
 nvme-cli
+oath-toolkit
 oauth2client
 ocl-icd
 offlineimap
@@ -1626,7 +1620,6 @@ posix_ipc
 postgresql
 powerline-fonts
 powertop
-presentproto
 pretend
 prettytable
 proc-macro2
@@ -1732,17 +1725,14 @@ qtxmlpatterns
 quagga
 quilt
 ragel
-randrproto
 rdma-core
 re2c
 readline
-recordproto
 redis
 redis-native
 redsocks
-renderproto
 requests
-resourceproto
+requests-mock
 rest
 retry_decorator
 retype
@@ -1775,7 +1765,6 @@ scipy
 scons
 screen
 scripttest
-scrnsaverproto
 seaborn
 seahorse
 secretstorage
@@ -1917,7 +1906,6 @@ v4l-utils
 vala
 valgrind
 vcversioner
-videoproto
 vim
 vim-go
 vinagre
@@ -1966,7 +1954,6 @@ xcb-util-renderutil
 xcb-util-wm
 xcb-util-xrm
 xclip
-xcmiscproto
 xcursor-themes
 xcursorgen
 xdg-desktop-portal
@@ -1974,7 +1961,6 @@ xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 xemacs
-xextproto
 xf86-input-evdev
 xf86-input-libinput
 xf86-input-mouse
@@ -1985,10 +1971,6 @@ xf86-video-ati
 xf86-video-fbdev
 xf86-video-nouveau
 xf86-video-vesa
-xf86bigfontproto
-xf86dgaproto
-xf86driproto
-xf86vidmodeproto
 xfburn
 xfce4-appfinder
 xfce4-dev-tools
@@ -2004,7 +1986,6 @@ xfdesktop
 xfsprogs
 xfwm4
 xhost
-xineramaproto
 xinit
 xkbcomp
 xkeyboard-config
@@ -2013,8 +1994,8 @@ xmlsec1
 xmlstarlet
 xmlto
 xorg-server
+xorgproto
 xorriso
-xproto
 xrandr
 xrdb
 xrdp
