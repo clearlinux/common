@@ -755,6 +755,7 @@ cups-filters
 cups-pk-helper
 curl
 cve-check-tool
+cxxfilt
 cycler
 dapl
 darktable
