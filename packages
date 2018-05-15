@@ -702,6 +702,7 @@ colord
 colord-gtk
 comedilib
 compat-SDL2-soname1
+compat-cryptsetup-soname4
 compat-efivar-soname0
 compat-fuse-soname2
 compat-gegl
