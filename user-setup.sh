@@ -36,15 +36,15 @@ while [ $# -gt 0 ]; do
       ;;
     "--client-cert"|"-k")
       shift
-      PEM="$PWD/$1"
+      PEM="$(realpath $1)"
       ;;
     "--server-ca"|"-s")
       shift
-      SERVERCA="$PWD/$1"
+      SERVERCA="$(realpath $1)"
       ;;
     "--client-ca"|"-c")
       shift
-      CLIENTCA="$PWD/$1"
+      CLIENTCA="$(realpath $1)"
       ;;
     "--jobs"|"-j")
       if echo "$2" | grep -qx "[1-9][0-9]*"; then
