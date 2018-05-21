@@ -163,6 +163,9 @@ if [ -n "$PACKAGE_REPOS" ]; then
   make ${JOBS_ARG} clone-packages
 fi
 
+echo "Creating mix workspace . . ."
+mkdir -p mix
+
 if [ "$USE_KOJI" ]; then
   echo "Testing koji installation . . ."
   if koji moshimoshi; then
