@@ -114,6 +114,28 @@ $ make build
 
 ## Other topics
 
+### Customizing the mock config
+
+In the past, the various make commands that call `mock` required a mock config
+installed at `/etc/mock/clear.cfg`. However, at present, the commands will
+instead use the mock config within this repo (`koji-client-files/clear.cfg`).
+
+If you wish to use a custom mock config, you must override the `MOCK_CONF`
+variable to specify a different value to pass to mock's `-r` option. The value
+is either a full path that ends with `.cfg`, or a config NAME installed at
+`/etc/mock/<NAME>.cfg`. You can override the `MOCK_CONF` config variable by
+redefining it in `Makefile.config.site_local`, which must reside at the
+toplevel directory in this repo.
+
+For example, to retain the old behavior of mock using `/etc/mock/clear.cfg`,
+add this line to `Makefile.config.site_local`:
+
+```
+MOCK_CONF = /etc/mock/clear.cfg
+```
+
+If `Makefile.config.site_local` doesn't exist already, create it.
+
 ### Manual setup
 
 If you did not run the user-setup script (see "Automated setup" section above),

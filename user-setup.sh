@@ -146,12 +146,6 @@ if [ "$USE_KOJI" ]; then
   fi
 fi
 
-if [ ! -f /etc/mock/clear.cfg ]; then
-  echo "Setting up mock config . . ."
-  sudo mkdir -p /etc/mock
-  sudo cp projects/common/koji-client-files/clear.cfg /etc/mock
-fi
-
 echo "Adding user to kvm group . . ."
 sudo usermod -a -G kvm $USER
 
