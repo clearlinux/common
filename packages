@@ -225,6 +225,7 @@ R-formatR
 R-fpc
 R-futile.logger
 R-futile.options
+R-future
 R-gam
 R-gamm4
 R-gbm
@@ -239,6 +240,7 @@ R-ggplot2movies
 R-ggridges
 R-git2r
 R-glmnet
+R-globals
 R-glue
 R-gmodels
 R-gmp
@@ -277,6 +279,7 @@ R-labelled
 R-laeken
 R-lambda.r
 R-lars
+R-later
 R-latticeExtra
 R-lava
 R-lazyeval
@@ -285,6 +288,7 @@ R-leaflet
 R-leaps
 R-lfe
 R-libcoin
+R-listenv
 R-lle
 R-lme4
 R-lmtest
@@ -374,6 +378,7 @@ R-processx
 R-prodlim
 R-profileModel
 R-progress
+R-promises
 R-proto
 R-proxy
 R-pryr
@@ -908,6 +913,7 @@ glib
 glib-networking
 glibc
 glibmm
+glmark2
 global
 glog
 glslang
@@ -1286,6 +1292,7 @@ libxslt
 libyami
 libyami-utils
 libzip
+libzmq
 linecache2
 links
 linux
