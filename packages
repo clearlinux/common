@@ -770,7 +770,6 @@ db
 dbus
 dbus-glib
 dconf
-dconf-editor
 deap
 decorator
 defusedxml
