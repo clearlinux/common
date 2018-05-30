@@ -17,7 +17,10 @@ as a starting point if you need to.
 * `clear.cfg`: default Mock configuration file used by various targets that
   call out to Mock. Config variable: `MOCK_CONF`
 
-* `yum.conf`: default package manager (YUM or DNF) configuration file, made
+* `dnf.conf`: DNF conf for use as the package manager configuration file, made
+  available for the framework's local repo support. Config variable: `PM_CONF`
+
+* `yum.conf`: YUM conf for use as the package manager configuration file, made
   available for the framework's local repo support. Config variable: `PM_CONF`
 
 * `koji.conf`: template Koji configuration file. It is installed by
