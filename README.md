@@ -118,7 +118,7 @@ $ make build
 
 In the past, the various make commands that call `mock` required a mock config
 installed at `/etc/mock/clear.cfg`. However, at present, the commands will
-instead use the mock config within this repo (`koji-client-files/clear.cfg`).
+instead use the mock config within this repo (`conf/clear.cfg`).
 
 If you wish to use a custom mock config, you must override the `MOCK_CONF`
 variable to specify a different value to pass to mock's `-r` option. The value

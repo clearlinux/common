@@ -23,7 +23,7 @@ if [ "$#" -eq 0 ]; then
 fi
 
 if [ ! -e /etc/yum.conf ]; then
-  echo "Error: yum.conf is missing. Please copy projects/common/image-creator/yum.conf to /etc"
+  echo "Error: yum.conf is missing. Please copy projects/common/conf/yum.conf to /etc"
   exit 1
 fi
 

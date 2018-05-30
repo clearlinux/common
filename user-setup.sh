@@ -142,7 +142,7 @@ if [ "$USE_KOJI" ]; then
 
   if [ ! -f /etc/koji.conf ]; then
     echo "Setting up koji config . . ."
-    sudo cp projects/common/koji-client-files/koji.conf /etc
+    sudo cp projects/common/conf/koji.conf /etc
   fi
 fi
 
