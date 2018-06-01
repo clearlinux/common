@@ -1342,6 +1342,7 @@ mc
 mccabe
 mcelog
 mdadm
+memkind
 memshrinker
 mesa
 mesa-demos
