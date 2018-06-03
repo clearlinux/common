@@ -1112,6 +1112,7 @@ jupyter_core
 jupyterlab
 jupyterlab_launcher
 kafka-dep
+kata-qemu-lite
 kbd
 kernel-install
 kexec-tools
@@ -1217,6 +1218,7 @@ libisofs
 libjpeg-turbo
 libjpeg-turbo-soname8
 libksba
+libmbim
 libmediaart
 libmnl
 libmspack
@@ -1242,6 +1244,7 @@ libpipeline
 libpng
 libpthread-stubs
 libpwquality
+libqmi
 librepo
 librsvg
 librtlsdr
