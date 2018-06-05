@@ -1113,7 +1113,11 @@ jupyter_core
 jupyterlab
 jupyterlab_launcher
 kafka-dep
+kata-image
+kata-proxy
 kata-qemu-lite
+kata-runtime
+kata-shim
 kbd
 kernel-install
 kexec-tools
