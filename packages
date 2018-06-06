@@ -1356,6 +1356,7 @@ mesa
 mesa-demos
 meson
 metacity
+metrics-discovery
 micro-config-drive
 micro-config-drive-aws
 micro-config-drive-oci
