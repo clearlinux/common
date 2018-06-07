@@ -7,6 +7,8 @@ FreeRDP
 GConf
 Jinja2
 Keras
+Keras_Applications
+Keras_Preprocessing
 LS_COLORS
 LVM2
 LibRaw
