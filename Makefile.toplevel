@@ -10,6 +10,7 @@ include $(TOPLVL)/projects/common/Makefile.shared
 SHELL   = /bin/bash
 
 PKGS    = $(shell cat $(PACKAGES_FILE))
+PKGS_LOCAL = $(sort $(filter ${PKGS},$(subst packages/,,$(wildcard packages/*))))
 
 proj_PKGS = $(addprefix proj_,$(PROJ_PKGS))
 clone_PKGS = $(addprefix clone_,$(PKGS))
@@ -64,7 +65,7 @@ cvecheck:
 #help of merge commits, while displaying any changes since your last pull. It is
 #help silent if there are no changes.
 .PHONY: pull ${PULL_PKGS} 
-PULL_PKGS:= $(addprefix PULL_projects/,$(PROJ_PKGS)) $(addprefix PULL_packages/,$(PKGS))
+PULL_PKGS:= $(addprefix PULL_projects/,$(PROJ_PKGS)) $(addprefix PULL_packages/,${PKGS_LOCAL})
 ${PULL_PKGS}:
 	@p=$(patsubst PULL_%,%,$@) ; \
 	if [ ! -d "$$p/.git" ]; then echo "Nothing to pull for $$p - $$p/.git missing"; exit 0; fi; \
