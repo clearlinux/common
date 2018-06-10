@@ -27,6 +27,7 @@ OpenSP
 Paste
 PasteDeploy
 Pillow
+PyMySQL
 PyWavelets
 PyYAML
 Pygments
@@ -1845,6 +1846,7 @@ stack
 startup-notification
 stow
 strace
+stress-ng
 subunit
 subversion
 sudo
