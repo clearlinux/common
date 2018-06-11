@@ -225,6 +225,7 @@ R-flexmix
 R-forcats
 R-foreach
 R-formatR
+R-fossil
 R-fpc
 R-futile.logger
 R-futile.options
@@ -440,6 +441,7 @@ R-setRNG
 R-sfsmisc
 R-sgeostat
 R-shape
+R-shapefiles
 R-shiny
 R-shinyjs
 R-shinystan
