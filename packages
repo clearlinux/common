@@ -1775,6 +1775,7 @@ rpm
 rr
 rsa
 rsync
+rt-tests
 ruby
 runc
 rust-std32
