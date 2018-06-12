@@ -1702,6 +1702,7 @@ python-augeas
 python-dateutil
 python-future
 python-gflags
+python-kconfiglib
 python-krbV
 python-magic
 python-memcached
