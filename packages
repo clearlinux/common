@@ -1320,6 +1320,7 @@ linux-gce
 linux-hyperv
 linux-hyperv-lts
 linux-hyperv-mini
+linux-kata
 linux-kvm
 linux-libc-headers
 linux-lts
