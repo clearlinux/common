@@ -1284,6 +1284,7 @@ libunistring
 libunwind
 libusb
 libuser
+libuv
 libva
 libva-intel-driver
 libva-utils
