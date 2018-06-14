@@ -1380,6 +1380,7 @@ mock
 mod_wsgi
 moka-icon-theme
 more-itertools
+moreutils
 mosh
 motd-update
 motif
