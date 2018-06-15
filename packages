@@ -1358,6 +1358,7 @@ mc
 mccabe
 mcelog
 mdadm
+meld
 memkind
 memshrinker
 mesa
@@ -1958,6 +1959,7 @@ volume_key
 vsqlite
 vte
 vulkan-sdk
+waffle
 waitress
 wayland
 wayland-protocols
