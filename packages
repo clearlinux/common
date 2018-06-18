@@ -1642,6 +1642,7 @@ pidgin-sipe
 pigz
 pinentry
 pip
+pip-legacy
 pixman
 pkcs11-helper
 pkg-config
@@ -1814,6 +1815,7 @@ serf
 setproctitle
 setserial
 setuptools
+setuptools-legacy
 setuptools_scm
 setuptools_scm_git_archive
 shadow
