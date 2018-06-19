@@ -54,4 +54,5 @@ qemu-system-x86_64 \
     -drive file="$IMAGE",if=virtio,aio=threads,format=raw \
     -netdev user,id=mynet0,hostfwd=tcp::${VMN}0022-:22,hostfwd=tcp::${VMN}2375-:2375 \
     -device virtio-net-pci,netdev=mynet0 \
+    -device virtio-rng-pci \
     -debugcon file:debug.log -global isa-debugcon.iobase=0x402 $@
