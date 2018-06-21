@@ -1854,6 +1854,7 @@ spice-protocol
 spyder-notebook
 sqlite-autoconf
 sqlparse
+squashfs-tools
 sshfs
 stack
 startup-notification
