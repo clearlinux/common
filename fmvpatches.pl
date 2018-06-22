@@ -82,7 +82,7 @@ sub find_file {
     return $file;
 }
 
-open(BUILD_LOG, '<', "results/build.log") or die $!;
+open(BUILD_LOG, '<', "results/logs/build.log") or die $!;
 while (<BUILD_LOG>) {
     if($_ =~ /(\S+):([0-9]*):([0-9]*): note: (basic block|loop) (vectorized)/) {
 	$fmv->{s_name} = (split('/',$1))[-1];
