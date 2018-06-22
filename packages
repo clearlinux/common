@@ -1608,6 +1608,7 @@ perl-Test-NoWarnings
 perl-Test-Output
 perl-Test-Pod
 perl-Test-Requires
+perl-Test-RequiresInternet
 perl-Test-Simple
 perl-Test-Taint
 perl-Test-Warn
