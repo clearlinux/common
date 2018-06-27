@@ -14,7 +14,7 @@ SPECFILE = $(addsuffix .spec, $(PKG_NAME))
 SRPMVERS = $(shell [ ! -f $(SPECFILE) ] || rpmspec -D '_vendor clr' --srpm -q --queryformat '%{NAME}-%{VERSION}-%{RELEASE}\n' $(SPECFILE))
 SRPMFILE = results/srpm/$(SRPMVERS).src.rpm
 
-LATEST_RPMS = $(shell [ ! -s results/logs/build.log ] || for r in `egrep 'Wrote.*/RPMS/.*.rpm' results/logs/build.log |  sed 's/.*\///'` ; do echo "results/$$r"; done)
+LATEST_RPMS = $(shell [ ! -s results/logs/build.log ] || for r in `egrep 'Wrote.*/RPMS/.*.rpm' results/logs/build.log |  sed 's/.*\///;s/.*debuginfo/debuginfo\/&/'` ; do echo "results/$$r"; done)
 RPMS ?= $(LATEST_RPMS)
 
 WITH_SUDO = $(shell cmp /usr/bin/mock /usr/sbin/mock &> /dev/null && echo sudo )
