@@ -35,9 +35,12 @@ QtAwesome
 QtPy
 R
 R-AER
+R-AMORE
 R-BBmisc
 R-BH
 R-BMS
+R-BatchJobs
+R-BradleyTerry2
 R-Brobdingnag
 R-CVST
 R-Cairo
@@ -73,6 +76,8 @@ R-Iso
 R-Lahman
 R-LearnBayes
 R-MCMCpack
+R-MNP
+R-MatchIt
 R-Matching
 R-MatrixModels
 R-ModelMetrics
@@ -81,6 +86,7 @@ R-NLP
 R-NMF
 R-NMOF
 R-PKI
+R-PerformanceAnalytics
 R-R.methodsS3
 R-R.oo
 R-R.utils
@@ -98,6 +104,8 @@ R-RSclient
 R-RUnit
 R-RandomFields
 R-RandomFieldsUtils
+R-RaschSampler
+R-RcmdrMisc
 R-Rcpp
 R-RcppArmadillo
 R-RcppEigen
@@ -105,6 +113,7 @@ R-RcppProgress
 R-RcppRoll
 R-Rmpfr
 R-Rmpi
+R-Rserve
 R-Rtsne
 R-SDMTools
 R-SQUAREM
@@ -226,15 +235,19 @@ R-dtw
 R-dygraphs
 R-dynlm
 R-e1071
+R-eRm
 R-earth
 R-eco
 R-ecodist
 R-effects
+R-eha
 R-ellipse
 R-emmeans
 R-energy
+R-epibasix
 R-epitools
 R-estimability
+R-etm
 R-evaluate
 R-evd
 R-expint
@@ -252,6 +265,7 @@ R-findpython
 R-fitdistrplus
 R-flashClust
 R-flexmix
+R-flexsurv
 R-forcats
 R-foreach
 R-formatR
@@ -279,6 +293,7 @@ R-globals
 R-glue
 R-gmodels
 R-gmp
+R-gnm
 R-goftest
 R-gower
 R-gplots
@@ -320,6 +335,7 @@ R-lars
 R-later
 R-latticeExtra
 R-lava
+R-lavaan
 R-lazyeval
 R-lda
 R-leaflet
@@ -333,6 +349,7 @@ R-lme4
 R-lmerTest
 R-lmtest
 R-locfit
+R-logspline
 R-loo
 R-lpSolve
 R-lsmeans
@@ -369,6 +386,7 @@ R-mockr
 R-modelr
 R-modeltools
 R-mondate
+R-msm
 R-mstate
 R-muhaz
 R-multcomp
@@ -385,6 +403,7 @@ R-nleqslv
 R-nloptr
 R-nortest
 R-numDeriv
+R-nws
 R-nycflights13
 R-openssl
 R-openxlsx
@@ -401,10 +420,12 @@ R-pbkrtest
 R-pcaPP
 R-pdfCluster
 R-permute
+R-phangorn
 R-pheatmap
 R-phylobase
 R-phylogram
 R-pillar
+R-pkgKitten
 R-pkgconfig
 R-pkgmaker
 R-plm
@@ -417,11 +438,13 @@ R-plyr
 R-pmml
 R-png
 R-polspline
+R-polyCub
 R-polyclip
 R-polycor
 R-prabclus
 R-pracma
 R-praise
+R-prefmod
 R-prettyunits
 R-princurve
 R-processx
@@ -439,6 +462,7 @@ R-psychotools
 R-purrr
 R-pvclust
 R-pwt
+R-pwt8
 R-pxweb
 R-qap
 R-qtl
@@ -452,6 +476,7 @@ R-ranger
 R-raster
 R-rasterVis
 R-readr
+R-readstata13
 R-readxl
 R-recipes
 R-registry
@@ -482,6 +507,7 @@ R-rprojroot
 R-rrcov
 R-rredlist
 R-rsconnect
+R-rsdmx
 R-rstan
 R-rstanarm
 R-rstantools
@@ -496,6 +522,7 @@ R-scatterplot3d
 R-segmented
 R-selectr
 R-sem
+R-sendmailR
 R-seqinr
 R-seriation
 R-setRNG
@@ -523,10 +550,12 @@ R-spam
 R-spatstat
 R-spatstat.data
 R-spatstat.utils
+R-spc
 R-spdep
 R-speedglm
 R-spelling
 R-spls
+R-stabledist
 R-statmod
 R-statnet.common
 R-stringi
@@ -537,6 +566,7 @@ R-superpc
 R-survey
 R-systemfit
 R-tau
+R-taxize
 R-tclust
 R-tensor
 R-tensorA
@@ -547,7 +577,9 @@ R-tibble
 R-tidyr
 R-tidyselect
 R-tidyverse
+R-tikzDevice
 R-timeDate
+R-timeSeries
 R-tinytex
 R-tis
 R-tm
@@ -576,6 +608,7 @@ R-webmockr
 R-webshot
 R-webutils
 R-whisker
+R-whoami
 R-wikitaxa
 R-withr
 R-worrms
@@ -1695,7 +1728,9 @@ perl-Exporter-Tiny
 perl-ExtUtils-Config
 perl-ExtUtils-Helpers
 perl-ExtUtils-InstallPaths
+perl-File-BaseDir
 perl-File-Copy-Recursive
+perl-File-DesktopEntry
 perl-File-FcntlLock
 perl-File-Listing
 perl-File-MMagic
@@ -1703,6 +1738,7 @@ perl-File-ShareDir
 perl-File-ShareDir-Install
 perl-File-Slurp
 perl-File-Which
+perl-Font-AFM
 perl-HTML-Lint
 perl-HTML-Parser
 perl-HTML-Tagset
@@ -1741,6 +1777,7 @@ perl-Module-Runtime
 perl-Module-ScanDeps
 perl-Mozilla-CA
 perl-Net-HTTP
+perl-Net-SMTP-SSL
 perl-Net-SSLeay
 perl-NetAddr-IP
 perl-Package-Constants
@@ -1816,6 +1853,7 @@ perl-XML-SAX-Base
 perl-XML-SAX-Expat
 perl-XML-SAX-ExpatXS
 perl-XML-Simple
+perl-XML-XPathEngine
 perl-YAML-LibYAML
 perl-YAML-Syck
 perl-YAML-Tiny
