@@ -252,6 +252,9 @@ R-evaluate
 R-evd
 R-expint
 R-expm
+R-fBasics
+R-fGarch
+R-fMultivar
 R-fail
 R-fastICA
 R-fastcluster
