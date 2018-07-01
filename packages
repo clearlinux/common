@@ -56,6 +56,7 @@ R-DistributionUtils
 R-Ecdat
 R-Ecfun
 R-EnvStats
+R-FMStable
 R-FNN
 R-Formula
 R-GGally
@@ -283,6 +284,7 @@ R-gower
 R-gplots
 R-gridBase
 R-gridExtra
+R-gss
 R-gtable
 R-gtools
 R-haven
@@ -367,6 +369,8 @@ R-mockr
 R-modelr
 R-modeltools
 R-mondate
+R-mstate
+R-muhaz
 R-multcomp
 R-multcompView
 R-multiwayvcov
@@ -428,6 +432,8 @@ R-promises
 R-proto
 R-proxy
 R-pryr
+R-pscl
+R-psy
 R-psych
 R-psychotools
 R-purrr
@@ -435,10 +441,12 @@ R-pvclust
 R-pwt
 R-pxweb
 R-qap
+R-qtl
 R-quadprog
 R-quantmod
 R-quantreg
 R-questionr
+R-qvcalc
 R-randomForest
 R-ranger
 R-raster
