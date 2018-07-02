@@ -93,7 +93,7 @@ build: prebuild-checks configemail $(SPECFILE) upstream $(SRPMFILE)
 	$(MOCK) $(SRPMFILE) --result=results/ --no-cleanup-after --uniqueext=$(PKG_NAME)
 	mkdir -p results/logs results/debuginfo
 	mv results/*.log results/logs
-	mv results/*-debuginfo*.rpm results/debuginfo/
+	-mv results/*-debuginfo*.rpm results/debuginfo/
 	@perl $(TOPLVL)/projects/common/logcheck.pl results/logs/build.log
 	@perl $(TOPLVL)/projects/common/count.pl results/logs/build.log &> testresults
 	@$(MAKE) checkblacklist
@@ -103,7 +103,7 @@ build-nocheck: configemail $(SPECFILE) upstream $(SRPMFILE)
 	$(MOCK) $(SRPMFILE) --nocheck --result=results/ --no-cleanup-after --uniqueext=$(PKG_NAME)
 	mkdir -p results/logs results/debuginfo
 	mv results/*.log results/logs
-	mv results/*-debuginfo*.rpm results/debuginfo/
+	-mv results/*-debuginfo*.rpm results/debuginfo/
 	@perl $(TOPLVL)/projects/common/logcheck.pl results/logs/build.log
 	@perl $(TOPLVL)/projects/common/count.pl results/logs/build.log &> testresults
 	@$(MAKE) checkblacklist
