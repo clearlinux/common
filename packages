@@ -1980,9 +1980,11 @@ perl-Time-Duration
 perl-Time-Duration-Parse
 perl-Time-Period
 perl-TimeDate
+perl-Tk-DoubleClick
 perl-Try-Tiny
 perl-Type-Tiny
 perl-Type-Tiny-XS
+perl-Types-Path-Tiny
 perl-UNIVERSAL-can
 perl-UNIVERSAL-require
 perl-URI
@@ -1992,9 +1994,13 @@ perl-URI-Find
 perl-UUID-Tiny
 perl-Unicode-Map
 perl-Variable-Magic
+perl-WWW-Form-UrlEncoded-XS
 perl-WWW-RobotRules
 perl-X11-Protocol
 perl-XML-Atom
+perl-XML-Filter-BufferText
+perl-XML-Handler-Trees
+perl-XML-LibXML
 perl-XML-NamespaceSupport
 perl-XML-Parser
 perl-XML-Parser-Lite
