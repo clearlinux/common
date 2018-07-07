@@ -912,6 +912,7 @@ compat-mpfr-soname4
 compat-opencv-soname32
 compat-opencv-soname33
 compat-protobuf-soname14
+compat-protobuf-soname15
 compat-python36
 compat-readline
 component
