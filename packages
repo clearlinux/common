@@ -1266,6 +1266,7 @@ ipset
 iptables
 iptraf
 iputils
+ipvsadm
 ipxe
 ipykernel
 ipython
@@ -2377,11 +2378,14 @@ qtcanvas3d
 qtcharts
 qtconnectivity
 qtconsole
+qtdatavis3d
 qtdeclarative
+qtgamepad
 qtgraphicaleffects
 qtimageformats
 qtlocation
 qtmultimedia
+qtnetworkauth
 qtquickcontrols
 qtquickcontrols2
 qtremoteobjects
@@ -2509,6 +2513,7 @@ swupd-overdue
 swupd-probe
 swupd-server
 sympy
+synergy
 sysdig
 syslinux
 sysstat
