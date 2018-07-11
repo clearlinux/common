@@ -967,6 +967,7 @@ dbus-glib
 dconf
 dconf-editor
 deap
+debugedit
 decorator
 defusedxml
 dejagnu
