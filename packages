@@ -1805,6 +1805,7 @@ perl-DBIx-ContextualFetch
 perl-DBIx-DBSchema
 perl-DBIx-Simple
 perl-Data-Alias
+perl-Data-Compare
 perl-Data-Dump
 perl-Data-Dumper-Simple
 perl-Data-Float
@@ -1828,6 +1829,7 @@ perl-Devel-ArgNames
 perl-Devel-CallChecker
 perl-Devel-CheckBin
 perl-Devel-CheckLib
+perl-Devel-CheckOS
 perl-Devel-Confess
 perl-Devel-Cover
 perl-Devel-Cycle
@@ -1846,6 +1848,7 @@ perl-Digest-MD5
 perl-Digest-SHA3
 perl-Dist-CheckConflicts
 perl-Domain-PublicSuffix
+perl-Dumbbench
 perl-DynaLoader-Functions
 perl-Email-Abstract
 perl-Email-Address
@@ -1877,6 +1880,7 @@ perl-File-Copy-Link
 perl-File-Copy-Recursive
 perl-File-DesktopEntry
 perl-File-FcntlLock
+perl-File-Find-Rule
 perl-File-Grep
 perl-File-HomeDir
 perl-File-LibMagic
@@ -2058,7 +2062,9 @@ perl-Net-UPnP
 perl-NetAddr-IP
 perl-NetPacket
 perl-Number-Bytes-Human
+perl-Number-Compare
 perl-Number-Format
+perl-Number-WithError
 perl-Object-Signature
 perl-PDF-Table
 perl-PDF-Writer
@@ -2123,6 +2129,7 @@ perl-Sort-Versions
 perl-Specio
 perl-Spiffy
 perl-Statistics-Basic
+perl-Statistics-CaseResampling
 perl-String-Approx
 perl-String-CamelCase
 perl-String-Escape
@@ -2165,6 +2172,7 @@ perl-Test-File
 perl-Test-File-ShareDir-Dist
 perl-Test-Identity
 perl-Test-LeakTrace
+perl-Test-LectroTest
 perl-Test-LongString
 perl-Test-MockModule
 perl-Test-MockTime
