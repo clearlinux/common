@@ -820,6 +820,18 @@ bridge-utils
 brotli
 bsdiff
 btrfs-progs
+buildreq-R
+buildreq-cmake
+buildreq-configure
+buildreq-cpan
+buildreq-distutils
+buildreq-distutils23
+buildreq-distutils3
+buildreq-golang
+buildreq-make
+buildreq-meson
+buildreq-qmake
+buildreq-scons
 bundle-chroot-builder
 bz2file
 bzip2
@@ -1072,7 +1084,6 @@ functools32
 fuse
 futures
 fwupd
-fwupdate
 garcon
 gast
 gawk
@@ -1248,6 +1259,7 @@ icu4c
 idna
 imagesize
 imapfilter
+imlib2
 indent
 infiniband-diags
 influxdb
@@ -1423,6 +1435,7 @@ libksba
 libmbim
 libmediaart
 libmnl
+libmodulemd
 libmspack
 libmtp
 libmypaint
@@ -2483,6 +2496,7 @@ sip
 six
 slang
 smart_open
+smartcols
 smartmontools
 snappy
 snowballstemmer
@@ -2531,6 +2545,7 @@ syslinux
 sysstat
 systemd
 systemd-bootchart
+systemd-netlogd
 talloc
 tallow
 tar
