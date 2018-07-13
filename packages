@@ -827,6 +827,7 @@ buildreq-cpan
 buildreq-distutils
 buildreq-distutils23
 buildreq-distutils3
+buildreq-gnome
 buildreq-golang
 buildreq-make
 buildreq-meson
