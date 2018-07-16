@@ -277,6 +277,7 @@ R-energy
 R-epiR
 R-epibasix
 R-epitools
+R-equate
 R-estimability
 R-etm
 R-evaluate
@@ -539,6 +540,7 @@ R-quantreg
 R-questionr
 R-qvcalc
 R-randomForest
+R-randomNames
 R-ranger
 R-raster
 R-rasterVis
@@ -657,6 +659,7 @@ R-timeSeries
 R-tinytex
 R-tis
 R-tm
+R-toOrdinal
 R-topicmodels
 R-treatSens
 R-tree
@@ -831,6 +834,7 @@ buildreq-gnome
 buildreq-golang
 buildreq-make
 buildreq-meson
+buildreq-mvn
 buildreq-qmake
 buildreq-scons
 bundle-chroot-builder
