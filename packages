@@ -37,6 +37,7 @@ R
 R-AER
 R-AMORE
 R-Amelia
+R-AmesHousing
 R-BB
 R-BBmisc
 R-BH
@@ -577,6 +578,7 @@ R-roxygen2
 R-rprojroot
 R-rrcov
 R-rredlist
+R-rsample
 R-rsconnect
 R-rsdmx
 R-rstan
