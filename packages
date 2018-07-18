@@ -774,6 +774,7 @@ at-spi2-core
 atk
 atkmm
 atomicwrites
+attica
 attr
 attrs
 audiofile
@@ -834,6 +835,7 @@ buildreq-distutils23
 buildreq-distutils3
 buildreq-gnome
 buildreq-golang
+buildreq-kde
 buildreq-make
 buildreq-meson
 buildreq-mvn
@@ -1052,6 +1054,7 @@ exiv2
 exo
 expat
 expect
+extra-cmake-modules
 extras
 faba-icon-theme
 fann
@@ -1328,18 +1331,23 @@ jupyter_core
 jupyterlab
 jupyterlab_launcher
 kafka-dep
+karchive
 kata-image
 kata-proxy
 kata-qemu-lite
 kata-runtime
 kata-shim
 kbd
+kconfig
+kcoreaddons
+kdbusaddons
 kernel-install
 kexec-tools
 keychain
 keyring
 keyutils
 khal
+ki18n
 kiwisolver
 kmod
 koji
@@ -2301,6 +2309,7 @@ perl-prefork
 persistent
 pesign
 pexpect
+phonon
 phoronix-test-suite
 php
 pickleshare
@@ -2508,6 +2517,7 @@ smartmontools
 snappy
 snowballstemmer
 socat
+sof-crosstool-ng
 sos
 soundmodem
 source-code-pro
