@@ -430,3 +430,6 @@ drop-abandoned: $(SPECFILE)
 
 # Define site local common targets in a separate makefile
 -include $(TOPLVL)/projects/common/Makefile.common.site_local
+
+# Include optional extended makefiles from individual package repos
+-include Makefile.custom
