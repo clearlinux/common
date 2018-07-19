@@ -1340,6 +1340,7 @@ kata-shim
 kauth
 kbd
 kcodecs
+kcompletion
 kconfig
 kconfigwidgets
 kcoreaddons
@@ -2533,6 +2534,7 @@ snowballstemmer
 socat
 sof-crosstool-ng
 solid
+sonnet
 sos
 soundmodem
 source-code-pro
