@@ -3,6 +3,7 @@ CUnit
 Cheetah
 ConfigArgParse
 Cython
+Django
 FreeRDP
 GConf
 Jinja2
@@ -794,6 +795,7 @@ babl
 backcall
 backports.ssl_match_hostname
 backports.weakref
+baloo
 baobab
 bash
 bash-completion
@@ -987,6 +989,7 @@ dbus-glib
 dconf
 dconf-editor
 deap
+debtcollector
 debugedit
 decorator
 defusedxml
@@ -1330,6 +1333,7 @@ jupyter_console
 jupyter_core
 jupyterlab
 jupyterlab_launcher
+kactivities
 kafka-dep
 karchive
 kata-image
@@ -1340,6 +1344,7 @@ kata-shim
 kauth
 kbd
 kbookmarks
+kcmutils
 kcodecs
 kcompletion
 kconfig
@@ -1347,6 +1352,8 @@ kconfigwidgets
 kcoreaddons
 kcrash
 kdbusaddons
+kdeclarative
+kdesu
 kdoctools
 kernel-install
 kexec-tools
@@ -1371,6 +1378,7 @@ knotifications
 knotifyconfig
 koji
 konsole
+kpackage
 kparts
 kpty
 krb5
@@ -1631,6 +1639,7 @@ mobile-broadband-provider-info
 mock
 mod_wsgi
 moka-icon-theme
+monotonic
 more-itertools
 moreutils
 mosh
@@ -1739,6 +1748,10 @@ orc
 orca
 ordereddict
 osinfo-db-tools
+oslo.config
+oslo.i18n
+oslo.serialization
+oslo.utils
 ostree
 ovirt-guest-agent
 p11-kit
@@ -2489,6 +2502,7 @@ requests-mock
 rest
 retry_decorator
 retype
+rfc3986
 rng-tools
 rope
 rpcbind
@@ -2524,6 +2538,7 @@ seaborn
 seahorse
 secretstorage
 sed
+selenium
 serf
 setproctitle
 setserial
@@ -2577,6 +2592,7 @@ sshfs
 stack
 startup-notification
 statsmodels
+stevedore
 stow
 strace
 stress-ng
