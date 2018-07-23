@@ -216,6 +216,7 @@ R-chron
 R-circlize
 R-classInt
 R-cli
+R-clipr
 R-clue
 R-clustMixType
 R-cmprsk
@@ -281,6 +282,7 @@ R-ellipse
 R-elliptic
 R-emmeans
 R-emulator
+R-enc
 R-energy
 R-epiR
 R-epibasix
@@ -568,6 +570,7 @@ R-recipes
 R-registry
 R-relimp
 R-rematch
+R-rematch2
 R-rentrez
 R-repr
 R-reprex
@@ -657,6 +660,7 @@ R-statnet.common
 R-stringi
 R-stringr
 R-strucchange
+R-styler
 R-subselect
 R-superpc
 R-survey
@@ -879,6 +883,7 @@ borgbackup
 boto
 boto3
 botocore
+breeze-icons
 bridge-utils
 brotli
 bsdiff
@@ -1402,6 +1407,7 @@ jansson
 jaraco.functools
 jedi
 jedi-vim
+jeepney
 jemalloc
 jmespath
 joe
@@ -1422,6 +1428,7 @@ jupyter_core
 jupyterlab
 jupyterlab_launcher
 kactivities
+kactivities-stats
 kafka-dep
 karchive
 kata-image
@@ -1442,9 +1449,11 @@ kcoreaddons
 kcrash
 kdbusaddons
 kdeclarative
+kdesignerplugin
 kdesu
 kdnssd
 kdoctools
+kemoticons
 kernel-install
 kexec-tools
 keychain
@@ -1463,6 +1472,7 @@ kidletime
 kinit
 kio
 kio-extras
+kirigami2
 kitemviews
 kiwisolver
 kjobwidgets
@@ -1475,12 +1485,17 @@ kombu
 konsole
 kpackage
 kparts
+kpeople
+kplotting
 kpty
 krb5
+krunner
 kservice
 ktextwidgets
 kubernetes
+kunitconversion
 kwallet
+kwayland
 kwidgetsaddons
 kwindowsystem
 kxmlgui
@@ -2494,6 +2509,7 @@ pip-legacy
 pixman
 pkcs11-helper
 pkg-config
+plasma-framework
 pluggy
 ply
 pmdk
@@ -2819,6 +2835,7 @@ texlive
 tflearn
 thermal_daemon
 thin-provisioning-tools
+threadweaver
 thunar-volman
 thunderbird
 thunderbolt-software-user-space
