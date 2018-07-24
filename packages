@@ -1450,6 +1450,7 @@ kcoreaddons
 kcrash
 kdbusaddons
 kdeclarative
+kdecoration
 kded
 kdelibs4support
 kdesignerplugin
@@ -1480,6 +1481,8 @@ kitemmodels
 kitemviews
 kiwisolver
 kjobwidgets
+kjs
+kjsembed
 kmod
 knewstuff
 knotifications
@@ -1494,7 +1497,9 @@ kplotting
 kpty
 krb5
 krunner
+kscreenlocker
 kservice
+ktexteditor
 ktextwidgets
 kubernetes
 kunitconversion
@@ -1598,6 +1603,7 @@ libisofs
 libjpeg-turbo
 libjpeg-turbo-soname8
 libksba
+libksysguard
 libmbim
 libmediaart
 libmnl
@@ -1805,6 +1811,7 @@ netcat
 netifaces
 nettle
 network-manager-applet
+networkmanager-qt
 networkx
 neutron
 newt
@@ -2805,6 +2812,7 @@ swupd-probe
 swupd-server
 sympy
 synergy
+syntax-highlighting
 sysdig
 syslinux
 sysstat
