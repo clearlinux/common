@@ -1080,7 +1080,6 @@ django-discover-runner
 django-nose
 django-pyscss
 django_compressor
-django_openstack_auth
 dmenu
 dmidecode
 dnf
@@ -1106,6 +1105,7 @@ dpdk
 dracut
 dstat
 dtc
+dulwich
 dyskctl
 e2fsprogs
 ebtables
@@ -1759,6 +1759,7 @@ monotonic
 more-itertools
 moreutils
 mosh
+mosquitto
 motd-update
 motif
 mox
