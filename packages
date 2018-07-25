@@ -813,6 +813,7 @@ apr-util
 arc-theme
 argcomplete
 argparse
+ark
 asciidoc
 asio
 asn1crypto
@@ -921,6 +922,7 @@ cargo
 caribou
 case
 castellan
+casync
 catch2
 catkin
 catkin_pkg
@@ -1182,6 +1184,7 @@ fuse
 futures
 futurist
 fwupd
+fwupdate
 garcon
 gast
 gawk
