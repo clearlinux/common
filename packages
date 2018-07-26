@@ -1475,6 +1475,7 @@ kglobalaccel
 kguiaddons
 khal
 kholidays
+khtml
 ki18n
 kiconthemes
 kidletime
@@ -1488,6 +1489,7 @@ kiwisolver
 kjobwidgets
 kjs
 kjsembed
+kmime
 kmod
 knewstuff
 knotifications
@@ -2681,6 +2683,7 @@ qttranslations
 qtvirtualkeyboard
 qtwayland
 qtwebchannel
+qtwebengine
 qtwebsockets
 qtx11extras
 qtxmlpatterns
