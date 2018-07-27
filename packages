@@ -418,6 +418,7 @@ R-lfe
 R-lhs
 R-libcoin
 R-listenv
+R-listviewer
 R-lle
 R-lme4
 R-lmerTest
@@ -563,6 +564,7 @@ R-randtoolbox
 R-ranger
 R-raster
 R-rasterVis
+R-reactR
 R-readr
 R-readstata13
 R-readxl
