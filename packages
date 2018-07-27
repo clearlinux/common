@@ -967,6 +967,7 @@ clr-init
 clr-man-pages
 clr-power-tweaks
 clr-python-timestamp
+clr-pyversion-strip
 clr-rpm-config
 clr-service-restart
 clr-systemd-config
@@ -2206,6 +2207,7 @@ perl-Image-Size
 perl-Import-Into
 perl-Importer
 perl-Inline
+perl-JSON
 perl-JSON-MaybeXS
 perl-JSON-RPC
 perl-JavaScript-Minifier-XS
@@ -2275,6 +2277,7 @@ perl-Module-ScanDeps
 perl-Module-Starter
 perl-Module-Util
 perl-Module-Versions-Report
+perl-Mojolicious
 perl-Mozilla-CA
 perl-Net-CIDR-Lite
 perl-Net-DNS
@@ -2354,6 +2357,7 @@ perl-Scope-Upper
 perl-Set-Object
 perl-Set-Scalar
 perl-Smart-Comments
+perl-Socket-MsgHdr
 perl-Socket6
 perl-Sort-Key
 perl-Sort-Naturally
@@ -2396,6 +2400,7 @@ perl-Term-Table
 perl-Term-UI
 perl-TermReadKey
 perl-Test-Assertions
+perl-Test-Compile
 perl-Test-Deep
 perl-Test-Exception
 perl-Test-FailWarnings
