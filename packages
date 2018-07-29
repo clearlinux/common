@@ -814,6 +814,7 @@ apr
 apr-util
 arc-theme
 argcomplete
+argon2
 argparse
 ark
 asciidoc
@@ -1464,6 +1465,7 @@ kdesignerplugin
 kdesu
 kdnssd
 kdoctools
+keepassxc
 kemoticons
 kernel-install
 kexec-tools
