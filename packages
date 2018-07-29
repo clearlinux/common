@@ -1557,6 +1557,7 @@ libXvMC
 libXxf86dga
 libXxf86misc
 libXxf86vm
+libabigail
 libaio
 libarchive
 libarchive-c
