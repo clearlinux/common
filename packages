@@ -2083,6 +2083,7 @@ perl-Devel-Refactor
 perl-Devel-Size
 perl-Devel-StackTrace
 perl-Devel-StackTrace-AsHTML
+perl-Devel-Symdump
 perl-Digest-CRC
 perl-Digest-HMAC
 perl-Digest-JHash
@@ -2339,6 +2340,7 @@ perl-PerlIO-gzip
 perl-PerlIO-utf8_strict
 perl-PerlIO-via-Timeout
 perl-Pod-Constants
+perl-Pod-Coverage
 perl-Pod-LaTeX
 perl-Pod-Plainer
 perl-Pod-Spell
