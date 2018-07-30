@@ -510,7 +510,9 @@ R-phylobase
 R-phylogram
 R-pillar
 R-pkgKitten
+R-pkgbuild
 R-pkgconfig
+R-pkgload
 R-pkgmaker
 R-plm
 R-plogr
@@ -1864,9 +1866,11 @@ oauth2client
 oauthlib
 ocaml
 ocl-icd
+octave
 offlineimap
 olefile
 onig
+onnx
 opa-psm2
 open-iscsi
 open-isns
@@ -2561,6 +2565,7 @@ prettytable
 proc-macro2
 processor-trace
 procps-ng
+prometheus_client
 prompt_toolkit
 protobuf
 protobuf-c
@@ -2823,6 +2828,7 @@ subunit
 subversion
 sudo
 suds-jurko
+sundials
 sure
 suricata
 swift
