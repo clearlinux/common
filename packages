@@ -2637,6 +2637,7 @@ pyserial
 pysnmp
 pytest
 pytest-cov
+pytest-forked
 pytest-repeat
 pytest-rerunfailures
 pytest-runner
@@ -2744,6 +2745,7 @@ repoze.lru
 repoze.who
 requests
 requests-mock
+requests-toolbelt
 requestsexceptions
 rest
 restructuredtext_lint
@@ -2900,6 +2902,7 @@ testscenarios
 testtools
 texinfo
 texlive
+text-unidecode
 tflearn
 thermal_daemon
 thin-provisioning-tools
@@ -2911,11 +2914,11 @@ tiff
 tig
 tigervnc
 time
+tinyxml2
 tiptop
 tk
 tmux
 tokyocabinet
-toolbelt
 tooz
 tornado
 totem
