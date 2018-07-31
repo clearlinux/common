@@ -118,6 +118,8 @@ shell:
 $(SRPMFILE): $(SPECFILE) $(__allsources) localreponotice
 	@$(MAKE) spdxcheck
 	$(MOCK) --buildsrpm --source=./ --spec=$(SPECFILE) --result=results/ --no-cleanup-after --uniqueext=$(PKG_NAME)
+	mv results/root.log results/srpm-root.log
+	mv results/build.log results/srpm-build.log
 
 # Do a git fetch and a git rebase to apply local commits on top of latest
 # commits from the remote. A git fetch/rebase is used rather than a git pull so
