@@ -14,7 +14,7 @@ SPECFILE = $(addsuffix .spec, $(PKG_NAME))
 SRPMVERS = $(shell [ ! -f $(SPECFILE) ] || rpmspec -D '_vendor clr' --srpm -q --queryformat '%{NAME}-%{VERSION}-%{RELEASE}\n' $(SPECFILE))
 SRPMFILE = results/$(SRPMVERS).src.rpm
 
-LATEST_RPMS = $(shell [ ! -s results/build.log ] || for r in `egrep 'Wrote.*/RPMS/.*.rpm' results/build.log | sed 's/.*\///'` ; do echo "results/$$r"; done)
+LATEST_RPMS = $(wildcard rpms/*.rpm)
 RPMS ?= $(LATEST_RPMS)
 
 WITH_SUDO = $(shell cmp /usr/bin/mock /usr/sbin/mock &> /dev/null && echo sudo )
@@ -335,19 +335,24 @@ $(TOPLVL)/repo:
 #help repoadd: Adds locally-built RPMs for this package to the local RPM
 #help repository. If this repository does not yet exist, it is created and
 #help enabled.
-repoadd: results/build.log $(TOPLVL)/repo
-	@if [ -z "`grep '^Wrote: .*$(shell basename $(SRPMFILE))$$' results/build.log`" ]; then \
-		echo "You have not yet succesfully built this release yet"; exit 1; \
-	fi
-	@if [ -f .repo-index ]; then \
+repoadd: $(TOPLVL)/repo
+	@if [ -z "${LATEST_RPMS}" ]; then \
+		echo "No rpms found in rpms/ directory."; \
+		exit 1; \
+	fi; \
+	if [ -f .repo-index ]; then \
 		echo "Cleaning old rpms:"; \
 		for r in `cat .repo-index`; do \
 			echo "-$$r"; \
 			rm -f $(TOPLVL)/repo/$$r; \
 		done; \
 		rm .repo-index; \
-	fi
-	for r in $(LATEST_RPMS); do echo "+$$r"; echo $$(basename $$r) >> .repo-index; cp $$r $(TOPLVL)/repo; done
+	fi; \
+	for r in ${LATEST_RPMS}; do \
+		echo "+$$r"; \
+		echo $$(basename $$r) >> .repo-index; \
+		ln -f $$r $(TOPLVL)/repo/; \
+	done
 	$(MAKE) localrepocreate
 	$(call localrepoenable,${PM_CONF},${MOCK_CONF})
 
