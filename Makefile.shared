@@ -138,6 +138,17 @@ localreponotice:
 		[ -f $(TOPLVL)/repo/opt-in-build ] || sleep 3; \
 	fi >&2
 
+.PHONY: clean-old-rpms clean-old-logs clean-old-content
+clean-old-rpms:
+	rm -rf ./rpms
+	rm -f ./results/*.rpm
+
+clean-old-logs:
+	rm -f ./results/*.log
+
+clean-old-content: clean-old-rpms clean-old-logs
+
+
 .PHONY: help
 ##### Code
 # Make sure that HELPSPACE has exactly HELPLEN spaces in it
