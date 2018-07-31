@@ -91,6 +91,7 @@ prebuild-checks:
 #help Use MOCK_OPTS environment varible to pass down arbitrary mock options.
 build: prebuild-checks configemail $(SPECFILE) upstream $(SRPMFILE)
 	$(MOCK) $(SRPMFILE) --result=results/ --no-cleanup-after --uniqueext=$(PKG_NAME)
+	$(MAKE) link-new-rpms PKG_REPO_DIR="."
 	@perl $(TOPLVL)/projects/common/logcheck.pl results/build.log
 	@perl $(TOPLVL)/projects/common/count.pl results/build.log &> testresults
 	@$(MAKE) checkblacklist
@@ -98,6 +99,7 @@ build: prebuild-checks configemail $(SPECFILE) upstream $(SRPMFILE)
 #help build-nocheck: Same as 'make build', but do not run the package's test suite.
 build-nocheck: configemail $(SPECFILE) upstream $(SRPMFILE)
 	$(MOCK) $(SRPMFILE) --nocheck --result=results/ --no-cleanup-after --uniqueext=$(PKG_NAME)
+	$(MAKE) link-new-rpms PKG_REPO_DIR="."
 	@perl $(TOPLVL)/projects/common/logcheck.pl results/build.log
 	@perl $(TOPLVL)/projects/common/count.pl results/build.log &> testresults
 	@$(MAKE) checkblacklist
@@ -173,6 +175,7 @@ autospec: pullrebase localreponotice clean-old-content
 		$${SETVERSION:+ --version $${SETVERSION}} \
 		${NON_INTERACTIVE} ${SKIP_GIT} ${CLEANUP} \
 		$(firstword $(NEWURL) $(URL));
+	$(MAKE) link-new-rpms PKG_REPO_DIR="."
 	@$(MAKE) spdxcheck
 	@$(MAKE) checkblacklist
 	@if [ -e update_changelog.sh ] && [ -z "$$SKIP_GIT" ] ; then \

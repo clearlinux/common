@@ -148,6 +148,19 @@ clean-old-logs:
 
 clean-old-content: clean-old-rpms clean-old-logs
 
+.PHONY: require-pkg-repo-dir link-new-rpms
+require-pkg-repo-dir:
+	@if [ -z ${PKG_REPO_DIR} ]; then \
+		echo "Please specify PKG_REPO_DIR to indicate package repo location."; \
+		exit 1; \
+	fi
+
+link-new-rpms: require-pkg-repo-dir
+	mkdir -p ${PKG_REPO_DIR}/rpms
+	rm -f ${PKG_REPO_DIR}/rpms/*.rpm
+	find ${PKG_REPO_DIR}/results -name '*.rpm' -exec ln {} ${PKG_REPO_DIR}/rpms/ \;
+	rm -f ${PKG_REPO_DIR}/rpms/*.src.rpm
+
 
 .PHONY: help
 ##### Code

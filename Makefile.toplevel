@@ -224,6 +224,7 @@ autospecnew: localreponotice
 			$${SETVERSION:+ --version $${SETVERSION}} \
 			${NON_INTERACTIVE} ${SKIP_GIT} ${CLEANUP} \
 			$(URL); \
+		[ $$? -eq 0 ] && $(MAKE) link-new-rpms PKG_REPO_DIR="${TOPLVL}/packages/${NAME}"; \
 		$(TOPLVL)/projects/common/checkblacklist.sh $(TOPLVL)/projects/common/blacklist $(TOPLVL)/packages/${NAME}/results/*.rpm; \
 	else \
 		echo "$(NAME) already exists at $(TOPLVL)/packages/$(NAME)"; \
