@@ -1000,6 +1000,7 @@ colcon-library-path
 colcon-metadata
 colcon-output
 colcon-package-information
+colcon-package-selection
 colcon-parallel-executor
 colcon-pkg-config
 colcon-powershell
@@ -2308,6 +2309,7 @@ perl-Module-Starter
 perl-Module-Util
 perl-Module-Versions-Report
 perl-Mojolicious
+perl-Mojolicious-Plugin-AssetPack
 perl-Mozilla-CA
 perl-Net-CIDR-Lite
 perl-Net-DNS
