@@ -850,6 +850,7 @@ autogen
 automake
 automaton
 awscli
+axel
 azure-configs
 babeltrace
 babl
@@ -1187,6 +1188,7 @@ flake8
 flake8-blind-except
 flake8-class-newline
 flake8-docstrings
+flake8-import-order
 flake8-polyfill
 flatpak
 fldigi
@@ -1711,6 +1713,7 @@ libwacom
 libwebp
 libwnck
 libwnck3
+libxaw
 libxcb
 libxfce4ui
 libxfce4util
