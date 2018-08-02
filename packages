@@ -1558,6 +1558,7 @@ libSM
 libX11
 libXScrnSaver
 libXau
+libXaw
 libXcomposite
 libXcursor
 libXdamage
@@ -1713,7 +1714,6 @@ libwacom
 libwebp
 libwnck
 libwnck3
-libxaw
 libxcb
 libxfce4ui
 libxfce4util
