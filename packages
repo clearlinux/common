@@ -1308,6 +1308,7 @@ gnupg
 gnuplot
 gnutls
 go
+goaccess
 gobject-introspection
 golang-github-cpuguy83-go-md2man
 gom
@@ -1397,6 +1398,7 @@ iceauth
 icon-naming-utils
 icu4c
 idna
+iftop
 imagesize
 imapfilter
 imlib2
