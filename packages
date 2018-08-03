@@ -1904,6 +1904,7 @@ open-iscsi
 open-isns
 open-lldp
 open-vm-tools
+openQA
 openal-soft
 openblas
 openconnect
@@ -1925,6 +1926,7 @@ opusfile
 orc
 orca
 ordereddict
+os-autoinst
 os-brick
 os-client-config
 os-testr
