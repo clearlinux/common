@@ -1870,6 +1870,7 @@ nginx
 nicstat
 ninja
 nlopt
+nltk
 nodejs
 nose
 nose-cov
