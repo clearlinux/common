@@ -36,6 +36,7 @@ PyMySQL
 PyWavelets
 PyYAML
 Pygments
+Pyro4
 QtAwesome
 QtPy
 R
@@ -2633,6 +2634,7 @@ pydocstyle
 pydot
 pydot_ng
 pydotplus
+pyemd
 pyflakes
 pygobject
 pyinotify
