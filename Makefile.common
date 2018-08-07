@@ -28,16 +28,18 @@ __missingsources := $(filter-out $(wildcard ${__allsources}), ${__allsources})
 endif
 
 $(SPECFILE):
-	@echo Error: $(SPECFILE) is missing. Please run \`make autospec\` to try and auto
-	@echo Error: generate one for you.
-	@exit 1
+	@[[ -f "$@" ]] || (\
+	  echo Error: $@ is missing. Please run \`make autospec\` to try and auto;\
+	  echo Error: generate one for you.;\
+	  exit 1 )
 
 upstream:
-	@echo Error: The \"upstream\" file is missing. Try running \`make autospec\` to
-	@echo Error: auto generate one for you. If you are not using autospec to
-	@echo Error: generate a spec file, specify the proper "Source*" entries in the
-	@echo Error: spec header, and try running \`make generateupstream\`.
-	@exit 1
+	@[[ -f "$@" ]] || (\
+	  echo Error: The \"$@\" file is missing. Try running \`make autospec\` to;\
+	  echo Error: auto generate one for you. If you are not using autospec to;\
+	  echo Error: generate a spec file, specify the proper "Source*" entries in the;\
+	  echo Error: spec header, and try running \`make generateupstream\`.;\
+	  exit 1 )
 
 #help spdxcheck: Checks that the package license is a valid SPDX license,
 #help or that it is in the exceptions list.
