@@ -1039,7 +1039,6 @@ compat-opencv-soname32
 compat-opencv-soname33
 compat-protobuf-soname14
 compat-protobuf-soname15
-compat-python36
 compat-readline
 component
 compute-image-packages
@@ -1177,6 +1176,7 @@ fann
 farstream
 fasteners
 fcgi
+feh
 fftw
 file
 file-roller
