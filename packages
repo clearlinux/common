@@ -1810,6 +1810,7 @@ mock
 mod_wsgi
 moka-icon-theme
 mongodict
+mono
 monotonic
 more-itertools
 moreutils
@@ -2620,6 +2621,7 @@ pwgen
 py
 pyOpenSSL
 pyScss
+pyaes
 pyaml
 pyasn1
 pyasn1-modules
