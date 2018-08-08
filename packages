@@ -446,6 +446,7 @@ R-maxLik
 R-mclust
 R-mcmc
 R-mda
+R-measures
 R-memisc
 R-memoise
 R-mi
@@ -705,6 +706,7 @@ R-urltools
 R-uroot
 R-utf8
 R-uuid
+R-varImp
 R-vcd
 R-vcdExtra
 R-vcr
@@ -1259,6 +1261,7 @@ glib
 glib-networking
 glibc
 glibmm
+glm
 glmark2
 global
 glog
@@ -1327,6 +1330,7 @@ gptfdisk
 gradle
 gradle-dep
 graphene
+graphite
 graphviz
 greenlet
 grep
@@ -1500,6 +1504,7 @@ kdnssd
 kdoctools
 keepassxc
 kemoticons
+kernel-config
 kernel-config-checker
 kernel-install
 kexec-tools
@@ -1810,7 +1815,6 @@ mock
 mod_wsgi
 moka-icon-theme
 mongodict
-mono
 monotonic
 more-itertools
 moreutils
@@ -1991,6 +1995,7 @@ pcre
 pcre2
 pecan
 pep8
+performance
 perftest
 perl
 perl-Acme-Damn
@@ -2688,6 +2693,7 @@ python-multilib
 python-neutronclient
 python-novaclient
 python-openstackclient
+python-perf
 python-pkgconfig
 python-pocketlint
 python-polib
@@ -2962,6 +2968,7 @@ unicodecsv
 unifdef
 unison
 unittest2
+unixODBC
 unzip
 upower
 uritemplate
