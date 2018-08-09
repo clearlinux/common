@@ -158,7 +158,7 @@ require-pkg-repo-dir:
 link-new-rpms: require-pkg-repo-dir
 	mkdir -p ${PKG_REPO_DIR}/rpms
 	rm -f ${PKG_REPO_DIR}/rpms/*.rpm
-	find ${PKG_REPO_DIR}/results -name '*.rpm' -exec ln {} ${PKG_REPO_DIR}/rpms/ \;
+	find ${PKG_REPO_DIR}/results -maxdepth 1 -name '*.rpm' -exec ln {} ${PKG_REPO_DIR}/rpms/ \;
 	rm -f ${PKG_REPO_DIR}/rpms/*.src.rpm
 
 
