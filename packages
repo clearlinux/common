@@ -766,6 +766,7 @@ WireGuard
 XStatic
 XStatic-Angular
 XStatic-Angular-Bootstrap
+XStatic-Angular-FileUpload
 XStatic-Angular-Gettext
 XStatic-Angular-lrdragndrop
 XStatic-Bootstrap-Datepicker
@@ -1078,6 +1079,7 @@ cups
 cups-filters
 cups-pk-helper
 curl
+cursive
 cve-check-tool
 cxxfilt
 cycler
@@ -1224,6 +1226,7 @@ futures
 futurist
 fwupd
 fwupdate
+gabbi
 garcon
 gast
 gawk
@@ -1468,6 +1471,8 @@ json-c
 json-glib
 jsoncpp
 jsonpatch
+jsonpath-rw
+jsonpath-rw-ext
 jsonpointer
 jsonschema
 jupyter
@@ -1703,7 +1708,6 @@ libsigc++
 libsmbios
 libsmi
 libsndfile
-libsodium
 libsolv
 libsoup
 libspectre
@@ -1806,6 +1810,7 @@ metrics-discovery
 micro-config-drive
 micro-config-drive-aws
 micro-config-drive-oci
+microversion_parse
 mido
 minetest
 minetest_game
@@ -1838,7 +1843,7 @@ mpfr
 mpg123
 mpi4py
 mpmath
-msgpack-python
+msgpack
 msmtp
 msr-tools
 mstflint
@@ -1952,8 +1957,10 @@ os-brick
 os-client-config
 os-service-types
 os-testr
+os-traits
 os-win
 os-xenapi
+os_vif
 osc-lib
 osinfo-db-tools
 oslo.cache
@@ -2666,8 +2673,10 @@ pynacl
 pypandoc
 pyparsing
 pyperclip
+pypowervm
 pyquery
 pyrfc3339
+pyroute2
 pyrsistent
 pysaml2
 pyserial
@@ -3046,6 +3055,8 @@ woff2
 wol
 wpa_supplicant
 wrapt
+wsgi_intercept
+wsgiref
 x11perf
 x11vnc
 xapian-core
