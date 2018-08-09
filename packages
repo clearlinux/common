@@ -996,6 +996,7 @@ cni
 cni-plugins
 cockpit
 cogl
+coinmp
 colcon-bash
 colcon-cmake
 colcon-common-extensions
@@ -1095,6 +1096,7 @@ debugedit
 decorator
 defusedxml
 dejagnu
+deprecation
 desktop-file-utils
 dfc
 dfu-util
@@ -1251,6 +1253,7 @@ gftp
 ghostscript
 gimp
 git
+gitdb2
 gitolite
 gjs
 glance
@@ -1391,6 +1394,7 @@ hunspell
 hwloc
 hyperscan
 hyperstart
+hyphen
 hypothesis
 i2c-tools
 i3
@@ -1418,6 +1422,7 @@ intel-gpu-tools
 intel-hybrid-driver
 intltool
 invm-frameworks
+ioc-cbc-tools
 ioping
 iotop
 ipaddr
@@ -1698,6 +1703,7 @@ libsigc++
 libsmbios
 libsmi
 libsndfile
+libsodium
 libsolv
 libsoup
 libspectre
@@ -1839,12 +1845,14 @@ mstflint
 mtdev
 multimon-ng
 multipath-tools
+munch
 murrine
 musl
 mutt
 mutter
 mypaint-brushes
 mypy
+mythes
 nagios-plugins
 nano
 nasm
@@ -1882,6 +1890,7 @@ nose
 nose-cov
 nose-cover3
 nose-parameterized
+nosexcover
 nosync
 notebook
 notmuch
@@ -1937,11 +1946,14 @@ opusfile
 orc
 orca
 ordereddict
+os-api-ref
 os-autoinst
 os-brick
 os-client-config
+os-service-types
 os-testr
 os-win
+os-xenapi
 osc-lib
 osinfo-db-tools
 oslo.cache
@@ -1954,6 +1966,7 @@ oslo.log
 oslo.messaging
 oslo.middleware
 oslo.policy
+oslo.privsep
 oslo.reports
 oslo.rootwrap
 oslo.serialization
@@ -2652,6 +2665,7 @@ pymongo
 pynacl
 pypandoc
 pyparsing
+pyperclip
 pyquery
 pyrfc3339
 pyrsistent
@@ -2757,12 +2771,15 @@ quagga
 quilt
 rabbitmq-c
 ragel
+raptor2
+rasqal
 rcssmin
 rdma-core
 re2c
 readline
 redis
 redis-native
+redland
 redsocks
 reno
 repoze.lru
@@ -2812,6 +2829,7 @@ scipy
 scons
 screen
 scripttest
+scrypt
 sddm
 seaborn
 seahorse
@@ -2842,6 +2860,7 @@ slang
 smart_open
 smartcols
 smartmontools
+smmap2
 snappy
 snowballstemmer
 socat
@@ -2873,12 +2892,15 @@ squashfs-tools
 sshfs
 stack
 startup-notification
+statsd
 statsmodels
+stestr
 stevedore
 stow
 strace
 stress-ng
 subunit
+subunit2sql
 subversion
 sudo
 suds-jurko
