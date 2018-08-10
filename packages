@@ -768,6 +768,7 @@ XStatic-Angular
 XStatic-Angular-Bootstrap
 XStatic-Angular-FileUpload
 XStatic-Angular-Gettext
+XStatic-Angular-Schema-Form
 XStatic-Angular-lrdragndrop
 XStatic-Bootstrap-Datepicker
 XStatic-Bootstrap-SCSS
@@ -786,9 +787,11 @@ XStatic-bootswatch
 XStatic-jQuery
 XStatic-jquery-ui
 XStatic-mdi
+XStatic-objectpath
 XStatic-roboto-fontface
 XStatic-smart-table
 XStatic-term.js
+XStatic-tv4
 Z3
 abireport
 absl-py
@@ -1887,6 +1890,7 @@ network-manager-applet
 networkmanager-qt
 networkx
 neutron
+neutron-lib
 newt
 nfs-utils
 nftables
@@ -1993,6 +1997,7 @@ osprofiler
 ostree
 ovirt-guest-agent
 ovs
+ovsdbapp
 p11-kit
 p7zip
 packaging
@@ -2983,6 +2988,7 @@ tiff
 tig
 tigervnc
 time
+tinyrpc
 tinyxml2
 tiptop
 tk
