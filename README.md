@@ -116,6 +116,16 @@ $ make bump
 $ make build
 ```
 
+### Update the release version for a package
+
+If you have an update release version for a package, you can change the url
+for the new release in the package/example-pkg/Makefile.  After modifying the
+new url, run `make autospec` again to fetch the new package and rebuild.
+
+```
+$ make autospec
+```
+
 ## Other topics
 
 ### Customizing the mock config
