@@ -866,6 +866,7 @@ baloo
 baloo-widgets
 bandit
 baobab
+barbican
 bash
 bash-completion
 bash.static
@@ -1444,6 +1445,8 @@ ipython
 ipython-sql
 ipython_genutils
 ipywidgets
+ironic
+ironic-lib
 irqbalance
 irrlicht
 irssi
@@ -1574,6 +1577,7 @@ latencytop
 lazy-object-proxy
 lcms2
 lcov
+ldap3
 lensfun
 less
 leveldb
@@ -1634,6 +1638,7 @@ libdmx
 libdnf
 libdrm
 libepoxy
+liberasurecode
 libev
 libevdev
 libevent
@@ -1826,6 +1831,7 @@ mock
 mod_wsgi
 moka-icon-theme
 mongodict
+mono
 monotonic
 more-itertools
 moreutils
@@ -1986,6 +1992,7 @@ oslotest
 osprofiler
 ostree
 ovirt-guest-agent
+ovs
 p11-kit
 p7zip
 packaging
@@ -2188,6 +2195,7 @@ perl-File-FcntlLock
 perl-File-Find-Rule
 perl-File-Grep
 perl-File-HomeDir
+perl-File-KeePass
 perl-File-LibMagic
 perl-File-Listing
 perl-File-MMagic
@@ -2467,8 +2475,10 @@ perl-System-Command
 perl-TAP-Harness-Archive
 perl-Taint-Util
 perl-Term-ProgressBar
+perl-Term-ReadLine-Gnu
 perl-Term-ReadPassword
 perl-Term-Shell
+perl-Term-ShellUI
 perl-Term-Size-Perl
 perl-Term-Table
 perl-Term-UI
@@ -2661,6 +2671,7 @@ pydocstyle
 pydot
 pydot_ng
 pydotplus
+pyeclib
 pyemd
 pyflakes
 pygobject
@@ -2679,6 +2690,7 @@ pyrfc3339
 pyroute2
 pyrsistent
 pysaml2
+pysendfile
 pyserial
 pysnmp
 pytest
@@ -2820,6 +2832,7 @@ runc
 rust-std32
 rustc
 rxvt-unicode
+ryu
 s2tc
 s3transfer
 sahara
@@ -2876,6 +2889,7 @@ socat
 sof-crosstool-ng
 solid
 sonnet
+sortedcontainers
 sos
 soundmodem
 source-code-pro
@@ -3038,6 +3052,7 @@ warlock
 wayland
 wayland-protocols
 wcwidth
+weakrefmethod
 webcolors
 webencodings
 webkitgtk
