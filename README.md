@@ -102,6 +102,10 @@ $ echo missing-build-req >> buildreq_add
 $ make autospec
 ```
 
+Please see https://github.com/clearlinux/autospec#common-files for 
+documention on buildreq_add and the other files autospec uses during the
+build process.
+
 ### Bump the release number for a package
 
 If you simply need to increment a package's release number and rebuild the
