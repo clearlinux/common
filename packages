@@ -8,6 +8,7 @@ Flask
 FreeRDP
 GConf
 GitPython
+ImageMagick
 Jinja2
 Keras
 Keras_Applications
@@ -977,6 +978,7 @@ clr-avx-tools
 clr-boot-manager
 clr-debug-info
 clr-desktop-defaults
+clr-fwupd-hooks
 clr-hardware-files
 clr-init
 clr-man-pages
