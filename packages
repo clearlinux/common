@@ -172,6 +172,7 @@ R-adephylo
 R-afex
 R-alr3
 R-analogue
+R-animation
 R-ape
 R-argparse
 R-arm
@@ -223,6 +224,7 @@ R-cli
 R-clipr
 R-clue
 R-clustMixType
+R-clusterGeneration
 R-cmprsk
 R-cobs
 R-coda
@@ -482,6 +484,7 @@ R-mvnormtest
 R-mvoutlier
 R-mvtnorm
 R-natserv
+R-ncbit
 R-network
 R-neuralnet
 R-nleqslv
@@ -513,6 +516,7 @@ R-phangorn
 R-pheatmap
 R-phylobase
 R-phylogram
+R-phytools
 R-pillar
 R-pkgKitten
 R-pkgbuild
@@ -670,6 +674,7 @@ R-stringi
 R-stringr
 R-strucchange
 R-styler
+R-subplex
 R-subselect
 R-superpc
 R-survey
@@ -835,6 +840,7 @@ asio
 asn1crypto
 aspell
 aspell-en
+aspell-pt_BR
 assimp
 astor
 astroid
@@ -1144,6 +1150,7 @@ dolphin
 dos2unix
 dosfstools
 double-conversion
+dovecot
 doxygen
 dpdk
 dracut
@@ -1682,6 +1689,7 @@ libksba
 libksysguard
 libmbim
 libmediaart
+libmicrohttpd
 libmnl
 libmodulemd
 libmspack
@@ -1787,6 +1795,7 @@ llvm
 llvmlite
 lmdb
 logilab-common
+logrotate
 logutils
 lsacpi
 lshw
@@ -2798,6 +2807,7 @@ qtwebsockets
 qtx11extras
 qtxmlpatterns
 quagga
+quassel
 quilt
 rabbitmq-c
 ragel
