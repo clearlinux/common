@@ -1192,6 +1192,7 @@ expat
 expect
 extra-cmake-modules
 extras
+f2fs-tools
 faba-icon-theme
 fann
 farstream
@@ -2920,6 +2921,7 @@ spark-dep
 speex
 speexdsp
 sphinx_rtd_theme
+sphinxcontrib-apidoc
 sphinxcontrib-httpdomain
 sphinxcontrib-newsfeed
 sphinxcontrib-websupport
@@ -3163,6 +3165,7 @@ xrestop
 xscreensaver
 xset
 xtrans
+xvfb-run
 xwd
 xwininfo
 xz
