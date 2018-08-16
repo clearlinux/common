@@ -552,6 +552,7 @@ R-promises
 R-proto
 R-proxy
 R-pryr
+R-ps
 R-pscl
 R-psy
 R-psych
@@ -1888,6 +1889,7 @@ nautilus
 nbconvert
 nbformat
 nbsphinx
+ncdu
 ncurses
 ndctl
 ndg_httpsclient
@@ -2719,6 +2721,7 @@ pytest-forked
 pytest-repeat
 pytest-rerunfailures
 pytest-runner
+pytest-sugar
 pytest-timeout
 pytest-xdist
 python
@@ -3129,6 +3132,7 @@ xf86-video-amdgpu
 xf86-video-ati
 xf86-video-fbdev
 xf86-video-nouveau
+xf86-video-vboxvideo
 xf86-video-vesa
 xfburn
 xfce4-appfinder
@@ -3179,6 +3183,7 @@ yum
 yum-metadata-parser
 yum-utils
 zake
+zc.lockfile
 zenity
 zip
 zlib
