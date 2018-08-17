@@ -1,4 +1,5 @@
 Babel
+Botan
 CUnit
 Cheetah
 ConfigArgParse
@@ -1158,6 +1159,7 @@ dracut
 dstat
 dtc
 dulwich
+dwarves
 dyskctl
 e2fsprogs
 ebtables
@@ -1935,6 +1937,7 @@ nspr
 nss
 nss-altfiles
 ntfs-3g
+ntlm-auth
 numactl
 numatop
 numba
@@ -2831,6 +2834,7 @@ repoze.lru
 repoze.who
 requests
 requests-mock
+requests-ntlm
 requests-toolbelt
 requestsexceptions
 rest
