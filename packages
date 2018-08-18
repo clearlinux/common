@@ -351,6 +351,7 @@ R-gbm
 R-gclus
 R-gdata
 R-geepack
+R-geiger
 R-geometry
 R-getopt
 R-ggjoy
@@ -813,6 +814,7 @@ acrn-hypervisor
 adwaita-icon-theme
 aeon
 aioeventlet
+aiohttp
 alabaster
 alembic
 alsa-lib
@@ -845,9 +847,11 @@ aspell-en
 aspell-pt_BR
 assimp
 astor
+astral
 astroid
 astunparse
 asv
+async-timeout
 at
 at-spi2-atk
 at-spi2-core
@@ -925,6 +929,7 @@ buildreq-distutils3
 buildreq-gnome
 buildreq-golang
 buildreq-kde
+buildreq-kernel
 buildreq-make
 buildreq-meson
 buildreq-mvn
@@ -1430,6 +1435,7 @@ iceauth
 icon-naming-utils
 icu4c
 idna
+idna-ssl
 iftop
 imagesize
 imapfilter
@@ -1477,6 +1483,7 @@ ister
 itsdangerous
 itstool
 iw
+ixion
 ixpdimm_sw
 jansson
 jaraco.functools
@@ -1630,6 +1637,7 @@ libXxf86dga
 libXxf86misc
 libXxf86vm
 libabigail
+libabw
 libaio
 libarchive
 libarchive-c
@@ -1661,6 +1669,7 @@ libev
 libevdev
 libevent
 libexif
+libexttextcat
 libffi
 libfontenc
 libgcrypt
@@ -1691,6 +1700,7 @@ libjpeg-turbo
 libjpeg-turbo-soname8
 libksba
 libksysguard
+liblangtag
 libmbim
 libmediaart
 libmicrohttpd
@@ -1709,8 +1719,11 @@ libnftnl
 libnice
 libnl
 libnotify
+libnumbertext
 liboauth
 libogg
+libopenzwave
+liborcus
 libosinfo
 libpcap
 libpciaccess
@@ -1722,6 +1735,7 @@ libpwquality
 libqmi
 librabbitmq
 librepo
+librevenge
 librsvg
 librtlsdr
 libsamplerate
@@ -1824,6 +1838,7 @@ mc
 mccabe
 mcelog
 mdadm
+mdds
 meld
 memkind
 memshrinker
@@ -1874,6 +1889,7 @@ msmtp
 msr-tools
 mstflint
 mtdev
+multidict
 multimon-ng
 multipath-tools
 munch
@@ -2677,6 +2693,7 @@ pth
 ptyprocess
 pugixml
 pulseaudio
+pv
 pwgen
 py
 pyOpenSSL
@@ -2754,6 +2771,7 @@ python-multilib
 python-neutronclient
 python-novaclient
 python-openstackclient
+python-openzwave
 python-perf
 python-pkgconfig
 python-pocketlint
@@ -3179,6 +3197,7 @@ xwininfo
 xz
 yajl
 yaml
+yarl
 yasm
 yelp
 yelp-tools
