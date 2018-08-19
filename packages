@@ -6,6 +6,7 @@ ConfigArgParse
 Cython
 Django
 Flask
+FlatBuffers
 FreeRDP
 GConf
 GitPython
@@ -33,6 +34,7 @@ Paste
 PasteDeploy
 Pillow
 Pint
+PyDispatcher
 PyJWT
 PyMySQL
 PyWavelets
@@ -948,6 +950,7 @@ cachetools
 cairo
 cairomm
 cantarell-fonts
+cantata
 capnproto
 cargo
 caribou
@@ -1408,6 +1411,7 @@ help2man
 hexchat
 hgtools
 hicolor-icon-theme
+home-assistant
 horizon
 hostname
 html5lib
@@ -1652,8 +1656,10 @@ libcanberra
 libcap
 libcap-ng
 libcdio
+libcdr
 libcgroup
 libchamplain
+libcmis
 libcomps
 libconfig
 libcroco
@@ -1663,8 +1669,11 @@ libdazzle
 libdmx
 libdnf
 libdrm
+libe-book
 libepoxy
+libepubgen
 liberasurecode
+libetonyek
 libev
 libevdev
 libevent
@@ -1672,6 +1681,7 @@ libexif
 libexttextcat
 libffi
 libfontenc
+libfreehand
 libgcrypt
 libgd
 libgdata
@@ -1707,7 +1717,9 @@ libmicrohttpd
 libmnl
 libmodulemd
 libmspack
+libmspub
 libmtp
+libmwaw
 libmypaint
 libndp
 libnetfilter_conntrack
@@ -1721,10 +1733,12 @@ libnl
 libnotify
 libnumbertext
 liboauth
+libodfgen
 libogg
 libopenzwave
 liborcus
 libosinfo
+libpagemaker
 libpcap
 libpciaccess
 libpeas
@@ -1733,7 +1747,9 @@ libpng
 libpthread-stubs
 libpwquality
 libqmi
+libqxp
 librabbitmq
+libreoffice
 librepo
 librevenge
 librsvg
@@ -1752,6 +1768,7 @@ libspectre
 libsrtp
 libssh
 libssh2
+libstaroffice
 libstoragemgmt
 libtasn1
 libthai
@@ -1770,12 +1787,16 @@ libva-utils
 libvirt
 libvirt-glib
 libvirt-python
+libvisio
 libvorbis
 libvpx
 libwacom
 libwebp
 libwnck
 libwnck3
+libwpd
+libwpg
+libwps
 libxcb
 libxfce4ui
 libxfce4util
@@ -1789,6 +1810,7 @@ libxslt
 libyami
 libyami-utils
 libzip
+libzmf
 libzmq
 linecache2
 links
@@ -1839,6 +1861,7 @@ mccabe
 mcelog
 mdadm
 mdds
+media-player-info
 meld
 memkind
 memshrinker
@@ -2992,6 +3015,7 @@ sysstat
 systemd
 systemd-bootchart
 systemd-netlogd
+taglib
 talloc
 tallow
 tar
@@ -3053,6 +3077,7 @@ typed-ast
 typing
 tzdata
 tzlocal
+ucpp
 udisks2
 uhttpmock
 unbundle
