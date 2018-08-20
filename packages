@@ -514,6 +514,7 @@ R-pbivnorm
 R-pbkrtest
 R-pbmcapply
 R-pcaPP
+R-pcse
 R-pdfCluster
 R-permute
 R-phangorn
@@ -1524,6 +1525,7 @@ kata-proxy
 kata-qemu-lite
 kata-runtime
 kata-shim
+kate
 kauth
 kazoo
 kbd
@@ -1912,6 +1914,7 @@ msmtp
 msr-tools
 mstflint
 mtdev
+mtr
 multidict
 multimon-ng
 multipath-tools
@@ -1990,6 +1993,7 @@ ocaml
 ocl-icd
 octave
 offlineimap
+okular
 olefile
 onig
 onnx
