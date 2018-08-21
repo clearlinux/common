@@ -818,6 +818,7 @@ adwaita-icon-theme
 aeon
 aioeventlet
 aiohttp
+aiohttp-cors
 alabaster
 alembic
 alsa-lib
@@ -1188,6 +1189,7 @@ empy
 enchant
 entrypoints
 enum34
+envs
 eog
 eog-plugins
 ethtool
@@ -1254,6 +1256,7 @@ futures
 futurist
 fwupd
 fwupdate
+gTTS-token
 gabbi
 garcon
 gast
@@ -1865,6 +1868,7 @@ mdadm
 mdds
 media-player-info
 meld
+memcached
 memkind
 memshrinker
 mesa
@@ -1921,6 +1925,7 @@ multipath-tools
 munch
 murrine
 musl
+mutagen
 mutt
 mutter
 mypaint-brushes
@@ -1944,6 +1949,7 @@ net-tools
 netaddr
 netbase
 netcat
+netdisco
 netifaces
 nettle
 network-manager-applet
@@ -2755,6 +2761,7 @@ pyparsing
 pyperclip
 pypowervm
 pyquery
+pyreadline
 pyrfc3339
 pyroute2
 pyrsistent
@@ -2784,6 +2791,7 @@ python-future
 python-gflags
 python-glanceclient
 python-heatclient
+python-jose-cryptodome
 python-kconfiglib
 python-keystoneclient
 python-krbV
@@ -3081,6 +3089,7 @@ typed-ast
 typing
 tzdata
 tzlocal
+ua-parser
 ucpp
 udisks2
 uhttpmock
@@ -3098,6 +3107,7 @@ urlgrabber
 urllib3
 usbredir
 usbutils
+user-agents
 usermode
 userspace-rcu
 usrbinpython
@@ -3120,6 +3130,7 @@ virtualenv
 vlc
 volume_key
 voluptuous
+voluptuous-serialize
 vsqlite
 vte
 vulkan-sdk
@@ -3208,6 +3219,7 @@ xlog
 xmlsec1
 xmlstarlet
 xmlto
+xmltodict
 xmodmap
 xorg-server
 xorgproto
@@ -3237,6 +3249,7 @@ yum-utils
 zake
 zc.lockfile
 zenity
+zeroconf
 zip
 zlib
 znc
