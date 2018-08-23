@@ -1193,6 +1193,7 @@ enum34
 envs
 eog
 eog-plugins
+epm
 ethtool
 eventlet
 evince
@@ -1209,6 +1210,7 @@ extra-cmake-modules
 extras
 f2fs-tools
 faba-icon-theme
+fakeroot
 fann
 farstream
 fasteners
