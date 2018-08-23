@@ -998,6 +998,7 @@ clr-avx-tools
 clr-boot-manager
 clr-debug-info
 clr-desktop-defaults
+clr-find-bundle
 clr-fwupd-hooks
 clr-hardware-files
 clr-init
@@ -1405,6 +1406,7 @@ h5py
 hacking
 hadoop-dep
 hamlib
+haproxy
 hardlink
 harfbuzz
 hdf5
@@ -1648,6 +1650,7 @@ libXxf86vm
 libabigail
 libabw
 libaio
+libappindicator
 libarchive
 libarchive-c
 libassuan
@@ -1671,6 +1674,7 @@ libcroco
 libcryptui
 libdatrie
 libdazzle
+libdbusmenu
 libdmx
 libdnf
 libdrm
@@ -1708,6 +1712,7 @@ libgusb
 libgweather
 libical
 libidn
+libindicator
 libinput
 libiscsi
 libisofs
@@ -2791,7 +2796,6 @@ python-future
 python-gflags
 python-glanceclient
 python-heatclient
-python-jose-cryptodome
 python-kconfiglib
 python-keystoneclient
 python-krbV
@@ -2948,6 +2952,7 @@ setuptools-legacy
 setuptools_scm
 setuptools_scm_git_archive
 setxkbmap
+sg3_utils
 shadow
 shared-mime-info
 sharutils
@@ -3022,6 +3027,7 @@ sympy
 synergy
 syntax-highlighting
 sysdig
+sysfsutils
 syslinux
 sysstat
 systemd
