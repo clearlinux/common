@@ -349,6 +349,7 @@ R-future
 R-g.data
 R-gam
 R-gamm4
+R-gbRd
 R-gbm
 R-gclus
 R-gdata
@@ -1134,6 +1135,7 @@ dialog
 diffoscope
 diffstat
 diffutils
+digikam
 discover
 dist-pam-configs
 distro
