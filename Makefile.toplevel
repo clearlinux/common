@@ -136,11 +136,11 @@ clean-pkgs-dir: $(PACKAGES_FILE)
 	done
 	@echo "packages directory cleaned";
 
-clean_PKGS = $(addprefix clean_,$(PKGS))
+clean_PKGS = $(addprefix clean_,$(PKGS_LOCAL))
 #help clean: Run 'make clean' for every package.
 clean: $(clean_PKGS)
 
-proper_PKGS = $(addprefix proper_,$(PKGS))
+proper_PKGS = $(addprefix proper_,$(PKGS_LOCAL))
 #help proper: Run 'make proper' for every package, and purge the local
 #help repo and image.
 proper: $(proper_PKGS)
@@ -161,27 +161,27 @@ $(proper_PKGS):
 
 #help status: Runs git status for all package repos, thus displaying untracked
 #help and unstaged files in addition to staged files.
-status: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS))
-	@for p in projects/common $(addprefix packages/,$(PKGS)); do \
+status: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
+	@for p in projects/common $(addprefix packages/,$(PKGS_LOCAL)); do \
 	if [ -d "$$p/.git" ] &&  [ -n "$$(git -C $$p status -uno --porcelain)" ]; then echo "Uncommitted changes in $$p:"; git -C "$$p" status --short; fi ;\
 	done
 
 #help diff: Runs git diff for all package repos and displays the output using
 #help diffstat. Requires that diffstat is installed.
-diff: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS))
-	@for p in projects/common $(addprefix packages/,$(PKGS)); do \
+diff: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
+	@for p in projects/common $(addprefix packages/,$(PKGS_LOCAL)); do \
 		(cd $$p ; git status | grep -q 'nothing to commit, working [^ ]* clean' || (echo "Uncommitted changes in: $$p"; git diff |diffstat -p1)) ;\
 	done
 
 #help versions: Displays the version of each package in the ./packages tree.
-versions: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS))
-	@for p in $(addprefix packages/,$(PKGS)); do \
+versions: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
+	@for p in $(addprefix packages/,$(PKGS_LOCAL)); do \
 		(cd $$p; if ls *.spec &> /dev/null; then rpmspec -q --queryformat '%{NAME}-%{VERSION}\n' *.spec | head -n1; fi) ;\
 	done
 
 #help releases: Like 'make versions', but also displays the release number.
-releases: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS))
-	@for p in $(addprefix packages/,$(PKGS)); do \
+releases: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
+	@for p in $(addprefix packages/,$(PKGS_LOCAL)); do \
 		(cd $$p; if ls *.spec &> /dev/null; then rpmspec -q --queryformat '%{NAME}-%{VERSION}-%{RELEASE}\n' *.spec | head -n1; fi) ;\
 	done
 
