@@ -1223,6 +1223,7 @@ eog-plugins
 epm
 ethtool
 eventlet
+eventviews
 evince
 evolution
 evolution-data-server
@@ -1690,6 +1691,7 @@ klines
 kmag
 kmahjongg
 kmail
+kmail-account-wizard
 kmailtransport
 kmbox
 kmediaplayer
@@ -1747,6 +1749,8 @@ ktexteditor
 ktextwidgets
 ktimer
 ktnef
+ktp-approver
+ktp-common-internals
 ktp-desktop-applets
 ktuberling
 kturtle
