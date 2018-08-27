@@ -154,10 +154,10 @@ proper: $(proper_PKGS)
 
 $(clean_PKGS):
 	@echo "cleaning $(patsubst clean_%,%,$@)"
-	-@$(MAKE) -s -j -C $(addprefix packages/,$(patsubst clean_%,%,$@)) clean
+	-@$(MAKE) -s -C $(addprefix packages/,$(patsubst clean_%,%,$@)) clean
 
 $(proper_PKGS):
-	-@$(MAKE) -s -j -C $(addprefix packages/,$(patsubst proper_%,%,$@)) proper
+	-@$(MAKE) -s -C $(addprefix packages/,$(patsubst proper_%,%,$@)) proper
 
 #help status: Runs git status for all package repos, thus displaying untracked
 #help and unstaged files in addition to staged files.
