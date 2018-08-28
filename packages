@@ -2250,6 +2250,7 @@ oslosphinx
 oslotest
 osprofiler
 ostree
+otp
 ovirt-guest-agent
 ovs
 ovsdbapp
@@ -3035,6 +3036,7 @@ pyzmq
 qca-qt5
 qemu
 qemu-lite
+qml-box2d
 qpdf
 qpid-python
 qqc2-desktop-style
