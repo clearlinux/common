@@ -45,7 +45,7 @@ upstream:
 #help or that it is in the exceptions list.
 spdxcheck: $(SPECFILE)
 	@for LICENSE in `rpmspec -D '_vendor clr' --srpm -q --queryformat '%{LICENSE}\n' $(SPECFILE)`; do \
-		if ! grep -q "^$$LICENSE$$" $(TOPLVL)/projects/common/licenses-spdx && ! grep -q "$$LICENSE$$" $(TOPLVL)/projects/common/licenses-exceptions; then FAIL=yes; echo "ERROR: License '$$LICENSE' is not an allowed SPDX license ID"; fi; \
+		if ! grep -qx "$$LICENSE" $(TOPLVL)/projects/common/licenses-{spdx,exceptions,extra}; then FAIL=yes; echo "ERROR: License '$$LICENSE' is not an allowed SPDX license ID"; fi; \
 	done; test -z "$$FAIL"
 
 #help cvecheck: Checks

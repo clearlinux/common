@@ -1,0 +1,7 @@
+# This file contains SPDX license identifiers that are not defined in the
+# latest version of SPDX but still needed (or possibly needed) for Clear Linux
+# packages.
+GFDL-1.3+
+MIT-Opengroup
+WXwindows
+w3c

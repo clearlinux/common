@@ -17,5 +17,9 @@ update:
 	curl -f -o packages ${BASE_URL}/source/package-sources
 	cut -f1 packages | LC_ALL=C sort > packages.new && mv packages.new packages
 
+.PHONY: spdx
 spdx:
-	curl -s spdx.org/licenses/ | sed '0,/<tbody>/d;/<\/tbody>/q;s/<tr>/\f/g;s/$$/,/g;s/<[^>]*>//g' | awk 'BEGIN{RS="\f";FS=","} {print $$4}' | sed '/^$$/d;s/^[ ]*//' > spdx
+	JSON=$$(mktemp); \
+	trap "rm $$JSON" EXIT; \
+	curl -f -S -s https://raw.githubusercontent.com/spdx/license-list-data/master/json/licenses.json > $$JSON || exit 1; \
+	jq -r '.licenses[] | .licenseId' < $$JSON | LC_COLLATE=C sort > licenses-spdx
