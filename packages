@@ -1014,6 +1014,7 @@ clear-font
 click
 cliff
 clinfo
+cln
 cloudpickle
 clr-R-helpers
 clr-avx-tools
@@ -1929,6 +1930,7 @@ libpipeline
 libpng
 libpthread-stubs
 libpwquality
+libqalculate
 libqmi
 libqxp
 librabbitmq
@@ -2336,6 +2338,7 @@ perl-Carp-Assert
 perl-Carp-Assert-More
 perl-Class-Accessor
 perl-Class-Accessor-Chained
+perl-Class-Accessor-Grouped
 perl-Class-Accessor-Lite
 perl-Class-Base
 perl-Class-C3
@@ -2345,6 +2348,7 @@ perl-Class-Data-Accessor
 perl-Class-Data-Inheritable
 perl-Class-ErrorHandler
 perl-Class-Inspector
+perl-Class-Method-Modifiers
 perl-Class-MethodMaker
 perl-Class-Mix
 perl-Class-ReturnValue
@@ -2356,12 +2360,14 @@ perl-Class-Unload
 perl-Class-XSAccessor
 perl-Clipboard
 perl-Clone
+perl-Clone-Choose
 perl-Clone-PP
 perl-Compress-Bzip2
 perl-Compress-Raw-Lzma
 perl-Config-Any
 perl-Config-Grammar
 perl-Config-Std
+perl-Context-Preserve
 perl-Convert-ASN1
 perl-Convert-Binary-C
 perl-Cookie-Baker
@@ -2383,11 +2389,13 @@ perl-DBIx-Simple
 perl-Data-Alias
 perl-Data-Compare
 perl-Data-Dump
+perl-Data-Dumper-Concise
 perl-Data-Dumper-Simple
 perl-Data-Float
 perl-Data-Integer
 perl-Data-Munge
 perl-Data-OptList
+perl-Data-Page
 perl-Data-Password
 perl-Data-Printer
 perl-Data-Random
@@ -2520,6 +2528,7 @@ perl-HTTP-Negotiate
 perl-HTTP-Parser-XS
 perl-HTTP-Request-AsCGI
 perl-Hash-Flatten
+perl-Hash-Merge
 perl-Hash-MoreUtils
 perl-Hash-MultiValue
 perl-I18N-Charset
@@ -2613,6 +2622,7 @@ perl-Module-Build
 perl-Module-Build-Tiny
 perl-Module-CPANfile
 perl-Module-Extract
+perl-Module-Find
 perl-Module-Implementation
 perl-Module-Install
 perl-Module-List
@@ -2624,6 +2634,7 @@ perl-Module-Util
 perl-Module-Versions-Report
 perl-Mojolicious
 perl-Mojolicious-Plugin-AssetPack
+perl-Moo
 perl-Mozilla-CA
 perl-Net-CIDR-Lite
 perl-Net-DNS
@@ -2697,6 +2708,7 @@ perl-Role-Tiny
 perl-Roman
 perl-Router-Simple
 perl-SMTP-Server
+perl-SQL-Abstract
 perl-SUPER
 perl-Scalar-String
 perl-Scope-Guard
