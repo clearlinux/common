@@ -2382,6 +2382,7 @@ perl-Curses
 perl-DBD-SQLite
 perl-DBD-SQLite2
 perl-DBI
+perl-DBIx-Class
 perl-DBIx-Connector
 perl-DBIx-ContextualFetch
 perl-DBIx-DBSchema
@@ -2752,6 +2753,7 @@ perl-System-Command
 perl-TAP-Harness-Archive
 perl-Taint-Util
 perl-Term-ProgressBar
+perl-Term-ReadKey
 perl-Term-ReadLine-Gnu
 perl-Term-ReadPassword
 perl-Term-Shell
@@ -2759,7 +2761,6 @@ perl-Term-ShellUI
 perl-Term-Size-Perl
 perl-Term-Table
 perl-Term-UI
-perl-TermReadKey
 perl-Test-Assertions
 perl-Test-Compile
 perl-Test-Deep
@@ -3084,6 +3085,7 @@ qtvirtualkeyboard
 qtwayland
 qtwebchannel
 qtwebengine
+qtwebkit
 qtwebsockets
 qtx11extras
 qtxmlpatterns
@@ -3423,6 +3425,7 @@ xf86-video-amdgpu
 xf86-video-ati
 xf86-video-fbdev
 xf86-video-nouveau
+xf86-video-qxl
 xf86-video-vboxvideo
 xf86-video-vesa
 xfburn
