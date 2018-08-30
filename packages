@@ -1159,6 +1159,7 @@ diffoscope
 diffstat
 diffutils
 digikam
+direwolf
 discover
 dist-pam-configs
 distro
@@ -1298,6 +1299,7 @@ gawk
 gc
 gcab
 gcc
+gcompris-qt
 gcr
 gcs-oauth2-boto-plugin
 gdal
@@ -2336,6 +2338,7 @@ perl-Canary-Stability
 perl-Capture-Tiny
 perl-Carp-Assert
 perl-Carp-Assert-More
+perl-Carp-Clan
 perl-Class-Accessor
 perl-Class-Accessor-Chained
 perl-Class-Accessor-Grouped
@@ -2348,6 +2351,8 @@ perl-Class-Data-Accessor
 perl-Class-Data-Inheritable
 perl-Class-ErrorHandler
 perl-Class-Inspector
+perl-Class-Load
+perl-Class-Load-XS
 perl-Class-Method-Modifiers
 perl-Class-MethodMaker
 perl-Class-Mix
@@ -2452,6 +2457,7 @@ perl-Eval-Closure
 perl-Event
 perl-Event-RPC
 perl-Exception-Class
+perl-Exporter-Declare
 perl-Exporter-Easy
 perl-Exporter-Lite
 perl-Exporter-Tiny
@@ -2461,6 +2467,7 @@ perl-ExtUtils-Helpers
 perl-ExtUtils-InstallPaths
 perl-FCGI-ProcManager
 perl-Feed-Find
+perl-Fennec-Lite
 perl-File-BaseDir
 perl-File-Copy-Link
 perl-File-Copy-Recursive
@@ -2588,6 +2595,7 @@ perl-Locale-Maketext-Lexicon
 perl-Locale-Msgfmt
 perl-Log-Agent
 perl-Log-Any
+perl-Log-Contextual
 perl-Log-Dispatch
 perl-Log-Dispatch-Array
 perl-Log-Log4perl
@@ -2617,6 +2625,7 @@ perl-Math-Spline
 perl-Math-Utils
 perl-Math-Vec
 perl-Memoize-ExpireLRU
+perl-Meta-Builder
 perl-Mock-Config
 perl-Modern-Perl
 perl-Module-Build
@@ -2629,6 +2638,7 @@ perl-Module-Install
 perl-Module-List
 perl-Module-Pluggable
 perl-Module-Runtime
+perl-Module-Runtime-Conflicts
 perl-Module-ScanDeps
 perl-Module-Starter
 perl-Module-Util
@@ -2636,6 +2646,9 @@ perl-Module-Versions-Report
 perl-Mojolicious
 perl-Mojolicious-Plugin-AssetPack
 perl-Moo
+perl-Moose
+perl-MooseX-Role-Parameterized
+perl-MooseX-Role-WithOverloading
 perl-Mozilla-CA
 perl-Net-CIDR-Lite
 perl-Net-DNS
@@ -2664,6 +2677,7 @@ perl-PDF-Writer
 perl-POD2-Base
 perl-POSIX-strftime-Compiler
 perl-Package-Constants
+perl-Package-DeprecationManager
 perl-Package-New
 perl-Package-Stash
 perl-Package-Stash-XS
@@ -2762,8 +2776,10 @@ perl-Term-Size-Perl
 perl-Term-Table
 perl-Term-UI
 perl-Test-Assertions
+perl-Test-CleanNameSpaces
 perl-Test-Compile
 perl-Test-Deep
+perl-Test-Differences
 perl-Test-Exception
 perl-Test-FailWarnings
 perl-Test-Fatal
@@ -2865,6 +2881,7 @@ perl-XML-XPathEngine
 perl-YAML-LibYAML
 perl-YAML-Syck
 perl-YAML-Tiny
+perl-aliased
 perl-autobox
 perl-autovivification
 perl-boolean
