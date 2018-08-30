@@ -2317,6 +2317,7 @@ perl-Audio-Musepack
 perl-Audio-Scan
 perl-Audio-Wav
 perl-B-Hooks-EndOfScope
+perl-B-Hooks-OP-Check
 perl-B-Keywords
 perl-BSD-Resource
 perl-Biblio-EndnoteStyle
@@ -2388,6 +2389,7 @@ perl-DBD-SQLite
 perl-DBD-SQLite2
 perl-DBI
 perl-DBIx-Class
+perl-DBIx-Class-DeploymentHandler
 perl-DBIx-Connector
 perl-DBIx-ContextualFetch
 perl-DBIx-DBSchema
@@ -2681,6 +2683,7 @@ perl-Package-DeprecationManager
 perl-Package-New
 perl-Package-Stash
 perl-Package-Stash-XS
+perl-Package-Variant
 perl-PadWalker
 perl-Palm-PDB
 perl-Parallel-ForkManager
@@ -2724,6 +2727,7 @@ perl-Roman
 perl-Router-Simple
 perl-SMTP-Server
 perl-SQL-Abstract
+perl-SQL-Translator
 perl-SUPER
 perl-Scalar-String
 perl-Scope-Guard
@@ -2776,6 +2780,7 @@ perl-Term-Size-Perl
 perl-Term-Table
 perl-Term-UI
 perl-Test-Assertions
+perl-Test-Base
 perl-Test-CleanNameSpaces
 perl-Test-Compile
 perl-Test-Deep
@@ -2810,9 +2815,11 @@ perl-Test-UseAllModules
 perl-Test-Warn
 perl-Test-Warnings
 perl-Test-Without-Module
+perl-Test-YAML
 perl-Test-utf8
 perl-Test2-Suite
 perl-Text-Autoformat
+perl-Text-Brew
 perl-Text-CSV
 perl-Text-CSV-Encoded
 perl-Text-CSV_XS
@@ -2878,12 +2885,14 @@ perl-XML-SimpleObject
 perl-XML-Writer
 perl-XML-XPath
 perl-XML-XPathEngine
+perl-YAML
 perl-YAML-LibYAML
 perl-YAML-Syck
 perl-YAML-Tiny
 perl-aliased
 perl-autobox
 perl-autovivification
+perl-bareword-filehandles
 perl-boolean
 perl-common-sense
 perl-constant-defer
@@ -2892,9 +2901,11 @@ perl-gettext
 perl-indirect
 perl-libwww-perl
 perl-local-lib
+perl-multidimensional
 perl-namespace-autoclean
 perl-namespace-clean
 perl-prefork
+perl-strictures
 persistent
 pesign
 pexpect
@@ -3208,6 +3219,7 @@ snappy
 snowballstemmer
 socat
 sof-crosstool-ng
+sof-newlib-xtensa
 solid
 sonnet
 sortedcontainers
