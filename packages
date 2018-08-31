@@ -1283,6 +1283,7 @@ freeglut
 freeipmi
 freetype
 fribidi
+fritzing-app
 fs
 funcsigs
 functools32
@@ -2372,6 +2373,7 @@ perl-Compress-Bzip2
 perl-Compress-Raw-Lzma
 perl-Config-Any
 perl-Config-Grammar
+perl-Config-IniFiles
 perl-Config-Std
 perl-Context-Preserve
 perl-Convert-ASN1
@@ -2388,8 +2390,11 @@ perl-Curses
 perl-DBD-SQLite
 perl-DBD-SQLite2
 perl-DBI
+perl-DBICx-TestDatabase
 perl-DBIx-Class
 perl-DBIx-Class-DeploymentHandler
+perl-DBIx-Class-DynamicDefault
+perl-DBIx-Class-OptimisticLocking
 perl-DBIx-Connector
 perl-DBIx-ContextualFetch
 perl-DBIx-DBSchema
@@ -2653,6 +2658,7 @@ perl-MooseX-Role-Parameterized
 perl-MooseX-Role-WithOverloading
 perl-Mozilla-CA
 perl-Net-CIDR-Lite
+perl-Net-DBus
 perl-Net-DNS
 perl-Net-DNS-Resolver-Programmable
 perl-Net-HTTP
@@ -2707,6 +2713,7 @@ perl-PerlIO-via-Timeout
 perl-Pod-Constants
 perl-Pod-Coverage
 perl-Pod-LaTeX
+perl-Pod-POM
 perl-Pod-Plainer
 perl-Pod-Spell
 perl-Pod-Strip
@@ -2802,6 +2809,7 @@ perl-Test-NoWarnings
 perl-Test-Number-Delta
 perl-Test-Output
 perl-Test-Pod
+perl-Test-Pod-Coverage
 perl-Test-Refcount
 perl-Test-Reporter
 perl-Test-Requires
@@ -2829,6 +2837,7 @@ perl-Text-Format
 perl-Text-Glob
 perl-Text-Levenshtein
 perl-Text-Levenshtein-Damerau
+perl-Text-Markdown
 perl-Text-PDF
 perl-Text-Quoted
 perl-Text-Reform
@@ -2882,6 +2891,7 @@ perl-XML-SAX-ExpatXS
 perl-XML-SAX-Writer
 perl-XML-Simple
 perl-XML-SimpleObject
+perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
 perl-XML-XPathEngine
