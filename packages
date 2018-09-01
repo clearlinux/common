@@ -975,6 +975,7 @@ cairomm
 calendarsupport
 cantarell-fonts
 cantata
+cantor
 capnproto
 cargo
 caribou
@@ -1081,6 +1082,7 @@ compat-gegl-0.3
 compat-glew-soname1
 compat-gtksourceview-soname3
 compat-guile-soname20
+compat-hdf5-soname10
 compat-hyperscan-soname4
 compat-ipset-soname10
 compat-libical-soname2
@@ -3502,6 +3504,7 @@ xrdp
 xrestop
 xscreensaver
 xset
+xsetroot
 xtrans
 xvfb-run
 xwd
