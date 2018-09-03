@@ -3086,6 +3086,7 @@ python3
 pytz
 pyudev
 pywbem
+pyxattr
 pyxdg
 pyzmq
 qca-qt5
@@ -3331,6 +3332,7 @@ texinfo
 texlive
 text-unidecode
 tflearn
+tgt
 thermal_daemon
 thin-provisioning-tools
 threadweaver
