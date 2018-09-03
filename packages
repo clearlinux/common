@@ -1161,6 +1161,7 @@ diffoscope
 diffstat
 diffutils
 digikam
+ding-libs
 direwolf
 discover
 dist-pam-configs
@@ -1779,6 +1780,7 @@ lazy-object-proxy
 lcms2
 lcov
 ldap3
+ldb
 lensfun
 less
 leveldb
@@ -3259,6 +3261,7 @@ sqlite-autoconf
 sqlparse
 squashfs-tools
 sshfs
+sssd
 stack
 startup-notification
 statsd
@@ -3305,6 +3308,7 @@ taskwarrior
 tbb
 tcl
 tcpdump
+tdb
 telemetrics-client
 telepathy-glib
 telepathy-logger
@@ -3322,6 +3326,7 @@ testrepository
 testresources
 testscenarios
 testtools
+tevent
 texinfo
 texlive
 text-unidecode
@@ -3423,6 +3428,7 @@ wget
 wheel
 which
 widgetsnbextension
+winpdb
 wireless-regdb-master
 wireshark
 woff2
@@ -3513,6 +3519,7 @@ xz
 yajl
 yaml
 yarl
+yarn
 yasm
 yelp
 yelp-tools
