@@ -1141,6 +1141,7 @@ darktable
 dask
 db
 dbus
+dbus-broker
 dbus-glib
 dconf
 dconf-editor
@@ -1509,6 +1510,7 @@ iotop
 ipaddr
 ipaddress
 iperf
+ipmctl
 ipmitool
 iproute2
 ipset
@@ -1537,7 +1539,6 @@ itsdangerous
 itstool
 iw
 ixion
-ixpdimm_sw
 jansson
 jaraco.functools
 jedi
@@ -1936,6 +1937,7 @@ libpciaccess
 libpeas
 libpipeline
 libpng
+libpsl
 libpthread-stubs
 libpwquality
 libqalculate
@@ -1947,6 +1949,7 @@ librepo
 librevenge
 librsvg
 librtlsdr
+libsafec
 libsamplerate
 libsass
 libseccomp
@@ -2145,7 +2148,6 @@ net-snmp
 net-tools
 netaddr
 netbase
-netcat
 netdisco
 netifaces
 nettle
@@ -2393,6 +2395,7 @@ perl-Crypt-Rijndael
 perl-Crypt-SSLeay
 perl-Crypt-URandom
 perl-Curses
+perl-DBD-Pg
 perl-DBD-SQLite
 perl-DBD-SQLite2
 perl-DBI
@@ -2571,6 +2574,7 @@ perl-IO-Socket-Timeout
 perl-IO-String
 perl-IO-Tee
 perl-IO-TieCombine
+perl-IO-Tty
 perl-IO-stringy
 perl-IPC-Run
 perl-IPC-Run3
@@ -2941,6 +2945,7 @@ pimcommon
 pinentry
 pip
 pip-legacy
+pipewire
 pixman
 pkcs11-helper
 pkg-config
