@@ -61,7 +61,7 @@ clean:
 
 #help proper: Brings your copy of the package to a nearly clean git checkout state.
 proper: repodel
-	rm -rf results
+	rm -rf results rpms
 	rm -f build.log.round*
 	rm -f mock_build.log mock_srpm.log $(__allsources) report.html
 
