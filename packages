@@ -2361,6 +2361,7 @@ perl-Class-Container
 perl-Class-Data-Accessor
 perl-Class-Data-Inheritable
 perl-Class-ErrorHandler
+perl-Class-Factory-Util
 perl-Class-Inspector
 perl-Class-Load
 perl-Class-Load-XS
@@ -2384,6 +2385,7 @@ perl-Config-Any
 perl-Config-Grammar
 perl-Config-IniFiles
 perl-Config-Std
+perl-Config-Tiny
 perl-Context-Preserve
 perl-Convert-ASN1
 perl-Convert-Binary-C
@@ -2405,6 +2407,7 @@ perl-DBIx-Class
 perl-DBIx-Class-DeploymentHandler
 perl-DBIx-Class-DynamicDefault
 perl-DBIx-Class-OptimisticLocking
+perl-DBIx-Class-Schema-Config
 perl-DBIx-Connector
 perl-DBIx-ContextualFetch
 perl-DBIx-DBSchema
@@ -2644,6 +2647,7 @@ perl-Math-Utils
 perl-Math-Vec
 perl-Memoize-ExpireLRU
 perl-Meta-Builder
+perl-Minion
 perl-Mock-Config
 perl-Modern-Perl
 perl-Module-Build
@@ -2661,6 +2665,7 @@ perl-Module-ScanDeps
 perl-Module-Starter
 perl-Module-Util
 perl-Module-Versions-Report
+perl-Mojo-Pg
 perl-Mojolicious
 perl-Mojolicious-Plugin-AssetPack
 perl-Moo
