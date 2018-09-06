@@ -3344,6 +3344,7 @@ tgt
 thermal_daemon
 thin-provisioning-tools
 threadweaver
+thrift
 thunar-volman
 thunderbird
 thunderbolt-software-user-space
