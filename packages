@@ -2337,6 +2337,7 @@ perl-Business-ISBN-Data
 perl-Business-ISMN
 perl-Business-ISSN
 perl-CDDB-File
+perl-CGI
 perl-CGI-Compile
 perl-CGI-Simple
 perl-CPAN-Changes
@@ -2393,6 +2394,7 @@ perl-Convert-ASN1
 perl-Convert-Binary-C
 perl-Cookie-Baker
 perl-Cpanel-JSON-XS
+perl-Crypt-DH-GMP
 perl-Crypt-Eksblowfish
 perl-Crypt-GeneratePassword
 perl-Crypt-Random-Seed
@@ -2690,6 +2692,8 @@ perl-Net-INET6Glue
 perl-Net-Ident
 perl-Net-MAC
 perl-Net-NTP
+perl-Net-OpenID-Common
+perl-Net-OpenID-Consumer
 perl-Net-OpenSSH
 perl-Net-SFTP-Foreign
 perl-Net-SMTP-SSL
