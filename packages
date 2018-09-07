@@ -1203,6 +1203,7 @@ drkonqi
 dstat
 dtc
 dulwich
+duperemove
 dwarves
 dyskctl
 e2fsprogs
@@ -1349,6 +1350,7 @@ glusterfs
 gmic
 gmime
 gmp
+gmqtt
 gnome-applets
 gnome-autoar
 gnome-backgrounds
@@ -1503,7 +1505,6 @@ inotify-tools
 intel-gpu-tools
 intel-hybrid-driver
 intltool
-invm-frameworks
 ioc-cbc-tools
 ioping
 iotop
@@ -1924,6 +1925,7 @@ libnftnl
 libnice
 libnl
 libnotify
+libnova
 libnumbertext
 liboauth
 libodfgen
@@ -2430,8 +2432,11 @@ perl-Data-Structure-Util
 perl-Data-Uniqid
 perl-Data-Validate-IP
 perl-DateTime
+perl-DateTime-Format-Builder
 perl-DateTime-Format-Mail
+perl-DateTime-Format-MySQL
 perl-DateTime-Format-Pg
+perl-DateTime-Format-Strptime
 perl-DateTime-Format-W3CDTF
 perl-DateTime-Locale
 perl-DateTime-TimeZone
@@ -2665,9 +2670,11 @@ perl-Module-ScanDeps
 perl-Module-Starter
 perl-Module-Util
 perl-Module-Versions-Report
+perl-Mojo-IOLoop-ReadWriteProcess
 perl-Mojo-Pg
 perl-Mojolicious
 perl-Mojolicious-Plugin-AssetPack
+perl-Mojolicious-Plugin-RenderFile
 perl-Moo
 perl-Moose
 perl-MooseX-Role-Parameterized
