@@ -519,6 +519,7 @@ R-pbmcapply
 R-pcaPP
 R-pcse
 R-pdfCluster
+R-pdftools
 R-permute
 R-phangorn
 R-pheatmap
@@ -628,6 +629,7 @@ R-rstan
 R-rstanarm
 R-rstantools
 R-rstudioapi
+R-rsvg
 R-rversions
 R-rvest
 R-sROC
@@ -1362,6 +1364,7 @@ gnome-color-manager
 gnome-common
 gnome-control-center
 gnome-desktop
+gnome-disk-utility
 gnome-flashback
 gnome-font-viewer
 gnome-icon-theme
@@ -2674,6 +2677,7 @@ perl-Module-Util
 perl-Module-Versions-Report
 perl-Mojo-IOLoop-ReadWriteProcess
 perl-Mojo-Pg
+perl-Mojo-RabbitMQ-Client
 perl-Mojolicious
 perl-Mojolicious-Plugin-AssetPack
 perl-Mojolicious-Plugin-RenderFile
@@ -2879,6 +2883,7 @@ perl-Tie-IxHash
 perl-Tie-Simple
 perl-Time-Duration
 perl-Time-Duration-Parse
+perl-Time-ParseDate
 perl-Time-Period
 perl-TimeDate
 perl-Tk-DoubleClick
