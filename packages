@@ -2,6 +2,7 @@ Babel
 Botan
 CUnit
 Cheetah
+CherryPy
 ConfigArgParse
 Cython
 Django
@@ -444,6 +445,7 @@ R-lsmeans
 R-lubridate
 R-mFilter
 R-magic
+R-magick
 R-magrittr
 R-manipulate
 R-manipulateWidget
@@ -583,6 +585,7 @@ R-randomForest
 R-randomNames
 R-randtoolbox
 R-ranger
+R-rappdirs
 R-raster
 R-rasterVis
 R-reactR
@@ -839,6 +842,7 @@ alsa-lib
 alsa-plugins
 alsa-utils
 amqp
+amtk
 analitza
 ansible
 anyjson
@@ -1000,7 +1004,6 @@ chardet
 check
 cheese
 cheroot
-cherrypy
 chrome-gnome-shell
 chrony
 chrpath
@@ -1156,6 +1159,7 @@ defusedxml
 dejagnu
 deprecation
 desktop-file-utils
+devhelp
 dfc
 dfu-util
 dhcp
@@ -1204,6 +1208,7 @@ dragon
 drkonqi
 dstat
 dtc
+dtopt
 dulwich
 duperemove
 dwarves
@@ -1446,6 +1451,7 @@ gtkmm3
 gtksourceview
 gtkspell3
 guile
+gupnp-av
 gutenprint
 gvfs
 gvim
@@ -1488,6 +1494,8 @@ i3status
 ias
 iasimage
 ibus
+ibus-libpinyin
+ibus-table
 icalendar
 icdiff
 iceauth
@@ -1827,6 +1835,7 @@ libappindicator
 libarchive
 libarchive-c
 libassuan
+libasyncns
 libatasmart
 libatomic_ops
 libb64
@@ -1845,6 +1854,7 @@ libcomps
 libconfig
 libcroco
 libcryptui
+libdaemon
 libdatrie
 libdazzle
 libdbusmenu
@@ -1863,6 +1873,7 @@ libexif
 libexttextcat
 libffi
 libfontenc
+libfprint
 libfreehand
 libgcrypt
 libgd
@@ -1885,6 +1896,7 @@ libgudev
 libgusb
 libgweather
 libical
+libid3tag
 libidn
 libindicator
 libinput
@@ -1940,6 +1952,8 @@ libpagemaker
 libpcap
 libpciaccess
 libpeas
+libpfm
+libpinyin
 libpipeline
 libpng
 libpsl
@@ -2033,6 +2047,7 @@ linux-pk414
 linux-steam-integration
 linux-tools
 linuxptp
+lksctp-tools
 llvm
 llvmlite
 lmdb
@@ -2191,6 +2206,7 @@ nss
 nss-altfiles
 ntfs-3g
 ntlm-auth
+ntplib
 numactl
 numatop
 numba
@@ -2320,6 +2336,7 @@ perl-AnyEvent
 perl-AnyEvent-CacheDNS
 perl-Apache-Htpasswd
 perl-Apache-Session
+perl-App-cpanminus
 perl-Archive-Cpio
 perl-Archive-Extract
 perl-Archive-Tar-Wrapper
@@ -2336,6 +2353,8 @@ perl-B-Hooks-OP-Check
 perl-B-Keywords
 perl-BSD-Resource
 perl-Biblio-EndnoteStyle
+perl-Browser-Open
+perl-Business-ISBN
 perl-Business-ISBN-Data
 perl-Business-ISMN
 perl-Business-ISSN
@@ -2349,6 +2368,7 @@ perl-CPAN-Meta-Check
 perl-CPAN-Perl-Releases
 perl-CSS-DOM
 perl-CSS-Minifier-XS
+perl-CSS-Tiny
 perl-Cache-Simple-TimedExpiry
 perl-Calendar-Simple
 perl-Canary-Stability
@@ -2438,6 +2458,7 @@ perl-Data-Uniqid
 perl-Data-Validate-IP
 perl-DateTime
 perl-DateTime-Format-Builder
+perl-DateTime-Format-DateParse
 perl-DateTime-Format-Mail
 perl-DateTime-Format-MySQL
 perl-DateTime-Format-Pg
@@ -2453,6 +2474,7 @@ perl-Devel-CheckOS
 perl-Devel-Confess
 perl-Devel-Cover
 perl-Devel-Cycle
+perl-Devel-EnforceEncapsulation
 perl-Devel-GlobalDestruction
 perl-Devel-Hide
 perl-Devel-OverloadInfo
@@ -2531,6 +2553,7 @@ perl-File-pushd
 perl-Filesys-Df
 perl-Filesys-Notify-Simple
 perl-Font-AFM
+perl-Font-TTF
 perl-FreezeThaw
 perl-Frontier-RPC
 perl-Future
@@ -2717,6 +2740,7 @@ perl-POD2-Base
 perl-POSIX-strftime-Compiler
 perl-Package-Constants
 perl-Package-DeprecationManager
+perl-Package-Generator
 perl-Package-New
 perl-Package-Stash
 perl-Package-Stash-XS
@@ -2724,6 +2748,7 @@ perl-Package-Variant
 perl-PadWalker
 perl-Palm-PDB
 perl-Parallel-ForkManager
+perl-Parallel-Iterator
 perl-Params-Classify
 perl-Params-Util
 perl-Params-Validate
@@ -2734,6 +2759,7 @@ perl-Parse-RecDescent
 perl-Path-Class
 perl-Path-Tiny
 perl-Pegex
+perl-Perl-Tidy
 perl-Perl-Version
 perl-Perl4-CoreLibs
 perl-Perl6-Export
@@ -2832,6 +2858,7 @@ perl-Test-Identity
 perl-Test-LeakTrace
 perl-Test-LectroTest
 perl-Test-LongString
+perl-Test-Manifest
 perl-Test-MockModule
 perl-Test-MockTime
 perl-Test-More-UTF8
@@ -2848,6 +2875,7 @@ perl-Test-RequiresInternet
 perl-Test-SharedFork
 perl-Test-Simple
 perl-Test-Strict
+perl-Test-Synopsis
 perl-Test-TCP
 perl-Test-Taint
 perl-Test-UseAllModules
