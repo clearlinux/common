@@ -7,6 +7,7 @@ ConfigArgParse
 Cython
 Django
 Flask
+Flask-RESTful
 FlatBuffers
 FreeRDP
 GConf
@@ -776,6 +777,7 @@ SuiteSparse
 Tempita
 Theano
 Thunar
+UkPostcodeParser
 Vertex-theme
 WALinuxAgent
 WSGIProxy2
@@ -844,6 +846,7 @@ alsa-utils
 amqp
 amtk
 analitza
+aniso8601
 ansible
 anyjson
 apache-ant
@@ -930,6 +933,7 @@ bleach
 blinken
 blinker
 blktrace
+blockdiag
 bluedevil
 bluez
 bluez-qt
@@ -1294,9 +1298,11 @@ frameworkintegration
 freeglut
 freeipmi
 freetype
+freezegun
 fribidi
 fritzing-app
 fs
+funcparserlib
 funcsigs
 functools32
 fuse
@@ -1393,6 +1399,7 @@ gnome-terminal
 gnome-themes-standard
 gnome-todo
 gnome-tweak-tool
+gnome-tweaks
 gnome-user-docs
 gnome-video-effects
 gnome-weather
@@ -1408,6 +1415,7 @@ gom
 goocanvas
 google-api-python-client
 google-apitools
+google-reauth
 googletest
 gperf
 gperftools
@@ -3205,6 +3213,7 @@ redis-native
 redland
 redsocks
 reno
+reportlab
 repoze.lru
 repoze.who
 requests
@@ -3304,8 +3313,10 @@ spandsp
 spark-dep
 speex
 speexdsp
+sphinx-feature-classification
 sphinx_rtd_theme
 sphinxcontrib-apidoc
+sphinxcontrib-blockdiag
 sphinxcontrib-httpdomain
 sphinxcontrib-newsfeed
 sphinxcontrib-websupport
@@ -3587,6 +3598,7 @@ yelp-xsl
 yum
 yum-metadata-parser
 yum-utils
+zVMCloudConnector
 zake
 zc.lockfile
 zenity
