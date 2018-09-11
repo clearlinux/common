@@ -4,6 +4,7 @@ CUnit
 Cheetah
 CherryPy
 ConfigArgParse
+Counter
 Cython
 Django
 Flask
@@ -1082,6 +1083,7 @@ colorama
 colord
 colord-gtk
 comedilib
+commonmark
 compat-SDL2-soname1
 compat-cryptsetup-soname4
 compat-efivar-soname0
@@ -1398,7 +1400,6 @@ gnome-system-monitor
 gnome-terminal
 gnome-themes-standard
 gnome-todo
-gnome-tweak-tool
 gnome-tweaks
 gnome-user-docs
 gnome-video-effects
@@ -2052,6 +2053,8 @@ linux-libc-headers
 linux-lts
 linux-oracle
 linux-pk414
+linux-pk414-preempt-rt
+linux-preempt-rt
 linux-steam-integration
 linux-tools
 linuxptp
@@ -3208,6 +3211,7 @@ rcssmin
 rdma-core
 re2c
 readline
+recommonmark
 redis
 redis-native
 redland
