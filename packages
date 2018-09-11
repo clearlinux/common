@@ -1905,7 +1905,6 @@ libgudev
 libgusb
 libgweather
 libical
-libid3tag
 libidn
 libindicator
 libinput
