@@ -443,6 +443,7 @@ R-locfit
 R-logspline
 R-loo
 R-lpSolve
+R-lsei
 R-lsmeans
 R-lubridate
 R-mFilter
@@ -501,6 +502,7 @@ R-neuralnet
 R-nleqslv
 R-nloptr
 R-nortest
+R-npsurv
 R-numDeriv
 R-nws
 R-nycflights13
@@ -3078,6 +3080,7 @@ pyemd
 pyflakes
 pygobject
 pyinotify
+pykerberos
 pyliblzma
 pylint
 pymemcache
@@ -3220,6 +3223,7 @@ reportlab
 repoze.lru
 repoze.who
 requests
+requests-kerberos
 requests-mock
 requests-ntlm
 requests-toolbelt
@@ -3467,6 +3471,7 @@ uwsgi
 v4l-utils
 vala
 valgrind
+varnish-cache
 vcstool
 vcversioner
 vim
