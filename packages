@@ -3337,6 +3337,7 @@ sqlite-autoconf
 sqlparse
 squashfs-tools
 sshfs
+sshpass
 sssd
 stack
 startup-notification
