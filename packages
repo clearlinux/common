@@ -24,6 +24,7 @@ LibRaw
 LibVNCServer
 Linux-PAM
 LuaJIT
+M2Crypto
 Mako
 Markdown
 MarkupSafe
@@ -1234,6 +1235,7 @@ elasticsearch
 elasticsearch-dep
 elementary-xfce
 elfutils
+elixir
 emacs
 empy
 enchant
@@ -3206,6 +3208,8 @@ quagga
 quassel
 quilt
 rabbitmq-c
+rabbitmq-server
+radvd
 ragel
 raptor2
 rasqal
