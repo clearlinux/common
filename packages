@@ -90,6 +90,7 @@ R-GeneralizedHyperbolic
 R-GlobalOptions
 R-Guerry
 R-Hmisc
+R-ICEbox
 R-ICS
 R-ICSNP
 R-IRdisplay
@@ -527,6 +528,7 @@ R-pcaPP
 R-pcse
 R-pdfCluster
 R-pdftools
+R-pdp
 R-permute
 R-phangorn
 R-pheatmap
