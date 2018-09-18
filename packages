@@ -1519,6 +1519,7 @@ icu4c
 idna
 idna-ssl
 iftop
+ilmbase
 imagesize
 imapfilter
 imlib2
@@ -2067,6 +2068,7 @@ lksctp-tools
 llvm
 llvmlite
 lmdb
+locket
 logilab-common
 logrotate
 logutils
@@ -2167,6 +2169,7 @@ mutt
 mutter
 mypaint-brushes
 mypy
+mypy_extensions
 mythes
 nagios-plugins
 nano
@@ -2236,6 +2239,7 @@ ocaml
 ocl-icd
 octave
 offlineimap
+oiio
 okular
 olefile
 onig
@@ -2250,6 +2254,7 @@ openal-soft
 openblas
 openconnect
 opencv
+openexr
 openjade
 openjdk
 openjdk9
@@ -2323,6 +2328,7 @@ paramiko
 parley
 parsedatetime
 parso
+partd
 parted
 passlib
 patch
@@ -3432,6 +3438,7 @@ tiptop
 tk
 tmux
 tokyocabinet
+toolz
 tooz
 tornado
 totem
