@@ -1102,6 +1102,7 @@ compat-hdf5-soname10
 compat-hyperscan-soname4
 compat-ipset-soname10
 compat-libical-soname2
+compat-libidn-soname11
 compat-libpng-soname12
 compat-libwebp-soname6
 compat-llvm-soname4
@@ -1915,6 +1916,7 @@ libgusb
 libgweather
 libical
 libidn
+libidn2
 libindicator
 libinput
 libiscsi
