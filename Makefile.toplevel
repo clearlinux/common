@@ -190,13 +190,15 @@ releases: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 provides:
 	@$(TOPLVL)/projects/common/provides.sh -f $(FP) -r $(RN)
 
+preautospecnew-checks:
+
 #help autospecnew: Creates a new autospec package with for a given URL=$(URL)
 #help with NAME=$(NAME). Several files used by autospec will be created in the
 #help process.
 #help Use MOCK_OPTS environment varible to pass down arbitrary mock options
 #help to autospec.
 #help For more information about autospec, see the project page on Github https://github.com/clearlinux/autospec
-autospecnew: localreponotice
+autospecnew: preautospecnew-checks localreponotice
 	@if [ -z $(NAME) ] || [ -z $(URL) ]; then \
 		echo "Please specify NAME and URL. The ARCHIVES variable is optional."; \
 		exit 1; \
