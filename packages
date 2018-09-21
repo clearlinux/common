@@ -24,6 +24,7 @@ LibRaw
 LibVNCServer
 Linux-PAM
 LuaJIT
+M2Crypto
 Mako
 Markdown
 MarkupSafe
@@ -89,6 +90,7 @@ R-GeneralizedHyperbolic
 R-GlobalOptions
 R-Guerry
 R-Hmisc
+R-ICEbox
 R-ICS
 R-ICSNP
 R-IRdisplay
@@ -526,6 +528,7 @@ R-pcaPP
 R-pcse
 R-pdfCluster
 R-pdftools
+R-pdp
 R-permute
 R-phangorn
 R-pheatmap
@@ -1099,6 +1102,7 @@ compat-hdf5-soname10
 compat-hyperscan-soname4
 compat-ipset-soname10
 compat-libical-soname2
+compat-libidn-soname11
 compat-libpng-soname12
 compat-libwebp-soname6
 compat-llvm-soname4
@@ -1234,6 +1238,7 @@ elasticsearch
 elasticsearch-dep
 elementary-xfce
 elfutils
+elixir
 emacs
 empy
 enchant
@@ -1482,6 +1487,7 @@ help2man
 hexchat
 hgtools
 hicolor-icon-theme
+hold
 home-assistant
 horizon
 hostname
@@ -1514,7 +1520,9 @@ icon-naming-utils
 icu4c
 idna
 idna-ssl
+ifaddr
 iftop
+ilmbase
 imagesize
 imapfilter
 imlib2
@@ -1908,6 +1916,7 @@ libgusb
 libgweather
 libical
 libidn
+libidn2
 libindicator
 libinput
 libiscsi
@@ -2063,6 +2072,7 @@ lksctp-tools
 llvm
 llvmlite
 lmdb
+locket
 logilab-common
 logrotate
 logutils
@@ -2163,6 +2173,7 @@ mutt
 mutter
 mypaint-brushes
 mypy
+mypy_extensions
 mythes
 nagios-plugins
 nano
@@ -2232,6 +2243,7 @@ ocaml
 ocl-icd
 octave
 offlineimap
+oiio
 okular
 olefile
 onig
@@ -2246,6 +2258,7 @@ openal-soft
 openblas
 openconnect
 opencv
+openexr
 openjade
 openjdk
 openjdk9
@@ -2319,6 +2332,7 @@ paramiko
 parley
 parsedatetime
 parso
+partd
 parted
 passlib
 patch
@@ -3206,6 +3220,8 @@ quagga
 quassel
 quilt
 rabbitmq-c
+rabbitmq-server
+radvd
 ragel
 raptor2
 rasqal
@@ -3426,6 +3442,7 @@ tiptop
 tk
 tmux
 tokyocabinet
+toolz
 tooz
 tornado
 totem
