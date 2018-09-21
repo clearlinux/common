@@ -1921,6 +1921,7 @@ libindicator
 libinput
 libiscsi
 libisofs
+libite
 libjpeg-turbo
 libjpeg-turbo-soname8
 libkcddb
@@ -2010,6 +2011,7 @@ libtheora
 libtirpc
 libtool
 libudev0-shim
+libuev
 libunistring
 libunwind
 libusb
@@ -2434,6 +2436,7 @@ perl-Clone-PP
 perl-Compress-Bzip2
 perl-Compress-Raw-Lzma
 perl-Config-Any
+perl-Config-General
 perl-Config-Grammar
 perl-Config-IniFiles
 perl-Config-Std
@@ -3510,6 +3513,7 @@ vulkan-sdk
 waffle
 waitress
 warlock
+watchdogd
 wayland
 wayland-protocols
 wcwidth
