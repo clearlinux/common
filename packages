@@ -1092,6 +1092,7 @@ commonmark
 compat-SDL2-soname1
 compat-cryptsetup-soname4
 compat-efivar-soname0
+compat-enchant-soname1
 compat-fuse-soname2
 compat-gegl
 compat-gegl-0.3
@@ -1997,6 +1998,7 @@ libsigc++
 libsmbios
 libsmi
 libsndfile
+libsodium
 libsolv
 libsoup
 libspectre
