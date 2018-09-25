@@ -1108,6 +1108,7 @@ compat-libpng-soname12
 compat-libwebp-soname6
 compat-llvm-soname4
 compat-llvm-soname5
+compat-llvm-soname6
 compat-mpfr-soname4
 compat-opencv-soname32
 compat-opencv-soname33
@@ -1157,6 +1158,7 @@ cyrus-sasl
 dapl
 darktable
 dask
+datefudge
 db
 dbus
 dbus-broker
@@ -2231,6 +2233,7 @@ nrpe
 nspr
 nss
 nss-altfiles
+nss-pam-ldapd
 ntfs-3g
 ntlm-auth
 ntplib
