@@ -2236,6 +2236,7 @@ nss-altfiles
 nss-pam-ldapd
 ntfs-3g
 ntlm-auth
+ntp
 ntplib
 numactl
 numatop
