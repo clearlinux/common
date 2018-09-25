@@ -1134,6 +1134,7 @@ cpio
 cppcheck
 cppunit
 cpuid
+cpuloadgen
 cracklib
 crcmod
 createrepo_c
