@@ -1132,6 +1132,7 @@ cov-core
 coverage
 cpio
 cppcheck
+cpprestsdk
 cppunit
 cpuid
 cpuloadgen
@@ -1218,6 +1219,7 @@ dosfstools
 double-conversion
 dovecot
 doxygen
+dpcontracts
 dpdk
 dracut
 dragon
@@ -1544,6 +1546,7 @@ ioping
 iotop
 ipaddr
 ipaddress
+ipdb
 iperf
 ipmctl
 ipmitool
@@ -2329,6 +2332,8 @@ p11-kit
 p7zip
 packaging
 pacrunner
+paho.mqtt.c
+paho.mqtt.cpp
 palapeli
 pandas
 pandoc
@@ -3139,12 +3144,14 @@ python-barbicanclient
 python-ceilometerclient
 python-cinderclient
 python-dateutil
+python-dateutil-legacypython
 python-designateclient
 python-editor
 python-future
 python-gflags
 python-glanceclient
 python-heatclient
+python-hwinfo
 python-kconfiglib
 python-keystoneclient
 python-krbV
@@ -3387,6 +3394,7 @@ svgpart
 sweeper
 swift
 swig
+swupd-client
 swupd-overdue
 swupd-probe
 swupd-server
