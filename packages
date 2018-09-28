@@ -41,6 +41,7 @@ Pint
 PyDispatcher
 PyJWT
 PyMySQL
+PyNaCl
 PyWavelets
 PyYAML
 Pygments
@@ -2332,6 +2333,7 @@ p11-kit
 p7zip
 packaging
 pacrunner
+paho-mqtt
 paho.mqtt.c
 paho.mqtt.cpp
 palapeli
@@ -2759,6 +2761,7 @@ perl-Net-IDN-Encode
 perl-Net-INET6Glue
 perl-Net-Ident
 perl-Net-MAC
+perl-Net-MQTT
 perl-Net-NTP
 perl-Net-OpenID-Common
 perl-Net-OpenID-Consumer
@@ -3110,11 +3113,11 @@ pyflakes
 pygobject
 pyinotify
 pykerberos
+pylama
 pyliblzma
 pylint
 pymemcache
 pymongo
-pynacl
 pypandoc
 pyparsing
 pyperclip
