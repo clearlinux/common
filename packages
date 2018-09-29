@@ -1197,6 +1197,7 @@ django-discover-runner
 django-nose
 django-pyscss
 django_compressor
+dlt-daemon
 dmenu
 dmidecode
 dnf
@@ -2141,6 +2142,7 @@ mistune
 mixer-tools
 mkfontdir
 mkfontscale
+mkl-dnn
 mkosi
 mobile-broadband-provider-info
 mock
