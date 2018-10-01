@@ -3136,6 +3136,7 @@ pysnmp
 pytest
 pytest-cov
 pytest-forked
+pytest-randomly
 pytest-repeat
 pytest-rerunfailures
 pytest-runner
