@@ -3190,6 +3190,7 @@ python-urwid
 python-zaqarclient
 python-zeep
 python3
+pytools
 pytz
 pyudev
 pywbem
