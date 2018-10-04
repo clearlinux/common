@@ -786,6 +786,9 @@ Theano
 Thunar
 UkPostcodeParser
 Vertex-theme
+Vulkan-Headers
+Vulkan-Loader
+Vulkan-Tools
 WALinuxAgent
 WSGIProxy2
 WSME
@@ -3532,7 +3535,6 @@ voluptuous
 voluptuous-serialize
 vsqlite
 vte
-vulkan-sdk
 waffle
 waitress
 warlock
