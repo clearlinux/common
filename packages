@@ -1016,6 +1016,7 @@ cgdb
 cgit
 chardet
 check
+check-manifest
 cheese
 cheroot
 chrome-gnome-shell
@@ -3131,6 +3132,7 @@ pypowervm
 pyquery
 pyreadline
 pyrfc3339
+pyroma
 pyroute2
 pyrsistent
 pysaml2
