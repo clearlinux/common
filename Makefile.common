@@ -15,6 +15,7 @@ SRPMVERS = $(shell [ ! -f $(SPECFILE) ] || rpmspec -D '_vendor clr' --srpm -q --
 SRPMFILE = results/$(SRPMVERS).src.rpm
 
 LATEST_RPMS = $(wildcard rpms/*.rpm)
+DEBUGINFO_RPM = $(wildcard rpms/*-debuginfo-*.rpm)
 RPMS ?= $(LATEST_RPMS)
 
 WITH_SUDO = $(shell cmp /usr/bin/mock /usr/sbin/mock &> /dev/null && echo sudo )
@@ -407,6 +408,31 @@ install:
 		fi; \
 	done
 	@$(MAKE) loop-down DEVICE=6
+
+#help install-debuginfo-local: Install locally built debuginfo RPM to
+#help the automatic debuginfo cache location (/var/cache/debuginfo)
+install-debuginfo-local:
+	tmpdir=$$(mktemp -d); \
+	rpm2cpio ${DEBUGINFO_RPM} | ( cd $$tmpdir; cpio -i -d -u); \
+	dest=/var/cache/debuginfo/lib; \
+	find $$tmpdir/usr/lib/debug/ -mindepth 1 -maxdepth 1 | while read -r d; do \
+		sudo chown -R dbginfo:dbginfo "$$d"; \
+		sudo cp -a "$$d" $$dest/; \
+	done; \
+	dest=/var/cache/debuginfo/src; \
+	find $$tmpdir/usr/src/debug/ -mindepth 1 -maxdepth 1 | while read -r d; do \
+		sudo chown -R dbginfo:dbginfo "$$d"; \
+		sudo cp -a "$$d" $$dest/; \
+	done; \
+	sudo rm -rf $$tmpdir
+
+#help install-local: Install locally built RPMs to the root filesystem. Note that the
+#help debuginfo RPM installs to /var/cache/debuginfo
+install-local:
+	for r in $(filter-out ${DEBUGINFO_RPM},${RPMS}); do \
+		rpm2cpio $$r | (cd /; sudo cpio -i -d -u); \
+	done
+	$(MAKE) install-debuginfo-local
 
 #help generateupstream: Run this rule to create or update the 'upstream' file
 #help by downloading the upstream source tarballs listed in the spec file and
