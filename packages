@@ -877,6 +877,7 @@ argparse
 ark
 artikulate
 asciidoc
+asciinema
 asio
 asn1crypto
 aspell
@@ -1315,6 +1316,8 @@ font-adobe-75dpi
 font-bitstream-type1
 font-util
 fontconfig
+fontforge
+fonttools
 frameworkintegration
 freeglut
 freeipmi
@@ -1901,6 +1904,7 @@ libe-book
 libepoxy
 libepubgen
 liberasurecode
+liberation-fonts
 libetonyek
 libev
 libevdev
@@ -2018,6 +2022,7 @@ libsodium
 libsolv
 libsoup
 libspectre
+libspiro
 libsrtp
 libssh
 libssh2
@@ -2030,6 +2035,7 @@ libtirpc
 libtool
 libudev0-shim
 libuev
+libuninameslist
 libunistring
 libunwind
 libusb
