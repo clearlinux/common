@@ -1535,6 +1535,7 @@ idna-ssl
 ifaddr
 iftop
 ilmbase
+image
 imagesize
 imapfilter
 imlib2
@@ -2076,6 +2077,7 @@ linux-gce
 linux-hyperv
 linux-hyperv-lts
 linux-hyperv-mini
+linux-iot-lts2018
 linux-kata
 linux-kvm
 linux-libc-headers
@@ -2176,6 +2178,7 @@ mpfr
 mpg123
 mpi4py
 mpmath
+mraa
 msgpack
 msmtp
 msr-tools
@@ -3340,6 +3343,7 @@ sg3_utils
 shadow
 shared-mime-info
 sharutils
+shell
 shim
 siege
 simg-tools
@@ -3558,6 +3562,7 @@ weston
 wget
 wheel
 which
+whois
 widgetsnbextension
 winpdb
 wireless-regdb-master
