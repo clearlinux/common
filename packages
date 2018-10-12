@@ -3282,6 +3282,7 @@ redsocks
 reno
 reportlab
 repoze.lru
+repoze.sphinx.autointerface
 repoze.who
 requests
 requests-kerberos
