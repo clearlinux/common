@@ -1250,7 +1250,6 @@ efivar
 eigen
 elasticsearch
 elasticsearch-dep
-electric-fence
 elementary-xfce
 elfutils
 elixir
@@ -2085,7 +2084,6 @@ linux-gce
 linux-hyperv
 linux-hyperv-lts
 linux-hyperv-mini
-linux-iot-lts2017-preempt-rt
 linux-iot-lts2018
 linux-kata
 linux-kvm
@@ -3282,7 +3280,6 @@ redsocks
 reno
 reportlab
 repoze.lru
-repoze.sphinx.autointerface
 repoze.who
 requests
 requests-kerberos
@@ -3424,6 +3421,7 @@ svgpart
 sweeper
 swift
 swig
+swupd-client
 swupd-client
 swupd-overdue
 swupd-probe
