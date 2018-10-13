@@ -3422,6 +3422,7 @@ sweeper
 swift
 swig
 swupd-client
+swupd-client
 swupd-overdue
 swupd-probe
 swupd-server
