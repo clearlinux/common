@@ -2116,6 +2116,7 @@ lsacpi
 lshw
 lskat
 lsof
+lsscsi
 ltp
 ltrace
 lua
