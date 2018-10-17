@@ -3677,7 +3677,6 @@ yelp-tools
 yelp-xsl
 yum
 yum-metadata-parser
-yum-utils
 zVMCloudConnector
 zake
 zc.lockfile
