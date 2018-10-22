@@ -3217,6 +3217,7 @@ python-troveclient
 python-urwid
 python-zaqarclient
 python-zeep
+python2-mod_wsgi
 python3
 pytools
 pytz
