@@ -1254,6 +1254,7 @@ electric-fence
 elementary-xfce
 elfutils
 elixir
+ell
 emacs
 empy
 enchant
@@ -2695,6 +2696,7 @@ perl-Image-Size
 perl-Import-Into
 perl-Importer
 perl-Inline
+perl-Inline-C
 perl-JSON
 perl-JSON-MaybeXS
 perl-JSON-RPC
@@ -2848,8 +2850,6 @@ perl-Pod-Plainer
 perl-Pod-Spell
 perl-Pod-Strip
 perl-PostScript-File
-perl-Proc-Daemon
-perl-Proc-ProcessTable
 perl-Proc-Wait3
 perl-Protocol-OSC
 perl-Quota
