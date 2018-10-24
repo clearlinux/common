@@ -1203,6 +1203,7 @@ django-discover-runner
 django-nose
 django-pyscss
 django_compressor
+dldt
 dlt-daemon
 dmenu
 dmidecode
