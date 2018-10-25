@@ -3181,6 +3181,7 @@ python-cinderclient
 python-dateutil
 python-dateutil-legacypython
 python-designateclient
+python-dldt
 python-editor
 python-future
 python-gflags
