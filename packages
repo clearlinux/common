@@ -2936,6 +2936,7 @@ perl-Test-Manifest
 perl-Test-MockModule
 perl-Test-MockTime
 perl-Test-More-UTF8
+perl-Test-Most
 perl-Test-Needs
 perl-Test-NoWarnings
 perl-Test-Number-Delta
@@ -2952,6 +2953,7 @@ perl-Test-Strict
 perl-Test-Synopsis
 perl-Test-TCP
 perl-Test-Taint
+perl-Test-Trap
 perl-Test-UseAllModules
 perl-Test-Warn
 perl-Test-Warnings
