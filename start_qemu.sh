@@ -43,11 +43,19 @@ if [ ! -f "$IMAGE" ]; then
 fi
 rm -f debug.log
 
+# 10/25/2018: keep back compatibility for a while
+UEFI_BIOS="-bios OVMF.fd"
+
+if [ -f OVMF_VARS.fd -a -f OVMF_CODE.fd ]; then
+    UEFI_BIOS=" -drive file=OVMF_CODE.fd,if=pflash,format=raw,unit=0,readonly=on "
+    UEFI_BIOS+=" -drive file=OVMF_VARS.fd,if=pflash,format=raw,unit=1 "
+fi
+
 VMN=${VMN:=1}
 
 qemu-system-x86_64 \
     -enable-kvm \
-    -bios OVMF.fd \
+    ${UEFI_BIOS} \
     -smp sockets=1,cpus=4,cores=2 -cpu host \
     -m 1024 \
     -vga none -nographic \
