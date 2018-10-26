@@ -1048,6 +1048,7 @@ clr-find-bundle
 clr-fwupd-hooks
 clr-hardware-files
 clr-init
+clr-installer
 clr-man-pages
 clr-power-tweaks
 clr-python-timestamp
