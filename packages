@@ -7,6 +7,7 @@ ConfigArgParse
 Counter
 Cython
 Django
+Edge-optimized-models
 Flask
 Flask-RESTful
 FlatBuffers
@@ -232,6 +233,7 @@ R-circlize
 R-classInt
 R-cli
 R-clipr
+R-clisymbols
 R-clue
 R-clustMixType
 R-clusterGeneration
@@ -350,6 +352,7 @@ R-formatR
 R-fossil
 R-fpc
 R-fracdiff
+R-fs
 R-futile.logger
 R-futile.options
 R-future
@@ -370,6 +373,7 @@ R-ggplot2
 R-ggplot2movies
 R-ggridges
 R-ggvis
+R-gh
 R-git2r
 R-glmnet
 R-globals
@@ -404,6 +408,7 @@ R-hypergeo
 R-ica
 R-igraph
 R-import
+R-ini
 R-inline
 R-inum
 R-ipred
@@ -656,6 +661,7 @@ R-sendmailR
 R-seqinr
 R-seriation
 R-seroincidence
+R-sessioninfo
 R-setRNG
 R-sfsmisc
 R-sgeostat
@@ -734,6 +740,7 @@ R-ucminf
 R-urca
 R-urltools
 R-uroot
+R-usethis
 R-utf8
 R-uuid
 R-varImp
@@ -1736,6 +1743,7 @@ killbots
 kimageformats
 kimagemapeditor
 kimap
+kimchi
 kinfocenter
 kinit
 kio
@@ -3593,6 +3601,7 @@ winpdb
 wireless-regdb-master
 wireshark
 woff2
+wok
 wol
 wpa_supplicant
 wrapt
