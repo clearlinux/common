@@ -601,6 +601,7 @@ R-ranger
 R-rappdirs
 R-raster
 R-rasterVis
+R-rcmdcheck
 R-reactR
 R-readr
 R-readstata13
@@ -610,6 +611,8 @@ R-registry
 R-relimp
 R-rematch
 R-rematch2
+R-remote
+R-remotes
 R-rentrez
 R-repr
 R-reprex
@@ -762,6 +765,7 @@ R-withr
 R-worrms
 R-xfun
 R-xml2
+R-xopen
 R-xtable
 R-xts
 R-yaml
@@ -2132,6 +2136,7 @@ lsscsi
 ltp
 ltrace
 lua
+luarocks
 lxml
 lz4
 lzip
