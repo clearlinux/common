@@ -1898,6 +1898,7 @@ libassuan
 libasyncns
 libatasmart
 libatomic_ops
+libavtp
 libb64
 libblockdev
 libburn
@@ -3144,6 +3145,7 @@ pyaml
 pyasn1
 pyasn1-modules
 pyatspi
+pybind11
 pycadf
 pycairo
 pycodestyle
