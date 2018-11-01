@@ -43,6 +43,7 @@ PyDispatcher
 PyJWT
 PyMySQL
 PyNaCl
+PyQRCode
 PyWavelets
 PyYAML
 Pygments
@@ -1217,6 +1218,7 @@ django-nose
 django-pyscss
 django_compressor
 dldt
+dldt-model-optimizer
 dlt-daemon
 dmenu
 dmidecode
@@ -3167,6 +3169,7 @@ pyliblzma
 pylint
 pymemcache
 pymongo
+pyotp
 pypandoc
 pyparsing
 pyperclip
