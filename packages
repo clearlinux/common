@@ -1572,6 +1572,7 @@ intel-gmmlib
 intel-gpu-tools
 intel-hybrid-driver
 intel-media-driver
+intelhex
 intltool
 ioc-cbc-tools
 ioping
@@ -1612,6 +1613,7 @@ iw
 ixion
 jansson
 jaraco.functools
+jdcal
 jedi
 jedi-vim
 jeepney
@@ -1860,6 +1862,7 @@ ldb
 lensfun
 less
 leveldb
+lftp
 libICE
 libSM
 libX11
@@ -2123,6 +2126,7 @@ linux-steam-integration
 linux-tools
 linuxptp
 lksctp-tools
+llfuse
 llvm
 llvmlite
 lmdb
@@ -2403,6 +2407,7 @@ passlib
 patch
 patchutils
 pathlib
+pathlib2
 patsy
 pavucontrol
 pbr
@@ -3235,6 +3240,7 @@ python-senlinclient
 python-subunit
 python-swiftclient
 python-systemd
+python-tabulate
 python-tappy
 python-toml
 python-troveclient
