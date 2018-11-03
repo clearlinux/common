@@ -846,6 +846,7 @@ acl
 acme
 acpica-unix2
 acrn-hypervisor
+adapt-parser
 adwaita-icon-theme
 aeon
 aioeventlet
@@ -922,6 +923,7 @@ autofs
 autogen
 automake
 automaton
+awesome-wm
 awscli
 axel
 azure-configs
@@ -1307,6 +1309,7 @@ fftw
 file
 file-roller
 filelight
+filelock
 filesystem
 findutils
 fio
@@ -1564,6 +1567,7 @@ imapfilter
 imlib2
 indent
 infiniband-diags
+inflection
 influxdb
 iniparse
 init-rdahead
@@ -2086,6 +2090,7 @@ libwpd
 libwpg
 libwps
 libxcb
+libxdg-basedir
 libxfce4ui
 libxfce4util
 libxkbcommon
@@ -2143,6 +2148,7 @@ lsscsi
 ltp
 ltrace
 lua
+lualgi
 luarocks
 lxml
 lz4
@@ -2220,6 +2226,7 @@ mpi4py
 mpmath
 mraa
 msgpack
+msm
 msmtp
 msr-tools
 mstflint
@@ -2234,6 +2241,7 @@ musl
 mutagen
 mutt
 mutter
+mycroft-core
 mypaint-brushes
 mypy
 mypy_extensions
@@ -2386,6 +2394,8 @@ p11-kit
 p7zip
 packaging
 pacrunner
+padaos
+padatious
 paho-mqtt
 paho.mqtt.c
 paho.mqtt.cpp
@@ -3141,6 +3151,7 @@ pth
 ptyprocess
 pugixml
 pulseaudio
+pulsectl
 purpose
 pv
 pwgen
@@ -3148,6 +3159,7 @@ py
 pyOpenSSL
 pyScss
 pyaes
+pyalsaaudio
 pyaml
 pyasn1
 pyasn1-modules
@@ -3164,6 +3176,7 @@ pydot
 pydot_ng
 pydotplus
 pyeclib
+pyee
 pyemd
 pyflakes
 pygobject
@@ -3190,6 +3203,7 @@ pysendfile
 pyserial
 pysnmp
 pytest
+pytest-asyncio
 pytest-cov
 pytest-forked
 pytest-randomly
