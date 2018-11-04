@@ -1301,6 +1301,7 @@ f2fs-tools
 faba-icon-theme
 fakeroot
 fann
+fann2
 farstream
 fasteners
 fcgi
@@ -1943,6 +1944,7 @@ libevent
 libexif
 libexttextcat
 libffi
+libffmpeg-stub
 libfontenc
 libfprint
 libfreehand
@@ -3259,6 +3261,7 @@ python-tappy
 python-toml
 python-troveclient
 python-urwid
+python-vlc
 python-zaqarclient
 python-zeep
 python-zstandard
