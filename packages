@@ -3447,6 +3447,7 @@ sphinxcontrib-apidoc
 sphinxcontrib-blockdiag
 sphinxcontrib-httpdomain
 sphinxcontrib-newsfeed
+sphinxcontrib-programoutput
 sphinxcontrib-websupport
 spi-tools
 spice
