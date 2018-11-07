@@ -981,6 +981,7 @@ bridge-utils
 bro
 brotli
 bsdiff
+bspwm
 btrfs-progs
 buildreq-R
 buildreq-cmake
@@ -1255,6 +1256,7 @@ dstat
 dtc
 dtopt
 dulwich
+dunst
 duperemove
 dwarves
 dyskctl
@@ -2180,6 +2182,7 @@ meld
 memcached
 memkind
 memshrinker
+mercurial
 mesa
 mesa-demos
 meson
@@ -3133,6 +3136,7 @@ portend
 positional
 posix_ipc
 postgresql
+povray
 powerline-fonts
 powertop
 poxml
@@ -3245,6 +3249,7 @@ python-mock
 python-multilib
 python-neutronclient
 python-novaclient
+python-openid
 python-openstackclient
 python-openzwave
 python-perf
@@ -3283,6 +3288,7 @@ qpdf
 qpid-python
 qqc2-desktop-style
 qrencode
+qscintilla
 qt-creator
 qt3d
 qtbase
@@ -3486,6 +3492,7 @@ swupd-client
 swupd-overdue
 swupd-probe
 swupd-server
+sxhkd
 sympy
 syndication
 synergy
@@ -3555,6 +3562,10 @@ tornado
 totem
 totem-pl-parser
 tox
+tpm2-abrmd
+tpm2-simulator
+tpm2-tools
+tpm2-tss
 tqdm
 traceback2
 traceroute
@@ -3565,6 +3576,7 @@ tree
 trollius
 typed-ast
 typing
+typing_extensions
 tzdata
 tzlocal
 ua-parser
