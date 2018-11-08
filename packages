@@ -1126,6 +1126,7 @@ compat-gtksourceview-soname3
 compat-guile-soname20
 compat-hdf5-soname10
 compat-hyperscan-soname4
+compat-icu4c-soname61
 compat-ipset-soname10
 compat-libical-soname2
 compat-libidn-soname11
@@ -2226,7 +2227,6 @@ mozjs
 mozjs38
 mozjs52
 mozjs60
-mp3lame
 mpc
 mpfr
 mpg123
