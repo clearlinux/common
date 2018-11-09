@@ -247,6 +247,7 @@ R-colourpicker
 R-combinat
 R-commonmark
 R-compositions
+R-config
 R-contfrac
 R-conting
 R-corpcor
@@ -420,6 +421,7 @@ R-joineR
 R-joineRML
 R-jpeg
 R-jsonlite
+R-keras
 R-kernlab
 R-klaR
 R-kmi
@@ -717,8 +719,10 @@ R-taxize
 R-tclust
 R-tensor
 R-tensorA
+R-tensorflow
 R-testit
 R-testthat
+R-tfruns
 R-threejs
 R-tibble
 R-tidyr
@@ -771,6 +775,7 @@ R-xtable
 R-xts
 R-yaml
 R-zCompositions
+R-zeallot
 R-zip
 R-zoo
 Remmina
@@ -1263,6 +1268,7 @@ duperemove
 dwarves
 dyskctl
 e2fsprogs
+earlyapp
 ebtables
 ecdsa
 ed
@@ -1287,6 +1293,7 @@ envs
 eog
 eog-plugins
 epm
+eternalegypt
 ethtool
 eventlet
 eventviews
