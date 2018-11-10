@@ -2278,6 +2278,7 @@ net-snmp
 net-tools
 netaddr
 netbase
+netcdf
 netdisco
 netifaces
 nettle
