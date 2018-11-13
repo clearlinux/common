@@ -1235,6 +1235,7 @@ dldt-model-optimizer
 dlt-daemon
 dmenu
 dmidecode
+dmlc-core
 dnf
 dnf-plugins-core
 dnsmasq
