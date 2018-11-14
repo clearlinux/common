@@ -1146,6 +1146,7 @@ compat-mpfr-soname4
 compat-opencv-soname32
 compat-opencv-soname33
 compat-openssl-soname-10
+compat-poppler-soname78
 compat-protobuf-soname14
 compat-protobuf-soname15
 compat-readline
@@ -2260,6 +2261,7 @@ musl
 mutagen
 mutt
 mutter
+mxnet
 mycroft-core
 mypaint-brushes
 mypy
@@ -3459,6 +3461,7 @@ source-highlight
 sox
 spandsp
 spark-dep
+spectacle
 speex
 speexdsp
 sphinx-feature-classification
