@@ -1572,6 +1572,7 @@ ibus-table
 icalendar
 icdiff
 iceauth
+icecream
 icon-naming-utils
 icu4c
 idna
@@ -1823,6 +1824,7 @@ konqueror
 konquest
 konsole
 kontactinterface
+konversation
 kpackage
 kparts
 kpeople
@@ -3250,6 +3252,7 @@ python-editor
 python-future
 python-gflags
 python-glanceclient
+python-graphviz
 python-heatclient
 python-hwinfo
 python-kconfiglib
@@ -3753,6 +3756,7 @@ xwd
 xwininfo
 xz
 yajl
+yakuake
 yaml
 yarl
 yarn
