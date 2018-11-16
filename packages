@@ -1,3 +1,4 @@
+AVB-AudioModules
 Babel
 Botan
 CUnit
@@ -800,6 +801,7 @@ SocksiPy-branch
 Sphinx
 SuiteSparse
 Tempita
+Texmaker
 Theano
 Thunar
 UkPostcodeParser
@@ -1479,6 +1481,8 @@ gom
 goocanvas
 google-api-python-client
 google-apitools
+google-auth
+google-auth-httplib2
 google-reauth
 googletest
 gperf
