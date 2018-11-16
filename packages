@@ -3390,6 +3390,7 @@ rsa
 rsync
 rt-tests
 rtslib-fb
+ruamel-yaml
 ruby
 runc
 rust-std32
