@@ -975,6 +975,7 @@ bluez-qt
 bmap-tools
 bndl-lamp-basic
 bokeh
+bolt
 bomber
 boost
 borgbackup
@@ -3516,7 +3517,6 @@ swig
 swupd-client
 swupd-overdue
 swupd-probe
-swupd-server
 sxhkd
 sympy
 syndication
