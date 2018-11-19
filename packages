@@ -26,6 +26,7 @@ LibRaw
 LibVNCServer
 Linux-PAM
 LuaJIT
+LyX
 M2Crypto
 Mako
 Markdown
@@ -2258,6 +2259,7 @@ msgpack
 msm
 msmtp
 msr-tools
+msrest
 mstflint
 mtdev
 mtr
@@ -3377,6 +3379,7 @@ requests
 requests-kerberos
 requests-mock
 requests-ntlm
+requests-oauthlib
 requests-toolbelt
 requestsexceptions
 rest
@@ -3765,6 +3768,7 @@ xz
 yajl
 yakuake
 yaml
+yaml-cpp
 yarl
 yarn
 yasm
