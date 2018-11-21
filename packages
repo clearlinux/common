@@ -1150,6 +1150,7 @@ compat-llvm-soname6
 compat-mpfr-soname4
 compat-opencv-soname32
 compat-opencv-soname33
+compat-opencv-soname34
 compat-openssl-soname-10
 compat-poppler-soname78
 compat-protobuf-soname14
@@ -3254,6 +3255,7 @@ python-augeas
 python-barbicanclient
 python-ceilometerclient
 python-cinderclient
+python-crfsuite
 python-dateutil
 python-dateutil-legacypython
 python-designateclient
@@ -3454,6 +3456,7 @@ simg-tools
 simple-scan
 simplegeneric
 simplejson
+singledispatch
 sip
 six
 slang
