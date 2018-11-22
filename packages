@@ -3255,6 +3255,7 @@ python-augeas
 python-barbicanclient
 python-ceilometerclient
 python-cinderclient
+python-coveralls
 python-crfsuite
 python-dateutil
 python-dateutil-legacypython
