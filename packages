@@ -938,6 +938,7 @@ awesome-wm
 awscli
 axel
 azure-configs
+azure-iot-sdk
 babeltrace
 babl
 backcall
@@ -2263,6 +2264,7 @@ msmtp
 msr-tools
 msrest
 mstflint
+mtd-utils
 mtdev
 mtr
 multidict
