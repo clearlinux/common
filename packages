@@ -1013,6 +1013,7 @@ buildreq-mvn
 buildreq-qmake
 buildreq-scons
 bundle-chroot-builder
+bwidget
 bz2file
 bzip2
 c-ares
@@ -2029,6 +2030,7 @@ libmbim
 libmediaart
 libmicrohttpd
 libmnl
+libmodbus
 libmodulemd
 libmspack
 libmspub
@@ -2096,6 +2098,7 @@ libtasn1
 libthai
 libtheora
 libtirpc
+libtk-img
 libtool
 libudev0-shim
 libuev
@@ -3206,6 +3209,7 @@ pyatspi
 pybind11
 pycadf
 pycairo
+pycam
 pycodestyle
 pycparser
 pycrypto
@@ -3219,6 +3223,8 @@ pyee
 pyemd
 pyflakes
 pygobject
+pygobject-legacy
+pygtk
 pyinotify
 pykerberos
 pylama
@@ -3551,6 +3557,7 @@ taskflow
 taskwarrior
 tbb
 tcl
+tclx
 tcpdump
 tdb
 telemetrics-client
