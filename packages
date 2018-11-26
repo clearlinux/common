@@ -36,6 +36,7 @@ MonkeyType
 MySQL-python
 NetworkManager
 NetworkManager-openconnect
+OpenColorIO
 OpenSP
 PackageKit
 Paste
@@ -1159,6 +1160,7 @@ compat-poppler-soname78
 compat-protobuf-soname14
 compat-protobuf-soname15
 compat-readline
+compat-readline-soname5
 component
 compute-image-packages
 configobj
