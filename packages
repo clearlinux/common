@@ -1222,6 +1222,7 @@ defusedxml
 dejagnu
 deprecation
 desktop-file-utils
+desktop-icons
 devhelp
 dfc
 dfu-util
@@ -2448,6 +2449,7 @@ pandoc
 pandocfilters
 pango
 pangomm
+paper-icon-theme
 parallel
 parameter-framework
 paramiko
