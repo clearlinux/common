@@ -9,6 +9,7 @@ Counter
 Cython
 Django
 Edge-optimized-models
+F-Engrave
 Flask
 Flask-RESTful
 FlatBuffers
@@ -260,6 +261,7 @@ R-cowplot
 R-crayon
 R-crosstalk
 R-crul
+R-csvy
 R-cubature
 R-curl
 R-cvTools
@@ -341,6 +343,7 @@ R-fastcluster
 R-fastmatch
 R-fauxpas
 R-fda
+R-feather
 R-ff
 R-fields
 R-filehash
