@@ -1249,6 +1249,7 @@ django_compressor
 dldt
 dldt-model-optimizer
 dlt-daemon
+dmap2gcode
 dmenu
 dmidecode
 dmlc-core
