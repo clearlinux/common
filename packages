@@ -1027,6 +1027,7 @@ ca-certs-static
 cabextract
 cached-property
 cachetools
+caffe
 cairo
 cairomm
 calendarsupport
@@ -3182,6 +3183,7 @@ positional
 posix_ipc
 postgresql
 povray
+powerdevil
 powerline-fonts
 powertop
 poxml
