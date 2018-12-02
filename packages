@@ -48,6 +48,7 @@ PyDispatcher
 PyJWT
 PyMySQL
 PyNaCl
+PyOpenGL
 PyQRCode
 PyWavelets
 PyYAML
@@ -1539,6 +1540,7 @@ gtk-doc
 gtk-vnc
 gtk-xfce-engine
 gtk3
+gtkglext
 gtkmm3
 gtksourceview
 gtkspell3
@@ -2456,6 +2458,7 @@ pandoc
 pandocfilters
 pango
 pangomm
+pangox-compat
 paper-icon-theme
 parallel
 parameter-framework
@@ -3182,6 +3185,7 @@ portend
 positional
 posix_ipc
 postgresql
+potrace
 povray
 powerdevil
 powerline-fonts
@@ -3237,6 +3241,7 @@ pyflakes
 pygobject
 pygobject-legacy
 pygtk
+pygtkglext
 pyinotify
 pykerberos
 pylama
