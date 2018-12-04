@@ -4,6 +4,7 @@ Botan
 CUnit
 Cheetah
 CherryPy
+Coin
 ConfigArgParse
 Counter
 Cython
