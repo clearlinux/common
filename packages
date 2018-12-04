@@ -814,6 +814,7 @@ Texmaker
 Theano
 Thunar
 UkPostcodeParser
+VTK
 Vertex-theme
 Vulkan-Headers
 Vulkan-Loader
@@ -975,6 +976,7 @@ binutils
 bison
 bkcharts
 bleach
+blender
 blinken
 blinker
 blktrace
@@ -1915,6 +1917,7 @@ less
 leveldb
 lftp
 libICE
+libMED
 libSM
 libX11
 libXScrnSaver
