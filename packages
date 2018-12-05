@@ -2107,6 +2107,7 @@ libsolv
 libsoup
 libspectre
 libspiro
+libspnav
 libsrtp
 libssh
 libssh2
@@ -2487,6 +2488,8 @@ pbzip2
 pciutils
 pcre
 pcre2
+pdns
+pdns-recursor
 pecan
 pep8
 performance
@@ -3269,6 +3272,7 @@ pyrsistent
 pysaml2
 pysendfile
 pyserial
+pyside2-setup
 pysnmp
 pytest
 pytest-asyncio
@@ -3750,6 +3754,7 @@ xdg-desktop-portal-kde
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
+xdotool
 xdpyinfo
 xemacs
 xerces-c
