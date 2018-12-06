@@ -1546,6 +1546,7 @@ gtk-vnc
 gtk-xfce-engine
 gtk3
 gtkglext
+gtkmm2
 gtkmm3
 gtksourceview
 gtkspell3
