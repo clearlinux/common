@@ -899,6 +899,7 @@ apache-spark
 apache-zookeeper
 apipkg
 appdirs
+appstream
 appstream-glib
 apr
 apr-util
@@ -1079,6 +1080,7 @@ click
 cliff
 clinfo
 cln
+cloud-native-setup
 cloudpickle
 clr-R-helpers
 clr-avx-tools
