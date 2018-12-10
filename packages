@@ -1080,6 +1080,7 @@ click
 cliff
 clinfo
 cln
+cloc
 cloud-native-setup
 cloudpickle
 clr-R-helpers
@@ -1144,6 +1145,7 @@ compat-SDL2-soname1
 compat-cryptsetup-soname4
 compat-efivar-soname0
 compat-enchant-soname1
+compat-exiv2-soname26
 compat-fuse-soname2
 compat-gegl
 compat-gegl-0.3
@@ -1622,6 +1624,7 @@ inflection
 influxdb
 iniparse
 init-rdahead
+inkscape
 inotify-tools
 intel-gmmlib
 intel-gpu-tools
@@ -3513,6 +3516,7 @@ solid
 sonnet
 sortedcontainers
 sos
+sound-theme-freedesktop
 soundmodem
 source-code-pro
 source-highlight
