@@ -461,6 +461,15 @@ generateupstream:
 drop-abandoned: $(SPECFILE)
 	python3 $(TOPLVL)/projects/common/drop-abandoned-patches.py $(SPECFILE)
 
+#help cloc: Count lines of code with the `cloc` tool on the full sources of package
+cloc: $(SRPMFILE)
+	@$(MOCK) -r $(TOPLVL)/repo/clear.cfg $(SRPMFILE) --result=results/ --no-cleanup-after
+	@$(MOCK) --chroot --copyin /usr/bin/cloc /usr/bin/cloc --result=results/ --no-cleanup-after
+	@$(MOCK) --result=results/ --no-cleanup-after --chroot '/usr/bin/cloc /builddir > /tmp/cloc.txt'
+	@$(MOCK) --copyout /tmp/cloc.txt results/ --result=results/
+	@$(MOCK) --clean --scrub=chroot --uniqueext=$(PKG_NAME)
+	cat results/cloc.txt
+
 # Define site local common targets in a separate makefile
 -include $(TOPLVL)/projects/common/Makefile.common.site_local
 
