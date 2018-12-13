@@ -1157,6 +1157,7 @@ compat-guile-soname20
 compat-hdf5-soname10
 compat-hyperscan-soname4
 compat-icu4c-soname61
+compat-intel-gmmlib-soname1
 compat-ipset-soname10
 compat-libical-soname2
 compat-libidn-soname11
