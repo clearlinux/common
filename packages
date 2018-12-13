@@ -1111,6 +1111,7 @@ cmake
 cmd2
 cmocka
 cmrt
+cnf
 cni
 cni-plugins
 cockpit
