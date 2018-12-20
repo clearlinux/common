@@ -52,6 +52,7 @@ PyMySQL
 PyNaCl
 PyOpenGL
 PyQRCode
+PyQt5
 PyWavelets
 PyYAML
 Pygments
@@ -1428,6 +1429,7 @@ gegl
 gensim
 geoclue
 geocode-glib
+geos
 gettext
 gevent
 gexiv2
@@ -1616,6 +1618,7 @@ idna
 idna-ssl
 ifaddr
 iftop
+igt-gpu-tools
 ilmbase
 image
 imagesize
@@ -1630,7 +1633,6 @@ init-rdahead
 inkscape
 inotify-tools
 intel-gmmlib
-intel-gpu-tools
 intel-hybrid-driver
 intel-media-driver
 intelhex
@@ -3210,12 +3212,14 @@ powerdevil
 powerline-fonts
 powertop
 poxml
+ppp
 pretend
 prettytable
 prison
 proc-macro2
 processor-trace
 procps-ng
+proj
 prometheus_client
 prompt_toolkit
 protobuf
@@ -3468,6 +3472,7 @@ sbc
 sbsigntools
 scala
 scala-dep
+scene-alembic
 scikit-build
 scikit-image
 scikit-learn
