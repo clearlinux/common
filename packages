@@ -14,6 +14,7 @@ F-Engrave
 Flask
 Flask-RESTful
 FlatBuffers
+FreeCAD
 FreeRDP
 GConf
 GitPython
@@ -57,6 +58,7 @@ PyWavelets
 PyYAML
 Pygments
 Pyro4
+QGIS
 QtAwesome
 QtPy
 R
@@ -1162,7 +1164,9 @@ compat-intel-gmmlib-soname1
 compat-ipset-soname10
 compat-libical-soname2
 compat-libidn-soname11
+compat-libnftnl-soname7
 compat-libpng-soname12
+compat-libva-soname1
 compat-libwebp-soname6
 compat-llvm-soname4
 compat-llvm-soname5
@@ -1174,6 +1178,7 @@ compat-opencv-soname33
 compat-opencv-soname34
 compat-openssl-soname-10
 compat-poppler-soname78
+compat-poppler-soname82
 compat-protobuf-soname14
 compat-protobuf-soname15
 compat-readline
@@ -1361,6 +1366,7 @@ filelock
 filesystem
 findutils
 fio
+firecracker
 firefox
 fish
 fixtures
@@ -1530,6 +1536,7 @@ grantleetheme
 graphene
 graphite
 graphviz
+grass
 greenlet
 grep
 grig
@@ -2116,6 +2123,8 @@ libsndfile
 libsodium
 libsolv
 libsoup
+libspatialindex
+libspatialite
 libspectre
 libspiro
 libspnav
@@ -2189,6 +2198,7 @@ linux-kata
 linux-kvm
 linux-libc-headers
 linux-lts
+linux-networktest
 linux-oracle
 linux-pk414
 linux-pk414-preempt-rt
@@ -2231,6 +2241,7 @@ man-pages
 marble
 mariadb
 mash
+materia-theme
 matplotlib
 maven-dep
 mc
@@ -2326,6 +2337,7 @@ nbformat
 nbsphinx
 ncdu
 ncurses
+ncurses-compat
 ndctl
 ndg_httpsclient
 neofetch
@@ -3246,6 +3258,7 @@ pyasn1
 pyasn1-modules
 pyatspi
 pybind11
+pybtex-docutils
 pycadf
 pycairo
 pycam
@@ -3383,6 +3396,7 @@ qtdeclarative
 qtgamepad
 qtgraphicaleffects
 qtimageformats
+qtkeychain
 qtlocation
 qtmultimedia
 qtnetworkauth
@@ -3409,6 +3423,7 @@ qtxmlpatterns
 quagga
 quassel
 quilt
+qwt
 rabbitmq-c
 rabbitmq-server
 radvd
@@ -3538,6 +3553,7 @@ speexdsp
 sphinx-feature-classification
 sphinx_rtd_theme
 sphinxcontrib-apidoc
+sphinxcontrib-bibtex
 sphinxcontrib-blockdiag
 sphinxcontrib-httpdomain
 sphinxcontrib-newsfeed
