@@ -868,6 +868,7 @@ acl
 acme
 acpica-unix2
 acrn-hypervisor
+adal
 adapt-parser
 adwaita-icon-theme
 aeon
@@ -950,8 +951,12 @@ automaton
 awesome-wm
 awscli
 axel
+azure-common
 azure-configs
 azure-iot-sdk
+azure-nspkg
+azure-servicebus
+azure-storage-common
 babeltrace
 babl
 backcall
@@ -2309,6 +2314,7 @@ msm
 msmtp
 msr-tools
 msrest
+msrestazure
 mstflint
 mtd-utils
 mtdev
@@ -2461,6 +2467,7 @@ oslo.reports
 oslo.rootwrap
 oslo.serialization
 oslo.service
+oslo.upgradecheck
 oslo.utils
 oslo.versionedobjects
 oslo.vmware
@@ -3381,6 +3388,7 @@ qemu-lite
 qml-box2d
 qpdf
 qpid-python
+qpid-tools
 qqc2-desktop-style
 qrencode
 qscintilla
@@ -3503,6 +3511,7 @@ secretstorage
 sed
 selenium
 semantic_version
+seqdiag
 serf
 serpent
 setproctitle
@@ -3558,6 +3567,7 @@ sphinxcontrib-blockdiag
 sphinxcontrib-httpdomain
 sphinxcontrib-newsfeed
 sphinxcontrib-programoutput
+sphinxcontrib-seqdiag
 sphinxcontrib-websupport
 spi-tools
 spice
