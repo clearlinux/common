@@ -1931,6 +1931,7 @@ kwrited
 kxmlgui
 kxmlrpcclient
 latencytop
+latexcodec
 lazy-object-proxy
 lcms2
 lcov
@@ -2451,6 +2452,7 @@ os-win
 os-xenapi
 os_vif
 osc-lib
+oset
 osinfo-db-tools
 oslo.cache
 oslo.concurrency
@@ -3265,6 +3267,7 @@ pyasn1
 pyasn1-modules
 pyatspi
 pybind11
+pybtex
 pybtex-docutils
 pycadf
 pycairo
