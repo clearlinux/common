@@ -1,6 +1,7 @@
 AVB-AudioModules
 Babel
 Botan
+CGAL
 CUnit
 Cheetah
 CherryPy
@@ -40,6 +41,7 @@ MySQL-python
 NetworkManager
 NetworkManager-openconnect
 OpenCASCADE
+OpenCSG
 OpenColorIO
 OpenSP
 PackageKit
@@ -143,6 +145,7 @@ R-RInside
 R-RJSONIO
 R-RNeXML
 R-ROCR
+R-RProtoBuf
 R-RSQLite
 R-RSclient
 R-RUnit
@@ -382,6 +385,7 @@ R-gdata
 R-geepack
 R-geiger
 R-generics
+R-geojson
 R-geometry
 R-getopt
 R-ggjoy
@@ -434,6 +438,7 @@ R-janitor
 R-joineR
 R-joineRML
 R-jpeg
+R-jqr
 R-jsonlite
 R-keras
 R-kernlab
@@ -591,6 +596,7 @@ R-profileModel
 R-progress
 R-promises
 R-proto
+R-protolite
 R-proxy
 R-pryr
 R-ps
@@ -1085,6 +1091,7 @@ clear-containers-runtime
 clear-containers-shim
 clear-font
 click
+click-datetime
 cliff
 clinfo
 cln
@@ -1094,6 +1101,7 @@ cloudpickle
 clr-R-helpers
 clr-avx-tools
 clr-boot-manager
+clr-bundles
 clr-debug-info
 clr-desktop-defaults
 clr-find-bundle
@@ -1163,6 +1171,7 @@ compat-gmime-26
 compat-gtksourceview-soname3
 compat-guile-soname20
 compat-hdf5-soname10
+compat-hwloc-soname5
 compat-hyperscan-soname4
 compat-icu4c-soname61
 compat-intel-gmmlib-soname1
@@ -1400,6 +1409,7 @@ font-util
 fontconfig
 fontforge
 fonttools
+fossil
 frameworkintegration
 freeglut
 freeipmi
@@ -1582,6 +1592,7 @@ h5py
 hacking
 hadoop-dep
 hamlib
+hammock
 haproxy
 hardlink
 harfbuzz
@@ -2003,6 +2014,7 @@ libdaemon
 libdatrie
 libdazzle
 libdbusmenu
+libdeps
 libdmx
 libdnf
 libdrm
@@ -2156,6 +2168,7 @@ libuv
 libva
 libva-intel-driver
 libva-utils
+libvdpau
 libvirt
 libvirt-glib
 libvirt-python
@@ -2216,6 +2229,7 @@ lksctp-tools
 llfuse
 llvm
 llvmlite
+lm-sensors
 lmdb
 locket
 locustio
@@ -2369,6 +2383,7 @@ nghttp2
 nginx
 nicstat
 ninja
+nload
 nlopt
 nltk
 nmap
@@ -2429,6 +2444,7 @@ openjdk
 openjdk9
 openldap
 openmpi
+openscad
 opensm
 openssh
 openssl
@@ -2478,6 +2494,7 @@ oslotest
 osprofiler
 ostree
 otp
+ouimeaux
 ovirt-guest-agent
 ovs
 ovsdbapp
@@ -3281,6 +3298,7 @@ pydot
 pydot_ng
 pydotplus
 pyeclib
+pyecobee
 pyee
 pyemd
 pyflakes
@@ -3288,6 +3306,7 @@ pygobject
 pygobject-legacy
 pygtk
 pygtkglext
+pyhs100
 pyinotify
 pykerberos
 pylama
@@ -3380,6 +3399,7 @@ python2-mod_wsgi
 python3
 pytools
 pytz
+pyu2f
 pyudev
 pywbem
 pyxattr
@@ -3464,6 +3484,7 @@ requests-toolbelt
 requestsexceptions
 rest
 restructuredtext_lint
+retry
 retry_decorator
 retrying
 retype
@@ -3554,6 +3575,7 @@ sortedcontainers
 sos
 sound-theme-freedesktop
 soundmodem
+soupsieve
 source-code-pro
 source-highlight
 sox
@@ -3577,6 +3599,7 @@ spice
 spice-gtk
 spice-protocol
 spyder-notebook
+spyrk
 sqlalchemy-migrate
 sqlite-autoconf
 sqlparse
