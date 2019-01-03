@@ -2461,6 +2461,7 @@ os-api-ref
 os-autoinst
 os-brick
 os-client-config
+os-ken
 os-service-types
 os-testr
 os-traits
