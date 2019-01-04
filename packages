@@ -1160,6 +1160,7 @@ comedilib
 commonmark
 compat-SDL2-soname1
 compat-cryptsetup-soname4
+compat-curl-gnutls-soname4
 compat-efivar-soname0
 compat-enchant-soname1
 compat-exiv2-soname26
@@ -1247,6 +1248,7 @@ db
 dbus
 dbus-broker
 dbus-glib
+dbus-python
 dconf
 dconf-editor
 ddt
@@ -3605,6 +3607,7 @@ sqlalchemy-migrate
 sqlite-autoconf
 sqlparse
 squashfs-tools
+squid
 sshfs
 sshpass
 sssd
