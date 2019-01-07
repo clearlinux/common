@@ -3598,6 +3598,7 @@ sphinxcontrib-httpdomain
 sphinxcontrib-newsfeed
 sphinxcontrib-programoutput
 sphinxcontrib-seqdiag
+sphinxcontrib-trio
 sphinxcontrib-websupport
 spi-tools
 spice
