@@ -1017,6 +1017,7 @@ breeze-icons
 bridge-utils
 bro
 brotli
+brotlipy
 bsdiff
 bspwm
 btrfs-progs
@@ -1198,6 +1199,7 @@ compat-protobuf-soname14
 compat-protobuf-soname15
 compat-readline
 compat-readline-soname5
+compat-readline-soname7
 component
 compute-image-packages
 configobj
