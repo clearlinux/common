@@ -1298,6 +1298,7 @@ docbook-xml
 docker
 docker-py
 dockerpy-creds
+docopt
 docutils
 dogpile.cache
 dogpile.core
@@ -1702,6 +1703,7 @@ ixion
 jack-audio-connection-kit
 jansson
 jaraco.functools
+jarn.viewdoc
 jdcal
 jedi
 jedi-vim
