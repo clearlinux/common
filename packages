@@ -1257,6 +1257,7 @@ ddt
 deap
 debtcollector
 debugedit
+debuginfo-cache
 decorator
 defusedxml
 dejagnu
