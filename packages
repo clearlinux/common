@@ -824,6 +824,7 @@ Texmaker
 Theano
 Thunar
 UkPostcodeParser
+Unidecode
 VTK
 Vertex-theme
 Vulkan-Headers
@@ -1244,6 +1245,7 @@ cycler
 cyrus-sasl
 dapl
 darktable
+dash-to-dock
 dask
 datefudge
 db
@@ -1518,6 +1520,7 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
+gnome-shell-impatience
 gnome-software
 gnome-system-monitor
 gnome-terminal
@@ -3391,6 +3394,7 @@ python-polib
 python-rpm-legacypython
 python-saharaclient
 python-senlinclient
+python-slugify
 python-subunit
 python-swiftclient
 python-systemd
