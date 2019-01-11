@@ -945,6 +945,7 @@ attica
 attr
 attrs
 audiofile
+audisp-json
 audit
 augeas
 authconfig
@@ -2259,7 +2260,7 @@ lualgi
 luarocks
 lxml
 lz4
-lzip
+lzlib
 lzo
 m4
 mailcommon
@@ -3245,6 +3246,7 @@ plasma-workspace
 plasma-workspace-wallpapers
 pluggy
 ply
+plzip
 pmdk
 polkit
 poppler
