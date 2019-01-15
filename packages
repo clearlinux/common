@@ -1290,6 +1290,7 @@ django-discover-runner
 django-nose
 django-pyscss
 django_compressor
+dkms
 dldt
 dldt-model-optimizer
 dlt-daemon
@@ -2193,7 +2194,6 @@ libxkbfile
 libxklavier
 libxml2
 libxml2-legacy
-libxshmfence
 libxslt
 libyami
 libyami-utils
@@ -3815,12 +3815,7 @@ xattr
 xauth
 xbitmaps
 xcb-proto
-xcb-util
 xcb-util-cursor
-xcb-util-image
-xcb-util-keysyms
-xcb-util-renderutil
-xcb-util-wm
 xcb-util-xrm
 xclip
 xcursor-themes
