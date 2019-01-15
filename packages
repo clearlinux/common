@@ -1105,6 +1105,7 @@ cloudpickle
 clr-R-helpers
 clr-avx-tools
 clr-boot-manager
+clr-bundle-icons
 clr-bundles
 clr-debug-info
 clr-desktop-defaults
@@ -1725,6 +1726,7 @@ jq
 json-c
 json-glib
 jsoncpp
+jsondiff
 jsonpatch
 jsonpath-rw
 jsonpath-rw-ext
@@ -3258,6 +3260,7 @@ prison
 proc-macro2
 processor-trace
 procps-ng
+progressbar
 proj
 prometheus_client
 prompt_toolkit
@@ -3431,6 +3434,7 @@ qtgraphicaleffects
 qtimageformats
 qtkeychain
 qtlocation
+qtmqtt
 qtmultimedia
 qtnetworkauth
 qtquickcontrols
