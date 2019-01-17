@@ -3763,6 +3763,8 @@ varnish-cache
 vcstool
 vcversioner
 vim
+vim-fugitive
+vim-gnupg
 vim-go
 vinagre
 vine
