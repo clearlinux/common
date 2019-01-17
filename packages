@@ -733,6 +733,7 @@ R-subselect
 R-superpc
 R-survey
 R-svUnit
+R-sys
 R-systemfit
 R-tau
 R-taxize
@@ -765,6 +766,7 @@ R-truncnorm
 R-tseries
 R-tsne
 R-ucminf
+R-unix
 R-urca
 R-urltools
 R-uroot
