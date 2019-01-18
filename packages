@@ -1114,6 +1114,7 @@ clr-desktop-defaults
 clr-find-bundle
 clr-fwupd-hooks
 clr-hardware-files
+clr-ignore-mod-sig
 clr-init
 clr-installer
 clr-man-pages
@@ -1482,6 +1483,7 @@ glance
 glance_store
 glances
 glew
+glfw
 glib
 glib-networking
 glibc
@@ -3473,6 +3475,7 @@ rcssmin
 rdma-core
 re2c
 readline
+rebootmgr
 recommonmark
 redis
 redis-native
@@ -3702,6 +3705,7 @@ tig
 tigervnc
 time
 tini
+tinycompress
 tinyrpc
 tinyxml2
 tiptop
@@ -3882,6 +3886,7 @@ xrestop
 xscreensaver
 xset
 xsetroot
+xterm
 xtrans
 xvfb-run
 xwd
