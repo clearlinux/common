@@ -1078,6 +1078,7 @@ ceph-deploy
 certbot
 certifi
 cffi
+cfitsio
 cgdb
 cgit
 chardet
