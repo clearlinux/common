@@ -1359,6 +1359,7 @@ elfutils
 elixir
 ell
 emacs
+embree
 empy
 enchant
 entrypoints
@@ -1940,6 +1941,7 @@ ksnakeduel
 kspaceduel
 ksquares
 ksshaskpass
+kstars
 ksudoku
 ksysguard
 ksystemlog
@@ -2079,6 +2081,7 @@ libjpeg-turbo
 libjpeg-turbo-soname8
 libkcddb
 libkcompactdisc
+libkdcraw
 libkdegames
 libkdepim
 libkeduvocdocument
@@ -2452,6 +2455,7 @@ opencv
 openexr
 openjade
 openjdk
+openjdk10
 openjdk9
 openldap
 openmpi
@@ -3222,6 +3226,7 @@ pickleshare
 picmi
 pidgin
 pidgin-sipe
+piglit
 pigz
 pika
 pika-pool
@@ -3798,6 +3803,7 @@ watchdogd
 wavpack
 wayland
 wayland-protocols
+wcslib
 wcwidth
 weakrefmethod
 webcolors
