@@ -985,6 +985,7 @@ bash.static
 bash_kernel
 bashate
 bashdb
+bashlex
 bats
 bazel
 bc
@@ -1482,7 +1483,9 @@ gftp
 ghostscript
 gimp
 git
+git-gui
 gitdb2
+gitg
 gitolite
 gjs
 glance
@@ -2058,6 +2061,7 @@ libgfortran-avx
 libgfortran-compat-soname3
 libgfortran-compat-soname4
 libgit2
+libgit2-glib
 libglade
 libgnome-keyring
 libgnomekbd
@@ -3430,6 +3434,7 @@ pyzmq
 qca-qt5
 qemu
 qemu-lite
+qgit
 qml-box2d
 qpdf
 qpid-python
