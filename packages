@@ -8,6 +8,7 @@ CherryPy
 Coin
 ConfigArgParse
 Counter
+CuraEngine
 Cython
 Django
 Edge-optimized-models
@@ -818,6 +819,7 @@ SDL_ttf
 SQLAlchemy
 SQLAlchemy-Utils
 Send2Trash
+Shapely
 SmartXbar
 SocksiPy-branch
 Sphinx
@@ -828,6 +830,7 @@ Theano
 Thunar
 UkPostcodeParser
 Unidecode
+Uranium
 VTK
 Vc
 Vertex-theme
@@ -1094,11 +1097,6 @@ cifs-utils
 cinder
 clamav
 clear-config-management
-clear-containers-agent
-clear-containers-image
-clear-containers-proxy
-clear-containers-runtime
-clear-containers-shim
 clear-font
 click
 click-datetime
@@ -1394,6 +1392,7 @@ farstream
 fasteners
 fastimport
 fcgi
+fdm_materials
 feh
 fftw
 file
@@ -1636,6 +1635,7 @@ home-assistant
 horizon
 horovod
 hostname
+hplip
 html5lib
 htop
 httpd
@@ -1983,6 +1983,8 @@ lensfun
 less
 leveldb
 lftp
+libArcus
+libCharon
 libMED
 libX11
 libXScrnSaver
@@ -2431,6 +2433,7 @@ numactl
 numatop
 numba
 numpy
+numpy-stl
 numpydoc
 nvme-cli
 oath-toolkit
@@ -3417,6 +3420,7 @@ python-tappy
 python-toml
 python-troveclient
 python-urwid
+python-utils
 python-vlc
 python-zaqarclient
 python-zeep
