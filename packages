@@ -8,6 +8,7 @@ CherryPy
 Coin
 ConfigArgParse
 Counter
+Cura
 CuraEngine
 Cython
 Django
@@ -41,6 +42,7 @@ MonkeyType
 MySQL-python
 NetworkManager
 NetworkManager-openconnect
+NetworkManager-vpnc
 OpenCASCADE
 OpenCSG
 OpenColorIO
@@ -903,6 +905,7 @@ alembic
 alsa-lib
 alsa-plugins
 alsa-utils
+amazon-efs-utils
 amqp
 amtk
 analitza
@@ -1986,6 +1989,7 @@ lftp
 libArcus
 libCharon
 libMED
+libSavitar
 libX11
 libXScrnSaver
 libXaw
@@ -3250,6 +3254,7 @@ pkcs11-helper
 pkg-config
 plasma-browser-integration
 plasma-desktop
+plasma-discover
 plasma-framework
 plasma-integration
 plasma-nm
@@ -3646,11 +3651,13 @@ stack
 startup-notification
 statsd
 statsmodels
+stellarium
 stestr
 stevedore
 stow
 strace
 stress-ng
+stunnel
 subunit
 subunit2sql
 subversion
