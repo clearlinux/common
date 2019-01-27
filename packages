@@ -1130,6 +1130,7 @@ clr-rpm-config
 clr-service-restart
 clr-systemd-config
 clr-update-triggers
+clr-user-bundles
 clr-wallpapers
 clrtrust
 clucene-core
@@ -2480,6 +2481,7 @@ openstackdocstheme
 openstacksdk
 openvpn
 openvswitch
+optipng
 opus
 opusfile
 orc
@@ -3801,6 +3803,7 @@ vim
 vim-fugitive
 vim-gnupg
 vim-go
+vimix-icon-theme
 vinagre
 vine
 vino
