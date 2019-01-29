@@ -434,6 +434,11 @@ install-local:
 	done
 	$(MAKE) install-debuginfo-local
 
+#help install-mock: Install locally built RPMs to the mock rootcache
+#help filesystem. This command is usually used with "make shell".
+install-mock: repoadd
+	$(MOCK) --result=results/ --no-cleanup-after --uniqueext=$(PKG_NAME) -i $(filter-out ${DEBUGINFO_RPM},${RPMS})
+
 #help generateupstream: Run this rule to create or update the 'upstream' file
 #help by downloading the upstream source tarballs listed in the spec file and
 #help calculating their hashes. Autospec performs this step automatically, so
