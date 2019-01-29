@@ -1270,6 +1270,7 @@ dbus-glib
 dbus-python
 dconf
 dconf-editor
+ddd
 ddt
 deap
 debtcollector
@@ -2445,6 +2446,7 @@ oath-toolkit
 oauth2client
 oauthlib
 ocaml
+ocamlbuild
 ocl-icd
 octave
 offlineimap
