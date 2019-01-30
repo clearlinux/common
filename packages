@@ -3439,6 +3439,7 @@ python-zstandard
 python2-mod_wsgi
 python3
 pytools
+pytorch
 pytz
 pyu2f
 pyudev
