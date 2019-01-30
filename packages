@@ -886,6 +886,7 @@ acpica-unix2
 acrn-hypervisor
 adal
 adapt-parser
+ade
 adwaita-icon-theme
 aeon
 aioeventlet
@@ -1946,6 +1947,7 @@ kshisen
 ksirk
 ksmtp
 ksnakeduel
+ksonnet
 kspaceduel
 ksquares
 ksshaskpass
@@ -3570,6 +3572,7 @@ scons
 screen
 scripttest
 scrypt
+scummvm
 sddm
 seaborn
 seahorse
@@ -3840,6 +3843,7 @@ wheel
 which
 whois
 widgetsnbextension
+wine
 winpdb
 wireless-regdb-master
 wireshark
