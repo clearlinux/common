@@ -2273,6 +2273,7 @@ lsscsi
 ltp
 ltrace
 lua
+lua52
 lualgi
 luarocks
 lxml
