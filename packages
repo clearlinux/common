@@ -2053,12 +2053,14 @@ libepoxy
 libepubgen
 liberasurecode
 liberation-fonts
+libestr
 libetonyek
 libev
 libevdev
 libevent
 libexif
 libexttextcat
+libfastjson
 libffi
 libffmpeg-stub
 libfontenc
@@ -2112,6 +2114,7 @@ libkscreen
 libksieve
 libksysguard
 liblangtag
+liblogging
 libmbim
 libmediaart
 libmicrohttpd
@@ -3549,6 +3552,7 @@ rpm
 rr
 rsa
 rsync
+rsyslog
 rt-tests
 rtslib-fb
 ruamel-yaml
