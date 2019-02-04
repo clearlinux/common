@@ -206,6 +206,7 @@ R-ape
 R-argparse
 R-arm
 R-ash
+R-askpass
 R-assertthat
 R-backports
 R-base64enc
@@ -417,6 +418,7 @@ R-haplo.stats
 R-haven
 R-hdrcde
 R-hexbin
+R-highlight
 R-highr
 R-hms
 R-htmlTable
@@ -570,6 +572,7 @@ R-pillar
 R-pkgKitten
 R-pkgbuild
 R-pkgconfig
+R-pkgdown
 R-pkgload
 R-pkgmaker
 R-plm
@@ -747,6 +750,7 @@ R-tensorA
 R-tensorflow
 R-testit
 R-testthat
+R-texreg
 R-tfruns
 R-threejs
 R-tibble
@@ -3450,6 +3454,7 @@ pytorch
 pytz
 pyu2f
 pyudev
+pyusb
 pywbem
 pyxattr
 pyxdg
