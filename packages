@@ -2067,6 +2067,7 @@ libexttextcat
 libfastjson
 libffi
 libffmpeg-stub
+libfm
 libfontenc
 libfprint
 libfreehand
@@ -2161,6 +2162,7 @@ libpthread-stubs
 libpwquality
 libqalculate
 libqmi
+libqtxdg
 libqxp
 librabbitmq
 libreoffice
@@ -2286,6 +2288,7 @@ lua52
 lualgi
 luarocks
 lxml
+lxqt-build-tools
 lz4
 lzlib
 lzo
@@ -2313,6 +2316,7 @@ meld
 memcached
 memkind
 memshrinker
+menu-cache
 mercurial
 mesa
 mesa-demos
