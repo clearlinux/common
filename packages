@@ -2120,6 +2120,7 @@ libksieve
 libksysguard
 liblangtag
 liblogging
+liblxqt
 libmbim
 libmediaart
 libmicrohttpd
@@ -2192,6 +2193,7 @@ libssh
 libssh2
 libstaroffice
 libstoragemgmt
+libsysstat
 libtasn1
 libthai
 libtheora
@@ -2288,7 +2290,13 @@ lua52
 lualgi
 luarocks
 lxml
+lxqt-about
+lxqt-admin
 lxqt-build-tools
+lxqt-config
+lxqt-globalkeys
+lxqt-notificationd
+lxqt-openssh-askpass
 lz4
 lzlib
 lzo
@@ -3288,6 +3296,7 @@ ply
 plzip
 pmdk
 polkit
+polkit-qt
 poppler
 poppler-data
 popt
