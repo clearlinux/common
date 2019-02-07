@@ -46,6 +46,7 @@ NetworkManager-vpnc
 OpenCASCADE
 OpenCSG
 OpenColorIO
+OpenIPMI
 OpenSP
 PackageKit
 Paste
@@ -890,6 +891,7 @@ acpica-unix2
 acrn-hypervisor
 adal
 adapt-parser
+adcli
 ade
 adwaita-icon-theme
 aeon
@@ -1176,6 +1178,7 @@ colorama
 colord
 colord-gtk
 comedilib
+comfortaa-fonts
 commonmark
 compat-SDL2-soname1
 compat-cryptsetup-soname4
@@ -2048,11 +2051,13 @@ libdaemon
 libdatrie
 libdazzle
 libdbusmenu
+libdbusmenu-qt
 libdeps
 libdmx
 libdnf
 libdrm
 libe-book
+libedit
 libepoxy
 libepubgen
 liberasurecode
@@ -2297,6 +2302,7 @@ lxqt-config
 lxqt-globalkeys
 lxqt-notificationd
 lxqt-openssh-askpass
+lxqt-panel
 lz4
 lzlib
 lzo
