@@ -1329,6 +1329,7 @@ docbook-utils
 docbook-xml
 docker
 docker-py
+dockerpty
 dockerpy-creds
 docopt
 docutils
@@ -2073,6 +2074,7 @@ libfastjson
 libffi
 libffmpeg-stub
 libfm
+libfm-qt
 libfontenc
 libfprint
 libfreehand
@@ -2303,6 +2305,13 @@ lxqt-globalkeys
 lxqt-notificationd
 lxqt-openssh-askpass
 lxqt-panel
+lxqt-policykit
+lxqt-powermanagement
+lxqt-qtplugin
+lxqt-runner
+lxqt-session
+lxqt-sudo
+lxqt-themes
 lz4
 lzlib
 lzo
@@ -2394,6 +2403,7 @@ multidict
 multimon-ng
 multipath-tools
 munch
+muparser
 murrine
 musl
 mutagen
@@ -2566,6 +2576,7 @@ oxygen-icons5
 p11-kit
 p7zip
 packaging
+pacmanfm-qt
 pacrunner
 padaos
 padatious
