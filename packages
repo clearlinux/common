@@ -2258,7 +2258,6 @@ linux-firmware
 linux-gce
 linux-hyperv
 linux-hyperv-lts
-linux-hyperv-mini
 linux-iot-lts2017-preempt-rt
 linux-iot-lts2018
 linux-kata
@@ -2267,7 +2266,6 @@ linux-libc-headers
 linux-lts
 linux-networktest
 linux-oracle
-linux-pk414
 linux-pk414-preempt-rt
 linux-preempt-rt
 linux-steam-integration
@@ -3773,6 +3771,7 @@ tevent
 texinfo
 texlive
 text-unidecode
+texttable
 tflearn
 tgt
 thermal_daemon
