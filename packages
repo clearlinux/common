@@ -1410,6 +1410,7 @@ fastimport
 fcgi
 fdm_materials
 feh
+fetchmail
 fftw
 file
 file-roller
@@ -3332,6 +3333,7 @@ prettytable
 prison
 proc-macro2
 processor-trace
+procmail
 procps-ng
 progressbar
 proj
