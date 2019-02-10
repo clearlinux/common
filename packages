@@ -60,6 +60,7 @@ PyNaCl
 PyOpenGL
 PyQRCode
 PyQt5
+PySocks
 PyWavelets
 PyYAML
 Pygments
@@ -828,11 +829,9 @@ SQLAlchemy-Utils
 Send2Trash
 Shapely
 SmartXbar
-SocksiPy-branch
 Sphinx
 SuiteSparse
 Tempita
-Texmaker
 Theano
 Thunar
 UkPostcodeParser
@@ -1197,6 +1196,7 @@ compat-hdf5-soname10
 compat-hwloc-soname5
 compat-hyperscan-soname4
 compat-icu4c-soname61
+compat-ilmbase-soname23
 compat-intel-gmmlib-soname1
 compat-ipset-soname10
 compat-libical-soname2
@@ -1213,6 +1213,7 @@ compat-mpfr-soname4
 compat-opencv-soname32
 compat-opencv-soname33
 compat-opencv-soname34
+compat-openexr-soname23
 compat-openssl-soname-10
 compat-poppler-soname78
 compat-poppler-soname82
@@ -3772,6 +3773,7 @@ testtools
 tevent
 texinfo
 texlive
+texmaker
 text-unidecode
 texttable
 tflearn
