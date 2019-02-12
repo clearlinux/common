@@ -1330,8 +1330,8 @@ docbook-utils
 docbook-xml
 docker
 docker-py
+docker-pycreds
 dockerpty
-dockerpy-creds
 docopt
 docutils
 dogpile.cache
@@ -1999,6 +1999,7 @@ latexcodec
 lazy-object-proxy
 lcms2
 lcov
+ldacBT
 ldap3
 ldb
 lensfun
