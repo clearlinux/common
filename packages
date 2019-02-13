@@ -1329,6 +1329,7 @@ doc8
 docbook-utils
 docbook-xml
 docker
+docker-compose
 docker-py
 docker-pycreds
 dockerpty
@@ -2179,7 +2180,6 @@ libqmi
 libqtxdg
 libqxp
 librabbitmq
-libreoffice
 librepo
 librevenge
 librsvg
@@ -3812,6 +3812,7 @@ tpm2-simulator
 tpm2-tools
 tpm2-tss
 tqdm
+trace-cmd
 traceback2
 traceroute
 tracker
