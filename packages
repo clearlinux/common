@@ -2473,6 +2473,7 @@ notebook
 notmuch
 noto-cjk
 noto-emoji
+noto-fonts
 nova
 npth
 nrpe
@@ -3589,6 +3590,7 @@ retype
 rfc3986
 rjsmin
 rng-tools
+roboto
 rope
 rosdistro
 rospkg
