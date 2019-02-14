@@ -965,6 +965,7 @@ audisp-json
 audit
 augeas
 authconfig
+authselect
 autoconf
 autoconf-archive
 autoconf213
@@ -1252,6 +1253,7 @@ createrepo_c
 cri-containerd
 cri-o
 cri-tools
+cronie
 cryptography
 cryptography_vectors
 cryptsetup
@@ -1278,6 +1280,7 @@ dbus
 dbus-broker
 dbus-glib
 dbus-python
+dbxtool
 dconf
 dconf-editor
 ddd
@@ -1289,6 +1292,7 @@ debuginfo-cache
 decorator
 defusedxml
 dejagnu
+dejavu-fonts
 deprecation
 desktop-file-utils
 desktop-icons
@@ -1410,6 +1414,7 @@ farstream
 fasteners
 fastimport
 fcgi
+fcoe-utils
 fdm_materials
 feh
 fetchmail
@@ -1423,6 +1428,7 @@ findutils
 fio
 firecracker
 firefox
+firewalld
 fish
 fixtures
 flac
@@ -3908,6 +3914,7 @@ wpa_supplicant
 wrapt
 wsgi_intercept
 wsgiref
+wxWidgets
 x11perf
 x11vnc
 xapian-core
