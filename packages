@@ -1333,6 +1333,7 @@ dnspython
 doc8
 docbook-utils
 docbook-xml
+docbook2X
 docker
 docker-compose
 docker-py
@@ -3342,6 +3343,7 @@ poxml
 ppp
 pretend
 prettytable
+print-manager
 prison
 proc-macro2
 processor-trace
