@@ -96,6 +96,7 @@ R-DEoptimR
 R-DRR
 R-DT
 R-DendSer
+R-Deriv
 R-DistributionUtils
 R-DoseFinding
 R-Ecdat
@@ -1201,6 +1202,7 @@ compat-icu4c-soname61
 compat-ilmbase-soname23
 compat-intel-gmmlib-soname1
 compat-ipset-soname10
+compat-libgit2-soname27
 compat-libical-soname2
 compat-libidn-soname11
 compat-libnftnl-soname7
@@ -1842,6 +1844,7 @@ kdegraphics-mobipocket
 kdegraphics-thumbnailers
 kdelibs4support
 kdenetwork-filesharing
+kdenlive
 kdepim-apps-libs
 kdeplasma-addons
 kdesdk-kioslaves
@@ -2003,6 +2006,7 @@ kwordquiz
 kwrited
 kxmlgui
 kxmlrpcclient
+lark-parser
 latencytop
 latexcodec
 lazy-object-proxy
@@ -2374,6 +2378,7 @@ mkfontdir
 mkfontscale
 mkl-dnn
 mkosi
+mlt
 mobile-broadband-provider-info
 mock
 mod_wsgi
@@ -3470,6 +3475,7 @@ python-novaclient
 python-openid
 python-openstackclient
 python-openzwave
+python-pcre
 python-perf
 python-pkgconfig
 python-pocketlint
@@ -3591,6 +3597,7 @@ retry_decorator
 retrying
 retype
 rfc3986
+rhythmbox
 rjsmin
 rng-tools
 roboto
@@ -3741,6 +3748,7 @@ swig
 swupd-client
 swupd-overdue
 swupd-probe
+swupd-search
 sxhkd
 sympy
 syndication
@@ -3839,6 +3847,7 @@ tzlocal
 ua-parser
 ucpp
 udisks2
+uget
 uhttpmock
 unbundle
 unicode-xid
