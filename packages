@@ -321,6 +321,7 @@ R-effects
 R-eha
 R-eiPack
 R-ellipse
+R-ellipsis
 R-elliptic
 R-emmeans
 R-emulator
@@ -1659,6 +1660,7 @@ help2man
 hexchat
 hgtools
 hicolor-icon-theme
+hiredis
 hold
 home-assistant
 horizon
@@ -2009,6 +2011,7 @@ kxmlrpcclient
 lark-parser
 latencytop
 latexcodec
+lazy
 lazy-object-proxy
 lcms2
 lcov
@@ -2419,6 +2422,7 @@ multidict
 multimon-ng
 multipath-tools
 munch
+munkres
 muparser
 murrine
 musl
@@ -2600,6 +2604,7 @@ padatious
 paho-mqtt
 paho.mqtt.c
 paho.mqtt.cpp
+pako
 palapeli
 pandas
 pandoc
@@ -3852,6 +3857,7 @@ uhttpmock
 unbundle
 unicode-xid
 unicodecsv
+unicodedata2
 unifdef
 unison
 unittest2
