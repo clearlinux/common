@@ -935,6 +935,7 @@ apr-util
 arc-theme
 argcomplete
 argon2
+argon2_cffi
 argparse
 ark
 artikulate
@@ -3983,6 +3984,7 @@ xfce4-terminal
 xfce4-whiskermenu-plugin
 xfconf
 xfdesktop
+xfontsel
 xfsprogs
 xfwm4
 xhost
@@ -3990,6 +3992,7 @@ xinit
 xinput
 xkbcomp
 xkeyboard-config
+xkill
 xlog
 xmlsec1
 xmlstarlet
