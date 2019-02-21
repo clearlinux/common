@@ -1716,6 +1716,7 @@ iniparse
 init-rdahead
 inkscape
 inotify-tools
+intel-cmt-cat
 intel-gmmlib
 intel-hybrid-driver
 intel-media-driver
