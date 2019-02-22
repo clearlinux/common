@@ -23,6 +23,7 @@ FreeRDP
 GConf
 GitPython
 ImageMagick
+JAGS
 Jinja2
 Keras
 Keras_Applications
@@ -216,6 +217,7 @@ R-backports
 R-base64enc
 R-bayesm
 R-bayesplot
+R-bazar
 R-bbmle
 R-bdsmatrix
 R-beeswarm
@@ -422,6 +424,7 @@ R-gtools
 R-haplo.stats
 R-haven
 R-hdrcde
+R-here
 R-hexbin
 R-highlight
 R-highr
@@ -452,6 +455,7 @@ R-jqr
 R-jsonlite
 R-keras
 R-kernlab
+R-kimisc
 R-klaR
 R-kmi
 R-knitr
@@ -659,6 +663,7 @@ R-rglwidget
 R-rhandsontable
 R-rio
 R-ritis
+R-rjags
 R-rjstat
 R-rlang
 R-rmarkdown
@@ -734,6 +739,7 @@ R-speedglm
 R-spelling
 R-spls
 R-stabledist
+R-startupmsg
 R-statmod
 R-statnet.common
 R-stringi
@@ -2018,6 +2024,7 @@ kxmlrpcclient
 lark-parser
 latencytop
 latexcodec
+latte-dock
 lazy
 lazy-object-proxy
 lcms2
