@@ -44,6 +44,7 @@ MonkeyType
 MySQL-python
 NetworkManager
 NetworkManager-openconnect
+NetworkManager-openvpn
 NetworkManager-vpnc
 OpenCASCADE
 OpenCSG
@@ -302,6 +303,8 @@ R-diffusionMap
 R-digest
 R-dimRed
 R-diptest
+R-distr
+R-distrEx
 R-dlm
 R-doMC
 R-doMPI
@@ -527,6 +530,7 @@ R-mockery
 R-mockr
 R-modelr
 R-modeltools
+R-modest
 R-mondate
 R-msm
 R-mstate
@@ -668,6 +672,7 @@ R-rjstat
 R-rlang
 R-rmarkdown
 R-rms
+R-rmutil
 R-rncl
 R-rneos
 R-rngWELL
@@ -689,6 +694,7 @@ R-rstanarm
 R-rstantools
 R-rstudioapi
 R-rsvg
+R-runjags
 R-rversions
 R-rvest
 R-sROC
@@ -738,8 +744,10 @@ R-spdep
 R-speedglm
 R-spelling
 R-spls
+R-stable
 R-stabledist
 R-startupmsg
+R-statip
 R-statmod
 R-statnet.common
 R-stringi
@@ -1164,6 +1172,7 @@ cnf
 cni
 cni-plugins
 cockpit
+codecov
 cogl
 coinmp
 colcon-bash
@@ -1536,6 +1545,7 @@ glib
 glib-networking
 glibc
 glibmm
+glide
 glm
 glmark2
 global
