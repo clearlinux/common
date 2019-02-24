@@ -1334,6 +1334,7 @@ discover
 dist-pam-configs
 distributed
 distro
+dj-database-url
 django-appconf
 django-babel
 django-discover-runner
@@ -3413,6 +3414,7 @@ pyasn1
 pyasn1-modules
 pyatspi
 pybind11
+pyblake2
 pybtex
 pybtex-docutils
 pycadf
@@ -3430,6 +3432,7 @@ pyeclib
 pyecobee
 pyee
 pyemd
+pyenchant
 pyflakes
 pygobject
 pygobject-legacy
@@ -3628,6 +3631,7 @@ retry_decorator
 retrying
 retype
 rfc3986
+rfc3987
 rhythmbox
 rjsmin
 rng-tools
@@ -3736,6 +3740,7 @@ sphinxcontrib-httpdomain
 sphinxcontrib-newsfeed
 sphinxcontrib-programoutput
 sphinxcontrib-seqdiag
+sphinxcontrib-spelling
 sphinxcontrib-trio
 sphinxcontrib-websupport
 spi-tools
