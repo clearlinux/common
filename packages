@@ -841,6 +841,8 @@ SDL_image
 SDL_mixer
 SDL_net
 SDL_ttf
+SPIRV-Headers
+SPIRV-Tools
 SQLAlchemy
 SQLAlchemy-Utils
 Send2Trash
@@ -860,6 +862,7 @@ Vertex-theme
 Vulkan-Headers
 Vulkan-Loader
 Vulkan-Tools
+Vulkan-ValidationLayers
 WALinuxAgent
 WSGIProxy2
 WSME
@@ -1332,6 +1335,7 @@ ding-libs
 direwolf
 discover
 dist-pam-configs
+distlib
 distributed
 distro
 dj-database-url
@@ -3343,6 +3347,7 @@ pinentry
 pip
 pip-legacy
 pipewire
+pipreqs
 pixman
 pkcs11-helper
 pkg-config
@@ -4050,6 +4055,7 @@ yakuake
 yaml
 yaml-cpp
 yappi
+yarg
 yarl
 yarn
 yasm
