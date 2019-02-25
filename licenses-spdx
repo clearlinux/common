@@ -169,6 +169,7 @@ Giftware
 Glide
 Glulxe
 HPND
+HPND-sell-variant
 HaskellReport
 IBM-pibs
 ICU
@@ -257,6 +258,9 @@ ODC-By-1.0
 ODbL-1.0
 OFL-1.0
 OFL-1.1
+OGL-UK-1.0
+OGL-UK-2.0
+OGL-UK-3.0
 OGTSL
 OLDAP-1.1
 OLDAP-1.2
@@ -313,6 +317,7 @@ SPL-1.0
 SWL
 Saxpath
 Sendmail
+Sendmail-8.23
 SimPL-2.0
 Sleepycat
 Spencer-86
@@ -358,6 +363,8 @@ Zimbra-1.4
 Zlib
 bzip2-1.0.5
 bzip2-1.0.6
+copyleft-next-0.3.0
+copyleft-next-0.3.1
 curl
 diffmark
 dvipdfm
