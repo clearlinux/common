@@ -1026,6 +1026,7 @@ bashlex
 bats
 bazel
 bc
+bcache-tools
 bcc
 bcrypt
 bdftopcf
@@ -2315,6 +2316,7 @@ linux-kata
 linux-kvm
 linux-libc-headers
 linux-lts
+linux-lts2018
 linux-networktest
 linux-oracle
 linux-pk414-preempt-rt
@@ -3616,6 +3618,7 @@ redis
 redis-native
 redland
 redsocks
+renderdoc
 reno
 reportlab
 repoze.lru
@@ -3647,6 +3650,7 @@ rospkg
 rpcbind
 rpm
 rr
+rrdtool
 rsa
 rsync
 rsyslog
@@ -4030,6 +4034,7 @@ xkbcomp
 xkeyboard-config
 xkill
 xlog
+xmlrpc-c
 xmlsec1
 xmlstarlet
 xmlto
