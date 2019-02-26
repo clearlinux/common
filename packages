@@ -22,6 +22,7 @@ FreeCAD
 FreeRDP
 GConf
 GitPython
+HeapDict
 ImageMagick
 JAGS
 Jinja2
@@ -444,6 +445,7 @@ R-hypergeo
 R-ica
 R-igraph
 R-import
+R-ineq
 R-ini
 R-inline
 R-inum
@@ -638,6 +640,7 @@ R-questionr
 R-qvcalc
 R-randomForest
 R-randomNames
+R-randtests
 R-randtoolbox
 R-ranger
 R-rappdirs
@@ -1478,9 +1481,6 @@ flmsg
 flnet
 fltk
 folks
-font-adobe-100dpi
-font-adobe-75dpi
-font-bitstream-type1
 font-util
 fontconfig
 fontforge
@@ -1783,7 +1783,6 @@ itsdangerous
 itstool
 iw
 ixion
-jack-audio-connection-kit
 jansson
 jaraco.functools
 jarn.viewdoc
@@ -2036,6 +2035,7 @@ kwordquiz
 kwrited
 kxmlgui
 kxmlrpcclient
+kyotocabinet
 lark-parser
 latencytop
 latexcodec
@@ -3681,6 +3681,7 @@ scripttest
 scrypt
 scummvm
 sddm
+sddm-kcm
 seaborn
 seahorse
 secretstorage
@@ -3761,6 +3762,7 @@ squashfs-tools
 squid
 sshfs
 sshpass
+ssocr
 sssd
 stack
 startup-notification
@@ -4033,6 +4035,7 @@ xmlstarlet
 xmlto
 xmltodict
 xmodmap
+xorg-fonts
 xorg-server
 xorgproto
 xorriso
