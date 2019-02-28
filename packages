@@ -2482,6 +2482,7 @@ ncurses-compat
 ndctl
 ndg_httpsclient
 neofetch
+neomutt
 neon
 net-snmp
 net-tools
@@ -3833,6 +3834,7 @@ tempora
 tenacity
 tensorboard
 tensorflow
+tensorflow-estimator
 termcolor
 terminado
 terminaltables
