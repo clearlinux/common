@@ -1620,6 +1620,7 @@ google-auth
 google-auth-httplib2
 google-reauth
 googletest
+gparted
 gperf
 gperftools
 gpgme
