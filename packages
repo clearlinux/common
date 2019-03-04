@@ -796,6 +796,7 @@ R-truncnorm
 R-tseries
 R-tsne
 R-ucminf
+R-units
 R-unix
 R-urca
 R-urltools
@@ -3917,6 +3918,7 @@ tzlocal
 ua-parser
 ucpp
 udisks2
+udunits
 uget
 uhttpmock
 unbundle
