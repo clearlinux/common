@@ -2327,6 +2327,7 @@ linux-kata
 linux-kvm
 linux-libc-headers
 linux-lts
+linux-lts2017
 linux-lts2018
 linux-networktest
 linux-oracle
@@ -3854,6 +3855,7 @@ tenacity
 tensorboard
 tensorflow
 tensorflow-estimator
+tensorflow-probability
 termcolor
 terminado
 terminaltables
@@ -3949,6 +3951,7 @@ v4l-utils
 vala
 valgrind
 varnish-cache
+vbox-integration
 vcstool
 vcversioner
 vim
