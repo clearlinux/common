@@ -101,6 +101,7 @@ R-DRR
 R-DT
 R-DendSer
 R-Deriv
+R-DescTools
 R-DistributionUtils
 R-DoseFinding
 R-Ecdat
@@ -716,6 +717,7 @@ R-seriation
 R-seroincidence
 R-sessioninfo
 R-setRNG
+R-sf
 R-sfsmisc
 R-sgeostat
 R-shape
