@@ -2138,6 +2138,7 @@ libfm-qt
 libfontenc
 libfprint
 libfreehand
+libftdi1
 libgcrypt
 libgd
 libgdata
