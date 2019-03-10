@@ -1273,6 +1273,7 @@ containerd
 contextlib2
 cookies
 coreutils
+cotyledon
 cov-core
 coverage
 cpio
@@ -1567,6 +1568,7 @@ gmic
 gmime
 gmp
 gmqtt
+gnocchiclient
 gnome-applets
 gnome-autoar
 gnome-backgrounds
@@ -1747,6 +1749,7 @@ inkscape
 inotify-tools
 intel-cmt-cat
 intel-gmmlib
+intel-graphics-compiler
 intel-hybrid-driver
 intel-media-driver
 intelhex
@@ -2507,6 +2510,7 @@ netbase
 netcdf
 netdisco
 netifaces
+netkit-telnet
 netlabel_tools
 nettle
 network-manager-applet
@@ -3926,6 +3930,7 @@ udisks2
 udunits
 uget
 uhttpmock
+ujson
 unbundle
 unicode-xid
 unicodecsv
