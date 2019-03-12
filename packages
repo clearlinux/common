@@ -1224,6 +1224,7 @@ compat-gegl
 compat-gegl-0.3
 compat-glew-soname1
 compat-gmime-26
+compat-gspell-soname1
 compat-gtksourceview-soname3
 compat-guile-soname20
 compat-hdf5-soname10
