@@ -70,6 +70,7 @@ PyYAML
 Pygments
 Pyro4
 QGIS
+Qogir-theme
 QtAwesome
 QtPy
 R
@@ -2165,6 +2166,7 @@ libgtop
 libgudev
 libgusb
 libgweather
+libhandy
 libical
 libidn
 libidn2
@@ -3366,6 +3368,7 @@ phoronix-test-suite
 php
 pickleshare
 picmi
+picocom
 pidgin
 pidgin-sipe
 piglit
