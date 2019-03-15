@@ -2328,6 +2328,7 @@ links
 linux
 linux-aws
 linux-firmware
+linux-firmware-ipu
 linux-gce
 linux-hyperv
 linux-hyperv-lts
@@ -3087,6 +3088,7 @@ perl-Mojolicious
 perl-Mojolicious-Plugin-AssetPack
 perl-Mojolicious-Plugin-RenderFile
 perl-Moo
+perl-MooX-Role-Parameterized
 perl-Moose
 perl-MooseX-Role-Parameterized
 perl-MooseX-Role-WithOverloading
@@ -4017,6 +4019,7 @@ wpa_supplicant
 wrapt
 wsgi_intercept
 wsgiref
+wsjtx
 wxWidgets
 x11perf
 x11vnc
