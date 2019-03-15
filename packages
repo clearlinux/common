@@ -1039,6 +1039,7 @@ bcrypt
 bdftopcf
 beautifulsoup4
 beignet
+bijiben
 bind-utils
 binutils
 binwalk
@@ -1816,6 +1817,7 @@ jsonpatch
 jsonpath-rw
 jsonpath-rw-ext
 jsonpointer
+jsonrpc-glib
 jsonschema
 jupyter
 jupyter-nbgallery
@@ -2318,6 +2320,7 @@ libxml2-legacy
 libxslt
 libyami
 libyami-utils
+libzapojit
 libzip
 libzmf
 libzmq
@@ -3864,6 +3867,7 @@ telepathy-glib
 telepathy-logger
 telepathy-qt
 tempest-lib
+template-glib
 tempora
 tenacity
 tensorboard
