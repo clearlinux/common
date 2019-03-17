@@ -246,6 +246,7 @@ R-brglm
 R-bridgesampling
 R-brms
 R-broom
+R-bvls
 R-ca
 R-caTools
 R-calibrate
@@ -553,6 +554,7 @@ R-network
 R-neuralnet
 R-nleqslv
 R-nloptr
+R-nnls
 R-nortest
 R-npsurv
 R-numDeriv
