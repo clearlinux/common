@@ -2671,7 +2671,6 @@ oxygen-icons5
 p11-kit
 p7zip
 packaging
-pacmanfm-qt
 pacrunner
 padaos
 padatious
@@ -2708,6 +2707,7 @@ pbr
 pbr-legacy
 pbzip2
 pciutils
+pcmanfm-qt
 pcre
 pcre2
 pdns
@@ -4071,6 +4071,7 @@ xf86-video-nouveau
 xf86-video-qxl
 xf86-video-vboxvideo
 xf86-video-vesa
+xf86-video-vmware
 xfburn
 xfce4-appfinder
 xfce4-dev-tools
