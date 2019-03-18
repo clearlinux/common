@@ -280,6 +280,7 @@ R-config
 R-contfrac
 R-conting
 R-corpcor
+R-corrgram
 R-corrplot
 R-cowplot
 R-crayon
@@ -293,6 +294,7 @@ R-data.table
 R-date
 R-dbarts
 R-dbplyr
+R-dcurver
 R-ddalpha
 R-deSolve
 R-debugme
@@ -452,6 +454,7 @@ R-ineq
 R-ini
 R-inline
 R-inum
+R-invgamma
 R-ipred
 R-irlba
 R-iterators
@@ -568,6 +571,7 @@ R-optparse
 R-ordinal
 R-packrat
 R-pamr
+R-parsedate
 R-partitions
 R-party
 R-partykit
@@ -617,6 +621,7 @@ R-prettyunits
 R-princurve
 R-processx
 R-prodlim
+R-profdpm
 R-profileModel
 R-progress
 R-promises
@@ -651,6 +656,7 @@ R-ranger
 R-rappdirs
 R-raster
 R-rasterVis
+R-rbenchmark
 R-rcmdcheck
 R-reactR
 R-readr
@@ -3433,6 +3439,7 @@ proc-macro2
 processor-trace
 procmail
 procps-ng
+progress
 progressbar
 proj
 prometheus_client
@@ -3592,6 +3599,7 @@ pyxdg
 pyzmq
 qca-qt5
 qemu
+qemu-guest-additions
 qemu-lite
 qgit
 qml-box2d
@@ -3651,6 +3659,7 @@ rasqal
 rclone
 rcssmin
 rdma-core
+re2
 re2c
 readline
 rebootmgr
