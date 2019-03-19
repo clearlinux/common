@@ -501,6 +501,7 @@ R-lpSolve
 R-lsei
 R-lsmeans
 R-lubridate
+R-lwgeom
 R-mFilter
 R-magic
 R-magick
@@ -527,6 +528,7 @@ R-mime
 R-miniUI
 R-minpack.lm
 R-minqa
+R-mirt
 R-misc3d
 R-miscTools
 R-mitools
@@ -680,6 +682,7 @@ R-rgeos
 R-rgl
 R-rglwidget
 R-rhandsontable
+R-rhub
 R-rio
 R-ritis
 R-rjags
