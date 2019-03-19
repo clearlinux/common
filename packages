@@ -1082,6 +1082,7 @@ breeze-gtk
 breeze-icons
 bridge-utils
 bro
+bro-af_packet-plugin
 brotli
 brotlipy
 bsdiff
@@ -1321,6 +1322,7 @@ cxxfilt
 cycler
 cyrus-sasl
 dapl
+darkflow
 darktable
 dash-to-dock
 dask
