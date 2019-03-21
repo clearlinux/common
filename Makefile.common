@@ -70,10 +70,9 @@ proper: repodel
 mockclean:
 	$(MOCK) --clean --scrub=all
 
-#help mockproper: Clean mock chroot and cache directories for this package.
+#help mockproper: Clean mock chroot
 mockproper:
-	$(MOCK) --clean --scrub=all --uniqueext=$(PKG_NAME)
-	$(MOCK) --clean --scrub=chroot --uniqueext=$(PKG_NAME)
+	$(MOCK) --clean --uniqueext=$(PKG_NAME)
 
 configemail:
 	@test -d .git || git init
