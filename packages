@@ -1088,6 +1088,7 @@ brotlipy
 bsdiff
 bspwm
 btrfs-progs
+bubblewrap
 buildreq-R
 buildreq-cmake
 buildreq-configure
@@ -1119,6 +1120,7 @@ cachetools
 caffe
 cairo
 cairomm
+calc
 calendarsupport
 cantarell-fonts
 cantata
@@ -1166,6 +1168,7 @@ clr-R-helpers
 clr-avx-tools
 clr-boot-manager
 clr-bundle-icons
+clr-bundle-screenshots
 clr-bundles
 clr-debug-info
 clr-desktop-defaults
