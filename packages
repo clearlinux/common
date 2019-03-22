@@ -1179,6 +1179,7 @@ clr-ignore-mod-sig
 clr-init
 clr-installer
 clr-man-pages
+clr-network-troubleshooter
 clr-power-tweaks
 clr-python-timestamp
 clr-pyversion-strip
