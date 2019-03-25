@@ -2079,6 +2079,7 @@ lcov
 ldacBT
 ldap3
 ldb
+ldc
 ledmon
 lensfun
 less
@@ -3426,7 +3427,7 @@ pmdk
 polkit
 polkit-qt
 poppler
-poppler-data
+poppler-data-clr-rename
 popt
 portaudio
 portend
@@ -3717,6 +3718,7 @@ rsync
 rsyslog
 rt-tests
 rtslib-fb
+rttr
 ruamel-yaml
 ruby
 runc
