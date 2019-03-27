@@ -1770,6 +1770,7 @@ init-rdahead
 inkscape
 inotify-tools
 intel-cmt-cat
+intel-compute-runtime
 intel-gmmlib
 intel-graphics-compiler
 intel-hybrid-driver
@@ -2610,6 +2611,7 @@ open-vm-tools
 openQA
 openal-soft
 openblas
+opencl-clang
 openconnect
 opencv
 openexr
