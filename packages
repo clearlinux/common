@@ -2528,6 +2528,7 @@ ncurses
 ncurses-compat
 ndctl
 ndg_httpsclient
+ndpi
 neofetch
 neomutt
 neon
@@ -3721,6 +3722,7 @@ rsa
 rsync
 rsyslog
 rt-tests
+rtkit
 rtslib-fb
 rttr
 ruamel-yaml
