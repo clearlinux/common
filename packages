@@ -2579,6 +2579,7 @@ nss
 nss-altfiles
 nss-pam-ldapd
 ntfs-3g
+ntl
 ntlm-auth
 ntp
 ntplib
