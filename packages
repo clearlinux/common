@@ -949,6 +949,7 @@ akonadiconsole
 akregator
 alabaster
 alembic
+alsa-firmware
 alsa-lib
 alsa-plugins
 alsa-utils
@@ -1159,6 +1160,7 @@ clear-config-management
 clear-font
 click
 click-datetime
+click-log
 cliff
 clinfo
 cln
