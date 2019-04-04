@@ -1836,6 +1836,7 @@ iftop
 igt-gpu-tools
 ilmbase
 image
+imageio
 imagesize
 imapfilter
 imlib2
