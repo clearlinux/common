@@ -2791,6 +2791,7 @@ parted
 pass
 passlib
 patch
+patchelf
 patchutils
 pathlib
 pathlib2
