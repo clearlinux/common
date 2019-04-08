@@ -1079,6 +1079,7 @@ boto
 boto3
 botocore
 bovo
+breathe
 breeze
 breeze-gtk
 breeze-icons
@@ -1771,6 +1772,7 @@ gtkmm2
 gtkmm3
 gtksourceview
 gtkspell3
+gtkwave
 guile
 gupnp-av
 gutenprint
