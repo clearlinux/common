@@ -43,6 +43,7 @@ Markdown
 MarkupSafe
 ModemManager
 MonkeyType
+MuseScore
 MySQL-python
 NetworkManager
 NetworkManager-openconnect
@@ -1267,6 +1268,7 @@ compat-libwebp-soname6
 compat-llvm-soname4
 compat-llvm-soname5
 compat-llvm-soname6
+compat-llvm-soname7
 compat-mariadb-soname18
 compat-mpfr-soname4
 compat-opencv-soname32
