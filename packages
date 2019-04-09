@@ -3515,6 +3515,7 @@ ply
 plzip
 pmdk
 polkit
+polkit-kde-agent
 polkit-qt
 poppler
 poppler-data-clr-rename
