@@ -1531,6 +1531,7 @@ envs
 eog
 eog-plugins
 epm
+epydoc
 eternalegypt
 ethtool
 eventlet
