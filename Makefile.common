@@ -411,30 +411,35 @@ install:
 #help install-debuginfo-local: Install locally built debuginfo RPM to
 #help the automatic debuginfo cache location (/var/cache/debuginfo)
 install-debuginfo-local:
-	if [ -z "${DEBUGINFO_RPM}" ]; then \
+	@if [ -z "${DEBUGINFO_RPM}" ]; then \
+		echo "No debuginfo to install... skipping"; \
 		exit 0; \
 	fi; \
+	echo -n "Installing ${DEBUGINFO_RPM}... "; \
 	tmpdir=$$(mktemp -d); \
-	rpm2cpio ${DEBUGINFO_RPM} | ( cd $$tmpdir; cpio -i -d -u); \
+	rpm2cpio ${DEBUGINFO_RPM} | ( cd $$tmpdir; cpio -i -d -u 2> /dev/null); \
 	dest=/var/cache/debuginfo/lib; \
-	find $$tmpdir/usr/lib/debug/ -mindepth 1 -maxdepth 1 | while read -r d; do \
+	find $$tmpdir/usr/lib/debug/ -mindepth 1 -maxdepth 1 2> /dev/null | while read -r d; do \
 		sudo chown -R dbginfo:dbginfo "$$d"; \
 		sudo cp -a "$$d" $$dest/; \
 	done; \
 	dest=/var/cache/debuginfo/src; \
-	find $$tmpdir/usr/src/debug/ -mindepth 1 -maxdepth 1 | while read -r d; do \
+	find $$tmpdir/usr/src/debug/ -mindepth 1 -maxdepth 1 2> /dev/null | while read -r d; do \
 		sudo chown -R dbginfo:dbginfo "$$d"; \
 		sudo cp -a "$$d" $$dest/; \
 	done; \
-	sudo rm -rf $$tmpdir
+	sudo rm -rf $$tmpdir; \
+	echo "done"
 
 #help install-local: Install locally built RPMs to the root filesystem. Note that the
 #help debuginfo RPM installs to /var/cache/debuginfo
 install-local:
-	for r in $(filter-out ${DEBUGINFO_RPM},${RPMS}); do \
-		rpm2cpio $$r | (cd /; sudo cpio -i -d -u); \
+	@for r in $(filter-out ${DEBUGINFO_RPM},${RPMS}); do \
+		echo -n "Installing $$r... "; \
+		rpm2cpio $$r | (cd /; sudo cpio -i -d -u 2> /dev/null); \
+		echo "done"; \
 	done
-	$(MAKE) install-debuginfo-local
+	@$(MAKE) -s install-debuginfo-local
 
 #help install-mock: Install locally built RPMs to the mock rootcache
 #help filesystem. This command is usually used with "make shell".
