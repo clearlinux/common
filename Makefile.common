@@ -411,6 +411,9 @@ install:
 #help install-debuginfo-local: Install locally built debuginfo RPM to
 #help the automatic debuginfo cache location (/var/cache/debuginfo)
 install-debuginfo-local:
+	if [ -z "${DEBUGINFO_RPM}" ]; then \
+		exit 0; \
+	fi; \
 	tmpdir=$$(mktemp -d); \
 	rpm2cpio ${DEBUGINFO_RPM} | ( cd $$tmpdir; cpio -i -d -u); \
 	dest=/var/cache/debuginfo/lib; \
