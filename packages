@@ -2729,6 +2729,7 @@ os-autoinst
 os-brick
 os-client-config
 os-ken
+os-resource-classes
 os-service-types
 os-testr
 os-traits
