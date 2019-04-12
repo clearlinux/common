@@ -1108,6 +1108,7 @@ buildreq-kernel
 buildreq-make
 buildreq-meson
 buildreq-mvn
+buildreq-php
 buildreq-qmake
 buildreq-scons
 bundle-chroot-builder
@@ -2443,6 +2444,7 @@ linux-hyperv
 linux-hyperv-lts
 linux-iot-lts2017-preempt-rt
 linux-iot-lts2018
+linux-iot-lts2018-preempt-rt
 linux-kata
 linux-kvm
 linux-libc-headers
@@ -2450,7 +2452,6 @@ linux-lts2017
 linux-lts2018
 linux-networktest
 linux-oracle
-linux-pk414-preempt-rt
 linux-preempt-rt
 linux-steam-integration
 linux-tools
@@ -2812,6 +2813,7 @@ pciutils
 pcmanfm-qt
 pcre
 pcre2
+pcsc-lite
 pdns
 pdns-recursor
 pecan
