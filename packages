@@ -2299,6 +2299,7 @@ libkipi
 libkleo
 libkmahjongg
 libkomparediff2
+libksane
 libksba
 libkscreen
 libksieve
@@ -2640,6 +2641,7 @@ nfs4-acl-tools
 nftables
 nghttp2
 nginx
+nginx-mainline
 nicstat
 ninja
 nload
