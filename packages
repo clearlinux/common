@@ -2032,6 +2032,7 @@ kgeography
 kget
 kglobalaccel
 kgoldrunner
+kgpg
 kguiaddons
 khal
 khangman
@@ -3946,6 +3947,7 @@ startup-notification
 statsd
 statsmodels
 stellarium
+step
 stestr
 stevedore
 stow
@@ -4042,6 +4044,7 @@ tinyxml2
 tiptop
 tk
 tmux
+todoist
 tokyocabinet
 toolz
 tooz
