@@ -3490,6 +3490,13 @@ pexpect
 phonon
 phoronix-test-suite
 php
+php-imagick
+php-mailparse
+php-redis
+php-timezonedb
+php-xdebug
+php-yaml
+php-zip
 pickleshare
 picmi
 picocom
@@ -3890,6 +3897,7 @@ smart_open
 smartcols
 smartmontools
 smmap2
+snabb
 snappy
 snowballstemmer
 socat
