@@ -1186,6 +1186,7 @@ clr-init
 clr-installer
 clr-man-pages
 clr-network-troubleshooter
+clr-one-shot-updates
 clr-power-tweaks
 clr-python-timestamp
 clr-pyversion-strip
@@ -1806,6 +1807,7 @@ hicolor-icon-theme
 hiredis
 hold
 home-assistant
+home-assistant-frontend
 horizon
 horovod
 hostname
@@ -3900,6 +3902,7 @@ smartmontools
 smmap2
 snabb
 snappy
+snitun
 snowballstemmer
 socat
 sof-crosstool-ng
