@@ -2450,6 +2450,7 @@ linux-hyperv-lts
 linux-iot-lts2017-preempt-rt
 linux-iot-lts2018
 linux-iot-lts2018-preempt-rt
+linux-iot-lts2019
 linux-kata
 linux-kvm
 linux-libc-headers
