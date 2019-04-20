@@ -158,7 +158,7 @@ def zap_plus_line_in_file(filename):
 
 def chunk_empty(chunk):
     for line in chunk:
-        if line[0] == '+':
+        if len(line) > 0 and line[0] == '+':
             return False
     return True
                            
