@@ -186,6 +186,8 @@ autospec: preautospec-checks pullrebase localreponotice clean-old-content
 		bash update_changelog.sh ; \
 		git commit --amend --no-edit Change* ; \
 	fi
+	git diff | grep -q index || python3 $(TOPLVL)/projects/common/patchfilter.py > for-review.txt ;
+	git diff | grep -q index || python3 $(TOPLVL)/projects/common/patchfilter.py ;
 
 #help autospecnogit: Runs autospec, but does not create a commit
 autospecnogit:
