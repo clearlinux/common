@@ -2959,6 +2959,7 @@ perl-Data-Page
 perl-Data-Password
 perl-Data-Printer
 perl-Data-Random
+perl-Data-Section
 perl-Data-Serializer
 perl-Data-Structure-Util
 perl-Data-Uniqid
@@ -3309,6 +3310,7 @@ perl-Set-Scalar
 perl-Smart-Comments
 perl-Socket-MsgHdr
 perl-Socket6
+perl-Software-License
 perl-Sort-Key
 perl-Sort-Naturally
 perl-Sort-Versions
