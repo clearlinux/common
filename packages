@@ -1005,6 +1005,8 @@ atomicwrites
 attica
 attr
 attrs
+audacious
+audacious-plugins
 audiofile
 audisp-json
 audit
@@ -3975,6 +3977,7 @@ subversion
 sudo
 suds-jurko
 sundials
+supertuxkart
 sure
 suricata
 svg.path
