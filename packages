@@ -663,6 +663,7 @@ R-rasterVis
 R-rbenchmark
 R-rcmdcheck
 R-reactR
+R-reactlog
 R-readr
 R-readstata13
 R-readxl
@@ -1283,6 +1284,7 @@ compat-openssl-soname-10
 compat-poppler-soname78
 compat-poppler-soname82
 compat-poppler-soname83
+compat-poppler-soname86
 compat-protobuf-soname14
 compat-protobuf-soname15
 compat-python36
@@ -1553,6 +1555,7 @@ expect
 extra-cmake-modules
 extras
 f2fs-tools
+faas-cli
 faba-icon-theme
 fakeroot
 fann
