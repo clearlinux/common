@@ -1130,6 +1130,7 @@ cairo
 cairomm
 calc
 calendarsupport
+can-utils
 cantarell-fonts
 cantata
 cantor
@@ -3876,6 +3877,7 @@ seaborn
 seahorse
 secretstorage
 sed
+segno
 selenium
 semantic_version
 seqdiag
