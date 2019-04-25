@@ -335,6 +335,8 @@ def main():
     zap_plus_line_in_file("symbols")
     zap_plus_line_in_file("symbols32")
 
+    zap_entire_file("b/whatrequires")
+
     zap_empty_chunks()
     
     print_all()
