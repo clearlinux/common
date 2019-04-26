@@ -60,6 +60,7 @@ PasteDeploy
 Pillow
 Pint
 PyDispatcher
+PyICU
 PyJWT
 PyMySQL
 PyNaCl
@@ -1564,6 +1565,7 @@ fann2
 farstream
 fasteners
 fastimport
+fastnumbers
 fcgi
 fcoe-utils
 fdm_materials
@@ -1802,6 +1804,7 @@ hardlink
 harfbuzz
 haskell-random
 hdf5
+hdmedians
 hdparm
 heat
 helloworld
@@ -2615,10 +2618,12 @@ mycroft-core
 mypaint-brushes
 mypy
 mypy_extensions
+mysqltcl
 mythes
 nagios-plugins
 nano
 nasm
+natsort
 nautilus
 nbconvert
 nbformat
