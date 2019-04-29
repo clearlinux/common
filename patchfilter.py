@@ -205,6 +205,7 @@ def main():
     zap_entire_file("b/.gitignore")
     zap_entire_file("b/upstream")
     zap_entire_file("b/NEWS")
+    zap_entire_file("b/ChangeLog")
     zap_entire_file_end("xz.sig")
     zap_entire_file_end("gz.sig")
     zap_entire_file_end("bz2.sig")
