@@ -324,6 +324,7 @@ R-dotCall64
 R-downloader
 R-dplyr
 R-drc
+R-dtplyr
 R-dtw
 R-dygraphs
 R-dynlm
@@ -394,6 +395,7 @@ R-fossil
 R-fpc
 R-fracdiff
 R-fs
+R-fst
 R-futile.logger
 R-futile.options
 R-future
@@ -437,6 +439,7 @@ R-haplo.stats
 R-haven
 R-hdrcde
 R-here
+R-hexView
 R-hexbin
 R-highlight
 R-highr
@@ -491,6 +494,7 @@ R-leaps
 R-lfe
 R-lhs
 R-libcoin
+R-lintr
 R-listenv
 R-listviewer
 R-lle
@@ -665,6 +669,7 @@ R-rbenchmark
 R-rcmdcheck
 R-reactR
 R-reactlog
+R-readODS
 R-readr
 R-readstata13
 R-readxl
@@ -681,6 +686,7 @@ R-reprex
 R-reshape
 R-reshape2
 R-reticulate
+R-rex
 R-rgenoud
 R-rgeos
 R-rgl
@@ -693,6 +699,7 @@ R-rjags
 R-rjstat
 R-rlang
 R-rmarkdown
+R-rmatio
 R-rms
 R-rmutil
 R-rncl
@@ -773,6 +780,7 @@ R-startupmsg
 R-statip
 R-statmod
 R-statnet.common
+R-stringdist
 R-stringi
 R-stringr
 R-strucchange
@@ -865,6 +873,7 @@ SDL_image
 SDL_mixer
 SDL_net
 SDL_ttf
+SFML
 SPIRV-Headers
 SPIRV-Tools
 SQLAlchemy
@@ -1144,6 +1153,7 @@ catch2
 catkin
 catkin_pkg
 ccache
+ccid
 ceilometer
 ceph
 ceph-deploy
@@ -1542,6 +1552,7 @@ epm
 epydoc
 eternalegypt
 ethtool
+etr
 eventlet
 eventviews
 evince
@@ -2591,6 +2602,7 @@ mpfr
 mpg123
 mpi4py
 mpmath
+mpv
 mraa
 msgpack
 msm
@@ -4270,6 +4282,7 @@ xterm
 xtrans
 xvfb-run
 xwd
+xwdrun
 xwininfo
 xz
 yajl
