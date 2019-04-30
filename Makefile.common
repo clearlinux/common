@@ -503,6 +503,9 @@ cloc: $(SRPMFILE)
 	@$(MOCK) --clean --scrub=chroot --uniqueext=$(PKG_NAME)
 	cat results/cloc.txt
 
+# Define LTS-specific targets in a separate makefile
+-include $(TOPLVL)/projects/common/Makefile.common.lts
+
 # Define site local common targets in a separate makefile
 -include $(TOPLVL)/projects/common/Makefile.common.site_local
 

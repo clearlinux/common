@@ -1,0 +1,31 @@
+#-*-makefile-*-
+
+LTSUTILS = python $(TOPLVL)/projects/common/lts/main.py $(PKG_NAME)
+
+#help lts-show: Display a summary of active LTS branches.
+lts-show:
+	@$(LTSUTILS) sanity-check
+	@while read b; do \
+		if git show-ref $$b > /dev/null; then \
+			echo $$b $$(git log --oneline -1 $$b); \
+		else \
+			echo $$b Not found; \
+		fi; \
+	done < $(TOPLVL)/projects/common/lts/active-branches
+
+#help lts-backport: Fast-forward the previous active branch to the current
+#help branch.
+lts-backport:
+	@$(LTSUTILS) sanity-check
+	@newer=$$(git symbolic-ref HEAD); \
+	newer=$${newer#refs/heads/}; \
+	if ! $(LTSUTILS) checkout-prev; then \
+		echo Could not check out previous active branch.; \
+		exit 0; \
+	fi; \
+	if $(LTSUTILS) is-same-version $$newer; then \
+		$(LTSUTILS) fast-forward $$newer; \
+	else \
+		echo Most likely a patch needs to be manually re-applied for this version.; \
+		echo Alternatively, use \"git merge --ff-only $$newer\" to upgrade the package version.; \
+	fi
