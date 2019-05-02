@@ -1250,6 +1250,7 @@ collectl
 colorama
 colord
 colord-gtk
+columbiad
 comedilib
 comfortaa-fonts
 commonmark
