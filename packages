@@ -721,6 +721,7 @@ R-rsdmx
 R-rstan
 R-rstanarm
 R-rstantools
+R-rstudio
 R-rstudioapi
 R-rsvg
 R-runjags
@@ -1258,6 +1259,7 @@ commonmark
 compat-SDL2-soname1
 compat-cryptsetup-soname4
 compat-curl-gnutls-soname4
+compat-double-conversion-soname1
 compat-efivar-soname0
 compat-enchant-soname1
 compat-exiv2-soname26
@@ -2168,7 +2170,13 @@ ktimer
 ktnef
 ktp-approver
 ktp-common-internals
+ktp-contact-list
+ktp-contact-runner
 ktp-desktop-applets
+ktp-filetransfer-handler
+ktp-kded-module
+ktp-send-file
+ktp-text-ui
 ktuberling
 kturtle
 kubernetes
