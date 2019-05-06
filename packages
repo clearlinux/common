@@ -1331,6 +1331,7 @@ cpio
 cppcheck
 cpprestsdk
 cppunit
+cppzmq
 cpuid
 cpuloadgen
 cracklib
