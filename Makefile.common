@@ -425,8 +425,16 @@ install-debuginfo-local:
 		sudo chown -R dbginfo:dbginfo "$$d"; \
 		sudo cp -a "$$d" $$dest/; \
 	done; \
+	find $$tmpdir/usr/share/debug/ -mindepth 1 -maxdepth 1 -regextype awk -regex '.*/(.build-id|boot|lib|sbin|usr)$$' 2> /dev/null | while read -r d; do \
+		sudo chown -R dbginfo:dbginfo "$$d"; \
+		sudo cp -a "$$d" $$dest/; \
+	done; \
 	dest=/var/cache/debuginfo/src; \
 	find $$tmpdir/usr/src/debug/ -mindepth 1 -maxdepth 1 2> /dev/null | while read -r d; do \
+		sudo chown -R dbginfo:dbginfo "$$d"; \
+		sudo cp -a "$$d" $$dest/; \
+	done; \
+	find $$tmpdir/usr/share/debug/src/ -mindepth 1 -maxdepth 1 2> /dev/null | while read -r d; do \
 		sudo chown -R dbginfo:dbginfo "$$d"; \
 		sudo cp -a "$$d" $$dest/; \
 	done; \
