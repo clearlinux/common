@@ -3832,6 +3832,7 @@ recommonmark
 redis
 redis-native
 redland
+redshift
 redsocks
 renderdoc
 reno
