@@ -11,8 +11,15 @@ def init_parser():
     main.add_argument('package_name', nargs=1)
     subparsers = main.add_subparsers(dest='command', metavar='command', required=True)
 
-    p = subparsers.add_parser('checkout-prev',
-            help='checkout previous branch')
+    # Package maintenance commands
+    p = subparsers.add_parser('prev-branch',
+            help='show previous branch')
+    p.add_argument('--checkout', action='store_true', help='checkout the branch')
+    p = subparsers.add_parser('next-branch',
+            help='show next branch')
+    p.add_argument('--checkout', action='store_true', help='checkout the branch')
+    p = subparsers.add_parser('current-branch',
+            help='show current branch')
     p = subparsers.add_parser('is-same-version',
             help='return true if package version is the same as the given branch')
     p.add_argument('branch', nargs=1)
@@ -20,12 +27,20 @@ def init_parser():
             help='fast-forward current branch to a newer branch')
     p.add_argument('branch', nargs=1)
 
+    # RPM build commands
+    p = subparsers.add_parser('can-reuse-binary',
+            help='check if binary from another branch can be used in current branch')
+    p.add_argument('branch', nargs=1)
+
+    # Other commands
+    p = subparsers.add_parser('prompt',
+            help='prompt user to continue and return appropriate exit code')
     p = subparsers.add_parser('sanity-check',
             help='run sanity checks for data consistency')
 
     return main
 
-def checkout_prev(args, repo):
+def prev_branch(args, repo):
     active_branches = repo.getActiveBranches()
     current = repo.getCurrentBranch()
 
@@ -35,7 +50,27 @@ def checkout_prev(args, repo):
         return False
 
     prev = active_branches[i-1]
-    repo.checkoutBranch(prev, allow_remote=True)
+    print(prev)
+    if args.checkout:
+        repo.checkoutBranch(prev, allow_remote=True)
+
+def next_branch(args, repo):
+    active_branches = repo.getActiveBranches()
+    current = repo.getCurrentBranch()
+
+    i = active_branches.index(current)
+    if i == len(active_branches)-1:
+        log('Already on newest active branch.')
+        return False
+
+    next_ = active_branches[i+1]
+    print(next_)
+    if args.checkout:
+        repo.checkoutBranch(next_, allow_remote=False)
+
+def current_branch(args, repo):
+    current = repo.getCurrentBranch()
+    print(current)
 
 def is_same_version(args, other):
     current = repo.getCurrentBranch()
@@ -76,14 +111,37 @@ def sanity_check(args, repo):
 
     return ok
 
+def can_reuse_binary(args, repo):
+    # Just compare versions for now
+    # TODO: ABI compatibility testing
+    current = repo.getCurrentBranch()
+    older = args.branch[0]
+    v1, v2 = [repo.getNVR('refs/heads/'+b)[1] for b in (older, current)]
+    return v1 == v2
+
+def prompt(args, repo):
+    while True:
+        s = input('Continue? (y/N): ')
+        if s in ('Y', 'y', 'N', 'n', ''):
+            break
+    if s in ('Y', 'y'):
+        return True
+    else:
+        print('Cancelled.')
+        return False
+
 if __name__=='__main__':
     args = init_parser().parse_args()
     repo = PackageRepo(args.package_name[0], '.')
 
     commands = {
-            'checkout-prev': checkout_prev,
+            'prev-branch': prev_branch,
+            'next-branch': next_branch,
+            'current-branch': current_branch,
             'is-same-version': is_same_version,
             'fast-forward': fast_forward,
+            'can-reuse-binary': can_reuse_binary,
+            'prompt': prompt,
             'sanity-check': sanity_check,
             }
     ret = commands[args.command](args, repo)

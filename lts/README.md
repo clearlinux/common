@@ -10,6 +10,7 @@ There should be no need to run this tool directly. Instead use the following
 targets defined in Makefile.common.lts:
 - lts-show: Show a summary of active LTS branches
 - lts-backport: Attempt to fast-forward the previous active branch to the current branch
+- lts-build: Build RPM in Koji, or reuse existing build from older branch
 
 "Active" branches correspond to LTS releases that currently have support.
 They are listed in a flat file "active-branches" in "lts" directory, from

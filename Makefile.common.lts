@@ -19,7 +19,7 @@ lts-backport:
 	@$(LTSUTILS) sanity-check
 	@newer=$$(git symbolic-ref HEAD); \
 	newer=$${newer#refs/heads/}; \
-	if ! $(LTSUTILS) checkout-prev; then \
+	if ! $(LTSUTILS) prev-branch --checkout; then \
 		echo Could not check out previous active branch.; \
 		exit 0; \
 	fi; \
@@ -29,3 +29,40 @@ lts-backport:
 		echo Most likely a patch needs to be manually re-applied for this version.; \
 		echo Alternatively, use \"git merge --ff-only $$newer\" to upgrade the package version.; \
 	fi
+
+#help lts-build: Build RPM in Koji, or reuse existing build from older LTS
+#help branch.
+lts-build:
+	@$(LTSUTILS) sanity-check
+	@tag=$$(git tag --points-at); \
+	if [[ -z $$tag ]]; then \
+		echo This commit does not have a tag.; \
+		echo Proceeding to run \"make koji\".; \
+		$(LTSUTILS) prompt || exit; \
+		$(MAKE) koji; \
+		exit; \
+	fi; \
+	older=$$($(LTSUTILS) prev-branch); \
+	if [[ -z $$older ]]; then \
+		echo Could not determine previous active branch.; \
+		exit 1; \
+	fi; \
+	current=$$($(LTSUTILS) current-branch); \
+	if [[ $$(git rev-parse $$older) != $$(git rev-parse $$current) ]]; then \
+		echo Previous branch and current branch have different commits.; \
+		for b in $$older $$current; do echo $$b $$(git log --oneline -1 $$b); done; \
+		echo Proceeding to run \"make koji\".; \
+		$(LTSUTILS) prompt || exit; \
+		$(MAKE) koji; \
+		exit; \
+	fi; \
+	if $(LTSUTILS) can-reuse-binary $$older; then \
+		echo Reusing binary from $$older.; \
+		$(KOJI_CMD) tag-build $$current $(SRPMVERS); \
+	else \
+		echo Could not reuse binary from $$older.; \
+		echo Proceeding to run \"make bump && make koji\".; \
+		$(LTSUTILS) prompt || exit; \
+		$(MAKE) bump && $(MAKE) koji; \
+	fi
+	@$(LTSUTILS) next-branch --checkout
