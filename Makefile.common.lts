@@ -37,9 +37,9 @@ lts-build:
 	@tag=$$(git tag --points-at); \
 	if [[ -z $$tag ]]; then \
 		echo This commit does not have a tag.; \
-		echo Proceeding to run \"make koji\".; \
+		echo Proceeding to run \"make lts-koji\".; \
 		$(LTSUTILS) prompt || exit; \
-		$(MAKE) koji; \
+		$(MAKE) lts-koji; \
 		exit; \
 	fi; \
 	older=$$($(LTSUTILS) prev-branch); \
@@ -51,9 +51,9 @@ lts-build:
 	if [[ $$(git rev-parse $$older) != $$(git rev-parse $$current) ]]; then \
 		echo Previous branch and current branch have different commits.; \
 		for b in $$older $$current; do echo $$b $$(git log --oneline -1 $$b); done; \
-		echo Proceeding to run \"make koji\".; \
+		echo Proceeding to run \"make lts-koji\".; \
 		$(LTSUTILS) prompt || exit; \
-		$(MAKE) koji; \
+		$(MAKE) lts-koji; \
 		exit; \
 	fi; \
 	if $(LTSUTILS) can-reuse-binary $$older; then \
@@ -61,8 +61,30 @@ lts-build:
 		$(KOJI_CMD) tag-build $$current $(SRPMVERS); \
 	else \
 		echo Could not reuse binary from $$older.; \
-		echo Proceeding to run \"make bump && make koji\".; \
+		echo Proceeding to run \"make bump lts-koji\".; \
 		$(LTSUTILS) prompt || exit; \
-		$(MAKE) bump && $(MAKE) koji; \
+		$(MAKE) bump lts-koji; \
 	fi
 	@$(LTSUTILS) next-branch --checkout
+
+#help lts-koji: Same as "koji" but for working on LTS branches. Should not
+#help be called directly, use lts-build instead.
+lts-koji: prekoji-checks kojidef
+	@$(LTSUTILS) sanity-check
+	@$(MAKE) spdxcheck
+	@$(MAKE) checkblacklist
+	@current=$$($(LTSUTILS) current-branch); \
+	if ! grep $$current $(TOPLVL)/projects/common/lts/active-branches; then \
+		echo "Error: Must be on an active branch to submit to koji" >&2; \
+		exit 1; \
+	fi; \
+	if ! git diff --quiet HEAD ${SPECFILE}; then \
+		echo "Error: All changes to ${SPECFILE} must be committed first" >&2; \
+		exit 1; \
+	fi; \
+	if git rev-parse --verify --quiet origin/$$current > /dev/null; then \
+		git pull --rebase; \
+	fi
+	git tag $(SRPMVERS)-lts
+	git push origin $$($(LTSUTILS) current-branch) refs/tags/$(SRPMVERS)-lts
+	$(KOJI_CMD) build $$KOJI_NOWAIT $$($(LTSUTILS) current-branch) $(PKG_BASE_URL)/$(PKG_NAME)?#$(SRPMVERS)-lts
