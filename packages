@@ -977,6 +977,7 @@ anyjson
 apache-ant
 apache-hadoop
 apache-kafka
+apache-libcloud
 apache-maven
 apache-spark
 apache-zookeeper
@@ -1565,6 +1566,7 @@ evince
 evolution
 evolution-data-server
 evolution-ews
+evtest
 execnet
 exempi
 exiv2
@@ -3924,6 +3926,7 @@ setproctitle
 setserial
 setuptools
 setuptools-legacy
+setuptools-markdown
 setuptools_scm
 setuptools_scm_git_archive
 setxkbmap
