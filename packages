@@ -1945,6 +1945,7 @@ jedi-vim
 jeepney
 jemalloc
 jmespath
+joblib
 joe
 josepy
 jq
@@ -2495,7 +2496,9 @@ linux-kvm
 linux-libc-headers
 linux-lts2017
 linux-lts2018
+linux-mainline
 linux-networktest
+linux-next
 linux-oracle
 linux-preempt-rt
 linux-steam-integration
@@ -4210,6 +4213,7 @@ weechat
 weston
 wget
 wheel
+wheelhouse-uploader
 which
 whois
 widgetsnbextension
