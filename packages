@@ -1768,6 +1768,7 @@ gperf
 gperftools
 gpgme
 gphoto2
+gpm
 gpredict
 gptfdisk
 gradle
@@ -2435,6 +2436,7 @@ libtheora
 libtirpc
 libtk-img
 libtool
+libtorrent-rasterbar
 libudev0-shim
 libuev
 libuninameslist
@@ -2484,6 +2486,7 @@ linecache2
 links
 linux
 linux-aws
+linux-current
 linux-firmware
 linux-firmware-ipu
 linux-gce
