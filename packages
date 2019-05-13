@@ -1538,6 +1538,7 @@ edk2
 efibootmgr
 efitools
 efivar
+efl
 eigen
 elasticsearch
 elasticsearch-dep
@@ -1550,6 +1551,7 @@ emacs
 embree
 empy
 enchant
+enlightenment
 entrypoints
 enum34
 envs
@@ -3826,6 +3828,7 @@ qwt
 rabbitmq-c
 rabbitmq-server
 radvd
+rage
 ragel
 raptor2
 rasqal
@@ -4077,6 +4080,7 @@ tensorflow-probability
 termcolor
 terminado
 terminaltables
+terminology
 terminus-font
 test-generator
 testpath
