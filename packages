@@ -1562,6 +1562,7 @@ epydoc
 eternalegypt
 ethtool
 etr
+evdev
 eventlet
 eventviews
 evince
@@ -1623,6 +1624,7 @@ flex
 flmsg
 flnet
 fltk
+fluidsynth
 folks
 font-util
 fontconfig
@@ -1653,6 +1655,7 @@ gawk
 gc
 gcab
 gcc
+gcc8
 gcompris-qt
 gcr
 gcs-oauth2-boto-plugin
@@ -2533,6 +2536,7 @@ lua
 lua52
 lualgi
 luarocks
+lutris
 lxml
 lxqt-about
 lxqt-admin
@@ -3774,6 +3778,7 @@ pywbem
 pyxattr
 pyxdg
 pyzmq
+qbittorrent
 qca-qt5
 qemu
 qemu-guest-additions
