@@ -2370,6 +2370,7 @@ libmtp
 libmwaw
 libmypaint
 libndp
+libnetfilter_acct
 libnetfilter_conntrack
 libnetfilter_cthelper
 libnetfilter_cttimeout
@@ -2685,6 +2686,7 @@ net-tools
 netaddr
 netbase
 netcdf
+netdata
 netdisco
 netifaces
 netkit-telnet
@@ -4236,6 +4238,7 @@ wireshark
 woff2
 wok
 wol
+wordpress
 wpa_supplicant
 wrapt
 wsgi_intercept
