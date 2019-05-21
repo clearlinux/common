@@ -993,6 +993,7 @@ argcomplete
 argon2
 argon2_cffi
 argparse
+aria2
 ark
 armadillo
 artikulate
@@ -1549,6 +1550,7 @@ elfutils
 elixir
 ell
 emacs
+emacs-x11
 embree
 empy
 enchant
@@ -1633,6 +1635,7 @@ fontforge
 fonttools
 fossil
 frameworkintegration
+freedv
 freeglut
 freeipmi
 freetype
@@ -1716,6 +1719,7 @@ gnome-applets
 gnome-autoar
 gnome-backgrounds
 gnome-bluetooth
+gnome-boxes
 gnome-calculator
 gnome-calendar
 gnome-characters
@@ -4269,7 +4273,6 @@ xdg-user-dirs-gtk
 xdg-utils
 xdotool
 xdpyinfo
-xemacs
 xerces-c
 xf86-input-evdev
 xf86-input-libinput
