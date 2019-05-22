@@ -320,7 +320,7 @@ scratch: $(SPECFILE) upstream $(SRPMFILE) kojidef
 
 #help scratch-wait: Performs scratch-build on package.
 scratch-wait: $(SPECFILE) upstream $(SRPMFILE) kojidef
-	$(KOJI_CMD) build --scratch $(KOJI_TAG) $(SRPMFILE)
+	$(KOJI_CMD) build --scratch --wait $(KOJI_TAG) $(SRPMFILE)
 
 #help koji-nowait: Same as 'make koji', but do not block
 koji-nowait:
