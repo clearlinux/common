@@ -3612,6 +3612,7 @@ portaudio
 portend
 positional
 posix_ipc
+postgis
 postgresql
 potrace
 povray
