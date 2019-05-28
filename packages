@@ -1269,6 +1269,7 @@ compat-efivar-soname0
 compat-enchant-soname1
 compat-exiv2-soname26
 compat-fuse-soname2
+compat-gdal-soname20
 compat-gegl
 compat-gegl-0.3
 compat-glew-soname1
@@ -1306,6 +1307,7 @@ compat-poppler-soname78
 compat-poppler-soname82
 compat-poppler-soname83
 compat-poppler-soname86
+compat-proj-soname13
 compat-protobuf-soname14
 compat-protobuf-soname15
 compat-python36
@@ -1688,6 +1690,7 @@ gftp
 ghc
 ghostscript
 gimp
+girara
 git
 git-gui
 gitdb2
@@ -3795,6 +3798,7 @@ qemu
 qemu-guest-additions
 qemu-lite
 qgit
+qhull
 qml-box2d
 qpdf
 qpid-python
@@ -3845,6 +3849,8 @@ quazip
 quilt
 qwt
 rabbitmq-c
+rabbitmq-java-client
+rabbitmq-java-client-dep
 rabbitmq-server
 radvd
 rage
@@ -4355,6 +4361,7 @@ yum
 yum-metadata-parser
 zVMCloudConnector
 zake
+zathura
 zc.lockfile
 zenity
 zeroconf
