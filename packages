@@ -890,6 +890,7 @@ SuiteSparse
 Tempita
 Theano
 Thunar
+UCD
 UkPostcodeParser
 Unidecode
 Uranium
@@ -1880,6 +1881,7 @@ iasimage
 ibus
 ibus-libpinyin
 ibus-table
+ibus-unikey
 icalendar
 icdiff
 iceauth
@@ -2656,6 +2658,7 @@ msrestazure
 mstflint
 mtd-utils
 mtdev
+mtools
 mtr
 multidict
 multimon-ng
