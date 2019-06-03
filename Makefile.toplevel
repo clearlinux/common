@@ -229,8 +229,11 @@ autospecnew: preautospecnew-checks localreponotice
 		if [ $$? -eq 0 ]; then \
 			$(MAKE) link-new-rpms PKG_REPO_DIR="${TOPLVL}/packages/${NAME}"; \
 			$(TOPLVL)/projects/common/checkblacklist.sh $(TOPLVL)/projects/common/blacklist $(TOPLVL)/packages/${NAME}/results/*.rpm; \
-			python3 $(TOPLVL)/projects/common/patchfilter.py <(git -C $(TOPLVL)/packages/$(NAME) show) > $(TOPLVL)/packages/$(NAME)/for-review.txt; \
-			python3 $(TOPLVL)/projects/common/patchfilter.py <(git -C $(TOPLVL)/packages/$(NAME) show); \
+			python3 $(TOPLVL)/projects/common/patchfilter.py <(git -C $(TOPLVL)/packages/$(NAME) format-patch -1 --stdout) > $(TOPLVL)/packages/$(NAME)/for-review.txt; \
+			printf "\n**\n"; \
+			printf "** NOTICE: A patch with changes is available in the file $(TOPLVL)/packages/$(NAME)/for-review.txt\n"; \
+			printf "** Please submit for code review with git send-email\n"; \
+			printf "**\n\n"; \
 		fi; \
 	else \
 		echo "$(NAME) already exists at $(TOPLVL)/packages/$(NAME)"; \

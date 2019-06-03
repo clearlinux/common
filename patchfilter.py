@@ -195,7 +195,7 @@ def main():
         with open (filename, "r") as myfile:
             lines = myfile.readlines()
     else:
-        output = subprocess.check_output("git show", shell=True).decode("latin-1")
+        output = subprocess.check_output("git format-patch -1 --stdout", shell=True).decode("latin-1")
         lines = output.split("\n")
         
     parse_patch(lines)
