@@ -1628,6 +1628,7 @@ flatpak
 flatpak-builder
 fldigi
 flex
+flink-dep
 flmsg
 flnet
 fltk
@@ -1881,6 +1882,7 @@ iasimage
 ibus
 ibus-libpinyin
 ibus-table
+ibus-typing-booster
 ibus-unikey
 icalendar
 icdiff
@@ -1906,6 +1908,7 @@ influxdb
 iniparse
 init-rdahead
 inkscape
+innoextract
 inotify-tools
 intel-cmt-cat
 intel-compute-runtime
@@ -2262,6 +2265,7 @@ libaio
 libappindicator
 libarchive
 libarchive-c
+libass
 libassuan
 libasyncns
 libatasmart
@@ -2719,6 +2723,7 @@ nghttp2
 nginx
 nginx-mainline
 nicstat
+nim
 ninja
 nload
 nlopt
@@ -2930,6 +2935,7 @@ perl-B-Hooks-OP-Check
 perl-B-Keywords
 perl-BSD-Resource
 perl-Biblio-EndnoteStyle
+perl-Bit-Vector
 perl-Browser-Open
 perl-Business-ISBN
 perl-Business-ISBN-Data
@@ -4322,6 +4328,7 @@ xkbcomp
 xkeyboard-config
 xkill
 xlog
+xmlb
 xmlrpc-c
 xmlsec1
 xmlstarlet
