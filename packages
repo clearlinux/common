@@ -3939,6 +3939,7 @@ sbc
 sbsigntools
 scala
 scala-dep
+scdoc
 scene-alembic
 scikit-build
 scikit-image
