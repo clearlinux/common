@@ -978,6 +978,7 @@ aniso8601
 ansible
 anyjson
 apache-ant
+apache-flink
 apache-hadoop
 apache-kafka
 apache-libcloud
@@ -1282,6 +1283,7 @@ compat-hdf5-soname10
 compat-hwloc-soname5
 compat-hyperscan-soname4
 compat-icu4c-soname61
+compat-icu4c-soname63
 compat-ilmbase-soname23
 compat-intel-gmmlib-soname1
 compat-ipset-soname10
