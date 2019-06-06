@@ -4106,6 +4106,7 @@ telemetrics-client
 telepathy-glib
 telepathy-logger
 telepathy-qt
+tempest
 tempest-lib
 template-glib
 tempora
