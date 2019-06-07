@@ -1906,6 +1906,7 @@ imageio
 imagesize
 imapfilter
 imlib2
+importlib_metadata
 indent
 infiniband-diags
 inflection
@@ -4388,6 +4389,7 @@ zeroconf
 zeroconf-ioslave
 zict
 zip
+zipp
 zlib
 znc
 zoneminder
