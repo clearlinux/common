@@ -999,6 +999,7 @@ argparse
 aria2
 ark
 armadillo
+arp-scan
 artikulate
 asciidoc
 asciinema
@@ -1155,6 +1156,8 @@ cantor
 capnproto
 caribou
 case
+cassandra
+cassandra-dep
 castellan
 casync
 catch2
@@ -3014,6 +3017,7 @@ perl-Curses
 perl-DBD-Pg
 perl-DBD-SQLite
 perl-DBD-SQLite2
+perl-DBD-mysql
 perl-DBI
 perl-DBICx-TestDatabase
 perl-DBIx-Class
@@ -3043,6 +3047,7 @@ perl-Data-Serializer
 perl-Data-Structure-Util
 perl-Data-Uniqid
 perl-Data-Validate-IP
+perl-Date-Manip
 perl-DateTime
 perl-DateTime-Format-Builder
 perl-DateTime-Format-DateParse
@@ -3920,6 +3925,7 @@ rsync
 rsyslog
 rt-tests
 rtkit
+rtmpdump
 rtslib-fb
 rttr
 ruamel-yaml
@@ -4384,6 +4390,7 @@ zict
 zip
 zlib
 znc
+zoneminder
 zookeeper-dep
 zope.component
 zope.configuration
