@@ -503,6 +503,7 @@ R-lme4
 R-lmerTest
 R-lmtest
 R-locfit
+R-logcondens
 R-logspline
 R-loo
 R-lpSolve
@@ -1532,6 +1533,7 @@ dpdk
 dracut
 dragon
 drkonqi
+dssi
 dstat
 dtc
 dtopt
@@ -1808,6 +1810,7 @@ grilo-plugins
 groff
 grpcio
 grub
+gsequencer
 gsettings-desktop-schemas
 gsl
 gsm
@@ -1986,6 +1989,7 @@ jsonpath-rw-ext
 jsonpointer
 jsonrpc-glib
 jsonschema
+junit-xml
 jupyter
 jupyter-nbgallery
 jupyter-notebook-gist
@@ -2227,6 +2231,7 @@ kwrited
 kxmlgui
 kxmlrpcclient
 kyotocabinet
+ladspa_sdk
 lark-parser
 latencytop
 latexcodec
@@ -2353,6 +2358,7 @@ libidn
 libidn2
 libindicator
 libinput
+libinstpatch
 libiscsi
 libisofs
 libite
@@ -2561,6 +2567,7 @@ lua52
 lualgi
 luarocks
 lutris
+lv2
 lxml
 lxqt-about
 lxqt-admin
@@ -3220,6 +3227,7 @@ perl-Inline-C
 perl-JSON
 perl-JSON-MaybeXS
 perl-JSON-RPC
+perl-JSON-XS
 perl-JavaScript-Minifier-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
@@ -3707,6 +3715,7 @@ pygtkglext
 pyhs100
 pyinotify
 pykerberos
+pykwalify
 pylama
 pyliblzma
 pylint
@@ -4189,6 +4198,7 @@ typing_extensions
 tzdata
 tzlocal
 ua-parser
+uamqp
 ucpp
 udisks2
 udunits
