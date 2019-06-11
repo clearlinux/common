@@ -120,10 +120,22 @@ def can_reuse_binary(args, repo):
     return v1 == v2
 
 def prompt(args, repo):
+    import selectors
+    timeout = 60
+
     while True:
-        s = input('Continue? (y/N): ')
-        if s in ('Y', 'y', 'N', 'n', ''):
-            break
+        print('Continue? (y/N): ', end='', flush=True)
+        with selectors.DefaultSelector() as sel:
+            sel.register(sys.stdin, selectors.EVENT_READ)
+            events = sel.select(timeout)
+        if not len(events):
+            print('Timed out after {}s.'.format(timeout))
+            return False
+        else:
+            s = sys.stdin.readline().rstrip('\n')
+            if s in ('Y', 'y', 'N', 'n', ''):
+                break
+
     if s in ('Y', 'y'):
         return True
     else:
