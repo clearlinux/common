@@ -724,6 +724,7 @@ R-rstan
 R-rstanarm
 R-rstantools
 R-rstudio
+R-rstudio-server
 R-rstudioapi
 R-rsvg
 R-runjags
@@ -1659,7 +1660,6 @@ funcparserlib
 funcsigs
 functools32
 fuse
-futures
 futurist
 fwupd
 fwupdate
@@ -3938,7 +3938,7 @@ rtkit
 rtmpdump
 rtslib-fb
 rttr
-ruamel-yaml
+ruamel.yaml
 ruby
 runc
 rust-std32
