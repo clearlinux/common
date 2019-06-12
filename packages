@@ -2294,6 +2294,7 @@ libcdio
 libcdr
 libcgroup
 libchamplain
+libclc
 libcmis
 libcomps
 libconfig
@@ -2537,7 +2538,6 @@ linux-lts2017
 linux-lts2018
 linux-mainline
 linux-networktest
-linux-next
 linux-oracle
 linux-preempt-rt
 linux-steam-integration
