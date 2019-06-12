@@ -4192,7 +4192,7 @@ tracker-miners
 traitlets
 tree
 trollius
-typed-ast
+typed_ast
 typing
 typing_extensions
 tzdata
