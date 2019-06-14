@@ -232,7 +232,7 @@ autospecnew: preautospecnew-checks localreponotice
 			python3 $(TOPLVL)/projects/common/patchfilter.py <(git -C $(TOPLVL)/packages/$(NAME) format-patch -1 --stdout) > $(TOPLVL)/packages/$(NAME)/for-review.txt; \
 			printf "\n**\n"; \
 			printf "** NOTICE: A patch with changes is available in the file $(TOPLVL)/packages/$(NAME)/for-review.txt\n"; \
-			printf "** Please submit for code review with git send-email\n"; \
+			printf "** Please look through this file and if you are unsure, please submit for code review with git send-email\n"; \
 			printf "**\n\n"; \
 		fi; \
 	else \
