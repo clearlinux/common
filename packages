@@ -2596,6 +2596,7 @@ make
 makedepend
 man-db
 man-pages
+man-pages-posix
 marble
 mariadb
 mash
@@ -3597,6 +3598,7 @@ persistent
 pesign
 pexpect
 phonon
+phonon-vlc
 phoronix-test-suite
 php
 php-imagick
