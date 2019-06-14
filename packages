@@ -1002,6 +1002,7 @@ aria2
 ark
 armadillo
 arp-scan
+arpack-ng
 artikulate
 asciidoc
 asciinema
@@ -2690,6 +2691,10 @@ musl
 mutagen
 mutt
 mutter
+mvn-aether-core
+mvn-cdi-api
+mvn-commons-cli
+mvn-commons-codec
 mxnet
 mycroft-core
 mypaint-brushes
