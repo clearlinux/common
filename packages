@@ -308,6 +308,7 @@ R-desc
 R-devtools
 R-dfoptim
 R-dichromat
+R-diffobj
 R-diffusionMap
 R-digest
 R-dimRed
@@ -387,6 +388,9 @@ R-fitdistrplus
 R-flashClust
 R-flexmix
 R-flexsurv
+R-fontBitstreamVera
+R-fontLiberation
+R-fontquiver
 R-forcats
 R-foreach
 R-forecast
@@ -407,6 +411,7 @@ R-gbm
 R-gbutils
 R-gclus
 R-gdata
+R-gdtools
 R-geepack
 R-geiger
 R-generics
@@ -2723,7 +2728,10 @@ mvn-error_prone_annotations
 mvn-extra-enforcer-rules
 mvn-file-management
 mvn-google-collections
+mvn-guava
+mvn-guice
 mvn-httpclient
+mvn-httpcomponents-core
 mvn-j2objc-annotations
 mvn-jackson-databind
 mvn-java-boot-classpath-detector
@@ -3533,6 +3541,7 @@ perl-Role-Basic
 perl-Role-Tiny
 perl-Roman
 perl-Router-Simple
+perl-SGLMSpm
 perl-SMTP-Server
 perl-SQL-Abstract
 perl-SQL-Translator
@@ -3639,6 +3648,7 @@ perl-Text-Brew
 perl-Text-CSV
 perl-Text-CSV-Encoded
 perl-Text-CSV_XS
+perl-Text-CharWidth
 perl-Text-Diff
 perl-Text-FindIndent
 perl-Text-Format
@@ -3654,6 +3664,7 @@ perl-Text-TabularDisplay
 perl-Text-Template
 perl-Text-Trim
 perl-Text-Unidecode
+perl-Text-WrapI18N
 perl-Text-Wrapper
 perl-Tie-Cycle
 perl-Tie-IxHash
