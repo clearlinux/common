@@ -2452,6 +2452,7 @@ libsamplerate
 libsass
 libseccomp
 libsecret
+libshout
 libsigc++
 libsigsegv
 libsmbios
@@ -2699,6 +2700,7 @@ mutt
 mutter
 mvn-aether-core
 mvn-animal-sniffer
+mvn-antlr
 mvn-apache-jar-resource-bundle
 mvn-apache-rat
 mvn-asm
@@ -2716,6 +2718,7 @@ mvn-commons-cli
 mvn-commons-codec
 mvn-commons-compress
 mvn-commons-httpclient
+mvn-commons-io
 mvn-commons-jxpath
 mvn-commons-lang
 mvn-commons-lang3
@@ -2730,13 +2733,17 @@ mvn-file-management
 mvn-google-collections
 mvn-guava
 mvn-guice
-mvn-httpclient
+mvn-httpcomponents-client
 mvn-httpcomponents-core
 mvn-j2objc-annotations
 mvn-jackson-databind
 mvn-java-boot-classpath-detector
 mvn-javax.inject
+mvn-jaxb-impl
 mvn-jdom
+mvn-jersey-apache-client4
+mvn-jersey-core
+mvn-jersey-json
 mvn-jetty
 mvn-jetty-util
 mvn-jsch
@@ -2801,6 +2808,8 @@ mvn-oro
 mvn-pdfbox
 mvn-plexus-archiver
 mvn-plexus-build-api
+mvn-plexus-cipher
+mvn-plexus-classworlds
 mvn-plexus-cli
 mvn-plexus-compiler
 mvn-plexus-containers
