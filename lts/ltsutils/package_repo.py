@@ -15,7 +15,7 @@ class PackageRepo:
     def getNVR(self, commit='HEAD'):
         with self.sh.popen(['git', 'show', '{}:{}.spec'.format(commit, self.name)], stdout=PIPE) as specfile:
             nvr = self.sh.run('rpmspec --srpm -q --queryformat %{NVR} /dev/stdin', stdin=specfile.stdout)
-        return tuple(nvr.stdout.strip().split('-'))
+        return tuple(nvr.stdout.strip().rsplit('-', maxsplit=2))
 
     def checkoutBranch(self, branch, allow_remote=False):
         # allow_remote=True allows checking out a new remote-tracking branch
