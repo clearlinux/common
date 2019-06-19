@@ -1653,6 +1653,7 @@ fontconfig
 fontforge
 fonttools
 fossil
+fox
 frameworkintegration
 freedv
 freeglut
@@ -1865,6 +1866,7 @@ helloworld
 helm
 help2man
 hexchat
+hexedit
 hgtools
 hicolor-icon-theme
 hiredis
@@ -2700,6 +2702,7 @@ mutter
 mvn-aether-core
 mvn-animal-sniffer
 mvn-antlr
+mvn-apache
 mvn-apache-jar-resource-bundle
 mvn-apache-rat
 mvn-asm
@@ -2791,6 +2794,7 @@ mvn-maven-toolchain
 mvn-maven-wagon
 mvn-mockito-core
 mvn-modello
+mvn-mojo-parent
 mvn-mvnplugins
 mvn-nekohtml
 mvn-nexus-maven-plugins
