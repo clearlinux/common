@@ -2712,6 +2712,7 @@ mvn-beanshell
 mvn-biz.aQute.bndlib
 mvn-bndlib
 mvn-build-helper-maven-plugin
+mvn-buildnumber-maven-plugin
 mvn-cdi-api
 mvn-checker-compat-qual
 mvn-checkstyle
@@ -2735,10 +2736,12 @@ mvn-file-management
 mvn-google-collections
 mvn-guava
 mvn-guice
+mvn-hamcrest
 mvn-httpcomponents-client
 mvn-httpcomponents-core
 mvn-j2objc-annotations
 mvn-jackson-databind
+mvn-jansi
 mvn-java-boot-classpath-detector
 mvn-javax.inject
 mvn-jaxb-impl
@@ -2770,6 +2773,7 @@ mvn-maven-compat
 mvn-maven-core
 mvn-maven-embedder
 mvn-maven-error-diagnostics
+mvn-maven-model
 mvn-maven-model-builder
 mvn-maven-monitor
 mvn-maven-parent
@@ -2788,10 +2792,11 @@ mvn-maven-repository-metadata
 mvn-maven-resolver
 mvn-maven-resolver-provider
 mvn-maven-scm
+mvn-maven-settings
+mvn-maven-shared
 mvn-maven-slf4j-provider
 mvn-maven-surefire
 mvn-maven-toolchain
-mvn-maven-wagon
 mvn-mockito-core
 mvn-modello
 mvn-mojo-parent
@@ -2838,6 +2843,7 @@ mvn-struts
 mvn-trilead-ssh2
 mvn-tycho
 mvn-validation-api
+mvn-wagon
 mvn-xbean-reflect
 mvn-xercesImpl
 mvn-xercesMinimal
@@ -4161,6 +4167,7 @@ setuptools_scm_git_archive
 setxkbmap
 sg3_utils
 shadow
+shapelib
 shared-mime-info
 sharutils
 shell
