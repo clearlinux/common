@@ -2938,6 +2938,7 @@ ocl-icd
 octave
 offlineimap
 oiio
+okteta
 okular
 olefile
 onig
@@ -3929,6 +3930,7 @@ python-crfsuite
 python-dateutil
 python-dateutil-legacypython
 python-designateclient
+python-distutils-extra
 python-dldt
 python-editor
 python-future
