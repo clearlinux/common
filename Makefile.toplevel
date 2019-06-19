@@ -11,6 +11,7 @@ SHELL   = /bin/bash
 
 PKGS    = $(shell cat $(PACKAGES_FILE))
 PKGS_LOCAL = $(sort $(filter ${PKGS},$(subst packages/,,$(wildcard packages/*))))
+PKGS_ORPHANED = $(sort $(filter-out common ${PKGS},$(subst packages/,,$(wildcard packages/*))))
 
 proj_PKGS = $(addprefix proj_,$(PROJ_PKGS))
 clone_PKGS = $(addprefix clone_,$(PKGS))
@@ -128,11 +129,9 @@ pull: ${PULL_PKGS}
 #help clean-pkgs-dir: For packages that are no longer present in the distro,
 #help removes the associated package repos from the ./packages tree
 clean-pkgs-dir: $(PACKAGES_FILE)
-	@for p in `ls packages`; do \
-		if ! grep -wq "^$$p$$" "$<" && [ "$$p" != common ]; then \
-			echo "Removing $$p from packages, it is no longer in common/packages."; \
-			rm -rf packages/$$p; \
-		fi \
+	@for p in ${PKGS_ORPHANED}; do \
+		echo "Removing $$p from packages, it is no longer in common/packages."; \
+		rm -rf packages/$$p; \
 	done
 	@echo "packages directory cleaned";
 
