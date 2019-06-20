@@ -2719,12 +2719,14 @@ mvn-checkstyle
 mvn-codehaus-jackson
 mvn-commons-cli
 mvn-commons-codec
+mvn-commons-collections
 mvn-commons-compress
 mvn-commons-httpclient
 mvn-commons-io
 mvn-commons-jxpath
 mvn-commons-lang
 mvn-commons-lang3
+mvn-commons-parent
 mvn-commons-validator
 mvn-decentxml
 mvn-doxia
@@ -2733,6 +2735,7 @@ mvn-enforcer
 mvn-error_prone_annotations
 mvn-extra-enforcer-rules
 mvn-file-management
+mvn-google
 mvn-google-collections
 mvn-guava
 mvn-guice
@@ -2814,6 +2817,7 @@ mvn-org.osgi.compendium
 mvn-org.osgi.core
 mvn-oro
 mvn-pdfbox
+mvn-plexus
 mvn-plexus-archiver
 mvn-plexus-build-api
 mvn-plexus-cipher
@@ -2822,6 +2826,7 @@ mvn-plexus-cli
 mvn-plexus-compiler
 mvn-plexus-containers
 mvn-plexus-i18n
+mvn-plexus-interactivity
 mvn-plexus-interpolation
 mvn-plexus-io
 mvn-plexus-resources
@@ -2843,10 +2848,12 @@ mvn-struts
 mvn-trilead-ssh2
 mvn-tycho
 mvn-validation-api
+mvn-velocity
 mvn-wagon
 mvn-xbean-reflect
 mvn-xercesImpl
 mvn-xercesMinimal
+mvn-xmlunit
 mvn-xmlunit-core
 mxnet
 mycroft-core
