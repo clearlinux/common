@@ -991,6 +991,8 @@ apache-kafka
 apache-libcloud
 apache-maven
 apache-spark
+apache-tomcat
+apache-tomcat-dep
 apache-zookeeper
 apipkg
 appdirs
@@ -1855,6 +1857,7 @@ hadoop-dep
 hamlib
 hammock
 haproxy
+hardinfo
 hardlink
 harfbuzz
 haskell-random
@@ -2717,15 +2720,18 @@ mvn-cdi-api
 mvn-checker-compat-qual
 mvn-checkstyle
 mvn-codehaus-jackson
+mvn-commons-beanutils
 mvn-commons-cli
 mvn-commons-codec
 mvn-commons-collections
 mvn-commons-compress
+mvn-commons-digester
 mvn-commons-httpclient
 mvn-commons-io
 mvn-commons-jxpath
 mvn-commons-lang
 mvn-commons-lang3
+mvn-commons-logging
 mvn-commons-parent
 mvn-commons-validator
 mvn-decentxml
@@ -2853,6 +2859,7 @@ mvn-wagon
 mvn-xbean-reflect
 mvn-xercesImpl
 mvn-xercesMinimal
+mvn-xml-apis
 mvn-xmlunit
 mvn-xmlunit-core
 mxnet
