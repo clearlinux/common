@@ -1793,6 +1793,7 @@ google-api-python-client
 google-apitools
 google-auth
 google-auth-httplib2
+google-pasta
 google-reauth
 googletest
 gparted
@@ -2258,6 +2259,7 @@ ldb
 ldc
 ledmon
 lensfun
+leptonica
 less
 leveldb
 lftp
@@ -2705,6 +2707,7 @@ mutter
 mvn-aether-core
 mvn-animal-sniffer
 mvn-antlr
+mvn-antlr4-runtime
 mvn-apache
 mvn-apache-jar-resource-bundle
 mvn-apache-rat
@@ -2737,6 +2740,7 @@ mvn-commons-validator
 mvn-decentxml
 mvn-doxia
 mvn-doxia-sitetools
+mvn-doxia-tools
 mvn-enforcer
 mvn-error_prone_annotations
 mvn-extra-enforcer-rules
@@ -2749,6 +2753,8 @@ mvn-hamcrest
 mvn-httpcomponents-client
 mvn-httpcomponents-core
 mvn-j2objc-annotations
+mvn-jackson-annotations
+mvn-jackson-core
 mvn-jackson-databind
 mvn-jansi
 mvn-java-boot-classpath-detector
@@ -2774,6 +2780,7 @@ mvn-kxml2
 mvn-logback-classic
 mvn-logback-core
 mvn-maven-aether-provider
+mvn-maven-archiver
 mvn-maven-artifact
 mvn-maven-artifact-manager
 mvn-maven-builder-support
@@ -2814,8 +2821,7 @@ mvn-nekohtml
 mvn-nexus-maven-plugins
 mvn-nexus-public
 mvn-objenesis
-mvn-openhtmltopdf-core
-mvn-openhtmltopdf-jsoup-dom-converter
+mvn-openhtmltopdf-parent
 mvn-org.apache.felix.bundlerepository
 mvn-org.eclipse.sisu.inject
 mvn-org.eclipse.sisu.plexus
@@ -2845,6 +2851,7 @@ mvn-siesta
 mvn-sisu
 mvn-sisu-maven-plugin
 mvn-slf4j
+mvn-snakeyaml
 mvn-snappy
 mvn-sonatype-aether
 mvn-sonatype-plexus-sec-dispatcher
@@ -3722,6 +3729,7 @@ perl-URI-Escape-XS
 perl-URI-Fetch
 perl-URI-Find
 perl-UUID-Tiny
+perl-Unicode-LineBreak
 perl-Unicode-Map
 perl-Variable-Magic
 perl-WWW-Form-UrlEncoded-XS
@@ -4329,6 +4337,7 @@ terminado
 terminaltables
 terminology
 terminus-font
+tesseract
 test-generator
 testdisk
 testpath
