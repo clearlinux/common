@@ -2842,6 +2842,7 @@ mvn-plexus-i18n
 mvn-plexus-interactivity
 mvn-plexus-interpolation
 mvn-plexus-io
+mvn-plexus-languages
 mvn-plexus-resources
 mvn-plexus-utils
 mvn-plexus-velocity
