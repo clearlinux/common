@@ -2765,11 +2765,15 @@ mvn-jersey-apache-client4
 mvn-jersey-core
 mvn-jersey-json
 mvn-jetty
+mvn-jetty-parent
 mvn-jetty-util
 mvn-jsch
 mvn-jsch.agentproxy.connector-factory
+mvn-jsch.agentproxy.core
+mvn-jsch.agentproxy.pageant
 mvn-jsch.agentproxy.sshagent
 mvn-jsch.agentproxy.svnkit-trilead-ssh2
+mvn-jsch.agentproxy.usocket-jna
 mvn-jsch.agentproxy.usocket-nc
 mvn-jsoup
 mvn-jsr250-api
@@ -2779,6 +2783,7 @@ mvn-junit
 mvn-kxml2
 mvn-logback-classic
 mvn-logback-core
+mvn-maven
 mvn-maven-aether-provider
 mvn-maven-archiver
 mvn-maven-artifact
@@ -2808,6 +2813,7 @@ mvn-maven-repository-metadata
 mvn-maven-resolver
 mvn-maven-resolver-provider
 mvn-maven-scm
+mvn-maven-scm-provider-svnjava
 mvn-maven-settings
 mvn-maven-shared
 mvn-maven-slf4j-provider
