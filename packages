@@ -2708,6 +2708,7 @@ mutter
 mvn-aether-core
 mvn-animal-sniffer
 mvn-antlr
+mvn-antlr4
 mvn-aopalliance
 mvn-apache
 mvn-apache-jar-resource-bundle
@@ -2721,6 +2722,7 @@ mvn-biz.aQute.bndlib
 mvn-bndlib
 mvn-build-helper-maven-plugin
 mvn-buildnumber-maven-plugin
+mvn-byte-buddy
 mvn-cdi-api
 mvn-checker-compat-qual
 mvn-checkstyle
@@ -2835,6 +2837,7 @@ mvn-maven-toolchain
 mvn-mockito-core
 mvn-modello
 mvn-mojo-parent
+mvn-mojo-signature
 mvn-mvnplugins
 mvn-nekohtml
 mvn-nexus-maven-plugins
