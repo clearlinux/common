@@ -1647,6 +1647,7 @@ flex
 flink-dep
 flmsg
 flnet
+flrig
 fltk
 fluidsynth
 folks
@@ -2707,7 +2708,6 @@ mutter
 mvn-aether-core
 mvn-animal-sniffer
 mvn-antlr
-mvn-antlr4-runtime
 mvn-aopalliance
 mvn-apache
 mvn-apache-jar-resource-bundle
