@@ -892,6 +892,7 @@ SQLAlchemy-Utils
 Send2Trash
 Shapely
 SmartXbar
+Solaar
 Sphinx
 SuiteSparse
 Tempita
@@ -2337,6 +2338,7 @@ libevent
 libexif
 libexttextcat
 libfabric
+libfakekey
 libfastjson
 libffi
 libffmpeg-stub
