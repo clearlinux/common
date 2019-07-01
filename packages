@@ -889,6 +889,7 @@ SPIRV-Headers
 SPIRV-Tools
 SQLAlchemy
 SQLAlchemy-Utils
+Sane
 Send2Trash
 Shapely
 SmartXbar
