@@ -1316,6 +1316,7 @@ compat-llvm-soname6
 compat-llvm-soname7
 compat-mariadb-soname18
 compat-mpfr-soname4
+compat-nettle-soname6
 compat-opencv-soname32
 compat-opencv-soname33
 compat-opencv-soname34
@@ -2353,6 +2354,7 @@ libgcrypt
 libgd
 libgdata
 libgee
+libgeotiff
 libgepub
 libgfortran-avx
 libgfortran-compat-soname3
@@ -2632,6 +2634,7 @@ meld
 memcached
 memkind
 memshrinker
+memtier_benchmark
 menu-cache
 mercurial
 mesa
