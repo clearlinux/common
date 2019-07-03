@@ -8,6 +8,7 @@ Cheetah
 CherryPy
 Coin
 ConfigArgParse
+CopyQ
 Counter
 Cura
 CuraEngine
@@ -546,6 +547,7 @@ R-minpack.lm
 R-minqa
 R-mirt
 R-misc3d
+R-miscF
 R-miscTools
 R-mitools
 R-mixtools
