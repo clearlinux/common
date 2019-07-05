@@ -187,6 +187,7 @@ autospec: preautospec-checks pullrebase localreponotice clean-old-content
 		git commit --amend --no-edit Change* ; \
 	fi
 	@$(MAKE) -s for-review.txt
+	diffstat for-review.txt
 	@printf "\n**\n"
 	@printf "** NOTICE: A patch with changes is available in the file for-review.txt\n"
 	@printf "** To recreate (e.g., after git commit --amend), run make for-review.txt\n"

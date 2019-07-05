@@ -265,6 +265,7 @@ def main():
     zap_line_in_file_start(".spec", "%description dev")
     zap_line_in_file_start(".spec", "%description license")
     zap_line_in_file_start(".spec", "%package doc")
+    zap_line_in_file_start(".spec", "cp -a ")
  
     zap_line_in_file_start("b/Makefile", "URL =")
     zap_line_in_file_start("b/Makefile", "PKG_NAME :=")
