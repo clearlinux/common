@@ -3606,6 +3606,7 @@ perl-Net-OpenID-Consumer
 perl-Net-OpenSSH
 perl-Net-SFTP-Foreign
 perl-Net-SMTP-SSL
+perl-Net-SSH2
 perl-Net-SSLeay
 perl-Net-Server
 perl-Net-UPnP
