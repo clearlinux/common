@@ -3198,6 +3198,7 @@ perl-AnyEvent-CacheDNS
 perl-Apache-Htpasswd
 perl-Apache-Session
 perl-App-cpanminus
+perl-AppConfig
 perl-Archive-Cpio
 perl-Archive-Extract
 perl-Archive-Tar-Wrapper
@@ -3265,6 +3266,7 @@ perl-Class-Singleton
 perl-Class-Std
 perl-Class-Std-Fast
 perl-Class-Tiny
+perl-Class-Trigger
 perl-Class-Unload
 perl-Class-XSAccessor
 perl-Clipboard
@@ -3281,6 +3283,7 @@ perl-Config-Std
 perl-Config-Tiny
 perl-Context-Preserve
 perl-Convert-ASN1
+perl-Convert-Bencode
 perl-Convert-Binary-C
 perl-Cookie-Baker
 perl-Coro
@@ -3359,6 +3362,7 @@ perl-Digest-CRC
 perl-Digest-HMAC
 perl-Digest-JHash
 perl-Digest-MD5
+perl-Digest-SHA1
 perl-Digest-SHA3
 perl-Dist-CheckConflicts
 perl-Domain-PublicSuffix
@@ -3434,6 +3438,7 @@ perl-Geo-Distance
 perl-Geo-IP
 perl-Geo-IPfree
 perl-Getopt-Euclid
+perl-Getopt-Long-Descriptive
 perl-Getopt-Tabular
 perl-Git-Version-Compare
 perl-Glib
@@ -3501,6 +3506,7 @@ perl-Importer
 perl-Inline
 perl-Inline-C
 perl-JSON
+perl-JSON-Any
 perl-JSON-MaybeXS
 perl-JSON-RPC
 perl-JSON-XS
@@ -3587,6 +3593,10 @@ perl-MooX-Role-Parameterized
 perl-Moose
 perl-MooseX-Role-Parameterized
 perl-MooseX-Role-WithOverloading
+perl-MooseX-Types
+perl-MooseX-Types-JSON
+perl-MooseX-Types-LoadableClass
+perl-MooseX-Types-Path-Class
 perl-Mozilla-CA
 perl-Net-Bluetooth
 perl-Net-CIDR-Lite
@@ -3616,7 +3626,9 @@ perl-Number-Bytes-Human
 perl-Number-Compare
 perl-Number-Format
 perl-Number-WithError
+perl-Object-Accessor
 perl-Object-Signature
+perl-PDF-API2
 perl-PDF-Table
 perl-PDF-Writer
 perl-POD2-Base
@@ -3692,6 +3704,7 @@ perl-Specio
 perl-Spiffy
 perl-Statistics-Basic
 perl-Statistics-CaseResampling
+perl-Stream-Buffered
 perl-String-Approx
 perl-String-CamelCase
 perl-String-Escape
@@ -3701,6 +3714,7 @@ perl-String-Random
 perl-String-Similarity
 perl-Struct-Dumb
 perl-Sub-Exporter
+perl-Sub-Exporter-ForMethods
 perl-Sub-Exporter-Progressive
 perl-Sub-Identify
 perl-Sub-Info
@@ -3718,6 +3732,7 @@ perl-Sys-Statistics-Linux
 perl-System-Command
 perl-TAP-Harness-Archive
 perl-Taint-Util
+perl-Template-Toolkit
 perl-Term-ProgressBar
 perl-Term-ReadKey
 perl-Term-ReadLine-Gnu
@@ -3744,6 +3759,7 @@ perl-Test-LeakTrace
 perl-Test-LectroTest
 perl-Test-LongString
 perl-Test-Manifest
+perl-Test-Memory-Cycle
 perl-Test-MockModule
 perl-Test-MockTime
 perl-Test-More-UTF8
@@ -3788,6 +3804,7 @@ perl-Text-Levenshtein-Damerau
 perl-Text-Markdown
 perl-Text-PDF
 perl-Text-Quoted
+perl-Text-RecordParser
 perl-Text-Reform
 perl-Text-Roman
 perl-Text-TabularDisplay
@@ -3821,6 +3838,7 @@ perl-UUID-Tiny
 perl-Unicode-LineBreak
 perl-Unicode-Map
 perl-Variable-Magic
+perl-WWW-Form-UrlEncoded
 perl-WWW-Form-UrlEncoded-XS
 perl-WWW-RobotRules
 perl-X11-IdleTime
