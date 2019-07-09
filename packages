@@ -1652,6 +1652,7 @@ flatpak-builder
 fldigi
 flex
 flink-dep
+fllog
 flmsg
 flnet
 flrig
@@ -1957,6 +1958,7 @@ ipaddress
 ipcalc
 ipdb
 ipdbplugin
+ipe
 iperf
 ipmctl
 ipmitool
