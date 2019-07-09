@@ -23,6 +23,7 @@ FreeCAD
 FreeRDP
 GConf
 GitPython
+Gradio
 GtkD
 HeapDict
 ImageMagick
@@ -3938,6 +3939,7 @@ ply
 plzip
 pm-graph
 pmdk
+po4a
 polkit
 polkit-kde-agent
 polkit-qt
@@ -4130,7 +4132,6 @@ qbittorrent
 qca-qt5
 qemu
 qemu-guest-additions
-qemu-lite
 qgit
 qhull
 qml-box2d
