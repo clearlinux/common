@@ -1703,6 +1703,7 @@ gdl
 gdm
 geany
 geany-plugins
+geary
 gedit
 gegl
 gensim
@@ -2617,6 +2618,8 @@ lz4
 lzlib
 lzo
 lzop
+m17n-db
+m17n-lib
 m4
 mailcommon
 mailimporter
@@ -3733,6 +3736,7 @@ perl-Sys-Mmap
 perl-Sys-SigAction
 perl-Sys-Statistics-Linux
 perl-System-Command
+perl-TAP-Formatter-HTML
 perl-TAP-Harness-Archive
 perl-Taint-Util
 perl-Template-Toolkit
@@ -3872,6 +3876,7 @@ perl-YAML
 perl-YAML-LibYAML
 perl-YAML-Syck
 perl-YAML-Tiny
+perl-accessors
 perl-aliased
 perl-autobox
 perl-autovivification
