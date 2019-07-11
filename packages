@@ -1007,6 +1007,7 @@ appstream
 appstream-glib
 apr
 apr-util
+arandr
 arc-theme
 argcomplete
 argon2
@@ -1522,6 +1523,7 @@ dmidecode
 dmlc-core
 dnf
 dnf-plugins-core
+dns-lexicon
 dnsmasq
 dnspython
 doc8
@@ -2105,6 +2107,7 @@ keditbookmarks
 keepalived
 keepassxc
 kemoticons
+kerberos
 kernel-config
 kernel-config-checker
 kernel-install
@@ -2454,6 +2457,7 @@ libpeas
 libpfm
 libpinyin
 libpipeline
+libplacebo
 libpng
 libpsl
 libpthread-stubs
@@ -4028,7 +4032,6 @@ pygtk
 pygtkglext
 pyhs100
 pyinotify
-pykerberos
 pykwalify
 pylama
 pyliblzma
@@ -4217,6 +4220,7 @@ repoze.lru
 repoze.sphinx.autointerface
 repoze.who
 requests
+requests-file
 requests-kerberos
 requests-mock
 requests-ntlm
@@ -4484,6 +4488,7 @@ tinyrpc
 tinyxml2
 tiptop
 tk
+tldextract
 tmux
 todoist
 tokyocabinet
