@@ -145,9 +145,9 @@ if [ "$USE_KOJI" ]; then
   cp "$CLIENTCA" ~/.koji/clientca.crt
   cp "$SERVERCA" ~/.koji/serverca.crt
 
-  if [ ! -f /etc/koji.conf ]; then
+  if [ ! -f ~/.koji/config ]; then
     echo "Setting up koji config . . ."
-    sudo cp projects/common/conf/koji.conf /etc
+    cp -f projects/common/conf/koji.conf ~/.koji/config
   fi
 fi
 
