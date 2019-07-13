@@ -1120,6 +1120,7 @@ boto
 boto3
 botocore
 bovo
+brasero
 breathe
 breeze
 breeze-gtk
@@ -1328,10 +1329,6 @@ compat-opencv-soname33
 compat-opencv-soname34
 compat-openexr-soname23
 compat-openssl-soname-10
-compat-poppler-soname78
-compat-poppler-soname82
-compat-poppler-soname83
-compat-poppler-soname86
 compat-proj-soname13
 compat-protobuf-soname14
 compat-protobuf-soname15
@@ -1994,6 +1991,7 @@ itsdangerous
 itstool
 iw
 ixion
+jack2
 jansson
 jaraco.functools
 jarn.viewdoc
