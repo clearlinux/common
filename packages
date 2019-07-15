@@ -4391,6 +4391,7 @@ stow
 strace
 stress-ng
 stunnel
+su-exec
 subunit
 subunit2sql
 subversion
