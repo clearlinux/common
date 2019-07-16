@@ -1309,6 +1309,7 @@ compat-icu4c-soname63
 compat-ilmbase-soname23
 compat-intel-gmmlib-soname1
 compat-ipset-soname10
+compat-iptables-soname0.1.0
 compat-ldc-soname84
 compat-libgit2-soname27
 compat-libical-soname2
