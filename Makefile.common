@@ -143,6 +143,10 @@ pullrebase:
 			echo "No commits exist in remote. Continuing."; \
 			exit 0; \
 		fi; \
+		if [ "$$(git rev-list FETCH_HEAD | head -n 1)" = "$$(git rev-list HEAD | head -n 1)" ]; then \
+			echo "Current branch up-to-date. Continuing."; \
+			exit 0; \
+		fi; \
 		echo "Rebasing to origin/master"; \
 		if git status --porcelain | grep -q '^.[^?]'; \
 		then \
