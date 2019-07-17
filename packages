@@ -1310,7 +1310,6 @@ compat-ilmbase-soname23
 compat-intel-gmmlib-soname1
 compat-ipset-soname10
 compat-iptables-soname0.1.0
-compat-ldc-soname84
 compat-libgit2-soname27
 compat-libical-soname2
 compat-libidn-soname11
@@ -2569,7 +2568,6 @@ linux-libc-headers
 linux-lts2017
 linux-lts2018
 linux-mainline
-linux-networktest
 linux-oracle
 linux-preempt-rt
 linux-steam-integration
@@ -4109,6 +4107,7 @@ python-polib
 python-rpm-legacypython
 python-saharaclient
 python-senlinclient
+python-slip
 python-slugify
 python-subunit
 python-swiftclient
