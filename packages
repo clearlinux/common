@@ -3902,6 +3902,9 @@ phonon
 phonon-vlc
 phoronix-test-suite
 php
+php-APCu
+php-gnupg
+php-igbinary
 php-imagick
 php-mailparse
 php-redis
