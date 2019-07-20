@@ -2818,7 +2818,6 @@ mvn-jersey-core
 mvn-jersey-json
 mvn-jetty
 mvn-jetty-parent
-mvn-jetty-util
 mvn-jna
 mvn-jsch
 mvn-jsch.agentproxy.connector-factory
