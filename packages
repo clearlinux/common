@@ -1625,6 +1625,7 @@ fastnumbers
 fcgi
 fcoe-utils
 fdm_materials
+fdupes
 feh
 fetchmail
 ffmpegthumbs
@@ -2845,6 +2846,7 @@ mvn-h2database
 mvn-hadoop
 mvn-hamcrest
 mvn-hive
+mvn-hk2
 mvn-hppc
 mvn-htmlunit
 mvn-htmlunit-core-js
@@ -2911,6 +2913,7 @@ mvn-jsch.agentproxy.sshagent
 mvn-jsch.agentproxy.svnkit-trilead-ssh2
 mvn-jsch.agentproxy.usocket-jna
 mvn-jsch.agentproxy.usocket-nc
+mvn-json
 mvn-json-io
 mvn-json-smart
 mvn-json4s
