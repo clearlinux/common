@@ -2384,6 +2384,7 @@ libgnomekbd
 libgovirt
 libgpg-error
 libgphoto2
+libgpiod
 libgravatar
 libgsystem
 libgtop
