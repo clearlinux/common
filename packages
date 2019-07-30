@@ -1294,7 +1294,6 @@ compat-curl-gnutls-soname4
 compat-double-conversion-soname1
 compat-efivar-soname0
 compat-enchant-soname1
-compat-exiv2-soname26
 compat-fuse-soname2
 compat-gdal-soname20
 compat-gegl
@@ -1709,6 +1708,7 @@ geany
 geany-plugins
 geary
 gedit
+geeqie
 gegl
 gensim
 geoclue
@@ -4969,7 +4969,6 @@ zip
 zipp
 zlib
 znc
-zoneminder
 zookeeper-dep
 zope.component
 zope.configuration
