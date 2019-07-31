@@ -1095,7 +1095,6 @@ bcc
 bcrypt
 bdftopcf
 beautifulsoup4
-beignet
 bijiben
 bind-utils
 binutils
@@ -1913,6 +1912,7 @@ hyphen
 hypothesis
 i2c-tools
 i3
+i3blocks
 i3lock
 i3status
 ias
@@ -2432,6 +2432,7 @@ libmicrohttpd
 libmnl
 libmodbus
 libmodulemd
+libmpack
 libmspack
 libmspub
 libmtp
@@ -2711,6 +2712,7 @@ mpmath
 mpv
 mraa
 msgpack
+msgpack-c
 msm
 msmtp
 msr-tools
@@ -3258,6 +3260,7 @@ openQA
 openal-soft
 openblas
 opencl-clang
+opencl-headers
 openconnect
 opencv
 openexr
@@ -3475,6 +3478,7 @@ perl-Config-IniFiles
 perl-Config-Std
 perl-Config-Tiny
 perl-Context-Preserve
+perl-Contextual-Return
 perl-Convert-ASN1
 perl-Convert-Bencode
 perl-Convert-Binary-C
@@ -3677,6 +3681,7 @@ perl-IO-Interactive-Tiny
 perl-IO-Interface
 perl-IO-Multiplex
 perl-IO-Pipely
+perl-IO-Prompter
 perl-IO-Socket-INET6
 perl-IO-Socket-Multicast
 perl-IO-Socket-SSL
@@ -4035,6 +4040,7 @@ perl-Variable-Magic
 perl-WWW-Form-UrlEncoded
 perl-WWW-Form-UrlEncoded-XS
 perl-WWW-RobotRules
+perl-Want
 perl-X11-IdleTime
 perl-X11-Protocol
 perl-XML-Atom
@@ -4485,6 +4491,7 @@ rhythmbox
 rjsmin
 rng-tools
 roboto
+rofi
 rope
 rosdistro
 rospkg
@@ -4771,6 +4778,7 @@ uget
 uhttpmock
 ujson
 unbundle
+unibilium
 unicode-xid
 unicodecsv
 unicodedata2
