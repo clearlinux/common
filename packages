@@ -2433,6 +2433,7 @@ libmnl
 libmodbus
 libmodulemd
 libmpack
+libmpack-lua
 libmspack
 libmspub
 libmtp
@@ -2506,6 +2507,7 @@ libstaroffice
 libstoragemgmt
 libsysstat
 libtasn1
+libtermkey
 libthai
 libtheora
 libtirpc
@@ -2533,6 +2535,7 @@ libvisio
 libvma
 libvorbis
 libvpx
+libvterm
 libwacom
 libwebp
 libwnck
@@ -2595,6 +2598,7 @@ logilab-common
 logrotate
 logutils
 lokalize
+lpeg
 lsacpi
 lshw
 lskat
@@ -3173,6 +3177,7 @@ ndpi
 neofetch
 neomutt
 neon
+neovim
 net-snmp
 net-tools
 netaddr
@@ -4287,6 +4292,7 @@ pyliblzma
 pylint
 pymemcache
 pymongo
+pynvim
 pyotherside
 pyotp
 pypandoc
