@@ -4310,6 +4310,7 @@ pysendfile
 pyserial
 pyside2-setup
 pysnmp
+pysubnettree
 pytest
 pytest-asyncio
 pytest-cov
