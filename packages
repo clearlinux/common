@@ -4215,6 +4215,7 @@ positional
 posix_ipc
 postgis
 postgresql
+postgresql11
 potrace
 povray
 powerdevil
