@@ -1034,6 +1034,7 @@ astor
 astral
 astroid
 astunparse
+asunder
 asv
 async-timeout
 at
@@ -1186,6 +1187,7 @@ catkin
 catkin_pkg
 ccache
 ccid
+cdparanoia
 ceilometer
 ceph
 ceph-deploy
@@ -2324,6 +2326,7 @@ libbytesize
 libcanberra
 libcap
 libcap-ng
+libcddb
 libcdio
 libcdr
 libcgroup
