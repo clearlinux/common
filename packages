@@ -2921,6 +2921,7 @@ mvn-jaxb-impl
 mvn-jcip-annotations
 mvn-jcodings
 mvn-jdependency
+mvn-jdiff
 mvn-jdo-api
 mvn-jdom
 mvn-jdom2
@@ -2969,6 +2970,7 @@ mvn-junit-interface
 mvn-kafka-clients
 mvn-kafka_2.12
 mvn-kerby
+mvn-kosmosfs
 mvn-kryo
 mvn-kubernetes-client
 mvn-kxml2
@@ -3011,6 +3013,7 @@ mvn-maven-invoker
 mvn-maven-invoker-plugin
 mvn-maven-jar-plugin
 mvn-maven-javadoc-plugin
+mvn-maven-mapping
 mvn-maven-model
 mvn-maven-model-builder
 mvn-maven-monitor
@@ -3029,6 +3032,7 @@ mvn-maven-release
 mvn-maven-reporting-api
 mvn-maven-reporting-exec
 mvn-maven-reporting-impl
+mvn-maven-repository-builder
 mvn-maven-repository-metadata
 mvn-maven-resolver
 mvn-maven-resolver-provider
@@ -3049,6 +3053,8 @@ mvn-maven-toolchain
 mvn-maven-war-plugin
 mvn-mesos
 mvn-metrics
+mvn-mina
+mvn-mina-sshd
 mvn-minimal-json
 mvn-minlog
 mvn-mockito
@@ -3160,6 +3166,7 @@ mvn-svnkit
 mvn-swagger-core
 mvn-test-interface
 mvn-thrift
+mvn-tomcat
 mvn-treelayout
 mvn-trilead-ssh2
 mvn-tycho
