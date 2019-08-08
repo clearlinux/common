@@ -877,6 +877,7 @@ R-zCompositions
 R-zeallot
 R-zip
 R-zoo
+RawTherapee
 Remmina
 Routes
 SDL
@@ -904,6 +905,7 @@ SmartXbar
 Solaar
 Sphinx
 SuiteSparse
+TLP
 Tempita
 Theano
 Thunar
@@ -2401,6 +2403,7 @@ libidn2
 libindicator
 libinput
 libinstpatch
+libiptcdata
 libiscsi
 libisofs
 libite
@@ -2749,6 +2752,7 @@ mvn-activation
 mvn-aether-core
 mvn-airbase
 mvn-aircompressor
+mvn-aliyun-oss-java-sdk
 mvn-animal-sniffer
 mvn-ant
 mvn-ant-launcher
@@ -2762,10 +2766,16 @@ mvn-apache-rat
 mvn-arpack_combined_all
 mvn-arrow
 mvn-asm
+mvn-assertj-core
+mvn-assertj-parent-pom
 mvn-autolink
 mvn-automaton
 mvn-avalon-framework
 mvn-avro
+mvn-aws-java-sdk
+mvn-azure-data-lake-store-java
+mvn-azure-keyvault-java
+mvn-azure-storage-java
 mvn-backport-util-concurrent
 mvn-beanshell
 mvn-biz.aQute.bndlib
@@ -2803,6 +2813,7 @@ mvn-commons-csv
 mvn-commons-daemon
 mvn-commons-dbcp
 mvn-commons-digester
+mvn-commons-el
 mvn-commons-exec
 mvn-commons-httpclient
 mvn-commons-io
@@ -2826,11 +2837,15 @@ mvn-datanucleus-core
 mvn-datanucleus-rdbms
 mvn-decentxml
 mvn-derby
+mvn-directory-mavibot
+mvn-directory-server
+mvn-disruptor
 mvn-dnsjava
 mvn-dom4j
 mvn-doxia
 mvn-doxia-sitetools
 mvn-doxia-tools
+mvn-easymock
 mvn-ehcache
 mvn-eigenbase-properties
 mvn-enforcer
@@ -2838,7 +2853,9 @@ mvn-error_prone_annotations
 mvn-exec-maven-plugin
 mvn-extra-enforcer-rules
 mvn-fastutil
+mvn-felix
 mvn-file-management
+mvn-findbugs-annotations
 mvn-flatbuffers
 mvn-flexmark-java
 mvn-fst
@@ -2848,6 +2865,7 @@ mvn-geronimo-jcache_1.0_spec
 mvn-google
 mvn-google-collections
 mvn-grizzled-scala_2.12
+mvn-grizzly
 mvn-gson
 mvn-guava
 mvn-guice
@@ -2855,9 +2873,11 @@ mvn-guice-servlet
 mvn-h2database
 mvn-hadoop
 mvn-hamcrest
+mvn-hbase
 mvn-hive
 mvn-hk2
 mvn-hppc
+mvn-hsqldb
 mvn-htmlunit
 mvn-htmlunit-core-js
 mvn-htrace
@@ -2882,10 +2902,13 @@ mvn-jackson-module-scala_2.11
 mvn-jackson-module-scala_2.12
 mvn-jackson-modules-base
 mvn-jackson-parent
+mvn-jamon-java-parent
+mvn-jamon-parent
 mvn-janino
 mvn-jansi
 mvn-java-boot-classpath-detector
 mvn-java-util
+mvn-java-xmlbuilder
 mvn-javassist
 mvn-javax-servlet
 mvn-javax.annotation-api
@@ -2896,6 +2919,7 @@ mvn-javolution
 mvn-jaxb-api
 mvn-jaxb-impl
 mvn-jcip-annotations
+mvn-jcodings
 mvn-jdependency
 mvn-jdo-api
 mvn-jdom
@@ -2903,6 +2927,7 @@ mvn-jdom2
 mvn-jersey
 mvn-jersey-apache-client4
 mvn-jersey-json
+mvn-jets3t
 mvn-jettison
 mvn-jetty
 mvn-jetty-parent
@@ -2912,6 +2937,7 @@ mvn-jna
 mvn-jniloader
 mvn-joda-time
 mvn-jodd
+mvn-joni
 mvn-jopt-simple
 mvn-jpam
 mvn-jpmml-model
@@ -2925,9 +2951,11 @@ mvn-jsch.agentproxy.usocket-jna
 mvn-jsch.agentproxy.usocket-nc
 mvn-json
 mvn-json-io
+mvn-json-simple
 mvn-json-smart
 mvn-json4s
 mvn-json4s_2.11
+mvn-jsonassert
 mvn-jsoup
 mvn-jsp-api
 mvn-jsr250-api
@@ -3021,9 +3049,11 @@ mvn-maven-toolchain
 mvn-maven-war-plugin
 mvn-mesos
 mvn-metrics
+mvn-minimal-json
 mvn-minlog
 mvn-mockito
 mvn-mockito-core
+mvn-mockserver
 mvn-modello
 mvn-mojo-parent
 mvn-mojo-signature
@@ -3036,7 +3066,9 @@ mvn-netty
 mvn-nexus-maven-plugins
 mvn-nexus-public
 mvn-nimbus-jose-jwt
+mvn-nuiton
 mvn-objenesis
+mvn-ojalgo
 mvn-okhttp
 mvn-okio
 mvn-opencsv
@@ -3097,6 +3129,8 @@ mvn-scalatest_2.12
 mvn-scopt_2.12
 mvn-selenium
 mvn-sequence-library
+mvn-servicemix-bundles
+mvn-servicemix-pom
 mvn-servlet-api
 mvn-shapeless_2.11
 mvn-shapeless_2.12
@@ -3123,6 +3157,7 @@ mvn-stringtemplate4
 mvn-struts
 mvn-super-csv
 mvn-svnkit
+mvn-swagger-core
 mvn-test-interface
 mvn-thrift
 mvn-treelayout
@@ -3277,7 +3312,6 @@ openjade
 openjdk
 openjdk11
 openjdk12
-openjdk9
 openldap
 openmpi
 openscad
