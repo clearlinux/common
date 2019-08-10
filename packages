@@ -2778,6 +2778,7 @@ mvn-azure-keyvault-java
 mvn-azure-storage-java
 mvn-backport-util-concurrent
 mvn-beanshell
+mvn-biz.aQute.bnd
 mvn-biz.aQute.bndlib
 mvn-bndlib
 mvn-bonecp
@@ -2837,7 +2838,9 @@ mvn-datanucleus-core
 mvn-datanucleus-rdbms
 mvn-decentxml
 mvn-derby
+mvn-directory-ldap-api
 mvn-directory-mavibot
+mvn-directory-project
 mvn-directory-server
 mvn-disruptor
 mvn-dnsjava
@@ -2846,6 +2849,7 @@ mvn-doxia
 mvn-doxia-sitetools
 mvn-doxia-tools
 mvn-easymock
+mvn-ecj
 mvn-ehcache
 mvn-eigenbase-properties
 mvn-enforcer
@@ -2858,10 +2862,12 @@ mvn-file-management
 mvn-findbugs-annotations
 mvn-flatbuffers
 mvn-flexmark-java
+mvn-freemarker
 mvn-fst
 mvn-generex
 mvn-genesis
 mvn-geronimo-jcache_1.0_spec
+mvn-geronimo-spec-jaxrpc
 mvn-google
 mvn-google-collections
 mvn-grizzled-scala_2.12
@@ -2904,6 +2910,7 @@ mvn-jackson-modules-base
 mvn-jackson-parent
 mvn-jamon-java-parent
 mvn-jamon-parent
+mvn-jamon-runtime
 mvn-janino
 mvn-jansi
 mvn-java-boot-classpath-detector
@@ -2918,6 +2925,7 @@ mvn-javax.ws.rs-api
 mvn-javolution
 mvn-jaxb-api
 mvn-jaxb-impl
+mvn-jboss-parent
 mvn-jcip-annotations
 mvn-jcodings
 mvn-jdependency
@@ -2974,7 +2982,9 @@ mvn-kosmosfs
 mvn-kryo
 mvn-kubernetes-client
 mvn-kxml2
+mvn-ldapsdk
 mvn-leveldbjni
+mvn-license-maven-plugin
 mvn-log4j
 mvn-logback-classic
 mvn-logback-core
@@ -3118,6 +3128,7 @@ mvn-py4j
 mvn-pyrolite
 mvn-qdox
 mvn-re2j
+mvn-saaj-api
 mvn-sac
 mvn-sbt-interface
 mvn-scala-compiler
@@ -3179,7 +3190,9 @@ mvn-wagon
 mvn-webbit
 mvn-weld-api
 mvn-weld-parent
+mvn-wildfly-openssl
 mvn-woodstox-core
+mvn-wsdl4j
 mvn-xalan
 mvn-xbean
 mvn-xercesImpl
