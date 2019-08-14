@@ -1714,6 +1714,7 @@ gedit
 geeqie
 gegl
 gensim
+geocam-v4l2
 geoclue
 geocode-glib
 geos
@@ -4309,6 +4310,7 @@ purpose
 pv
 pwgen
 py
+pyDesktop3
 pyOpenSSL
 pyScss
 pyaes
