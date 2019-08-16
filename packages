@@ -2101,6 +2101,7 @@ kdelibs4support
 kdenetwork-filesharing
 kdenlive
 kdepim-apps-libs
+kdepim-runtime
 kdeplasma-addons
 kdesdk-kioslaves
 kdesdk-thumbnailers
@@ -3414,6 +3415,7 @@ pangomm
 pangox-compat
 paper-icon-theme
 papi
+papirus-icon-theme
 parallel
 parameter-framework
 paramiko
