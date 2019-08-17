@@ -970,7 +970,6 @@ adapt-parser
 adcli
 ade
 adwaita-icon-theme
-aeon
 aioeventlet
 aiohttp
 aiohttp-cors
@@ -1004,7 +1003,6 @@ apache-libcloud
 apache-maven
 apache-spark
 apache-tomcat
-apache-tomcat-dep
 apache-zookeeper
 apipkg
 appdirs
@@ -1125,6 +1123,7 @@ boto
 boto3
 botocore
 bovo
+bpftrace
 brasero
 breathe
 breeze
@@ -1875,7 +1874,6 @@ gwenview
 gzip
 h5py
 hacking
-hadoop-dep
 hamlib
 hammock
 haproxy
@@ -1999,6 +1997,7 @@ iso8601
 isodate
 isort
 ister
+isync
 itsdangerous
 itstool
 iw
@@ -2208,6 +2207,7 @@ kombu
 konqueror
 konquest
 konsole
+kontact
 kontactinterface
 konversation
 kpackage
@@ -2484,6 +2484,7 @@ libqmi
 libqtxdg
 libqxp
 librabbitmq
+libratbag
 libreoffice
 librepo
 librevenge
@@ -4595,7 +4596,6 @@ satyr
 sbc
 sbsigntools
 scala
-scala-dep
 scdoc
 scene-alembic
 scikit-build
@@ -4664,7 +4664,6 @@ source-code-pro
 source-highlight
 sox
 spandsp
-spark-dep
 spectacle
 speex
 speexdsp
