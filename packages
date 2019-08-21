@@ -970,7 +970,6 @@ adapt-parser
 adcli
 ade
 adwaita-icon-theme
-aeon
 aioeventlet
 aiohttp
 aiohttp-cors
@@ -1004,7 +1003,6 @@ apache-libcloud
 apache-maven
 apache-spark
 apache-tomcat
-apache-tomcat-dep
 apache-zookeeper
 apipkg
 appdirs
@@ -1125,6 +1123,7 @@ boto
 boto3
 botocore
 bovo
+bpftrace
 brasero
 breathe
 breeze
@@ -1654,6 +1653,8 @@ flake8-deprecated
 flake8-docstrings
 flake8-import-order
 flake8-polyfill
+flare-engine
+flare-game
 flatpak
 flatpak-builder
 fldigi
@@ -1875,7 +1876,6 @@ gwenview
 gzip
 h5py
 hacking
-hadoop-dep
 hamlib
 hammock
 haproxy
@@ -1999,6 +1999,7 @@ iso8601
 isodate
 isort
 ister
+isync
 itsdangerous
 itstool
 iw
@@ -2101,6 +2102,7 @@ kdelibs4support
 kdenetwork-filesharing
 kdenlive
 kdepim-apps-libs
+kdepim-runtime
 kdeplasma-addons
 kdesdk-kioslaves
 kdesdk-thumbnailers
@@ -2207,6 +2209,7 @@ kombu
 konqueror
 konquest
 konsole
+kontact
 kontactinterface
 konversation
 kpackage
@@ -2483,6 +2486,7 @@ libqmi
 libqtxdg
 libqxp
 librabbitmq
+libratbag
 libreoffice
 librepo
 librevenge
@@ -2839,6 +2843,7 @@ mvn-datanucleus-core
 mvn-datanucleus-rdbms
 mvn-decentxml
 mvn-derby
+mvn-directory-jdbm
 mvn-directory-ldap-api
 mvn-directory-mavibot
 mvn-directory-project
@@ -2997,6 +3002,7 @@ mvn-macro-compat_2.11
 mvn-macro-compat_2.12
 mvn-maven
 mvn-maven-aether-provider
+mvn-maven-ant-tasks
 mvn-maven-antrun-plugin
 mvn-maven-archiver
 mvn-maven-artifact
@@ -3165,6 +3171,7 @@ mvn-sonatype-plexus-sec-dispatcher
 mvn-spice-zapper
 mvn-spire_2.11
 mvn-spire_2.12
+mvn-spotbugs
 mvn-sqljet
 mvn-sslext
 mvn-stax-api
@@ -3196,6 +3203,7 @@ mvn-woodstox-core
 mvn-wsdl4j
 mvn-xalan
 mvn-xbean
+mvn-xerces
 mvn-xercesImpl
 mvn-xercesMinimal
 mvn-xml-apis
@@ -3414,6 +3422,7 @@ pangomm
 pangox-compat
 paper-icon-theme
 papi
+papirus-icon-theme
 parallel
 parameter-framework
 paramiko
@@ -3453,6 +3462,8 @@ perl-Algorithm-Diff
 perl-Algorithm-Diff-XS
 perl-Algorithm-Merge
 perl-Algorithm-Munkres
+perl-Alien-Build
+perl-Alien-m4
 perl-AnyEvent
 perl-AnyEvent-CacheDNS
 perl-Apache-Htpasswd
@@ -3629,6 +3640,7 @@ perl-Dist-CheckConflicts
 perl-Domain-PublicSuffix
 perl-Dumbbench
 perl-DynaLoader-Functions
+perl-EV
 perl-Email-Abstract
 perl-Email-Address
 perl-Email-Address-XS
@@ -3643,6 +3655,7 @@ perl-Encode-Locale
 perl-Error
 perl-Eval-Closure
 perl-Event
+perl-Event-Lib
 perl-Event-RPC
 perl-Exception-Class
 perl-Exporter-Declare
@@ -3655,6 +3668,7 @@ perl-ExtUtils-Helpers
 perl-ExtUtils-InstallPaths
 perl-ExtUtils-PkgConfig
 perl-FCGI-ProcManager
+perl-FFI-CheckLib
 perl-Feed-Find
 perl-Fennec-Lite
 perl-File-BaseDir
@@ -3686,6 +3700,7 @@ perl-File-Tail
 perl-File-Touch
 perl-File-Type
 perl-File-Which
+perl-File-chdir
 perl-File-pushd
 perl-Filesys-Df
 perl-Filesys-Notify-Simple
@@ -3735,6 +3750,7 @@ perl-Hash-Merge
 perl-Hash-MoreUtils
 perl-Hash-MultiValue
 perl-I18N-Charset
+perl-IO-AIO
 perl-IO-All
 perl-IO-Async
 perl-IO-Capture
@@ -3844,6 +3860,7 @@ perl-Module-ScanDeps
 perl-Module-Starter
 perl-Module-Util
 perl-Module-Versions-Report
+perl-Mojo-DOM58
 perl-Mojo-IOLoop-ReadWriteProcess
 perl-Mojo-Pg
 perl-Mojo-RabbitMQ-Client
@@ -3894,6 +3911,8 @@ perl-PDF-API2
 perl-PDF-Table
 perl-PDF-Writer
 perl-POD2-Base
+perl-POE
+perl-POE-Test-Loops
 perl-POSIX-strftime-Compiler
 perl-Package-Constants
 perl-Package-DeprecationManager
@@ -4084,6 +4103,7 @@ perl-Time-Duration-Parse
 perl-Time-ParseDate
 perl-Time-Period
 perl-TimeDate
+perl-Tk
 perl-Tk-DoubleClick
 perl-Try-Tiny
 perl-Type-Tiny
@@ -4593,7 +4613,6 @@ satyr
 sbc
 sbsigntools
 scala
-scala-dep
 scdoc
 scene-alembic
 scikit-build
@@ -4662,7 +4681,6 @@ source-code-pro
 source-highlight
 sox
 spandsp
-spark-dep
 spectacle
 speex
 speexdsp
