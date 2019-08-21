@@ -1765,6 +1765,7 @@ gnome-boxes
 gnome-calculator
 gnome-calendar
 gnome-characters
+gnome-chess
 gnome-clocks
 gnome-color-manager
 gnome-common
@@ -1779,6 +1780,7 @@ gnome-icon-theme
 gnome-initial-setup
 gnome-keyring
 gnome-logs
+gnome-mahjongg
 gnome-maps
 gnome-menus
 gnome-music
@@ -1802,6 +1804,7 @@ gnome-user-docs
 gnome-video-effects
 gnome-weather
 gnu-efi
+gnuchess
 gnupg
 gnuplot
 gnutls
@@ -2715,7 +2718,6 @@ motif
 mox
 mox3
 mozjs
-mozjs38
 mozjs52
 mozjs60
 mpc
@@ -2796,6 +2798,7 @@ mvn-buildnumber-maven-plugin
 mvn-byte-buddy
 mvn-calcite
 mvn-calcite-avatica
+mvn-cassandra
 mvn-cdi-api
 mvn-cglib
 mvn-checker-compat-qual
@@ -2834,6 +2837,7 @@ mvn-commons-parent
 mvn-commons-pool
 mvn-commons-text
 mvn-commons-validator
+mvn-compile-command-annotations
 mvn-compiler-interface
 mvn-compress-lzf
 mvn-cssparser
@@ -2870,6 +2874,8 @@ mvn-flatbuffers
 mvn-flexmark-java
 mvn-freemarker
 mvn-fst
+mvn-ftpserver
+mvn-fusesource
 mvn-generex
 mvn-genesis
 mvn-geronimo-jcache_1.0_spec
@@ -2947,6 +2953,7 @@ mvn-jettison
 mvn-jetty
 mvn-jetty-parent
 mvn-jline
+mvn-jmh
 mvn-jmock
 mvn-jna
 mvn-jniloader
@@ -3034,6 +3041,7 @@ mvn-maven-mapping
 mvn-maven-model
 mvn-maven-model-builder
 mvn-maven-monitor
+mvn-maven-packagecloud-wagon
 mvn-maven-parent
 mvn-maven-plugin-api
 mvn-maven-plugin-descriptor
@@ -3091,6 +3099,7 @@ mvn-nexus-public
 mvn-nimbus-jose-jwt
 mvn-nuiton
 mvn-objenesis
+mvn-ohc
 mvn-ojalgo
 mvn-okhttp
 mvn-okio
@@ -3956,6 +3965,7 @@ perl-Proc-Wait3
 perl-Protocol-OSC
 perl-Quota
 perl-Readonly
+perl-Redis
 perl-Ref-Util
 perl-Ref-Util-XS
 perl-Regexp-Common
@@ -4945,7 +4955,6 @@ wmctrl
 woff2
 wok
 wol
-wordpress
 wpa_supplicant
 wrapt
 wsgi_intercept
