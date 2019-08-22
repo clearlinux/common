@@ -2796,6 +2796,7 @@ mvn-breeze_2.12
 mvn-build-helper-maven-plugin
 mvn-buildnumber-maven-plugin
 mvn-byte-buddy
+mvn-byteman
 mvn-calcite
 mvn-calcite-avatica
 mvn-cassandra
@@ -2875,7 +2876,6 @@ mvn-flexmark-java
 mvn-freemarker
 mvn-fst
 mvn-ftpserver
-mvn-fusesource
 mvn-generex
 mvn-genesis
 mvn-geronimo-jcache_1.0_spec
@@ -2920,6 +2920,7 @@ mvn-jackson-module-scala_2.11
 mvn-jackson-module-scala_2.12
 mvn-jackson-modules-base
 mvn-jackson-parent
+mvn-jacoco
 mvn-jamon-java-parent
 mvn-jamon-parent
 mvn-jamon-runtime
@@ -3096,6 +3097,7 @@ mvn-netlib-java
 mvn-netty
 mvn-nexus-maven-plugins
 mvn-nexus-public
+mvn-nicoulaj-parent
 mvn-nimbus-jose-jwt
 mvn-nuiton
 mvn-objenesis
@@ -3207,6 +3209,7 @@ mvn-wagon
 mvn-webbit
 mvn-weld-api
 mvn-weld-parent
+mvn-wikitext-project
 mvn-wildfly-openssl
 mvn-woodstox-core
 mvn-wsdl4j
@@ -3474,6 +3477,7 @@ perl-Algorithm-Munkres
 perl-Alien-Build
 perl-Alien-m4
 perl-AnyEvent
+perl-AnyEvent-AIO
 perl-AnyEvent-CacheDNS
 perl-Apache-Htpasswd
 perl-Apache-Session
@@ -3495,6 +3499,7 @@ perl-Authen-SASL
 perl-B-Hooks-EndOfScope
 perl-B-Hooks-OP-Check
 perl-B-Keywords
+perl-BDB
 perl-BSD-Resource
 perl-Biblio-EndnoteStyle
 perl-Bit-Vector
@@ -3718,6 +3723,7 @@ perl-Font-TTF
 perl-FreezeThaw
 perl-Frontier-RPC
 perl-Future
+perl-Future-IO-ImplBase
 perl-GD-Barcode
 perl-Geo-Distance
 perl-Geo-IP
@@ -5073,7 +5079,6 @@ zip
 zipp
 zlib
 znc
-zookeeper-dep
 zope.component
 zope.configuration
 zope.event
