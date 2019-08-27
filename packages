@@ -2751,6 +2751,7 @@ musl
 mutagen
 mutt
 mutter
+mvn-GMetrics
 mvn-HikariCP-java7
 mvn-JavaEWAH
 mvn-RoaringBitmap
@@ -2759,6 +2760,7 @@ mvn-activation
 mvn-aether-core
 mvn-airbase
 mvn-aircompressor
+mvn-airline
 mvn-aliyun-oss-java-sdk
 mvn-animal-sniffer
 mvn-ant
@@ -2772,6 +2774,7 @@ mvn-apache-log4j-extras
 mvn-apache-rat
 mvn-arpack_combined_all
 mvn-arrow
+mvn-asciidoctor-gradle-plugin
 mvn-asm
 mvn-assertj-core
 mvn-assertj-parent-pom
@@ -2810,6 +2813,7 @@ mvn-classutil_2.12
 mvn-classworlds
 mvn-clirr-maven-plugin
 mvn-codehaus-jackson
+mvn-codenarc
 mvn-commons-beanutils
 mvn-commons-chain
 mvn-commons-cli
@@ -2881,6 +2885,7 @@ mvn-genesis
 mvn-geronimo-jcache_1.0_spec
 mvn-geronimo-spec-jaxrpc
 mvn-google
+mvn-google-api-services-storage
 mvn-google-collections
 mvn-grizzled-scala_2.12
 mvn-grizzly
@@ -2899,6 +2904,7 @@ mvn-hsqldb
 mvn-htmlunit
 mvn-htmlunit-core-js
 mvn-htrace
+mvn-http-builder
 mvn-httpcomponents-client
 mvn-httpcomponents-core
 mvn-httpcomponents-parent
@@ -2926,9 +2932,13 @@ mvn-jamon-parent
 mvn-jamon-runtime
 mvn-janino
 mvn-jansi
+mvn-japicmp
+mvn-japicmp-gradle-plugin
+mvn-jatl
 mvn-java-boot-classpath-detector
 mvn-java-util
 mvn-java-xmlbuilder
+mvn-javaparser-parent
 mvn-javassist
 mvn-javax-servlet
 mvn-javax.annotation-api
@@ -2939,6 +2949,7 @@ mvn-javolution
 mvn-jaxb-api
 mvn-jaxb-impl
 mvn-jboss-parent
+mvn-jcifs
 mvn-jcip-annotations
 mvn-jcodings
 mvn-jdependency
@@ -2953,8 +2964,10 @@ mvn-jets3t
 mvn-jettison
 mvn-jetty
 mvn-jetty-parent
+mvn-jhighlight
 mvn-jline
 mvn-jmh
+mvn-jmh-gradle-plugin
 mvn-jmock
 mvn-jna
 mvn-jniloader
@@ -2974,6 +2987,7 @@ mvn-jsch.agentproxy.usocket-jna
 mvn-jsch.agentproxy.usocket-nc
 mvn-json
 mvn-json-io
+mvn-json-lib
 mvn-json-simple
 mvn-json-smart
 mvn-json4s
@@ -3092,6 +3106,7 @@ mvn-mojo-signature
 mvn-mssql-jdbc
 mvn-mvnplugins
 mvn-mysql-connector-java
+mvn-native-platform
 mvn-nekohtml
 mvn-netlib-java
 mvn-netty
@@ -3141,11 +3156,13 @@ mvn-plexus-languages
 mvn-plexus-resources
 mvn-plexus-utils
 mvn-plexus-velocity
+mvn-powermock
 mvn-protobuf-java
 mvn-py4j
 mvn-pyrolite
 mvn-qdox
 mvn-re2j
+mvn-reflectasm
 mvn-saaj-api
 mvn-sac
 mvn-sbt-interface
@@ -3182,6 +3199,7 @@ mvn-sonatype-plexus-sec-dispatcher
 mvn-spice-zapper
 mvn-spire_2.11
 mvn-spire_2.12
+mvn-spock
 mvn-spotbugs
 mvn-sqljet
 mvn-sslext
@@ -3206,6 +3224,7 @@ mvn-validation-api
 mvn-velocity
 mvn-velocity-tools
 mvn-wagon
+mvn-wagon-gitsite
 mvn-webbit
 mvn-weld-api
 mvn-weld-parent
@@ -3219,6 +3238,7 @@ mvn-xerces
 mvn-xercesImpl
 mvn-xercesMinimal
 mvn-xml-apis
+mvn-xml-resolver
 mvn-xmlenc
 mvn-xmlpull
 mvn-xmlunit
@@ -4901,6 +4921,7 @@ user-manager
 usermode
 userspace-rcu
 usrbinpython
+usrbinvi
 util-linux
 util-macros
 uwsgi
