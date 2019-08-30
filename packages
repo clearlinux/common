@@ -3148,6 +3148,7 @@ mvn-plexus-classworlds
 mvn-plexus-cli
 mvn-plexus-compiler
 mvn-plexus-containers
+mvn-plexus-digest
 mvn-plexus-i18n
 mvn-plexus-interactivity
 mvn-plexus-interpolation
@@ -4907,6 +4908,7 @@ unicodecsv
 unicodedata2
 unifdef
 unison
+unit
 unittest2
 unixODBC
 unzip
