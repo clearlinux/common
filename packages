@@ -1180,7 +1180,6 @@ capnproto
 caribou
 case
 cassandra
-cassandra-dep
 castellan
 casync
 catch2
@@ -1356,6 +1355,7 @@ containerd
 contextlib2
 cookies
 coreutils
+coturn
 cotyledon
 cov-core
 coverage
@@ -2444,6 +2444,7 @@ libmetalink
 libmicrohttpd
 libmnl
 libmodbus
+libmodplug
 libmodulemd
 libmpack
 libmpack-lua
@@ -2525,7 +2526,6 @@ libtermkey
 libthai
 libtheora
 libtirpc
-libtk-img
 libtool
 libtorrent-rasterbar
 libudev0-shim
@@ -2690,6 +2690,9 @@ mido
 milou
 minetest
 minetest_game
+mingw-binutils
+mingw-crt
+mingw-gcc
 minicom
 minimodem
 mistune
@@ -3276,7 +3279,6 @@ ndg_httpsclient
 ndpi
 neofetch
 neomutt
-neon
 neovim
 net-snmp
 net-tools
