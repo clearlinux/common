@@ -3525,6 +3525,7 @@ perl-B-Hooks-OP-Check
 perl-B-Keywords
 perl-BDB
 perl-BSD-Resource
+perl-Bencode
 perl-Biblio-EndnoteStyle
 perl-Bit-Vector
 perl-Browser-Open
@@ -3594,6 +3595,7 @@ perl-Context-Preserve
 perl-Contextual-Return
 perl-Convert-ASN1
 perl-Convert-Bencode
+perl-Convert-Bencode_XS
 perl-Convert-Binary-C
 perl-Cookie-Baker
 perl-Coro
@@ -3699,6 +3701,7 @@ perl-Exception-Class
 perl-Exporter-Declare
 perl-Exporter-Easy
 perl-Exporter-Lite
+perl-Exporter-Tidy
 perl-Exporter-Tiny
 perl-ExtUtils-Config
 perl-ExtUtils-Depends
