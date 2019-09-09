@@ -2024,6 +2024,7 @@ josepy
 jq
 json-c
 json-glib
+json5
 jsoncpp
 jsondiff
 jsonpatch
@@ -3627,6 +3628,7 @@ perl-Config-Grammar
 perl-Config-IniFiles
 perl-Config-Std
 perl-Config-Tiny
+perl-Const-Fast
 perl-Context-Preserve
 perl-Contextual-Return
 perl-Convert-ASN1
@@ -4900,6 +4902,7 @@ thunderbolt-software-user-space
 tiff
 tig
 tigervnc
+tilix
 time
 tini
 tinycompress
@@ -4974,7 +4977,6 @@ uwsgi
 v4l-utils
 vala
 valgrind
-varnish-cache
 vbox-integration
 vcstool
 vcversioner
