@@ -2748,6 +2748,7 @@ mtr
 multidict
 multimon-ng
 multipath-tools
+mumble
 munch
 munkres
 muparser
@@ -2760,10 +2761,12 @@ mvn-GMetrics
 mvn-HdrHistogram
 mvn-HikariCP-java7
 mvn-JavaEWAH
+mvn-LatencyUtils
 mvn-RoaringBitmap
 mvn-accessors-smart
 mvn-activation
 mvn-aether-core
+mvn-aggdesigner
 mvn-airbase
 mvn-aircompressor
 mvn-airlift
@@ -2771,6 +2774,7 @@ mvn-airlift-slice
 mvn-airlift-units
 mvn-airline
 mvn-akka
+mvn-aliyun-openapi-java-sdk
 mvn-aliyun-oss-java-sdk
 mvn-animal-sniffer
 mvn-ant
@@ -2793,6 +2797,7 @@ mvn-autolink
 mvn-automaton
 mvn-avalon-framework
 mvn-avro
+mvn-awaitility
 mvn-aws-java-sdk
 mvn-azure-data-lake-store-java
 mvn-azure-keyvault-java
@@ -2863,6 +2868,7 @@ mvn-curator
 mvn-datanucleus-api-jdo
 mvn-datanucleus-core
 mvn-datanucleus-rdbms
+mvn-dd-plist
 mvn-decentxml
 mvn-derby
 mvn-directory-jdbm
@@ -2889,17 +2895,20 @@ mvn-ezmorph
 mvn-fastutil
 mvn-felix
 mvn-file-management
+mvn-findbugs
 mvn-findbugs-annotations
 mvn-flatbuffers
 mvn-flexmark-java
 mvn-flink-shaded
 mvn-freemarker
+mvn-frocksdb
 mvn-fst
 mvn-ftpserver
 mvn-generex
 mvn-genesis
 mvn-geronimo-jcache_1.0_spec
 mvn-geronimo-spec-jaxrpc
+mvn-gmaven
 mvn-google
 mvn-google-api-services-storage
 mvn-google-collections
@@ -2907,6 +2916,7 @@ mvn-gossip
 mvn-grizzled-scala_2.12
 mvn-grizzled-slf4j_2.11
 mvn-grizzly
+mvn-groovy
 mvn-gson
 mvn-guava
 mvn-guice
@@ -2930,6 +2940,7 @@ mvn-httpcomponents-parent
 mvn-hydromatic-parent
 mvn-icu4j
 mvn-incremental-compiler
+mvn-incubator-datasketches-java
 mvn-intellij.annotations
 mvn-ion-java
 mvn-ivy
@@ -2939,6 +2950,7 @@ mvn-jackson-annotations
 mvn-jackson-bom
 mvn-jackson-core
 mvn-jackson-databind
+mvn-jackson-dataformat-cbor
 mvn-jackson-dataformat-yaml
 mvn-jackson-jaxrs-providers
 mvn-jackson-module-jaxb-annotations
@@ -2973,6 +2985,7 @@ mvn-jboss-parent
 mvn-jcifs
 mvn-jcip-annotations
 mvn-jcodings
+mvn-jcommander
 mvn-jdependency
 mvn-jdiff
 mvn-jdo-api
@@ -2981,6 +2994,7 @@ mvn-jdom2
 mvn-jersey
 mvn-jersey-apache-client4
 mvn-jersey-json
+mvn-jetbrains-annotations
 mvn-jets3t
 mvn-jettison
 mvn-jetty
@@ -3027,10 +3041,13 @@ mvn-jtidy
 mvn-jtransforms
 mvn-junit
 mvn-junit-interface
+mvn-junit5
 mvn-kafka-clients
 mvn-kafka_2.12
 mvn-kerby
+mvn-keytool
 mvn-kosmosfs
+mvn-kotlin
 mvn-kryo
 mvn-kubernetes-client
 mvn-kxml2
@@ -3069,7 +3086,6 @@ mvn-maven-core
 mvn-maven-dependency-plugin
 mvn-maven-deploy-plugin
 mvn-maven-docck-plugin
-mvn-maven-embedder
 mvn-maven-error-diagnostics
 mvn-maven-filtering
 mvn-maven-git-commit-id-plugin
@@ -3103,7 +3119,6 @@ mvn-maven-reporting-impl
 mvn-maven-repository-builder
 mvn-maven-repository-metadata
 mvn-maven-resolver
-mvn-maven-resolver-provider
 mvn-maven-resources-plugin
 mvn-maven-scm
 mvn-maven-scm-provider-svnjava
@@ -3114,13 +3129,13 @@ mvn-maven-shade-plugin
 mvn-maven-shared
 mvn-maven-shared-utils
 mvn-maven-site-plugin
-mvn-maven-slf4j-provider
 mvn-maven-source-plugin
 mvn-maven-surefire
 mvn-maven-toolchain
 mvn-maven-war-plugin
 mvn-mesos
 mvn-metrics
+mvn-micrometer
 mvn-mina
 mvn-mina-sshd
 mvn-minimal-json
@@ -3161,6 +3176,7 @@ mvn-osgi-resource-locator
 mvn-oshi
 mvn-oss-parents
 mvn-ow2
+mvn-paradise
 mvn-paranamer
 mvn-parboiled
 mvn-parquet-format
@@ -3186,6 +3202,7 @@ mvn-plexus-languages
 mvn-plexus-resources
 mvn-plexus-utils
 mvn-plexus-velocity
+mvn-pmaven
 mvn-powermock
 mvn-presto
 mvn-protobuf-java
@@ -3196,6 +3213,7 @@ mvn-re2j
 mvn-reactivestreams
 mvn-reflectasm
 mvn-reflections
+mvn-rhino
 mvn-saaj-api
 mvn-sac
 mvn-saxon
@@ -3227,6 +3245,7 @@ mvn-servlet-api
 mvn-shapeless_2.11
 mvn-shapeless_2.12
 mvn-siesta
+mvn-simpleframework
 mvn-sisu
 mvn-sisu-guice
 mvn-sisu-maven-plugin
@@ -3254,6 +3273,7 @@ mvn-super-csv
 mvn-svnkit
 mvn-swagger-core
 mvn-test-interface
+mvn-testng
 mvn-thrift
 mvn-tomcat
 mvn-treelayout
@@ -3543,6 +3563,7 @@ perl-AnyEvent-CacheDNS
 perl-Apache-Htpasswd
 perl-Apache-Session
 perl-App-cpanminus
+perl-App-perlbrew
 perl-AppConfig
 perl-Archive-Cpio
 perl-Archive-Extract
@@ -4739,6 +4760,7 @@ simg-tools
 simple-scan
 simplegeneric
 simplejson
+simplescreenrecorder
 singledispatch
 sip
 six
@@ -4840,6 +4862,7 @@ syntax-highlighting
 sysdig
 sysfsutils
 syslinux
+sysprof
 sysstat
 systemd
 systemd-bootchart
@@ -4870,6 +4893,7 @@ tensorboard
 tensorflow
 tensorflow-estimator
 tensorflow-probability
+tensorflow-serving
 termcolor
 terminado
 terminaltables
