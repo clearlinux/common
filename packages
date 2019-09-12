@@ -1305,7 +1305,6 @@ compat-gmime-26
 compat-gspell-soname1
 compat-gtksourceview-soname3
 compat-guile-soname20
-compat-hdf5-soname10
 compat-hwloc-soname5
 compat-hyperscan-soname4
 compat-icu4c-soname61
@@ -1331,7 +1330,6 @@ compat-nettle-soname6
 compat-opencv-soname32
 compat-opencv-soname33
 compat-opencv-soname34
-compat-openexr-soname23
 compat-openssl-soname-10
 compat-proj-soname13
 compat-protobuf-soname14
@@ -2910,8 +2908,10 @@ mvn-geronimo-jcache_1.0_spec
 mvn-geronimo-spec-jaxrpc
 mvn-gmaven
 mvn-google
+mvn-google-api-java-client
 mvn-google-api-services-storage
 mvn-google-collections
+mvn-google-http-java-client
 mvn-gossip
 mvn-grizzled-scala_2.12
 mvn-grizzled-slf4j_2.11
@@ -3043,6 +3043,7 @@ mvn-junit
 mvn-junit-interface
 mvn-junit5
 mvn-kafka-clients
+mvn-kafka_2.11
 mvn-kafka_2.12
 mvn-kerby
 mvn-keytool
@@ -3158,6 +3159,7 @@ mvn-nexus-public
 mvn-nicoulaj-parent
 mvn-nimbus-jose-jwt
 mvn-nuiton
+mvn-oauth-java-client
 mvn-objenesis
 mvn-ohc
 mvn-ojalgo
