@@ -1775,7 +1775,6 @@ gnome-disk-utility
 gnome-doc-utils
 gnome-flashback
 gnome-font-viewer
-gnome-getting-started-docs
 gnome-icon-theme
 gnome-initial-setup
 gnome-keyring
@@ -1809,6 +1808,10 @@ gnupg
 gnuplot
 gnutls
 go
+go-github.com-BurntSushi-toml
+go-github.com-inconshreveable-mousetrap
+go-github.com-spf13-cobra
+go-github.com-spf13-pflag
 goaccess
 gobject-introspection
 golang-github-cpuguy83-go-md2man
@@ -1830,7 +1833,6 @@ gpm
 gpredict
 gptfdisk
 gradle
-gradle-dep
 granatier
 grantlee
 grantleetheme
@@ -3535,6 +3537,7 @@ patchelf
 patchutils
 pathlib
 pathlib2
+pathspec
 patsy
 pavucontrol
 pbr
@@ -4639,7 +4642,6 @@ quilt
 qwt
 rabbitmq-c
 rabbitmq-java-client
-rabbitmq-java-client-dep
 rabbitmq-server
 radvd
 rage
