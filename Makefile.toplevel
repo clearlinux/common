@@ -34,7 +34,7 @@ $(proj_PKGS):
 	git clone $(PRJ_BASE_URL)/$$proj projects/$$proj; \
 	cd projects/$$proj; \
 	if [ "$$proj" = "autospec" ] ; then \
-		git remote set-url --push origin https://github.com/clearlinux/autospec.git; \
+		git remote set-url --push origin git@github.com:clearlinux/autospec.git; \
 	else \
 		$(call gitoliteurl,projects/$$proj); \
 	fi; \
@@ -83,7 +83,7 @@ ${PULL_PKGS}:
 			git --no-pager log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit $$O..$$N; echo; \
 		fi ; \
 		if [ "$$p" = "projects/autospec" ] ; then \
-			git remote set-url --push origin https://github.com/clearlinux/autospec.git; \
+			git remote set-url --push origin git@github.com:clearlinux/autospec.git; \
 		else \
 			$(call gitoliteurl,$$p); \
 		fi ; \
