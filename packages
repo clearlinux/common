@@ -1029,6 +1029,7 @@ asio
 asn1crypto
 aspell
 aspell-en
+aspell-es
 aspell-pt_BR
 assimp
 astor
@@ -1320,7 +1321,6 @@ compat-libnftnl-soname7
 compat-libpng-soname12
 compat-libva-soname1
 compat-libwebp-soname6
-compat-llvm-soname4
 compat-llvm-soname5
 compat-llvm-soname6
 compat-llvm-soname7
@@ -2008,6 +2008,7 @@ isync
 itsdangerous
 itstool
 iw
+iwd
 ixion
 jack2
 jansson
@@ -2791,6 +2792,8 @@ mvn-archetype
 mvn-arpack_combined_all
 mvn-arrow
 mvn-asciidoctor-gradle-plugin
+mvn-asciidoctorj
+mvn-asciidoctorj-pdf
 mvn-asm
 mvn-assertj-core
 mvn-assertj-parent-pom
@@ -2919,6 +2922,7 @@ mvn-gossip
 mvn-grizzled-scala_2.12
 mvn-grizzled-slf4j_2.11
 mvn-grizzly
+mvn-grolifant
 mvn-groovy
 mvn-gson
 mvn-guava
@@ -3050,9 +3054,11 @@ mvn-kafka_2.11
 mvn-kafka_2.12
 mvn-kerby
 mvn-keytool
+mvn-kolor
 mvn-kosmosfs
 mvn-kotlin
 mvn-kryo
+mvn-ktlint
 mvn-kubernetes-client
 mvn-kxml2
 mvn-ldapsdk
@@ -3244,6 +3250,7 @@ mvn-scalatest_2.12
 mvn-scopt_2.11
 mvn-scopt_2.12
 mvn-selenium
+mvn-semver
 mvn-sequence-library
 mvn-servicemix-bundles
 mvn-servicemix-pom
@@ -3367,6 +3374,7 @@ nftables
 nghttp2
 nginx
 nginx-mainline
+ngraph
 nicstat
 nim
 ninja
@@ -3402,6 +3410,7 @@ ntplib
 numactl
 numatop
 numba
+numlockx
 numpy
 numpy-stl
 numpydoc
@@ -3440,6 +3449,7 @@ openjade
 openjdk
 openjdk11
 openjdk12
+openjdk13
 openldap
 openmpi
 openscad
@@ -3633,6 +3643,7 @@ perl-Class-Factory-Util
 perl-Class-Inspector
 perl-Class-Load
 perl-Class-Load-XS
+perl-Class-Measure
 perl-Class-Method-Modifiers
 perl-Class-MethodMaker
 perl-Class-Mix
@@ -4527,7 +4538,6 @@ python-dateutil
 python-dateutil-legacypython
 python-designateclient
 python-distutils-extra
-python-dldt
 python-editor
 python-future
 python-gflags
