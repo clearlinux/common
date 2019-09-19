@@ -1256,6 +1256,7 @@ cmake
 cmd2
 cmocka
 cmrt
+cmus
 cnf
 cni
 cni-plugins
