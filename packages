@@ -289,6 +289,7 @@ R-conting
 R-corpcor
 R-corrgram
 R-corrplot
+R-covr
 R-cowplot
 R-crayon
 R-crosstalk
@@ -505,6 +506,7 @@ R-leaps
 R-lfe
 R-lhs
 R-libcoin
+R-lifecycle
 R-linprog
 R-lintr
 R-listenv
