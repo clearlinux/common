@@ -3484,6 +3484,7 @@ open-isns
 open-lldp
 open-vm-tools
 openQA
+open_model_zoo
 openal-soft
 openblas
 openbox
@@ -4911,6 +4912,7 @@ sure
 suricata
 svg.path
 svgpart
+sway
 sweeper
 swift
 swig
@@ -5114,6 +5116,7 @@ wine
 winpdb
 wireless-regdb-master
 wireshark
+wlroots
 wmctrl
 woff2
 wok
