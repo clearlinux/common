@@ -2496,8 +2496,8 @@ libqb
 libqmi
 libqtxdg
 libqxp
-librabbitmq
 libratbag
+librdkafka
 libreoffice
 librepo
 librevenge
@@ -3291,6 +3291,7 @@ mvn-scalastyle-maven-plugin
 mvn-scalatest-maven-plugin
 mvn-scalatest_2.11
 mvn-scalatest_2.12
+mvn-schema-registry
 mvn-scopt_2.11
 mvn-scopt_2.12
 mvn-selenium
@@ -4398,6 +4399,7 @@ php-protobuf
 php-psr
 php-radius
 php-raphf
+php-rdkafka
 php-redis
 php-scrypt
 php-stackdriver_debugger
@@ -4854,6 +4856,7 @@ source-highlight
 sox
 spandsp
 spectacle
+speedtest-cli
 speex
 speexdsp
 sphinx-feature-classification
@@ -5090,6 +5093,7 @@ volume_key
 voluptuous
 voluptuous-serialize
 vpnc
+vpp
 vsqlite
 vte
 waffle
