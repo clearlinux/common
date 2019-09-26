@@ -1778,6 +1778,7 @@ gnome-disk-utility
 gnome-doc-utils
 gnome-flashback
 gnome-font-viewer
+gnome-getting-started-docs
 gnome-icon-theme
 gnome-initial-setup
 gnome-keyring
@@ -1941,6 +1942,7 @@ iceauth
 icecream
 icon-naming-utils
 icu4c
+idle-python3.7-assets
 idna
 idna-ssl
 ifaddr
@@ -3425,6 +3427,7 @@ nghttp2
 nginx
 nginx-mainline
 ngraph
+ngx_http_auth_pam_module
 nicstat
 nim
 ninja
