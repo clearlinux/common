@@ -1157,6 +1157,7 @@ buildreq-kernel
 buildreq-make
 buildreq-meson
 buildreq-mvn
+buildreq-nginx
 buildreq-php
 buildreq-qmake
 buildreq-scons
@@ -1892,6 +1893,7 @@ hardinfo
 hardlink
 harfbuzz
 haskell-random
+haveged
 hdf5
 hdmedians
 hdparm
@@ -2365,6 +2367,7 @@ libdmx
 libdnf
 libdrm
 libe-book
+libeconf
 libedit
 libepoxy
 libepubgen
@@ -2629,6 +2632,8 @@ lsof
 lsscsi
 ltp
 ltrace
+lttng-tools
+lttng-ust
 lua
 lua52
 lualgi
@@ -2679,6 +2684,7 @@ mdds
 media-player-info
 mediasdk
 meld
+memc-nginx-module
 memcached
 memkind
 memshrinker
@@ -2772,6 +2778,7 @@ mvn-JavaEWAH
 mvn-JsonPath
 mvn-LatencyUtils
 mvn-RoaringBitmap
+mvn-TipTip
 mvn-accessors-smart
 mvn-activation
 mvn-addthis-oss-jar-pom
@@ -2796,11 +2803,13 @@ mvn-apache
 mvn-apache-jar-resource-bundle
 mvn-apache-log4j-extras
 mvn-apache-rat
+mvn-apiguardian
 mvn-archetype
 mvn-arpack_combined_all
 mvn-arrow
 mvn-asciidoctor-gradle-plugin
 mvn-asciidoctorj
+mvn-asciidoctorj-groovy-dsl
 mvn-asciidoctorj-pdf
 mvn-asm
 mvn-assertj-core
@@ -2825,6 +2834,7 @@ mvn-breeze-macros_2.11
 mvn-breeze_2.11
 mvn-breeze_2.12
 mvn-build-helper-maven-plugin
+mvn-build-scan-plugin
 mvn-buildnumber-maven-plugin
 mvn-byte-buddy
 mvn-byteman
@@ -2936,6 +2946,10 @@ mvn-google-api-services-storage
 mvn-google-collections
 mvn-google-http-java-client
 mvn-gossip
+mvn-gradle-download-task
+mvn-gradle-groovy-all
+mvn-gradle-idea-ext-plugin
+mvn-gradle-kotlin
 mvn-grizzled-scala_2.12
 mvn-grizzled-slf4j_2.11
 mvn-grizzled-slf4j_2.12
@@ -3015,7 +3029,10 @@ mvn-javax.servlet-api
 mvn-javax.ws.rs-api
 mvn-javolution
 mvn-jaxb-api
+mvn-jaxb-core
 mvn-jaxb-impl
+mvn-jaxb-v2
+mvn-jaxen
 mvn-jboss-logging
 mvn-jboss-parent
 mvn-jchardet
@@ -3053,6 +3070,7 @@ mvn-joni
 mvn-jopt-simple
 mvn-jpam
 mvn-jpmml-model
+mvn-jruby
 mvn-jsch
 mvn-jsch.agentproxy.connector-factory
 mvn-jsch.agentproxy.core
@@ -3080,18 +3098,23 @@ mvn-jtidy
 mvn-jtransforms
 mvn-junit
 mvn-junit-interface
+mvn-junit-xml-parser
 mvn-junit5
 mvn-jython-standalone
+mvn-jzlib
 mvn-kafka-clients
 mvn-kafka_2.11
 mvn-kafka_2.12
 mvn-kerby
 mvn-keytool
+mvn-klob
 mvn-kolor
 mvn-kosmosfs
 mvn-kotlin
+mvn-kotlinx-coroutines
 mvn-kryo
 mvn-ktlint
+mvn-ktlint-gradle
 mvn-kubernetes-client
 mvn-kxml2
 mvn-ldapsdk
@@ -3110,6 +3133,7 @@ mvn-machinist_2.11
 mvn-machinist_2.12
 mvn-macro-compat_2.11
 mvn-macro-compat_2.12
+mvn-mail
 mvn-mapr-hadoop
 mvn-maprfs
 mvn-maven
@@ -3191,6 +3215,8 @@ mvn-minimal-json
 mvn-minlog
 mvn-mockito
 mvn-mockito-core
+mvn-mockito-kotlin
+mvn-mockk
 mvn-mockserver
 mvn-modello
 mvn-mojo-parent
@@ -3220,6 +3246,7 @@ mvn-okhttp
 mvn-okio
 mvn-opencsv
 mvn-openhtmltopdf-parent
+mvn-opentest4j
 mvn-orc
 mvn-org.apache.felix.bundlerepository
 mvn-org.eclipse.sisu.inject
@@ -3237,9 +3264,11 @@ mvn-parboiled
 mvn-parquet-format
 mvn-parquet-mr
 mvn-pdfbox
+mvn-pdfbox-graphics2d
 mvn-pegdown
 mvn-pgjdbc
 mvn-pgjdbc-parent-poms
+mvn-picocli
 mvn-plexus
 mvn-plexus-archiver
 mvn-plexus-build-api
@@ -3257,6 +3286,7 @@ mvn-plexus-languages
 mvn-plexus-resources
 mvn-plexus-utils
 mvn-plexus-velocity
+mvn-plugin-publish-plugin
 mvn-pmaven
 mvn-powermock
 mvn-powermock-reflect
@@ -3298,6 +3328,7 @@ mvn-scopt_2.11
 mvn-scopt_2.12
 mvn-selenium
 mvn-semver
+mvn-semver4j
 mvn-sequence-library
 mvn-servicemix-bundles
 mvn-servicemix-pom
@@ -3341,6 +3372,7 @@ mvn-thrift
 mvn-tomcat
 mvn-treelayout
 mvn-trilead-ssh2
+mvn-trove4j
 mvn-tycho
 mvn-uncommons-maths
 mvn-unirest-java
@@ -3366,10 +3398,12 @@ mvn-xercesImpl
 mvn-xercesMinimal
 mvn-xml-apis
 mvn-xml-resolver
+mvn-xmlParserAPIs
 mvn-xmlenc
 mvn-xmlpull
 mvn-xmlunit
 mvn-xmlunit-core
+mvn-xom
 mvn-xpp3_min
 mvn-xstream
 mvn-xz
@@ -3426,8 +3460,11 @@ nftables
 nghttp2
 nginx
 nginx-mainline
+nginx_cookie_flag_module
 ngraph
+ngx_brotli
 ngx_http_auth_pam_module
+ngx_http_enhanced_memcached_module
 nicstat
 nim
 ninja
@@ -4724,6 +4761,7 @@ rebootmgr
 recommonmark
 redis
 redis-native
+redis2-nginx-module
 redland
 redshift
 redsocks
