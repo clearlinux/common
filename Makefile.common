@@ -181,7 +181,9 @@ autospec: preautospec-checks pullrebase localreponotice clean-old-content
 		--mock-config $(MOCK_CONFIG_VAL) \
 		--mock-opts "$(MOCK_OPTS)" \
 		$${SETVERSION:+ --version $${SETVERSION}} \
-		${NON_INTERACTIVE} ${SKIP_GIT} ${CLEANUP} \
+		$${NON_INTERACTIVE:+ --non_interactive} \
+		$${SKIP_GIT:+ --skip-git} \
+		$${CLEANUP:+ -C} \
 		$(firstword $(NEWURL) $(URL));
 	$(MAKE) link-new-rpms PKG_REPO_DIR="."
 	@$(MAKE) spdxcheck
@@ -206,12 +208,12 @@ for-review.txt:
 
 #help autospecnogit: Runs autospec, but does not create a commit
 autospecnogit:
-	$(MAKE) SKIP_GIT=--skip-git autospec
+	$(MAKE) autospec SKIP_GIT=1
 
 #help autospecnostate: Runs autospec, but cleans up mock chroots
 #help and disables interactive mode.
 autospecnostate:
-	$(MAKE) CLEANUP=-C NON_INTERACTIVE=--non_interactive autospec
+	$(MAKE) autospec CLEANUP=1 NON_INTERACTIVE=1
 
 scanlicense:
 	python3 $(TOPLVL)/projects/autospec/autospec/autospec.py -t . --config $(AUTOSPEC_CONF) --license-only $(firstword $(NEWURL) $(URL)) --name $(PKG_NAME)
