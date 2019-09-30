@@ -215,7 +215,7 @@ scanlicense:
 bump:
 	git pull --rebase
 	$(MAKE) bumpnogit
-	git add *.spec release
+	git add $(SPECFILE) release
 	git commit -a -m "version bump from $(shell rpmspec -D '_vendor clr' --srpm -q --queryformat '%{VERSION}-%{RELEASE}\n' $(SPECFILE)) to `rpmspec -D '_vendor clr' --srpm -q --queryformat '%{VERSION}-%{RELEASE}\n' $(SPECFILE)`"
 
 #help bumpnogit: Increments the release file by one and does not commit changes.
