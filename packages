@@ -1662,7 +1662,6 @@ flatpak
 flatpak-builder
 fldigi
 flex
-flink-dep
 fllog
 flmsg
 flnet
@@ -5172,7 +5171,6 @@ wol
 wpa_supplicant
 wrapt
 wsgi_intercept
-wsgiref
 wsjtx
 wxWidgets
 x11perf
