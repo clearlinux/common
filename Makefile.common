@@ -49,13 +49,6 @@ spdxcheck: $(SPECFILE)
 		if ! grep -qx "$$LICENSE" $(TOPLVL)/projects/common/licenses-{spdx,exceptions,extra}; then FAIL=yes; echo "ERROR: License '$$LICENSE' is not an allowed SPDX license ID"; fi; \
 	done; test -z "$$FAIL"
 
-#help cvecheck: Checks
-#help for common vulnerabilities and exposures in your package.
-cvecheck:
-	# https://github.com/ikeydoherty/cve-check-tool
-	# Installation: https://github.com/ikeydoherty/cve-check-tool/wiki
-	cve-check-tool -M $(TOPLVL)/projects/common/mapping $(SPECFILE)
-
 #help clean: Cleans up the src.rpm file. but not the rpm files or log files.
 clean:
 	rm -f $(SRPMFILE)

@@ -56,12 +56,6 @@ $(clone_PKGS): $(PACKAGES_FILE) packages/common/Makefile.common
 	$(call subjectprefix,$$pkg); \
 	)
 
-#help cvecheck: Checks for common vulnerabilities and exposures in your code.
-cvecheck:
-	# https://github.com/ikeydoherty/cve-check-tool
-	# Installation: https://github.com/ikeydoherty/cve-check-tool/wiki
-	cve-check-tool -n -M $(TOPLVL)/projects/common/mapping $(PACKAGES_FILE)
-
 #help pull: Performs a git pull --rebase for each package repo, avoiding the creation
 #help of merge commits, while displaying any changes since your last pull. It is
 #help silent if there are no changes.
