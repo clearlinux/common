@@ -4,7 +4,7 @@ Babel
 Botan
 CGAL
 CUnit
-Cheetah
+Cheetah3
 CherryPy
 Coin
 ConfigArgParse
@@ -46,7 +46,6 @@ MarkupSafe
 ModemManager
 MonkeyType
 MuseScore
-MySQL-python
 NetworkManager
 NetworkManager-openconnect
 NetworkManager-openvpn
@@ -298,6 +297,7 @@ R-csvy
 R-cubature
 R-curl
 R-cvTools
+R-cyclocomp
 R-data.table
 R-date
 R-dbarts
@@ -872,6 +872,7 @@ R-withr
 R-worrms
 R-xfun
 R-xml2
+R-xmlparsedata
 R-xopen
 R-xtable
 R-xts
@@ -901,6 +902,7 @@ SPIRV-Headers
 SPIRV-Tools
 SQLAlchemy
 SQLAlchemy-Utils
+SVT-AV1
 Sane
 Send2Trash
 Shapely
@@ -1030,8 +1032,10 @@ asciinema
 asio
 asn1crypto
 aspell
+aspell-de
 aspell-en
 aspell-es
+aspell-fr
 aspell-pt_BR
 assimp
 astor
@@ -1147,7 +1151,6 @@ buildreq-cmake
 buildreq-configure
 buildreq-cpan
 buildreq-distutils
-buildreq-distutils23
 buildreq-distutils3
 buildreq-distutils36
 buildreq-gnome
@@ -1388,7 +1391,6 @@ cups-pk-helper
 curl
 cursive
 cve-bin-tool
-cve-check-tool
 cxxfilt
 cycler
 cyrus-sasl
@@ -1729,6 +1731,7 @@ gflags
 gftp
 ghc
 ghostscript
+giflib
 gimp
 girara
 git
@@ -1829,6 +1832,7 @@ google-pasta
 google-reauth
 googletest
 gparted
+gpaste
 gperf
 gperftools
 gpgme
@@ -2613,6 +2617,7 @@ linuxptp
 lksctp-tools
 llfuse
 llvm
+llvm8
 llvmlite
 lm-sensors
 lmdb
@@ -2672,7 +2677,6 @@ man-pages
 man-pages-posix
 marble
 mariadb
-mash
 materia-theme
 matplotlib
 mc
@@ -2769,6 +2773,7 @@ musl
 mutagen
 mutt
 mutter
+mvn-DependencyCheck
 mvn-Fenzo
 mvn-GMetrics
 mvn-HdrHistogram
@@ -2804,6 +2809,7 @@ mvn-apache-log4j-extras
 mvn-apache-rat
 mvn-apiguardian
 mvn-archetype
+mvn-argparse4j
 mvn-arpack_combined_all
 mvn-arrow
 mvn-asciidoctor-gradle-plugin
@@ -2856,6 +2862,7 @@ mvn-clirr-maven-plugin
 mvn-codehaus-jackson
 mvn-codenarc
 mvn-common
+mvn-common-annotations-api
 mvn-commons-beanutils
 mvn-commons-chain
 mvn-commons-cli
@@ -2887,6 +2894,7 @@ mvn-commons-validator
 mvn-compile-command-annotations
 mvn-compiler-interface
 mvn-compress-lzf
+mvn-concurrent-trees
 mvn-concurrentlinkedhashmap
 mvn-config
 mvn-crc32ex
@@ -2897,6 +2905,7 @@ mvn-datanucleus-core
 mvn-datanucleus-rdbms
 mvn-dd-plist
 mvn-decentxml
+mvn-dependency-check-gradle
 mvn-derby
 mvn-directory-jdbm
 mvn-directory-ldap-api
@@ -2912,8 +2921,10 @@ mvn-doxia
 mvn-doxia-sitetools
 mvn-doxia-tools
 mvn-droolsjbpm-build-bootstrap
+mvn-durian
 mvn-easymock
 mvn-ecj
+mvn-ee4j
 mvn-ehcache
 mvn-eigenbase-properties
 mvn-elasticsearch
@@ -2949,6 +2960,9 @@ mvn-gradle-download-task
 mvn-gradle-groovy-all
 mvn-gradle-idea-ext-plugin
 mvn-gradle-kotlin
+mvn-gradle-scoverage
+mvn-gradle-versions-plugin
+mvn-grgit
 mvn-grizzled-scala_2.12
 mvn-grizzled-slf4j_2.11
 mvn-grizzled-slf4j_2.12
@@ -2960,6 +2974,7 @@ mvn-guava
 mvn-guice
 mvn-guice-servlet
 mvn-h2database
+mvn-h3xsteram-retirejs
 mvn-hadoop
 mvn-hadoop-aliyun
 mvn-hamcrest
@@ -2999,12 +3014,14 @@ mvn-jackson-dataformat-cbor
 mvn-jackson-dataformat-smile
 mvn-jackson-dataformat-yaml
 mvn-jackson-dataformats-binary
+mvn-jackson-dataformats-text
 mvn-jackson-jaxrs-providers
 mvn-jackson-module-jaxb-annotations
 mvn-jackson-module-paranamer
 mvn-jackson-module-scala_2.11
 mvn-jackson-module-scala_2.12
 mvn-jackson-modules-base
+mvn-jackson-modules-java8
 mvn-jackson-parent
 mvn-jacoco
 mvn-jamm
@@ -3032,6 +3049,7 @@ mvn-jaxb-core
 mvn-jaxb-impl
 mvn-jaxb-v2
 mvn-jaxen
+mvn-jaxrs-api
 mvn-jboss-logging
 mvn-jboss-parent
 mvn-jchardet
@@ -3052,6 +3070,8 @@ mvn-jets3t
 mvn-jettison
 mvn-jetty
 mvn-jetty-parent
+mvn-jfree
+mvn-jfreechart
 mvn-jgit
 mvn-jhighlight
 mvn-jline
@@ -3301,6 +3321,7 @@ mvn-reflectasm
 mvn-reflections
 mvn-retrofit
 mvn-rhino
+mvn-rocksdb
 mvn-saaj-api
 mvn-sac
 mvn-saxon
@@ -3315,6 +3336,7 @@ mvn-scala-parser-combinators_2.12
 mvn-scala-reflect
 mvn-scala-xml_2.11
 mvn-scala-xml_2.12
+mvn-scalac-scoverage-plugin
 mvn-scalacheck
 mvn-scalactic_2.11
 mvn-scalactic_2.12
@@ -3332,6 +3354,7 @@ mvn-sequence-library
 mvn-servicemix-bundles
 mvn-servicemix-pom
 mvn-servlet-api
+mvn-shadow
 mvn-shapeless_2.11
 mvn-shapeless_2.12
 mvn-siesta
@@ -3352,6 +3375,7 @@ mvn-spire_2.11
 mvn-spire_2.12
 mvn-spock
 mvn-spotbugs
+mvn-spotless
 mvn-sqljet
 mvn-ssl-config
 mvn-sslext
@@ -4489,6 +4513,7 @@ plasma-vault
 plasma-workspace
 plasma-workspace-wallpapers
 plata-theme
+plotly
 pluggy
 ply
 plzip
@@ -4959,6 +4984,8 @@ suricata
 svg.path
 svgpart
 sway
+swaybg
+swaylock
 sweeper
 swift
 swig
@@ -5027,6 +5054,7 @@ text-unidecode
 texttable
 tflearn
 tgt
+the_silver_searcher
 thermal_daemon
 thermal_monitor
 thin-provisioning-tools
@@ -5067,6 +5095,7 @@ traceback2
 traceroute
 tracker
 tracker-miners
+traefik
 traitlets
 tree
 trollius
