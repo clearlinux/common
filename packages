@@ -903,6 +903,7 @@ SPIRV-Tools
 SQLAlchemy
 SQLAlchemy-Utils
 SVT-AV1
+SVT-HEVC
 Sane
 Send2Trash
 Shapely
@@ -1149,7 +1150,6 @@ buildreq-R
 buildreq-cmake
 buildreq-configure
 buildreq-cpan
-buildreq-distutils
 buildreq-distutils3
 buildreq-distutils36
 buildreq-gnome
@@ -1885,7 +1885,6 @@ imapfilter
 imlib2
 importlib_metadata
 indent
-infiniband-diags
 inflection
 influxdb
 iniparse
@@ -4452,6 +4451,7 @@ portaudio
 portend
 positional
 posix_ipc
+postfix
 postgis
 postgresql
 postgresql11
@@ -5038,7 +5038,6 @@ unzip
 upm
 upower
 uritemplate
-urlgrabber
 urllib3
 usbredir
 usbutils
