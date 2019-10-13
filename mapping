@@ -52,3 +52,4 @@ compute = nova
 international_components_for_unicode = icu4c
 node.js = nodejs
 jupyter-core = jupyter_core
+flatten-json = flatten_json
