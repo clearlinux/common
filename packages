@@ -379,6 +379,7 @@ R-fail
 R-fansi
 R-fastICA
 R-fastcluster
+R-fastmap
 R-fastmatch
 R-fauxpas
 R-fda
@@ -1174,7 +1175,6 @@ ca-certs-static
 cabextract
 cached-property
 cachetools
-caffe
 cairo
 cairomm
 calc
@@ -1195,7 +1195,6 @@ catkin_pkg
 ccache
 ccid
 cdparanoia
-ceilometer
 ceph
 ceph-deploy
 certbot
@@ -1585,6 +1584,7 @@ flare-engine
 flare-game
 flatpak
 flatpak-builder
+flatten_json
 fldigi
 flex
 fllog
@@ -2185,15 +2185,7 @@ ktexteditor
 ktextwidgets
 ktimer
 ktnef
-ktp-approver
-ktp-common-internals
-ktp-contact-list
-ktp-contact-runner
 ktp-desktop-applets
-ktp-filetransfer-handler
-ktp-kded-module
-ktp-send-file
-ktp-text-ui
 ktuberling
 kturtle
 kubernetes
@@ -2500,7 +2492,6 @@ libxkbcommon
 libxkbfile
 libxklavier
 libxml2
-libxml2-legacy
 libxslt
 libyami
 libyami-utils
@@ -3404,6 +3395,7 @@ nftables
 nghttp2
 nginx
 nginx-mainline
+nginx-upload-module
 nginx_cookie_flag_module
 ngraph
 ngx_brotli
@@ -3585,7 +3577,6 @@ pathspec
 patsy
 pavucontrol
 pbr
-pbr-legacy
 pbzip2
 pciutils
 pcmanfm-qt
@@ -3756,8 +3747,10 @@ perl-Date-Manip
 perl-DateTime
 perl-DateTime-Format-Builder
 perl-DateTime-Format-DateParse
+perl-DateTime-Format-Flexible
 perl-DateTime-Format-Mail
 perl-DateTime-Format-MySQL
+perl-DateTime-Format-Natural
 perl-DateTime-Format-Pg
 perl-DateTime-Format-Strptime
 perl-DateTime-Format-W3CDTF
@@ -4745,6 +4738,7 @@ rtmpdump
 rtslib-fb
 rttr
 ruamel.yaml
+ruamel.yaml.clib
 ruby
 runc
 rust-std32
@@ -4756,6 +4750,7 @@ s3fs-fuse
 s3transfer
 sahara
 samba
+samtools
 sane-backends
 sassc
 satyr
@@ -4934,7 +4929,6 @@ tdb
 telemetrics-client
 telepathy-glib
 telepathy-logger
-telepathy-qt
 tempest
 tempest-lib
 template-glib
@@ -5039,6 +5033,8 @@ upm
 upower
 uritemplate
 urllib3
+usb-modeswitch
+usb-modeswitch-data
 usbredir
 usbutils
 user-agents
@@ -5226,6 +5222,8 @@ zlib
 znc
 zope.component
 zope.configuration
+zope.deferredimport
+zope.deprecation
 zope.event
 zope.exceptions
 zope.hookable
