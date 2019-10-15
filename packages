@@ -705,6 +705,7 @@ R-reshape
 R-reshape2
 R-reticulate
 R-rex
+R-rgdal
 R-rgenoud
 R-rgeos
 R-rgl
@@ -1288,6 +1289,7 @@ colcon-recursive-crawl
 colcon-ros
 colcon-test-result
 colcon-zsh
+collectd
 collectl
 colorama
 colord
@@ -1534,6 +1536,7 @@ evolution-ews
 evtest
 execnet
 exempi
+exfat-utils
 exiv2
 exo
 expat
@@ -3357,6 +3360,7 @@ mysqltcl
 mythes
 nagios-plugins
 nano
+nanoflann
 nasm
 natsort
 nautilus
@@ -3598,6 +3602,7 @@ perl-Algorithm-Diff-XS
 perl-Algorithm-Merge
 perl-Algorithm-Munkres
 perl-Alien-Build
+perl-Alien-Libxml2
 perl-Alien-m4
 perl-AnyEvent
 perl-AnyEvent-AIO
@@ -4115,6 +4120,8 @@ perl-Router-Simple
 perl-SGLMSpm
 perl-SMTP-Server
 perl-SQL-Abstract
+perl-SQL-SplitStatement
+perl-SQL-Tokenizer
 perl-SQL-Translator
 perl-SUPER
 perl-Scalar-String
