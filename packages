@@ -121,6 +121,7 @@ R-GPArotation
 R-GeneralizedHyperbolic
 R-GlobalOptions
 R-Guerry
+R-HistData
 R-Hmisc
 R-ICEbox
 R-ICS
@@ -1225,6 +1226,7 @@ clinfo
 cln
 cloc
 cloud-native-setup
+cloudflare
 cloudpickle
 clr-R-helpers
 clr-avx-tools
@@ -1306,8 +1308,6 @@ compat-efivar-soname0
 compat-enchant-soname1
 compat-fuse-soname2
 compat-gdal-soname20
-compat-gegl
-compat-gegl-0.3
 compat-glew-soname1
 compat-gmime-26
 compat-gspell-soname1
@@ -1517,7 +1517,6 @@ empy
 enchant
 enlightenment
 entrypoints
-enum34
 envs
 eog
 eog-plugins
@@ -1704,7 +1703,6 @@ gnome-contacts
 gnome-control-center
 gnome-desktop
 gnome-disk-utility
-gnome-doc-utils
 gnome-flashback
 gnome-font-viewer
 gnome-getting-started-docs
@@ -1964,9 +1962,11 @@ json-glib
 json5
 jsoncpp
 jsondiff
+jsonlines
 jsonpatch
 jsonpath-rw
 jsonpath-rw-ext
+jsonpickle
 jsonpointer
 jsonrpc-glib
 jsonschema
@@ -3563,7 +3563,6 @@ paper-icon-theme
 papi
 papirus-icon-theme
 parallel
-parameter-framework
 paramiko
 parley
 parsedatetime
@@ -4569,6 +4568,7 @@ python-coveralls
 python-crfsuite
 python-dateutil
 python-designateclient
+python-digitalocean
 python-distutils-extra
 python-editor
 python-future
@@ -4597,7 +4597,6 @@ python-perf
 python-pkgconfig
 python-pocketlint
 python-polib
-python-rpm-legacypython
 python-saharaclient
 python-senlinclient
 python-slip
@@ -4935,7 +4934,6 @@ tcpdump
 tdb
 telemetrics-client
 telepathy-glib
-telepathy-logger
 tempest
 tempest-lib
 template-glib
@@ -5100,6 +5098,7 @@ wget
 wheel
 wheelhouse-uploader
 which
+whitespace
 whois
 widgetsnbextension
 wine
@@ -5214,7 +5213,6 @@ yelp
 yelp-tools
 yelp-xsl
 ytnef
-yum-metadata-parser
 zVMCloudConnector
 zake
 zathura
