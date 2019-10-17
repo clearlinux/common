@@ -4478,6 +4478,7 @@ prometheus_client
 prompt_toolkit
 protobuf
 protobuf-c
+psensor
 psmisc
 psstop
 psutil
