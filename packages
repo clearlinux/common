@@ -1308,6 +1308,7 @@ compat-efivar-soname0
 compat-enchant-soname1
 compat-fuse-soname2
 compat-gdal-soname20
+compat-gdbm-soname4
 compat-glew-soname1
 compat-gmime-26
 compat-gspell-soname1
@@ -2558,6 +2559,7 @@ lua52
 lualgi
 luarocks
 lutris
+luv
 lv2
 lxml
 lxqt-about
