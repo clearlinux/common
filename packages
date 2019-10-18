@@ -2261,6 +2261,7 @@ libatomic_ops
 libavtp
 libb64
 libblockdev
+libbpf
 libburn
 libbytesize
 libcanberra
@@ -3626,6 +3627,7 @@ perl-Audio-Scan
 perl-Audio-Wav
 perl-Authen-NTLM
 perl-Authen-SASL
+perl-B-COW
 perl-B-Hooks-EndOfScope
 perl-B-Hooks-OP-Check
 perl-B-Keywords
@@ -3754,6 +3756,7 @@ perl-DateTime
 perl-DateTime-Format-Builder
 perl-DateTime-Format-DateParse
 perl-DateTime-Format-Flexible
+perl-DateTime-Format-ISO8601
 perl-DateTime-Format-Mail
 perl-DateTime-Format-MySQL
 perl-DateTime-Format-Natural
