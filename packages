@@ -47,6 +47,7 @@ ModemManager
 MonkeyType
 MuseScore
 NetworkManager
+NetworkManager-l2tp
 NetworkManager-openconnect
 NetworkManager-openvpn
 NetworkManager-vpnc
@@ -2424,6 +2425,7 @@ libqtxdg
 libqxp
 libratbag
 librdkafka
+librealsense
 libreoffice
 librepo
 librevenge
@@ -2639,6 +2641,7 @@ mkl-dnn
 mkosi
 mlocate
 mlt
+mmc-utils
 mobile-broadband-provider-info
 mock
 mod_wsgi
@@ -4630,6 +4633,7 @@ pywbem
 pyxattr
 pyxdg
 pyzmq
+qalculate-gtk
 qbittorrent
 qca-qt5
 qemu
