@@ -1074,6 +1074,7 @@ autofs
 autogen
 automake
 automaton
+avahi
 awesome-wm
 awscli
 axel
@@ -1645,6 +1646,7 @@ geary
 gedit
 geeqie
 gegl
+gengetopt
 gensim
 geocam-v4l2
 geoclue
@@ -1780,6 +1782,7 @@ grig
 grilo
 grilo-plugins
 groff
+grpc
 grpcio
 grub
 gsequencer
@@ -2502,6 +2505,7 @@ libxml2
 libxslt
 libyami
 libyami-utils
+libyubikey
 libzapojit
 libzip
 libzmf
@@ -4588,6 +4592,7 @@ python-heatclient
 python-hwinfo
 python-kconfiglib
 python-keystoneclient
+python-ldap
 python-magic
 python-magnumclient
 python-manilaclient
@@ -5222,6 +5227,7 @@ yasm
 yelp
 yelp-tools
 yelp-xsl
+ykclient
 ytnef
 zVMCloudConnector
 zake
