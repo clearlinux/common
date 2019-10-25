@@ -201,6 +201,7 @@ R-TSP
 R-TTR
 R-TeachingDemos
 R-Unicode
+R-UsingR
 R-VGAM
 R-VGAMdata
 R-VIM
@@ -2435,6 +2436,7 @@ librdkafka
 librealsense
 libreoffice
 librepo
+libreswan
 librevenge
 librsvg
 librtlsdr
@@ -5191,6 +5193,7 @@ xinput
 xkbcomp
 xkeyboard-config
 xkill
+xl2tpd
 xlog
 xmlb
 xmlrpc-c
