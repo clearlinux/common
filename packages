@@ -1497,6 +1497,7 @@ dtopt
 dulwich
 dunst
 duperemove
+dvisvgm
 dwarves
 dyskctl
 e2fsprogs
@@ -1509,6 +1510,7 @@ efibootmgr
 efitools
 efivar
 efl
+eid-mw
 eigen
 elasticsearch
 elasticsearch-dep
@@ -5090,6 +5092,7 @@ vino
 virt-manager
 virt-viewer
 virtualenv
+vkd3d
 vlc
 volk
 volume_key
