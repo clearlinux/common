@@ -1500,6 +1500,7 @@ dunst
 duperemove
 dvisvgm
 dwarves
+dxvk
 dyskctl
 e2fsprogs
 earlyapp
@@ -2632,6 +2633,7 @@ mesa-demos
 meson
 messagelib
 metacity
+metis
 metrics-discovery
 micro-config-drive
 micro-config-drive-aws
