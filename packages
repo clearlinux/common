@@ -1401,6 +1401,7 @@ cve-bin-tool
 cxxfilt
 cycler
 cyrus-sasl
+d9vk
 dapl
 darkflow
 darktable
@@ -2177,6 +2178,7 @@ kpty
 kqtquickcharts
 krb5
 krdc
+krest
 kreversi
 krita
 kross
@@ -2548,6 +2550,7 @@ linux-steam-integration
 linux-tools
 linuxptp
 lksctp-tools
+lldb
 llfuse
 llvm
 llvm8
@@ -3715,6 +3718,8 @@ perl-Compress-Raw-Lzma
 perl-Config-Any
 perl-Config-General
 perl-Config-Grammar
+perl-Config-INI
+perl-Config-INI-Reader-Ordered
 perl-Config-IniFiles
 perl-Config-Std
 perl-Config-Tiny
@@ -3785,6 +3790,7 @@ perl-DateTime-Locale
 perl-DateTime-TimeZone
 perl-Devel-ArgNames
 perl-Devel-CallChecker
+perl-Devel-Caller
 perl-Devel-CheckBin
 perl-Devel-CheckLib
 perl-Devel-CheckOS
@@ -3794,6 +3800,7 @@ perl-Devel-Cycle
 perl-Devel-EnforceEncapsulation
 perl-Devel-GlobalDestruction
 perl-Devel-Hide
+perl-Devel-LexAlias
 perl-Devel-OverloadInfo
 perl-Devel-PatchPerl
 perl-Devel-Refactor
@@ -4017,6 +4024,7 @@ perl-Math-Vec
 perl-Memoize-ExpireLRU
 perl-Meta-Builder
 perl-Minion
+perl-Mixin-Linewise
 perl-Mock-Config
 perl-Modern-Perl
 perl-Module-Build
@@ -4135,6 +4143,7 @@ perl-Redis
 perl-Ref-Util
 perl-Ref-Util-XS
 perl-Regexp-Common
+perl-Reply
 perl-Return-MultiLevel
 perl-Role-Basic
 perl-Role-Tiny
