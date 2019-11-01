@@ -1793,7 +1793,6 @@ grilo-plugins
 groff
 grpc
 grpcio
-grub
 gsequencer
 gsettings-desktop-schemas
 gsl
@@ -1831,7 +1830,6 @@ hamlib
 hammock
 haproxy
 hardinfo
-hardlink
 harfbuzz
 haskell-random
 haveged
@@ -3694,6 +3692,7 @@ perl-Class-Data-Accessor
 perl-Class-Data-Inheritable
 perl-Class-ErrorHandler
 perl-Class-Factory-Util
+perl-Class-ISA
 perl-Class-Inspector
 perl-Class-Load
 perl-Class-Load-XS
@@ -3758,6 +3757,7 @@ perl-DBIx-DBSchema
 perl-DBIx-Simple
 perl-Data-Alias
 perl-Data-Compare
+perl-Data-Denter
 perl-Data-Dump
 perl-Data-Dumper-Concise
 perl-Data-Dumper-Simple
@@ -3772,6 +3772,7 @@ perl-Data-Random
 perl-Data-Section
 perl-Data-Serializer
 perl-Data-Structure-Util
+perl-Data-Taxi
 perl-Data-Uniqid
 perl-Data-Validate-IP
 perl-Date-Manip
@@ -3788,6 +3789,7 @@ perl-DateTime-Format-Strptime
 perl-DateTime-Format-W3CDTF
 perl-DateTime-Locale
 perl-DateTime-TimeZone
+perl-Debug-ShowStuff
 perl-Devel-ArgNames
 perl-Devel-CallChecker
 perl-Devel-Caller
@@ -4087,12 +4089,14 @@ perl-NetPacket
 perl-Number-Bytes-Human
 perl-Number-Compare
 perl-Number-Format
+perl-Number-Misc
 perl-Number-WithError
 perl-Object-Accessor
 perl-Object-Signature
 perl-PDF-API2
 perl-PDF-Table
 perl-PDF-Writer
+perl-PHP-Serialization
 perl-POD2-Base
 perl-POE
 perl-POE-Test-Loops
@@ -4149,7 +4153,7 @@ perl-Role-Basic
 perl-Role-Tiny
 perl-Roman
 perl-Router-Simple
-perl-SGLMSpm
+perl-SGMLS
 perl-SMTP-Server
 perl-SQL-Abstract
 perl-SQL-SplitStatement
@@ -4159,6 +4163,8 @@ perl-SUPER
 perl-Scalar-String
 perl-Scope-Guard
 perl-Scope-Upper
+perl-Sereal-Decoder
+perl-Sereal-Encoder
 perl-Set-Object
 perl-Set-Scalar
 perl-Smart-Comments
@@ -4180,6 +4186,7 @@ perl-String-Expand
 perl-String-Format
 perl-String-Random
 perl-String-Similarity
+perl-String-Util
 perl-Struct-Dumb
 perl-Sub-Exporter
 perl-Sub-Exporter-ForMethods
@@ -4250,6 +4257,7 @@ perl-Test-Strict
 perl-Test-Synopsis
 perl-Test-TCP
 perl-Test-Taint
+perl-Test-Toolbox
 perl-Test-Trap
 perl-Test-UseAllModules
 perl-Test-Warn
@@ -4315,6 +4323,7 @@ perl-Want
 perl-X11-IdleTime
 perl-X11-Protocol
 perl-XML-Atom
+perl-XML-Dumper
 perl-XML-Feed
 perl-XML-Filter-BufferText
 perl-XML-Handler-Trees
