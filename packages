@@ -1335,6 +1335,7 @@ compat-libidn-soname11
 compat-libnftnl-soname7
 compat-libpng-soname12
 compat-libva-soname1
+compat-libvpx-soname5
 compat-libwebp-soname6
 compat-llvm-soname5
 compat-llvm-soname6
@@ -3405,6 +3406,7 @@ netbase
 netcdf
 netdata
 netdisco
+nethogs
 netifaces
 netkit-telnet
 netlabel_tools
@@ -3660,6 +3662,7 @@ perl-Business-ISBN
 perl-Business-ISBN-Data
 perl-Business-ISMN
 perl-Business-ISSN
+perl-CBOR-XS
 perl-CDDB-File
 perl-CGI
 perl-CGI-Compile
@@ -4009,6 +4012,7 @@ perl-MIME-Charset
 perl-MIME-Types
 perl-MLDBM
 perl-MRO-Compat
+perl-Mail-Mailer
 perl-Mail-POP3Client
 perl-Math-Base-Convert
 perl-Math-Base36
@@ -4163,6 +4167,7 @@ perl-SUPER
 perl-Scalar-String
 perl-Scope-Guard
 perl-Scope-Upper
+perl-Sereal
 perl-Sereal-Decoder
 perl-Sereal-Encoder
 perl-Set-Object
@@ -4359,7 +4364,9 @@ perl-common-sense
 perl-constant-defer
 perl-curry
 perl-gettext
+perl-inc-latest
 perl-indirect
+perl-latest
 perl-libwww-perl
 perl-local-lib
 perl-multidimensional
@@ -4952,6 +4959,7 @@ swupd-overdue
 swupd-probe
 swupd-search
 sxhkd
+sxiv
 sympy
 syndication
 synergy
