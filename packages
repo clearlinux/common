@@ -1875,6 +1875,7 @@ ias
 iasimage
 ibus
 ibus-libpinyin
+ibus-skk
 ibus-table
 ibus-typing-booster
 ibus-unikey
@@ -2276,6 +2277,7 @@ libavtp
 libb64
 libblockdev
 libbpf
+libbsd
 libburn
 libbytesize
 libcanberra
@@ -2453,6 +2455,7 @@ libsecret
 libshout
 libsigc++
 libsigsegv
+libskk
 libsmbios
 libsmi
 libsndfile
@@ -3483,6 +3486,7 @@ okular
 olefile
 onig
 onnx
+opa-fm
 opa-psm2
 opcodes
 open-iscsi
@@ -3963,8 +3967,11 @@ perl-IPC-Run3
 perl-IPC-ShareLite
 perl-IPC-Shareable
 perl-IPC-System-Simple
+perl-Image-Base
 perl-Image-Info
 perl-Image-Size
+perl-Image-Xbm
+perl-Image-Xpm
 perl-Import-Into
 perl-Importer
 perl-Inline
@@ -4009,11 +4016,14 @@ perl-MIME-Base32
 perl-MIME-Base64
 perl-MIME-Base64-URLSafe
 perl-MIME-Charset
+perl-MIME-Lite
 perl-MIME-Types
 perl-MLDBM
 perl-MRO-Compat
 perl-Mail-Mailer
 perl-Mail-POP3Client
+perl-Mail-Sender
+perl-Mail-Sendmail
 perl-Math-Base-Convert
 perl-Math-Base36
 perl-Math-BigInt-GMP
@@ -4065,6 +4075,7 @@ perl-MooseX-Types-JSON
 perl-MooseX-Types-LoadableClass
 perl-MooseX-Types-Path-Class
 perl-Mozilla-CA
+perl-Net-AMQP
 perl-Net-Bluetooth
 perl-Net-CIDR-Lite
 perl-Net-DBus
@@ -4328,6 +4339,7 @@ perl-Want
 perl-X11-IdleTime
 perl-X11-Protocol
 perl-XML-Atom
+perl-XML-DOM
 perl-XML-Dumper
 perl-XML-Feed
 perl-XML-Filter-BufferText
@@ -4339,6 +4351,7 @@ perl-XML-Parser
 perl-XML-Parser-Lite
 perl-XML-RSS
 perl-XML-RSS-LibXML
+perl-XML-RegExp
 perl-XML-SAX
 perl-XML-SAX-Base
 perl-XML-SAX-Expat
@@ -4368,6 +4381,7 @@ perl-inc-latest
 perl-indirect
 perl-latest
 perl-libwww-perl
+perl-libxml-perl
 perl-local-lib
 perl-multidimensional
 perl-namespace-autoclean
