@@ -3,6 +3,7 @@ AVBStreamHandler
 Babel
 Botan
 CGAL
+CGNS
 CUnit
 Cheetah3
 CherryPy
@@ -5115,6 +5116,7 @@ usermode
 userspace-rcu
 usrbinpython
 usrbinvi
+utf8cpp
 util-linux
 util-macros
 uwsgi
