@@ -58,6 +58,7 @@ OpenColorIO
 OpenIPMI
 OpenSP
 PackageKit
+ParaView
 Paste
 PasteDeploy
 Pillow
@@ -2665,6 +2666,7 @@ mlt
 mmc-utils
 mobile-broadband-provider-info
 mock
+mod_perl
 mod_wsgi
 modemmanager-qt
 moka-icon-theme
@@ -3477,6 +3479,7 @@ nvmetcli
 oath-toolkit
 oauth2client
 oauthlib
+obs-studio
 ocaml
 ocamlbuild
 ocl-icd
@@ -5198,6 +5201,7 @@ xcb-util-xrm
 xclip
 xcursor-themes
 xcursorgen
+xdg-dbus-proxy
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 xdg-desktop-portal-kde
