@@ -4588,6 +4588,7 @@ pydotplus
 pyeclib
 pyecobee
 pyee
+pyelftools
 pyemd
 pyenchant
 pyflakes
