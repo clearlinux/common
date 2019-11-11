@@ -215,7 +215,7 @@ autospecnew: preautospecnew-checks localreponotice
 			--name $(NAME) \
 			--archives $(ARCHIVES) \
 			--mock-config $(MOCK_CONFIG_VAL) \
-			--mock-opts "$(MOCK_OPTS)" \
+			--mock-opts="$(MOCK_OPTS)" \
 			$${SETVERSION:+ --version $${SETVERSION}} \
 			${NON_INTERACTIVE} ${SKIP_GIT} ${CLEANUP} \
 			$(URL); \

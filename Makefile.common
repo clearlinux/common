@@ -172,7 +172,7 @@ autospec: preautospec-checks pullrebase localreponotice clean-old-content
 		--name $(PKG_NAME) \
 		--archives $(ARCHIVES) \
 		--mock-config $(MOCK_CONFIG_VAL) \
-		--mock-opts "$(MOCK_OPTS)" \
+		--mock-opts="$(MOCK_OPTS)" \
 		$${SETVERSION:+ --version $${SETVERSION}} \
 		$${NON_INTERACTIVE:+ --non_interactive} \
 		$${SKIP_GIT:+ --skip-git} \
