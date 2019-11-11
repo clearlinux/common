@@ -648,6 +648,7 @@ R-polycor
 R-polynom
 R-prabclus
 R-pracma
+R-prais
 R-praise
 R-prefmod
 R-prettyunits
@@ -880,6 +881,7 @@ R-whisker
 R-whoami
 R-wikitaxa
 R-withr
+R-wooldridge
 R-worrms
 R-xfun
 R-xml2
