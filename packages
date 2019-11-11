@@ -805,6 +805,7 @@ R-spelling
 R-spls
 R-stable
 R-stabledist
+R-stargazer
 R-startupmsg
 R-statip
 R-statmod
@@ -1195,6 +1196,7 @@ cantarell-fonts
 cantata
 cantor
 capnproto
+capstone
 caribou
 case
 cassandra
@@ -4991,6 +4993,7 @@ systemd
 systemd-bootchart
 systemd-netlogd
 systemsettings
+systemtap
 taglib
 talloc
 tallow
@@ -5117,6 +5120,7 @@ user-agents
 user-manager
 usermode
 userspace-rcu
+usrbinjava
 usrbinpython
 usrbinvi
 utf8cpp
