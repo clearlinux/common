@@ -1029,6 +1029,7 @@ appstream
 appstream-glib
 apr
 apr-util
+apriltag
 arandr
 arc-theme
 argcomplete
@@ -1366,6 +1367,7 @@ configobj
 configparser
 confuse
 conky
+conmon
 connect-proxy
 connman
 connman-gtk
@@ -2116,6 +2118,7 @@ kidletime
 kig
 kigo
 killbots
+kim-api
 kimageformats
 kimagemapeditor
 kimap
@@ -3527,6 +3530,7 @@ openstackdocstheme
 openstacksdk
 openvpn
 openvswitch
+opt_einsum
 optipng
 opus
 opusfile
@@ -3643,6 +3647,7 @@ perl-AnyEvent
 perl-AnyEvent-AIO
 perl-AnyEvent-CacheDNS
 perl-Apache-Htpasswd
+perl-Apache-LogFormat-Compiler
 perl-Apache-Session
 perl-App-cpanminus
 perl-App-perlbrew
@@ -3678,6 +3683,7 @@ perl-CBOR-XS
 perl-CDDB-File
 perl-CGI
 perl-CGI-Compile
+perl-CGI-Emulate-PSGI
 perl-CGI-Simple
 perl-CPAN-Changes
 perl-CPAN-DistnameInfo
@@ -3770,6 +3776,7 @@ perl-DBIx-Connector
 perl-DBIx-ContextualFetch
 perl-DBIx-DBSchema
 perl-DBIx-Simple
+perl-DB_File
 perl-Data-Alias
 perl-Data-Compare
 perl-Data-Denter
@@ -3908,6 +3915,7 @@ perl-Future
 perl-Future-IO-ImplBase
 perl-GD-Barcode
 perl-GIS-Distance
+perl-GSSAPI
 perl-Geo-Distance
 perl-Geo-IP
 perl-Geo-IPfree
@@ -4060,6 +4068,7 @@ perl-Module-Implementation
 perl-Module-Install
 perl-Module-List
 perl-Module-Pluggable
+perl-Module-Refresh
 perl-Module-Runtime
 perl-Module-Runtime-Conflicts
 perl-Module-ScanDeps
@@ -4154,6 +4163,7 @@ perl-PerlIO-gzip
 perl-PerlIO-utf8_strict
 perl-PerlIO-via-Timeout
 perl-PlRPC
+perl-Plack
 perl-Pod-Constants
 perl-Pod-Coverage
 perl-Pod-LaTeX
