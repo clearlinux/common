@@ -21,7 +21,8 @@ RPMS ?= $(LATEST_RPMS)
 WITH_SUDO = $(shell cmp /usr/bin/mock /usr/sbin/mock &> /dev/null && echo sudo )
 
 # MOCK_CONFIG_VAL is set in Makefile.shared
-MOCK ?= $(WITH_SUDO) /usr/bin/mock -r $(MOCK_CONFIG_VAL) $(MOCK_OPTS)
+MOCK_SMP_FLAGS=$(patsubst -j%, -D_smp_mflags\ -j%,$(filter -j%, $(MAKEFLAGS)))
+MOCK ?= $(WITH_SUDO) /usr/bin/mock -r $(MOCK_CONFIG_VAL) $(MOCK_SMP_FLAGS) $(MOCK_OPTS)
 
 ifneq ($(wildcard upstream),)
 __allsources := $(notdir $(strip $(shell cat upstream)))
@@ -172,7 +173,7 @@ autospec: preautospec-checks pullrebase localreponotice clean-old-content
 		--name $(PKG_NAME) \
 		--archives $(ARCHIVES) \
 		--mock-config $(MOCK_CONFIG_VAL) \
-		--mock-opts="$(MOCK_OPTS)" \
+		--mock-opts="$(MOCK_SMP_FLAGS) $(MOCK_OPTS)" \
 		$${SETVERSION:+ --version $${SETVERSION}} \
 		$${NON_INTERACTIVE:+ --non_interactive} \
 		$${SKIP_GIT:+ --skip-git} \
