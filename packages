@@ -3645,6 +3645,7 @@ perl-Alien-Libxml2
 perl-Alien-m4
 perl-AnyEvent
 perl-AnyEvent-AIO
+perl-AnyEvent-BDB
 perl-AnyEvent-CacheDNS
 perl-Apache-Htpasswd
 perl-Apache-LogFormat-Compiler
