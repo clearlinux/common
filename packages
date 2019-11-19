@@ -830,6 +830,7 @@ R-tclust
 R-tensor
 R-tensorA
 R-tensorflow
+R-tesseract
 R-testit
 R-testthat
 R-texreg
@@ -2274,6 +2275,7 @@ libXxf86misc
 libabigail
 libabw
 libaio
+libao
 libappindicator
 libarchive
 libarchive-c
@@ -4560,6 +4562,7 @@ protobuf
 protobuf-c
 psensor
 psmisc
+pspp
 psstop
 psutil
 psycopg2
@@ -4956,6 +4959,7 @@ sshfs
 sshpass
 ssocr
 sssd
+ssw
 stack
 startup-notification
 statsd
