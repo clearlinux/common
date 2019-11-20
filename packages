@@ -1430,7 +1430,6 @@ ddd
 ddt
 deap
 debtcollector
-debugedit
 debuginfo-cache
 decorator
 defusedxml
@@ -2652,6 +2651,7 @@ metacity
 metis
 metrics-discovery
 micro-config-drive
+micro-config-drive-aliyun
 micro-config-drive-aws
 micro-config-drive-oci
 microversion_parse
