@@ -3652,6 +3652,7 @@ perl-AnyEvent-CacheDNS
 perl-Apache-Htpasswd
 perl-Apache-LogFormat-Compiler
 perl-Apache-Session
+perl-App-Nopaste
 perl-App-cpanminus
 perl-App-perlbrew
 perl-AppConfig
@@ -3701,6 +3702,7 @@ perl-Cairo-GObject
 perl-Calendar-Simple
 perl-Canary-Stability
 perl-Capture-Tiny
+perl-Carp-Always
 perl-Carp-Assert
 perl-Carp-Assert-More
 perl-Carp-Clan
@@ -3724,6 +3726,7 @@ perl-Class-Measure
 perl-Class-Method-Modifiers
 perl-Class-MethodMaker
 perl-Class-Mix
+perl-Class-Refresh
 perl-Class-ReturnValue
 perl-Class-Singleton
 perl-Class-Std
@@ -3829,6 +3832,7 @@ perl-Devel-GlobalDestruction
 perl-Devel-Hide
 perl-Devel-LexAlias
 perl-Devel-OverloadInfo
+perl-Devel-OverrideGlobalRequire
 perl-Devel-PatchPerl
 perl-Devel-Refactor
 perl-Devel-Size
@@ -3934,6 +3938,7 @@ perl-Gtk3-WebKit
 perl-Guard
 perl-HTML-Clean
 perl-HTML-Encoding
+perl-HTML-Form
 perl-HTML-HTML5-Entities
 perl-HTML-Lint
 perl-HTML-Parser
@@ -3942,6 +3947,7 @@ perl-HTML-StripScripts
 perl-HTML-TableExtract
 perl-HTML-Tagset
 perl-HTML-Tiny
+perl-HTML-TreeBuilder
 perl-HTTP-Body
 perl-HTTP-CookieJar
 perl-HTTP-Cookies
@@ -3954,6 +3960,7 @@ perl-HTTP-MultiPartParser
 perl-HTTP-Negotiate
 perl-HTTP-Parser-XS
 perl-HTTP-Request-AsCGI
+perl-HTTP-Server-Simple
 perl-Hash-Flatten
 perl-Hash-Merge
 perl-Hash-MoreUtils
@@ -4011,6 +4018,7 @@ perl-Library-CallNumber-LC
 perl-Lingua-EN-Inflect
 perl-Lingua-EN-Inflect-Number
 perl-Lingua-Translit
+perl-Linux-Pid
 perl-List-AllUtils
 perl-List-Compare
 perl-List-MoreUtils
@@ -4175,6 +4183,7 @@ perl-Pod-Plainer
 perl-Pod-Spell
 perl-Pod-Strip
 perl-PostScript-File
+perl-Proc-InvokeEditor
 perl-Proc-Wait3
 perl-Protocol-OSC
 perl-Quota
@@ -4355,6 +4364,7 @@ perl-Unicode-Map
 perl-Variable-Magic
 perl-WWW-Form-UrlEncoded
 perl-WWW-Form-UrlEncoded-XS
+perl-WWW-Mechanize
 perl-WWW-RobotRules
 perl-Want
 perl-X11-IdleTime
