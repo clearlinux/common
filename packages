@@ -1789,6 +1789,7 @@ gpm
 gpredict
 gptfdisk
 gradle
+gramps
 granatier
 grantlee
 grantleetheme
@@ -3792,6 +3793,7 @@ perl-Data-Dump
 perl-Data-Dumper-Concise
 perl-Data-Dumper-Simple
 perl-Data-Float
+perl-Data-Flow
 perl-Data-Integer
 perl-Data-Munge
 perl-Data-OptList
