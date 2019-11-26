@@ -4326,6 +4326,7 @@ perl-Text-Diff
 perl-Text-FindIndent
 perl-Text-Format
 perl-Text-Glob
+perl-Text-Haml
 perl-Text-Levenshtein
 perl-Text-Levenshtein-Damerau
 perl-Text-Markdown
