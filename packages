@@ -1184,6 +1184,7 @@ buildreq-qmake
 buildreq-scons
 bundle-chroot-builder
 bwidget
+byobu
 bz2file
 bzip2
 c-ares
@@ -3969,6 +3970,7 @@ perl-Hash-Flatten
 perl-Hash-Merge
 perl-Hash-MoreUtils
 perl-Hash-MultiValue
+perl-Hook-LexWrap
 perl-I18N-Charset
 perl-IO-AIO
 perl-IO-All
@@ -4148,6 +4150,7 @@ perl-POD2-Base
 perl-POE
 perl-POE-Test-Loops
 perl-POSIX-strftime-Compiler
+perl-PPI
 perl-Package-Constants
 perl-Package-DeprecationManager
 perl-Package-Generator
@@ -4258,6 +4261,7 @@ perl-System-Command
 perl-TAP-Formatter-HTML
 perl-TAP-Harness-Archive
 perl-Taint-Util
+perl-Task-Weaken
 perl-Template-Toolkit
 perl-Term-ProgressBar
 perl-Term-ReadKey
@@ -4294,6 +4298,7 @@ perl-Test-Needs
 perl-Test-NeedsDisplay
 perl-Test-NoWarnings
 perl-Test-Number-Delta
+perl-Test-Object
 perl-Test-Output
 perl-Test-Pod
 perl-Test-Pod-Coverage
@@ -4304,6 +4309,7 @@ perl-Test-RequiresInternet
 perl-Test-SharedFork
 perl-Test-Simple
 perl-Test-Strict
+perl-Test-SubCalls
 perl-Test-Synopsis
 perl-Test-TCP
 perl-Test-Taint
@@ -4399,6 +4405,7 @@ perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
 perl-XML-XPathEngine
+perl-XString
 perl-YAML
 perl-YAML-LibYAML
 perl-YAML-Syck
