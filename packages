@@ -1068,7 +1068,6 @@ at-spi2-atk
 at-spi2-core
 atk
 atkmm
-atom
 atomicwrites
 attica
 attr
@@ -3524,7 +3523,6 @@ openexr
 openjade
 openjdk
 openjdk11
-openjdk12
 openjdk13
 openldap
 openmpi
@@ -5328,7 +5326,6 @@ yaml-cpp
 yappi
 yarg
 yarl
-yarn
 yasm
 yelp
 yelp-tools
