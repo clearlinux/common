@@ -1139,6 +1139,7 @@ bluedevil
 bluez
 bluez-qt
 bmap-tools
+bmon
 bndl-lamp-basic
 boinc-client
 bokeh
@@ -5335,6 +5336,7 @@ ytnef
 zVMCloudConnector
 zake
 zathura
+zathura-pdf-poppler
 zc.lockfile
 zenity
 zeroconf
