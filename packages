@@ -1361,6 +1361,7 @@ compat-openssl-soname-10
 compat-proj-soname13
 compat-protobuf-soname14
 compat-protobuf-soname15
+compat-protobuf-soname21
 compat-python36
 compat-readline
 compat-readline-soname5
@@ -1369,7 +1370,6 @@ component
 compute-image-packages
 conda
 configobj
-configparser
 confuse
 conky
 conmon
@@ -4724,6 +4724,7 @@ python-zaqarclient
 python-zeep
 python-zstandard
 python3
+python37
 pytools
 pytorch
 pytz
