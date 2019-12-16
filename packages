@@ -3411,6 +3411,7 @@ nautilus
 nbconvert
 nbformat
 nbsphinx
+nbval
 ncdu
 ncurses
 ncurses-compat
