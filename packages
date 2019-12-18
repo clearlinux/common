@@ -339,6 +339,7 @@ R-drc
 R-dtplyr
 R-dtw
 R-dygraphs
+R-dynamicTreeCut
 R-dynlm
 R-e1071
 R-eRm
@@ -1218,6 +1219,7 @@ ccid
 cdparanoia
 ceph
 ceph-deploy
+cereal
 certbot
 certifi
 cffi
