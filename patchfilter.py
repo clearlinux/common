@@ -287,6 +287,7 @@ def main():
     zap_line_in_file("b/options.conf", "# disable parallelization during build")
     zap_line_in_file("b/options.conf", "broken_parallel_build = false")
     zap_line_in_file("b/options.conf", "# this package is a library compatability package and only ships versioned library files")
+    zap_line_in_file("b/options.conf", "# this package is a library compatibility package and only ships versioned library files")
     zap_line_in_file("b/options.conf", "compat = false")
     zap_line_in_file("b/options.conf", "# set conservative build flags")
     zap_line_in_file("b/options.conf", "conservative_flags = false")
@@ -324,6 +325,8 @@ def main():
     zap_line_in_file("b/options.conf", "use_lto = false")
     zap_line_in_file("b/options.conf", "# require package verification for build")
     zap_line_in_file("b/options.conf", "verify_required = true")
+    zap_line_in_file("b/options.conf", "# do not generate debuginfo for this package")
+    zap_line_in_file("b/options.conf", "+nodebug = false")
 
     zap_line_in_file("b/buildreq_add", "# This file contains additional build requirements that did not get")
     zap_line_in_file("b/buildreq_add", "# picked up automatically. One name per line, no whitespace.")
@@ -349,6 +352,8 @@ def main():
     zap_plus_line_in_file("symbols32")
 
     zap_entire_file("b/whatrequires")
+    zap_entire_file("b/versions")
+    zap_entire_file("b/.gitignore")
 
     zap_empty_chunks()
     
