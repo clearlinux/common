@@ -1121,6 +1121,7 @@ bazel
 bc
 bcache-tools
 bcc
+bcftools
 bcrypt
 bdftopcf
 beautifulsoup4
@@ -1870,6 +1871,7 @@ hostname
 hplip
 html5lib
 htop
+htslib
 httpd
 httplib2
 httpretty
