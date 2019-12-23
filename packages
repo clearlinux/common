@@ -5061,6 +5061,7 @@ tempora
 tenacity
 tensorboard
 tensorflow
+tensorflow-addons
 tensorflow-estimator
 tensorflow-probability
 tensorflow-serving
