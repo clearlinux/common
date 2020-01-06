@@ -2352,8 +2352,6 @@ libgee
 libgeotiff
 libgepub
 libgfortran-avx
-libgfortran-compat-soname3
-libgfortran-compat-soname4
 libgit2
 libgit2-glib
 libglade
