@@ -1358,7 +1358,6 @@ compat-llvm-soname7
 compat-mariadb-soname18
 compat-mpfr-soname4
 compat-nettle-soname6
-compat-openssl-soname-10
 compat-proj-soname13
 compat-protobuf-soname14
 compat-protobuf-soname15
@@ -1469,6 +1468,7 @@ django_compressor
 dkms
 dldt
 dldt-model-optimizer
+dlib
 dlt-daemon
 dmap2gcode
 dmenu
@@ -3927,6 +3927,7 @@ perl-FreezeThaw
 perl-Frontier-RPC
 perl-Future
 perl-Future-IO-ImplBase
+perl-GD
 perl-GD-Barcode
 perl-GIS-Distance
 perl-GSSAPI
@@ -4285,6 +4286,7 @@ perl-Test-FailWarnings
 perl-Test-Fatal
 perl-Test-File
 perl-Test-File-ShareDir-Dist
+perl-Test-Fork
 perl-Test-Identity
 perl-Test-Inter
 perl-Test-LeakTrace
@@ -4985,6 +4987,7 @@ sshpass
 ssocr
 sssd
 ssw
+stacer
 stack
 startup-notification
 statsd
@@ -5338,6 +5341,7 @@ yelp-xsl
 ykclient
 ytnef
 zVMCloudConnector
+zabbix
 zake
 zathura
 zathura-pdf-poppler
