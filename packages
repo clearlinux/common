@@ -605,6 +605,7 @@ R-optextras
 R-optimx
 R-optparse
 R-ordinal
+R-pROC
 R-packrat
 R-pamr
 R-parsedate
