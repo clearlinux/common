@@ -68,10 +68,10 @@ endef
 # augmented for local repo support.
 define localrepoenable
 	@cp $(1) $(TOPLVL)/repo/yum.conf
-	@printf "\n\n[local]\nname=Local\nfailovermethod=priority\nenabled=1\ngpgcheck=0\n" >> $(TOPLVL)/repo/yum.conf
+	@printf "\n\n[local]\nname=Local\nfailovermethod=priority\nenabled=1\ngpgcheck=0\npriority=1\n" >> $(TOPLVL)/repo/yum.conf
 	@printf "baseurl=file://$$(realpath $(TOPLVL))/repo/\n\n" >> $(TOPLVL)/repo/yum.conf
 	@cp $(2) $(TOPLVL)/repo/clear.cfg
-	@printf "\n\n[localrepo]\nname=Local repo\nfailovermethod=priority\nenabled=1\ngpgcheck=0\n" >> $(TOPLVL)/repo/clear.cfg
+	@printf "\n\n[localrepo]\nname=Local repo\nfailovermethod=priority\nenabled=1\ngpgcheck=0\npriority=1\n" >> $(TOPLVL)/repo/clear.cfg
 	@printf "baseurl=file://$$(realpath $(TOPLVL))/repo/\n\n" >> $(TOPLVL)/repo/clear.cfg
 	@sed -i '/^"""/d; $$a"""' $(TOPLVL)/repo/clear.cfg
 endef
