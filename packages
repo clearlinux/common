@@ -1359,6 +1359,7 @@ compat-llvm-soname7
 compat-mariadb-soname18
 compat-mpfr-soname4
 compat-nettle-soname6
+compat-opencv-soname41
 compat-proj-soname13
 compat-protobuf-soname14
 compat-protobuf-soname15
