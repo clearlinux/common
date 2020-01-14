@@ -3679,6 +3679,7 @@ perl-Audio-Wav
 perl-Authen-NTLM
 perl-Authen-SASL
 perl-B-COW
+perl-B-Debug
 perl-B-Hooks-EndOfScope
 perl-B-Hooks-OP-Check
 perl-B-Keywords
@@ -4197,6 +4198,7 @@ perl-Pod-Spell
 perl-Pod-Strip
 perl-PostScript-File
 perl-Proc-InvokeEditor
+perl-Proc-ProcessTable
 perl-Proc-Wait3
 perl-Protocol-OSC
 perl-Quota
@@ -4237,6 +4239,7 @@ perl-Specio
 perl-Spiffy
 perl-Statistics-Basic
 perl-Statistics-CaseResampling
+perl-Storable
 perl-Stream-Buffered
 perl-String-Approx
 perl-String-CamelCase
