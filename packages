@@ -4934,6 +4934,7 @@ singledispatch
 sip
 six
 slang
+slurm
 smart_open
 smartcols
 smartmontools
