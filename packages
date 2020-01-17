@@ -180,8 +180,10 @@ R-RcmdrMisc
 R-Rcpp
 R-RcppArmadillo
 R-RcppEigen
+R-RcppGSL
 R-RcppProgress
 R-RcppRoll
+R-RcppZiggurat
 R-Rdpack
 R-Rmpfr
 R-Rmpi
@@ -2447,6 +2449,7 @@ libpinyin
 libpipeline
 libplacebo
 libpng
+libportal
 libpsl
 libpthread-stubs
 libpwquality
@@ -4877,6 +4880,7 @@ s2tc
 s3fs-fuse
 s3transfer
 sahara
+salt
 samba
 samtools
 sane-backends
