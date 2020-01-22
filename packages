@@ -1760,7 +1760,7 @@ gnome-shell-impatience
 gnome-software
 gnome-system-monitor
 gnome-terminal
-gnome-themes-standard
+gnome-themes-extra
 gnome-todo
 gnome-tweaks
 gnome-user-docs
@@ -3457,6 +3457,7 @@ nginx-mainline
 nginx-upload-module
 nginx_cookie_flag_module
 ngraph
+ngx-fancyindex
 ngx_brotli
 ngx_http_auth_pam_module
 ngx_http_enhanced_memcached_module
@@ -3639,6 +3640,7 @@ pavucontrol
 pbr
 pbzip2
 pciutils
+pcmanfm
 pcmanfm-qt
 pcre
 pcre2
@@ -4291,6 +4293,7 @@ perl-Term-UI
 perl-Test-Assertions
 perl-Test-Base
 perl-Test-CleanNamespaces
+perl-Test-Command
 perl-Test-Compile
 perl-Test-Deep
 perl-Test-Differences
