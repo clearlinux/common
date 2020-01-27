@@ -4427,6 +4427,7 @@ perl-XML-XPathEngine
 perl-XString
 perl-YAML
 perl-YAML-LibYAML
+perl-YAML-PP
 perl-YAML-Syck
 perl-YAML-Tiny
 perl-accessors
