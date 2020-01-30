@@ -3569,6 +3569,7 @@ os-xenapi
 os_vif
 osc-lib
 oset
+osinfo-db
 osinfo-db-tools
 oslo.cache
 oslo.concurrency
