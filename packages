@@ -1452,6 +1452,7 @@ dfc
 dfu-util
 dhcp
 dialog
+diff-match-patch
 diffoscope
 diffstat
 diffutils
@@ -1935,6 +1936,7 @@ intel-hybrid-driver
 intel-ipsec-mb
 intel-media-driver
 intelhex
+intervaltree
 intltool
 ioc-cbc-tools
 ioping
@@ -4970,6 +4972,7 @@ source-code-pro
 source-highlight
 sox
 spandsp
+spdlog
 spectacle
 speedtest-cli
 speex
