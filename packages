@@ -1033,6 +1033,7 @@ apache-tomcat
 apache-zookeeper
 apipkg
 appdirs
+applaunchservices
 appstream
 appstream-glib
 apr
@@ -1321,6 +1322,7 @@ collectl
 colorama
 colord
 colord-gtk
+colord-kde
 columbiad
 comedilib
 comfortaa-fonts
@@ -4999,6 +5001,7 @@ spi-tools
 spice
 spice-gtk
 spice-protocol
+spyder-ide
 spyder-notebook
 spyrk
 sqlalchemy-migrate
