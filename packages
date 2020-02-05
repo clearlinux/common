@@ -1323,6 +1323,7 @@ colorama
 colord
 colord-gtk
 colord-kde
+colordiff
 columbiad
 comedilib
 comfortaa-fonts
@@ -1460,6 +1461,7 @@ diffstat
 diffutils
 digikam
 ding-libs
+dino
 direwolf
 discover
 dist-pam-configs
@@ -2482,6 +2484,7 @@ libseccomp
 libsecret
 libshout
 libsigc++
+libsignal-protocol-c
 libsigsegv
 libskk
 libsmbios
@@ -2696,6 +2699,7 @@ mock
 mod_perl
 mod_wsgi
 modemmanager-qt
+modules
 moka-icon-theme
 mokutil
 mongodict
@@ -3495,6 +3499,7 @@ nss-pam-ldapd
 ntfs-3g
 ntl
 ntlm-auth
+ntopng
 ntp
 ntplib
 numactl
@@ -5349,6 +5354,7 @@ xscreensaver
 xsel
 xset
 xsetroot
+xss-lock
 xterm
 xtrans
 xvfb-run
