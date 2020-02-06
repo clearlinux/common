@@ -89,6 +89,7 @@ R-AmesHousing
 R-BB
 R-BBmisc
 R-BH
+R-BMA
 R-BMS
 R-BatchJobs
 R-BayesFactor
@@ -167,6 +168,7 @@ R-RCurl
 R-RInside
 R-RJSONIO
 R-RNeXML
+R-RNetCDF
 R-ROCR
 R-RProtoBuf
 R-RSQLite
@@ -591,6 +593,7 @@ R-mvoutlier
 R-mvtnorm
 R-natserv
 R-ncbit
+R-ncdf4
 R-network
 R-neuralnet
 R-nleqslv
@@ -850,6 +853,7 @@ R-tidyverse
 R-tikzDevice
 R-timeDate
 R-timeSeries
+R-tinytest
 R-tinytex
 R-tis
 R-tm
@@ -1815,6 +1819,7 @@ grep
 grig
 grilo
 grilo-plugins
+grisbi
 groff
 grpc
 grpcio
@@ -2376,6 +2381,7 @@ libgpg-error
 libgphoto2
 libgpiod
 libgravatar
+libgsf
 libgsystem
 libgtop
 libgudev
