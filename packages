@@ -94,6 +94,7 @@ R-BMS
 R-BatchJobs
 R-BayesFactor
 R-BiasedUrn
+R-BiocManager
 R-BoolNet
 R-BradleyTerry2
 R-Brobdingnag
@@ -636,6 +637,7 @@ R-phylobase
 R-phylogram
 R-phytools
 R-pillar
+R-pixmap
 R-pkgKitten
 R-pkgbuild
 R-pkgconfig
@@ -1643,6 +1645,7 @@ font-util
 fontconfig
 fontforge
 fonttools
+fortune-mod
 fossil
 frameworkintegration
 freedv
@@ -3610,6 +3613,7 @@ oslo.versionedobjects
 oslo.vmware
 oslosphinx
 oslotest
+osm-gps-map
 osprofiler
 ostree
 otp
@@ -4846,6 +4850,7 @@ re2
 re2c
 readline
 rebootmgr
+recode
 recommonmark
 redis
 redis-native
@@ -4878,6 +4883,7 @@ retype
 rfc3986
 rfc3987
 rhythmbox
+rinutils
 rjsmin
 rng-tools
 roboto
