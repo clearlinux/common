@@ -1954,6 +1954,7 @@ intervaltree
 intltool
 ioc-cbc-tools
 ioping
+ioport
 iotop
 ipaddr
 ipaddress
@@ -4606,6 +4607,7 @@ postfix
 postgis
 postgresql
 postgresql11
+postgresql12
 potrace
 povray
 powerdevil
