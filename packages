@@ -5233,6 +5233,7 @@ valgrind
 vbox-integration
 vcstool
 vcversioner
+vifm
 vim
 vim-fugitive
 vim-gnupg
