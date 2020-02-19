@@ -304,16 +304,21 @@ prekoji-checks:
 koji: prekoji-checks kojidef
 	@$(MAKE) spdxcheck
 	@$(MAKE) checkblacklist
-	@if ! git branch | grep -q -E '^\* master'; then \
+	@if [ "$$(git rev-parse --abbrev-ref HEAD)" != "master" ]; then \
 		echo "Error: Must be on the master branch to submit to koji" >&2; \
 		exit 1; \
 	fi; \
-	if ! git diff --quiet HEAD ${SPECFILE}; then \
+	if ! git diff --quiet HEAD -- ${SPECFILE}; then \
 		echo "Error: All changes to ${SPECFILE} must be committed first" >&2; \
 		exit 1; \
 	fi; \
-	if git rev-parse --verify --quiet origin/master > /dev/null; then \
+	git fetch; \
+	if git rev-parse --verify --quiet origin/master >/dev/null; then \
 		git pull --rebase; \
+	fi; \
+	if git ls-remote --tags --exit-code origin $(SRPMVERS) >/dev/null; then \
+		echo "Error: remote tag $(SRPMVERS) already exists" >&2; \
+		exit 1; \
 	fi
 	git tag $(SRPMVERS)
 	git push origin master refs/tags/$(SRPMVERS)
