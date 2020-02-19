@@ -289,6 +289,7 @@ R-cmprsk
 R-cobs
 R-coda
 R-coin
+R-collections
 R-colorspace
 R-colourpicker
 R-combinat
@@ -509,6 +510,7 @@ R-labelled
 R-laeken
 R-lambda.r
 R-languageR
+R-languageserver
 R-lars
 R-later
 R-latticeExtra
@@ -902,6 +904,7 @@ R-xfun
 R-xml2
 R-xmlparsedata
 R-xopen
+R-xptr
 R-xtable
 R-xts
 R-yaml
@@ -2215,6 +2218,7 @@ kpkpass
 kplotting
 kpty
 kqtquickcharts
+kquickcharts
 krb5
 krdc
 krest
@@ -4797,6 +4801,7 @@ qrencode
 qscintilla
 qt-creator
 qt3d
+qt5ct
 qtbase
 qtcanvas3d
 qtcharts
