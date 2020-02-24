@@ -1666,6 +1666,7 @@ fuse
 futurist
 fwupd
 fwupdate
+g2fs-utils
 gTTS-token
 gabbi
 garcon
@@ -4893,6 +4894,7 @@ rfc3987
 rhythmbox
 rinutils
 rjsmin
+rlwrap
 rng-tools
 roboto
 rofi
