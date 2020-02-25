@@ -1712,7 +1712,7 @@ gimp
 girara
 git
 git-gui
-gitdb2
+gitdb
 gitg
 gitolite
 gjs
@@ -4987,7 +4987,7 @@ slurm
 smart_open
 smartcols
 smartmontools
-smmap2
+smmap
 snabb
 snappy
 sndio
