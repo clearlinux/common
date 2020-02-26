@@ -102,7 +102,7 @@ fi
 
 required_progs() {
   local bindir="/usr/bin"
-  for f in git mock rpm rpmbuild ; do
+  for f in git mock rpm rpmbuild diffstat ; do
     [ ! -x "${bindir}/${f}" ] && missing+="${f} "
   done
   [ "$PEM" ] && [ ! -x /usr/bin/koji ] && missing+="koji "
