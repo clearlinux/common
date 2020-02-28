@@ -59,6 +59,7 @@ OpenCSG
 OpenColorIO
 OpenIPMI
 OpenSP
+Pacemaker
 PackageKit
 ParaView
 Paste
@@ -1222,6 +1223,7 @@ cantata
 cantor
 capnproto
 capstone
+capturer
 caribou
 case
 cassandra
@@ -1336,6 +1338,7 @@ colord
 colord-gtk
 colord-kde
 colordiff
+coloredlogs
 columbiad
 comedilib
 comfortaa-fonts
@@ -1402,6 +1405,7 @@ containerd
 contextlib2
 cookies
 coreutils
+corosync
 coturn
 cotyledon
 cov-core
@@ -1435,13 +1439,13 @@ cve-bin-tool
 cxxfilt
 cycler
 cyrus-sasl
-d9vk
 dapl
 darkflow
 darktable
 dash-to-dock
 dask
 datefudge
+dav1d
 db
 dbus
 dbus-broker
@@ -1491,6 +1495,7 @@ dkms
 dldt
 dldt-model-optimizer
 dlib
+dlm
 dlt-daemon
 dmap2gcode
 dmenu
@@ -1900,6 +1905,7 @@ httplib2
 httpretty
 hub
 hugo
+humanfriendly
 hunspell
 hwloc
 hyperscan
@@ -2226,6 +2232,7 @@ krdc
 krest
 kreversi
 krita
+kronosnet
 kross
 kruler
 krunner
@@ -2520,6 +2527,7 @@ libsrtp
 libssh
 libssh2
 libstaroffice
+libstatgrab
 libstoragemgmt
 libsysstat
 libtasn1
@@ -3495,6 +3503,7 @@ nload
 nlopt
 nltk
 nmap
+nnn
 nodejs
 nose
 nose-cov
@@ -3509,6 +3518,7 @@ noto-cjk
 noto-emoji
 noto-fonts
 nova
+npb
 npth
 nrpe
 nspr
@@ -3674,11 +3684,13 @@ pcmanfm
 pcmanfm-qt
 pcre
 pcre2
+pcs
 pcsc-lite
 pdns
 pdns-recursor
 pdsh
 pecan
+pep517
 pep8
 performance
 perftest
@@ -4881,6 +4893,7 @@ requests-ntlm
 requests-oauthlib
 requests-toolbelt
 requestsexceptions
+resource-agents
 responses
 rest
 restic
@@ -5060,6 +5073,7 @@ stoken
 stow
 strace
 stress-ng
+stringcase
 stunnel
 su-exec
 subunit
@@ -5067,6 +5081,7 @@ subunit2sql
 subversion
 sudo
 suds-jurko
+suitable
 sundials
 supertuxkart
 sure
