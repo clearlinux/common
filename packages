@@ -187,6 +187,7 @@ R-Rcpp
 R-RcppArmadillo
 R-RcppEigen
 R-RcppGSL
+R-RcppParallel
 R-RcppProgress
 R-RcppRoll
 R-RcppZiggurat
