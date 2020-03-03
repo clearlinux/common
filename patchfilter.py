@@ -278,6 +278,7 @@ def main():
 
     zap_line_in_file("b/options.conf", "archives = ")
     zap_line_in_file("b/options.conf", "giturl = ")
+    zap_line_in_file("b/options.conf", "url = ")
     zap_line_in_file("b/options.conf", "[package]")
     zap_line_in_file("b/options.conf", "")
     zap_line_in_file("b/options.conf", "[autospec]")
