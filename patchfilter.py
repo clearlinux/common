@@ -213,6 +213,8 @@ def main():
     zap_entire_file_end("gz.asc")
     zap_entire_file_end("bz2.asc")
     
+    zap_entire_file_end(".pkey")
+    
     zap_line_in_file("b/testresults", "Total : 0")
     zap_line_in_file("b/testresults", "Pass : 0")
     zap_line_in_file("b/testresults", "Fail : 0")
