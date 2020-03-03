@@ -102,6 +102,22 @@ def zap_entire_file_end(filename):
         if file.endswith(filename):
             files.remove(file)                
             
+def zap_line_in_file_substring(filename, match):
+    global header
+    global files
+    global files_chunks
+    global files_header
+    for file in files:
+        if file.endswith(filename):
+            for chunk in files_chunks[file]:
+                to_delete = list()
+                for line in chunk:
+                    if match in line:
+                        to_delete.append(line)
+                for line in to_delete:
+                    chunk.remove(line)
+            
+
 def zap_line_in_file(filename, match):
     global header
     global files
@@ -364,7 +380,9 @@ def main():
     zap_entire_file("b/whatrequires")
     zap_entire_file("b/versions")
     zap_entire_file("b/.gitignore")
+    
 
+    zap_line_in_file_substring(".spec", "%{buildroot}/usr/share/package-licenses")   # version number change in license copy
     zap_empty_chunks()
     
     print_all()
