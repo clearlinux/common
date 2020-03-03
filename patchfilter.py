@@ -209,6 +209,9 @@ def main():
     zap_entire_file_end("xz.sig")
     zap_entire_file_end("gz.sig")
     zap_entire_file_end("bz2.sig")
+    zap_entire_file_end("xz.asc")
+    zap_entire_file_end("gz.asc")
+    zap_entire_file_end("bz2.asc")
     
     zap_line_in_file("b/testresults", "Total : 0")
     zap_line_in_file("b/testresults", "Pass : 0")
