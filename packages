@@ -2474,6 +2474,8 @@ libnumbertext
 liboauth
 libodfgen
 libogg
+libopenshot
+libopenshot-audio
 libopenzwave
 liborcus
 libosinfo
@@ -4230,6 +4232,7 @@ perl-Params-ValidationCompiler
 perl-Parse-EDID
 perl-Parse-ExuberantCTags
 perl-Parse-RecDescent
+perl-Parse-Yapp
 perl-Path-Class
 perl-Path-Tiny
 perl-Pegex
