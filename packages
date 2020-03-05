@@ -1301,6 +1301,7 @@ clutter
 clutter-gst
 clutter-gtk
 cmake
+cmarkgfm
 cmd2
 cmocka
 cmrt
@@ -3582,6 +3583,7 @@ openjdk13
 openldap
 openmpi
 openscad
+openshot-qt
 opensm
 openssh
 openssl
@@ -4670,6 +4672,7 @@ pwgen
 py
 pyDesktop3
 pyOpenSSL
+pyRFC3339
 pyScss
 pyaes
 pyalsaaudio
@@ -4716,7 +4719,6 @@ pyperclip
 pypowervm
 pyquery
 pyreadline
-pyrfc3339
 pyroma
 pyroute2
 pyrsistent
@@ -4728,7 +4730,9 @@ pysnmp
 pysubnettree
 pytest
 pytest-asyncio
+pytest-cache
 pytest-cov
+pytest-flake8
 pytest-forked
 pytest-localserver
 pytest-randomly
@@ -4875,6 +4879,7 @@ rdma-core
 re2
 re2c
 readline
+readme_renderer
 rebootmgr
 recode
 recommonmark
