@@ -2011,7 +2011,10 @@ iwd
 ixion
 jack2
 jansson
+jaraco.classes
+jaraco.collections
 jaraco.functools
+jaraco.text
 jarn.viewdoc
 jdcal
 jedi
@@ -4719,6 +4722,7 @@ pyotp
 pypandoc
 pyparsing
 pyperclip
+pyperf
 pypowervm
 pyquery
 pyreadline
@@ -4781,7 +4785,6 @@ python-openid
 python-openstackclient
 python-openzwave
 python-pcre
-python-perf
 python-pkgconfig
 python-pocketlint
 python-polib
