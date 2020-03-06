@@ -4306,6 +4306,7 @@ perl-String-Escape
 perl-String-Expand
 perl-String-Format
 perl-String-Random
+perl-String-ShellQuote
 perl-String-Similarity
 perl-String-Util
 perl-Struct-Dumb
@@ -4577,6 +4578,7 @@ php-xxtea
 php-yaml
 php-yar
 php-zip
+php-zmq
 pickleshare
 picmi
 picocom
@@ -4597,6 +4599,7 @@ pipreqs
 pixman
 pkcs11-helper
 pkg-config
+pkginfo
 plasma-browser-integration
 plasma-desktop
 plasma-discover
@@ -5219,6 +5222,7 @@ traitlets
 tree
 trollius
 trustme
+twine
 typed_ast
 typing
 typing_extensions
