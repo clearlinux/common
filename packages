@@ -1027,6 +1027,7 @@ alembic
 alsa-firmware
 alsa-lib
 alsa-plugins
+alsa-ucm-conf
 alsa-utils
 amazon-efs-utils
 amqp
@@ -1065,6 +1066,7 @@ arpack-ng
 artikulate
 asciidoc
 asciinema
+asgiref
 asio
 asn1crypto
 aspell
@@ -4209,6 +4211,7 @@ perl-Number-Format
 perl-Number-Misc
 perl-Number-WithError
 perl-Object-Accessor
+perl-Object-Remote
 perl-Object-Signature
 perl-PDF-API2
 perl-PDF-Table
@@ -5023,6 +5026,7 @@ sndio
 snitun
 snowballstemmer
 socat
+sof-bin
 solid
 sonnet
 sortedcontainers
