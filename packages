@@ -2451,6 +2451,7 @@ liblxqt
 libmaxminddb
 libmbim
 libmediaart
+libmemcached
 libmetalink
 libmicrohttpd
 libmnl
@@ -2645,6 +2646,7 @@ ltrace
 lttng-tools
 lttng-ust
 lua
+lua-nginx-module
 lua52
 lualgi
 luarocks
@@ -3499,6 +3501,7 @@ nftables
 nghttp2
 nginx
 nginx-mainline
+nginx-rtmp-module
 nginx-upload-module
 nginx_cookie_flag_module
 ngraph
@@ -4552,6 +4555,7 @@ php-krb5
 php-lua
 php-lzf
 php-mailparse
+php-memcached
 php-mongodb
 php-msgpack
 php-oauth
@@ -4771,8 +4775,10 @@ python-glanceclient
 python-graphviz
 python-heatclient
 python-hwinfo
+python-jsonrpc-server
 python-kconfiglib
 python-keystoneclient
+python-language-server
 python-ldap
 python-magic
 python-magnumclient
@@ -5066,6 +5072,7 @@ spice
 spice-gtk
 spice-protocol
 spyder-ide
+spyder-kernels
 spyder-notebook
 spyrk
 sqlalchemy-migrate
@@ -5338,6 +5345,7 @@ wpa_supplicant
 wrapt
 wsgi_intercept
 wsjtx
+wurlitzer
 wxWidgets
 x11perf
 x11vnc
