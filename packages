@@ -4762,6 +4762,7 @@ python-augeas
 python-barbicanclient
 python-ceilometerclient
 python-cinderclient
+python-constraint
 python-coveralls
 python-crfsuite
 python-dateutil
