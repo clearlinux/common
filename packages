@@ -1347,6 +1347,7 @@ comedilib
 comfortaa-fonts
 commonmark
 compat-SDL2-soname1
+compat-boost-soname1.68.0
 compat-cryptsetup-soname4
 compat-curl-gnutls-soname4
 compat-double-conversion-soname1
@@ -4335,6 +4336,7 @@ perl-Sys-Mmap
 perl-Sys-SigAction
 perl-Sys-Statistics-Linux
 perl-System-Command
+perl-Systemd-Daemon
 perl-TAP-Formatter-HTML
 perl-TAP-Harness-Archive
 perl-Taint-Util
@@ -4355,6 +4357,7 @@ perl-Test-CleanNamespaces
 perl-Test-Command
 perl-Test-Compile
 perl-Test-Deep
+perl-Test-DiagINC
 perl-Test-Differences
 perl-Test-Exception
 perl-Test-FailWarnings
