@@ -156,6 +156,7 @@ R-NMF
 R-NMOF
 R-PKI
 R-PerformanceAnalytics
+R-QUIC
 R-R.cache
 R-R.methodsS3
 R-R.oo
@@ -429,6 +430,7 @@ R-futile.options
 R-future
 R-g.data
 R-gam
+R-gamlss.data
 R-gamm4
 R-gbRd
 R-gbm
@@ -436,6 +438,7 @@ R-gbutils
 R-gclus
 R-gdata
 R-gdtools
+R-gee
 R-geepack
 R-geiger
 R-generics
@@ -497,6 +500,7 @@ R-iterators
 R-janitor
 R-joineR
 R-joineRML
+R-jomo
 R-jpeg
 R-jqr
 R-jsonlite
@@ -574,6 +578,7 @@ R-mirt
 R-misc3d
 R-miscF
 R-miscTools
+R-mitml
 R-mitools
 R-mixtools
 R-mlbench
@@ -619,6 +624,7 @@ R-ordinal
 R-pROC
 R-packrat
 R-pamr
+R-pan
 R-parsedate
 R-partitions
 R-party
@@ -743,6 +749,7 @@ R-rjstat
 R-rlang
 R-rmarkdown
 R-rmatio
+R-rmeta
 R-rms
 R-rmutil
 R-rncl
@@ -823,6 +830,7 @@ R-spelling
 R-spls
 R-stable
 R-stabledist
+R-stabs
 R-stargazer
 R-startupmsg
 R-statip
@@ -901,6 +909,7 @@ R-whoami
 R-wikitaxa
 R-withr
 R-wooldridge
+R-wordcloud
 R-worrms
 R-xfun
 R-xml2
