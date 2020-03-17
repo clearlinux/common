@@ -1501,6 +1501,7 @@ distro
 dj-database-url
 django-appconf
 django-babel
+django-debreach
 django-discover-runner
 django-nose
 django-pyscss
@@ -1584,6 +1585,7 @@ embree
 empy
 enchant
 enlightenment
+enmerkar
 entrypoints
 envs
 eog
@@ -2406,7 +2408,6 @@ libgdata
 libgee
 libgeotiff
 libgepub
-libgfortran-avx
 libgit2
 libgit2-glib
 libglade
