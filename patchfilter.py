@@ -351,8 +351,13 @@ def main():
     zap_line_in_file("b/options.conf", "# require package verification for build")
     zap_line_in_file("b/options.conf", "verify_required = true")
     zap_line_in_file("b/options.conf", "# do not generate debuginfo for this package")
+    zap_line_in_file("b/options.conf", "# configure build also for openmpi")
+    zap_line_in_file("b/options.conf", "openmpi = false")
+    zap_line_in_file("b/options.conf", "alias =")
+    zap_line_in_file("b/options.conf", "alias = ")
     zap_line_in_file("b/options.conf", "nodebug = false")
     zap_line_in_file("b/options.conf", "domain =")
+    zap_line_in_file("b/options.conf", "domain = ")
 
     zap_line_in_file("b/buildreq_add", "# This file contains additional build requirements that did not get")
     zap_line_in_file("b/buildreq_add", "# picked up automatically. One name per line, no whitespace.")
