@@ -1266,6 +1266,7 @@ chrony
 chrpath
 cifs-utils
 cinder
+ciso8601
 clFFT
 clamav
 clear-config-management
