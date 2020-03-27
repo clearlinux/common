@@ -1047,7 +1047,6 @@ ansible
 anyjson
 apache-ant
 apache-flink
-apache-hadoop
 apache-kafka
 apache-libcloud
 apache-maven
@@ -1136,7 +1135,6 @@ baloo
 baloo-widgets
 bandit
 baobab
-barbican
 bash
 bash-completion
 bash.static
@@ -1358,7 +1356,6 @@ comedilib
 comfortaa-fonts
 commonmark
 compat-SDL2-soname1
-compat-boost-soname1.68.0
 compat-cryptsetup-soname4
 compat-curl-gnutls-soname4
 compat-double-conversion-soname1
@@ -1739,7 +1736,6 @@ gitdb
 gitg
 gitolite
 gjs
-glance
 glance_store
 glances
 glew
@@ -1911,7 +1907,6 @@ hiredis
 hold
 home-assistant
 home-assistant-frontend
-horizon
 horovod
 hostname
 hplip
@@ -3542,7 +3537,6 @@ notmuch
 noto-cjk
 noto-emoji
 noto-fonts
-nova
 npb
 npth
 nrpe
@@ -4978,7 +4972,6 @@ ryu
 s2tc
 s3fs-fuse
 s3transfer
-sahara
 salt
 samba
 samtools
