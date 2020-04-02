@@ -2753,6 +2753,7 @@ mox3
 mozjs
 mozjs52
 mozjs60
+mozjs68
 mpc
 mpfr
 mpg123
@@ -4505,6 +4506,7 @@ tensorflow-addons
 tensorflow-estimator
 tensorflow-probability
 tensorflow-serving
+tepl
 termcolor
 terminado
 terminaltables
@@ -4580,6 +4582,7 @@ tzdata
 tzlocal
 ua-parser
 uamqp
+uchardet
 ucpp
 udisks2
 udunits
