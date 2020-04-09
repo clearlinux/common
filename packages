@@ -1560,7 +1560,6 @@ efivar
 efl
 eid-mw
 eigen
-elasticsearch-dep
 electric-fence
 elementary-xfce
 elfutils
@@ -2688,6 +2687,7 @@ matplotlib
 mc
 mccabe
 mcelog
+md4c
 mdadm
 mdds
 media-player-info
