@@ -1377,7 +1377,6 @@ compat-libvpx-soname5
 compat-libwebp-soname6
 compat-llvm-soname5
 compat-llvm-soname6
-compat-llvm-soname7
 compat-mariadb-soname18
 compat-mpfr-soname4
 compat-nettle-soname6
@@ -1858,7 +1857,6 @@ gtk-doc
 gtk-vnc
 gtk-xfce-engine
 gtk3
-gtkglext
 gtkmm2
 gtkmm3
 gtksourceview
@@ -1912,6 +1910,7 @@ hyperscan
 hyperstart
 hyphen
 hypothesis
+hypre
 i2c-tools
 i3
 i3blocks
@@ -2749,7 +2748,6 @@ motif
 mox
 mox3
 mozjs
-mozjs52
 mozjs60
 mozjs68
 mpc
@@ -3003,7 +3001,6 @@ pandoc
 pandocfilters
 pango
 pangomm
-pangox-compat
 paper-icon-theme
 papi
 papirus-icon-theme
@@ -4599,7 +4596,6 @@ unit
 unittest2
 unixODBC
 unzip
-upm
 upower
 uritemplate
 urllib3
