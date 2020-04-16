@@ -38,6 +38,7 @@ LS_COLORS
 LVM2
 LibRaw
 LibVNCServer
+LibreCAD
 Linux-PAM
 LuaJIT
 LyX
@@ -1707,6 +1708,7 @@ geocode-glib
 geos
 gettext
 gevent
+geventhttpclient-wheels
 gexiv2
 gfbgraph
 gflags
