@@ -166,6 +166,15 @@ diff: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 		(cd $$p ; git status | grep -q 'nothing to commit, working [^ ]* clean' || (echo "Uncommitted changes in: $$p"; git diff |diffstat -p1)) ;\
 	done
 
+#help log: Run git log origin/master..HEAD for all package repos, thus
+#help displaying any committed but unpushed changes.
+log: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
+	@for p in projects/common $(addprefix packages/,$(PKGS_LOCAL)); do \
+		( cd $$p; if [ "$$(git rev-parse --verify HEAD)" != "$$(git rev-parse --verify origin/master)" ] ; then \
+		echo $$p ; git --no-pager log --pretty="format:%s" origin/master..HEAD ; echo ; echo;\
+		fi ; ) \
+	done
+
 #help versions: Displays the version of each package in the ./packages tree.
 versions: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 	@for p in $(addprefix packages/,$(PKGS_LOCAL)); do \
