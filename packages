@@ -2625,6 +2625,7 @@ llvmlite
 lm-sensors
 lmdb
 locket
+lockfile
 locustio
 log4cpp
 logilab-common
