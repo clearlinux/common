@@ -250,7 +250,9 @@ def main():
     zap_line_in_file_start(".spec", "export NM=gcc-nm")
     zap_line_in_file_start(".spec", "export CFLAGS=\"$CFLAGS -O3 -ffat-lto-objects -flto=4 \"")
     zap_line_in_file_start(".spec", "export FCFLAGS=\"$CFLAGS -O3 -ffat-lto-objects -flto=4 \"")
+    zap_line_in_file_start(".spec", "export FCFLAGS=\"$FFLAGS -O3 -ffat-lto-objects -flto=4 \"")
     zap_line_in_file_start(".spec", "export FFLAGS=\"$CFLAGS -O3 -ffat-lto-objects -flto=4 \"")
+    zap_line_in_file_start(".spec", "export FFLAGS=\"$FFLAGS -O3 -ffat-lto-objects -flto=4 \"")
     zap_line_in_file_start(".spec", "export CXXFLAGS=\"$CXXFLAGS -O3 -ffat-lto-objects -flto=4 \"")
     zap_line_in_file_start(".spec", "%setup -q -n ")
     zap_line_in_file_start(".spec", "URL      :")
@@ -287,10 +289,12 @@ def main():
     zap_line_in_file_start(".spec", "cp -a ")
     zap_line_in_file_start(".spec", "cd %{_builddir}/")
     zap_line_in_file_start(".spec", "export GCC_IGNORE_WERROR=1")
+    zap_line_in_file_start(".spec", "rm -rf %{buildroot}")
  
     zap_line_in_file_start("b/Makefile", "URL =")
     zap_line_in_file_start("b/Makefile", "PKG_NAME :=")
 
+    zap_line_in_file_start("b/options.conf", "name = ")
     zap_line_in_file("b/options.conf", "archives = ")
     zap_line_in_file("b/options.conf", "giturl = ")
     zap_line_in_file_start("b/options.conf", "url = ")
