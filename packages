@@ -1984,7 +1984,7 @@ ipmitool
 iproute2
 ipset
 iptables
-iptraf
+iptraf-ng
 iptstate
 iputils
 ipvsadm
@@ -2385,6 +2385,7 @@ libfakekey
 libfastjson
 libffi
 libffmpeg-stub
+libflame
 libfm
 libfm-qt
 libfontenc
@@ -2624,7 +2625,7 @@ lldb
 llfuse
 llvm
 llvm8
-llvmlite
+llvm9
 lm-sensors
 lmdb
 locket
@@ -2883,7 +2884,6 @@ ntp
 ntplib
 numactl
 numatop
-numba
 numlockx
 numpy
 numpy-stl
