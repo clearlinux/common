@@ -62,6 +62,38 @@ define remotepkgname
 $(if $(USE_PACKAGE_MAPPING),$$(awk -v P="$(1)" '$$1 == P { res=$$2 } END { print res ? res : P }' $(TOPLVL)/projects/common/pkg-mapping),$(1))
 endef
 
+# Clone repo from the configured gitolite instance, but only if the repo exists
+# on that instance and matches the pattern "packages/..*".
+define try-clone-gitolite
+rpkg=$(call remotepkgname,$(1)); \
+if ssh $(GITOLITE_BASE_URL) info "packages/$$rpkg" | grep --quiet "packages/$$rpkg$$"; then \
+	git clone $(PKG_BASE_URL)/$$rpkg packages/$(1); \
+	cd packages/$(1); \
+	$(call gitoliteurl,packages/$(1)); \
+	$(call subjectprefix,$(1)); \
+fi
+endef
+
+# Clone repo from the configured package repo hosting location, as defined by
+# the PKG_BASE_URL variable, but only if the repo exists.
+define try-clone-other
+rpkg=$(call remotepkgname,$(1)); \
+if git ls-remote $(PKG_BASE_URL)/$$rpkg &> /dev/null; then \
+	git clone $(PKG_BASE_URL)/$$rpkg packages/$(1); \
+	cd packages/$(1); \
+	$(call subjectprefix,$(1)); \
+fi
+endef
+
+# First, try running `make clone_PKG`, where PKG is the first argument. If that
+# fails, proceed with fallback cloning strategies.
+define clone-if-available
+$(MAKE) clone_$(1) || { \
+	$(if $(GITOLITE_BASE_URL),$(call try-clone-gitolite,$(1)),$(call try-clone-other,$(1))); \
+}
+endef
+
+
 # Enables the local RPM repo by installing package manager and Mock configs.
 # First argument is the path to the package manager config, and the second
 # argument is the path to the mock config. Each of these config files is

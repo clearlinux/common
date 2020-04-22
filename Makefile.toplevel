@@ -205,7 +205,7 @@ autospecnew: preautospecnew-checks localreponotice
 		echo "Please specify NAME and URL. The ARCHIVES variable is optional."; \
 		exit 1; \
 	fi
-	-$(MAKE) clone_$(NAME)
+	$(call clone-if-available,$(NAME))
 	@if [ ! -d $(TOPLVL)/packages/$(NAME)/.git ]; then \
 		echo "no remote repository found, creating new package repository and running autospec"; \
 		mkdir -p $(TOPLVL)/packages/$(NAME); \
