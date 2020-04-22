@@ -1765,6 +1765,7 @@ gnome-common
 gnome-contacts
 gnome-control-center
 gnome-desktop
+gnome-desktop-testing
 gnome-disk-utility
 gnome-flashback
 gnome-font-viewer
@@ -2357,6 +2358,7 @@ libcomps
 libconfig
 libcroco
 libcryptui
+libcxx
 libdaemon
 libdatrie
 libdazzle
@@ -4093,6 +4095,7 @@ pytest-repeat
 pytest-rerunfailures
 pytest-runner
 pytest-sugar
+pytest-tap
 pytest-timeout
 pytest-xdist
 python
@@ -4145,7 +4148,6 @@ python-subunit
 python-swiftclient
 python-systemd
 python-tabulate
-python-tappy
 python-troveclient
 python-urwid
 python-utils
@@ -4485,6 +4487,7 @@ systemtap
 taglib
 talloc
 tallow
+tap.py
 tar
 taskflow
 taskwarrior
