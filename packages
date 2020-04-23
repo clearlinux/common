@@ -1205,7 +1205,6 @@ buildreq-nginx
 buildreq-php
 buildreq-qmake
 buildreq-scons
-bundle-chroot-builder
 bwidget
 byobu
 bz2file
@@ -1642,6 +1641,7 @@ flake8-import-order
 flake8-polyfill
 flare-engine
 flare-game
+flask-restx
 flatpak
 flatpak-builder
 flatten_json
@@ -2742,6 +2742,8 @@ mock
 mod_perl
 mod_wsgi
 modemmanager-qt
+modsecurity
+modsecurity-nginx
 modules
 moka-icon-theme
 mokutil
@@ -3991,6 +3993,7 @@ potrace
 povray
 powerdevil
 powerline-fonts
+powerstat
 powertop
 poxml
 ppp
@@ -4311,7 +4314,6 @@ sassc
 satyr
 sbc
 sbsigntools
-scala
 scdoc
 scene-alembic
 scikit-build
@@ -4519,6 +4521,7 @@ terminus-font
 tesseract
 test-generator
 testdisk
+testfixtures
 testpath
 testrepository
 testresources
