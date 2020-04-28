@@ -1367,6 +1367,7 @@ compat-ilmbase-soname23
 compat-intel-gmmlib-soname1
 compat-ipset-soname10
 compat-iptables-soname0.1.0
+compat-ldc-soname90
 compat-libevent-soname6
 compat-libgit2-soname27
 compat-libical-soname2
@@ -3157,6 +3158,7 @@ perl-Clone-PP
 perl-Compress-Bzip2
 perl-Compress-Raw-Lzma
 perl-Config-Any
+perl-Config-AutoConf
 perl-Config-General
 perl-Config-Grammar
 perl-Config-INI
