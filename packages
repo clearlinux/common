@@ -1422,7 +1422,6 @@ cpuloadgen
 cracklib
 crcmod
 createrepo_c
-cri-containerd
 cri-o
 cri-tools
 cronie
@@ -2930,6 +2929,7 @@ openjade
 openjdk
 openjdk11
 openjdk13
+openjpeg
 openldap
 openmpi
 openscad
@@ -4184,6 +4184,7 @@ qpdf
 qqc2-desktop-style
 qrencode
 qscintilla
+qsstv
 qt-creator
 qt3d
 qt5ct
