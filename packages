@@ -2477,6 +2477,7 @@ libnfnetlink
 libnftnl
 libnice
 libnl
+libnma
 libnotify
 libnova
 libnumbertext
