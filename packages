@@ -877,7 +877,6 @@ R-tis
 R-tm
 R-toOrdinal
 R-topicmodels
-R-treatSens
 R-tree
 R-triebeard
 R-trimcluster
@@ -1777,6 +1776,7 @@ gcab
 gcc
 gcc7
 gcc8
+gcc9
 gcompris-qt
 gcr
 gcs-oauth2-boto-plugin
