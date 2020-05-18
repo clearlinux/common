@@ -349,11 +349,6 @@ rekoji-nowait:
 logcheck:
 	@perl $(TOPLVL)/projects/common/logcheck.pl results/build.log
 
-$(TOPLVL)/repo:
-	@echo "Creating local RPM repository $(TOPLVL)/repo"
-	mkdir $(TOPLVL)/repo
-	$(MAKE) localrepocreate
-
 #help repoadd: Adds locally-built RPMs for this package to the local RPM
 #help repository. If this repository does not yet exist, it is created and
 #help enabled.
@@ -361,22 +356,16 @@ repoadd: $(TOPLVL)/repo
 	@if [ -z "${LATEST_RPMS}" ]; then \
 		echo "No rpms found in rpms/ directory."; \
 		exit 1; \
-	fi; \
-	if [ -f .repo-index ]; then \
-		echo "Cleaning old rpms:"; \
-		for r in `cat .repo-index`; do \
-			echo "-$$r"; \
-			rm -f $(TOPLVL)/repo/$$r; \
-		done; \
-		rm .repo-index; \
-	fi; \
-	for r in ${LATEST_RPMS}; do \
-		echo "+$$r"; \
-		echo $$(basename $$r) >> .repo-index; \
-		ln -f $$r $(TOPLVL)/repo/; \
-	done
-	$(MAKE) localrepocreate
-	$(call localrepoenable,${PM_CONF},${MOCK_CONF})
+	fi
+	$(MAKE) -s repodel NO_CREATEREPO=1
+	@echo "Adding new rpms:"; \
+	for rpm in ${LATEST_RPMS}; do \
+		echo "+$${rpm#rpms/}"; \
+		echo "$${rpm#rpms/}" >> .repo-index; \
+	done; \
+	flock $</repo.lock ln -f -t $< ${LATEST_RPMS}
+	$(MAKE) -s localrepocreate
+	$(MAKE) -s localrepoenable
 
 #help repostage: Stages locally-built RPMs for this package to the local RPM
 #help directory. If this directory does not yet exist, it is created and
@@ -385,37 +374,33 @@ repostage: $(TOPLVL)/repo
 	@if [ -z "${LATEST_RPMS}" ]; then \
 		echo "No rpms found in rpms/ directory."; \
 		exit 1; \
-	fi; \
-	if [ -f .repo-index ]; then \
-		echo "Cleaning old rpms:"; \
-		for r in `cat .repo-index`; do \
-			echo "-$$r"; \
-			rm -f $(TOPLVL)/repo/$$r; \
-		done; \
-		rm .repo-index; \
-	fi; \
-	for r in ${LATEST_RPMS}; do \
-		echo "+$$r"; \
-		echo $$(basename $$r) >> .repo-index; \
-		ln -f $$r $(TOPLVL)/repo/; \
-	done
+	fi
+	$(MAKE) -s repodel NO_CREATEREPO=1
+	@for r in ${LATEST_RPMS}; do \
+		echo "+$${rpm#rpms/}"; \
+		echo "$${rpm#rpms/}" >> .repo-index; \
+	done; \
+	flock $</repo.lock ln -f -t $< ${LATEST_RPMS}
 
 #help repodel: Removes RPMs from the local RPM repository that were
 #help previously added by 'make repoadd' for this package.
-repodel:
+repodel: $(TOPLVL)/repo
 	@if [ -f .repo-index ]; then \
 		echo "Cleaning old rpms:"; \
-		for r in `cat .repo-index`; do \
-			echo "-$$r"; \
-			rm -f $(TOPLVL)/repo/$$r; \
-		done; \
+		mapfile -t rpms < <(sed 's|.*|$</&|' .repo-index); \
+		for rpm in "$${rpms[@]}"; do \
+			echo "-$${rpm#$</}"; \
+		done < .repo-index; \
+		flock $</repo.lock rm -f "$${rpms[@]}"; \
 		rm .repo-index; \
-		$(MAKE) localrepocreate; \
+		if [ -z "$$NO_CREATEREPO" ]; then \
+			$(MAKE) -s localrepocreate; \
+		fi; \
 	fi
 
 #help repoenable: Enables the local RPM repository for use with Yum/DNF and
 #help Mock. If this repository does not yet exist, it is created.
-repoenable: $(TOPLVL)/repo ; $(call localrepoenable,${PM_CONF},${MOCK_CONF})
+repoenable: localrepoenable ;
 
 #help repodisable: Disables the local RPM repository.
 repodisable: localrepodisable ;

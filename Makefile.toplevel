@@ -290,14 +290,9 @@ autospecnewgo: preautospecnew-checks localreponotice
 		exit 1; \
 	fi
 
-$(TOPLVL)/repo:
-	@echo "Creating local RPM repository $(TOPLVL)/repo"
-	mkdir $(TOPLVL)/repo
-	$(MAKE) localrepocreate
-
 #help repoenable: Enables the local RPM repository for use with Yum/DNF and
 #help Mock. If this repository does not yet exist, it is created.
-repoenable: $(TOPLVL)/repo ; $(call localrepoenable,${PM_CONF},${MOCK_CONF})
+repoenable: localrepoenable ;
 
 #help repodisable: Disables the local RPM repository.
 repodisable: localrepodisable ;

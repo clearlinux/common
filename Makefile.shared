@@ -93,34 +93,48 @@ $(MAKE) clone_$(1) || { \
 }
 endef
 
+$(TOPLVL)/repo:
+	@echo "Creating local RPM repository $(TOPLVL)/repo"
+	mkdir $(TOPLVL)/repo
 
 # Enables the local RPM repo by installing package manager and Mock configs.
 # First argument is the path to the package manager config, and the second
 # argument is the path to the mock config. Each of these config files is
 # augmented for local repo support.
-define localrepoenable
-	@cp $(1) $(TOPLVL)/repo/yum.conf
-	@printf "\n\n[local]\nname=Local\nfailovermethod=priority\nenabled=1\ngpgcheck=0\npriority=1\n" >> $(TOPLVL)/repo/yum.conf
-	@printf "baseurl=file://$$(realpath $(TOPLVL))/repo/\n\n" >> $(TOPLVL)/repo/yum.conf
-	@cp $(2) $(TOPLVL)/repo/clear.cfg
-	@printf "\n\n[localrepo]\nname=Local repo\nfailovermethod=priority\nenabled=1\ngpgcheck=0\npriority=1\n" >> $(TOPLVL)/repo/clear.cfg
-	@printf "baseurl=file://$$(realpath $(TOPLVL))/repo/\n\n" >> $(TOPLVL)/repo/clear.cfg
-	@sed -i '/^"""/d; $$a"""' $(TOPLVL)/repo/clear.cfg
-endef
+localrepoenable: $(TOPLVL)/repo
+	@pm_new=$$(mktemp -p $< yum.conf.XXXXXXX); \
+	pm_orig=$</yum.conf; \
+	mock_new=$$(mktemp -p $< clear.cfg.XXXXXXX); \
+	mock_orig=$</clear.cfg; \
+	cp ${PM_CONF} $$pm_new; \
+	printf "\n\n[localrepo]\nname=localrepo\nfailovermethod=priority\nenabled=1\ngpgcheck=0\npriority=1\n" >> $$pm_new; \
+	printf "baseurl=file://$$(realpath $<)/\n\n" >> $$pm_new; \
+	if ! cmp -s $$pm_new $$pm_orig; then \
+		flock $</repo.lock mv $$pm_new $$pm_orig; \
+	fi; \
+	rm -f $$pm_new; \
+	cp ${MOCK_CONF} $$mock_new; \
+	sed -i '$$d' $$mock_new; \
+	printf "\n\n[localrepo]\nname=localrepo\nfailovermethod=priority\nenabled=1\ngpgcheck=0\npriority=1\n" >> $$mock_new; \
+	printf "baseurl=file://$$(realpath $<)/\n\n" >> $$mock_new; \
+	sed -i '$$a"""' $$mock_new; \
+	if ! cmp -s $$mock_new $$mock_orig; then \
+		flock $</repo.lock mv $$mock_new $$mock_orig; \
+	fi; \
+	rm -f $$mock_new
 
 # Disables the local RPM repo by removing the installed package manager and
 # Mock configuration files.
-localrepodisable:
-	@rm -f $(TOPLVL)/repo/yum.conf
-	@rm -f $(TOPLVL)/repo/clear.cfg
+localrepodisable: $(TOPLVL)/repo
+	flock $</repo.lock rm -f $</yum.conf $</clear.cfg
 
-# Runs createrepo_c (or createrepo) for the local RPM repo
-localrepocreate:
-	( cd $(TOPLVL)/repo ; if type createrepo_c 1>/dev/null 2>&1; then createrepo_c .; else createrepo .; fi );
+# Runs createrepo_c for the local RPM repo
+localrepocreate: $(TOPLVL)/repo
+	cd $< && flock repo.lock createrepo_c .
 
 # Remove all RPMs from the local RPM repo
-localrepoclean:
-	@find $(TOPLVL)/repo -maxdepth 1 -name '*.rpm' -delete
+localrepoclean: $(TOPLVL)/repo
+	flock $</repo.lock find $< -maxdepth 1 -name '*.rpm' -delete
 
 # Summarizes the local RPM repo status
 localrepostatus:
