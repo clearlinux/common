@@ -102,6 +102,22 @@ $(TOPLVL)/repo:
 # argument is the path to the mock config. Each of these config files is
 # augmented for local repo support.
 localrepoenable: $(TOPLVL)/repo
+	@if grep -qx '\[localrepo\]' ${PM_CONF}; then \
+		echo "[ERROR] ${PM_CONF} contains section named [localrepo]."; \
+		echo "[ERROR] Remove that section and try again."; \
+		exit 1; \
+	fi >&2
+	@if grep -qx '\[localrepo\]' ${MOCK_CONF}; then \
+		echo "[ERROR] ${MOCK_CONF} contains section named [localrepo]."; \
+		echo "[ERROR] Remove that section and try again."; \
+		exit 1; \
+	fi >&2
+	@last="$$(tail -n 1 ${MOCK_CONF})"; \
+	if [[ "$$last" != "\"\"\"" ]]; then \
+		echo "[ERROR] Last line of ${MOCK_CONF} is malformed; expected: \"\"\"; actual: $$last"; \
+		echo "[ERROR] Fix that line and try again."; \
+		exit 1; \
+	fi >&2
 	@pm_new=$$(mktemp -p $< yum.conf.XXXXXXX); \
 	pm_orig=$</yum.conf; \
 	mock_new=$$(mktemp -p $< clear.cfg.XXXXXXX); \
