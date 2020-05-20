@@ -2092,6 +2092,7 @@ isa-l
 iso-codes
 iso8601
 isodate
+isomd5sum
 isort
 ister
 isync
