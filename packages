@@ -1433,6 +1433,7 @@ comedilib
 comfortaa-fonts
 commonmark
 compat-SDL2-soname1
+compat-boost-soname1.72.0
 compat-cryptsetup-soname4
 compat-curl-gnutls-soname4
 compat-double-conversion-soname1
@@ -4836,6 +4837,7 @@ xf86-video-vesa
 xf86-video-vmware
 xfburn
 xfce4-appfinder
+xfce4-battery-plugin
 xfce4-dev-tools
 xfce4-notifyd
 xfce4-panel
