@@ -2179,6 +2179,7 @@ kcachegrind
 kcalc
 kcalendarcore
 kcalutils
+kcc
 kcharselect
 kcmutils
 kcodecs
@@ -2228,7 +2229,6 @@ keepassxc
 kemoticons
 kerberos
 kernel-config
-kernel-config-checker
 kernel-install
 kexec-tools
 keychain
