@@ -1130,6 +1130,7 @@ azure-cosmos
 azure-datalake-store
 azure-functions-devops-build
 azure-graphrbac
+azure-identity
 azure-iot-sdk
 azure-keyvault
 azure-keyvault-certificates
