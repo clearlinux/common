@@ -588,6 +588,7 @@ R-mlmRev
 R-mnormt
 R-mockery
 R-mockr
+R-modeldata
 R-modelr
 R-modeltools
 R-modest
@@ -3165,6 +3166,7 @@ perl-AnyEvent-CacheDNS
 perl-Apache-Htpasswd
 perl-Apache-LogFormat-Compiler
 perl-Apache-Session
+perl-App-MigrateModules
 perl-App-Nopaste
 perl-App-cpanminus
 perl-App-perlbrew
@@ -3445,6 +3447,7 @@ perl-Geo-IP
 perl-Geo-IPfree
 perl-Getopt-Euclid
 perl-Getopt-Long-Descriptive
+perl-Getopt-Long-Modern
 perl-Getopt-Tabular
 perl-Git-Version-Compare
 perl-Glib
@@ -3478,6 +3481,7 @@ perl-HTTP-Negotiate
 perl-HTTP-Parser-XS
 perl-HTTP-Request-AsCGI
 perl-HTTP-Server-Simple
+perl-HTTP-Tinyish
 perl-Hash-Flatten
 perl-Hash-Merge
 perl-Hash-MoreUtils
@@ -3954,6 +3958,7 @@ perl-local-lib
 perl-multidimensional
 perl-namespace-autoclean
 perl-namespace-clean
+perl-pmtools
 perl-prefork
 perl-strictures
 persistent
