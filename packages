@@ -2372,6 +2372,7 @@ kwallet-pam
 kwalletmanager
 kwayland
 kwayland-integration
+kwayland-server
 kwidgetsaddons
 kwin
 kwindowsystem
@@ -4069,6 +4070,7 @@ plasma-nm
 plasma-pa
 plasma-sdk
 plasma-vault
+plasma-wayland-protocols
 plasma-workspace
 plasma-workspace-wallpapers
 plata-theme
