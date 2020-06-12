@@ -3818,6 +3818,7 @@ perl-Test-LectroTest
 perl-Test-LongString
 perl-Test-Manifest
 perl-Test-Memory-Cycle
+perl-Test-MemoryGrowth
 perl-Test-Metrics-Any
 perl-Test-MockModule
 perl-Test-MockTime
