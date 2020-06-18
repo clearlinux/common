@@ -3730,6 +3730,7 @@ perl-Router-Simple
 perl-SGMLS
 perl-SMTP-Server
 perl-SQL-Abstract
+perl-SQL-Abstract-Classic
 perl-SQL-SplitStatement
 perl-SQL-Tokenizer
 perl-SQL-Translator
