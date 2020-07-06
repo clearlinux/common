@@ -1836,6 +1836,7 @@ glusterfs
 gmic
 gmime
 gmp
+gmpy2
 gmqtt
 gmsh
 gnocchiclient
@@ -4157,6 +4158,7 @@ pycairo
 pycodestyle
 pycosat
 pycparser
+pycryptodomex
 pycurl
 pydocstyle
 pydot
