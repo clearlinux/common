@@ -1452,13 +1452,10 @@ compat-hwloc-soname5
 compat-hyperscan-soname4
 compat-ilmbase-soname23
 compat-intel-gmmlib-soname1
-compat-ipset-soname10
-compat-iptables-soname0.1.0
 compat-ldc-soname90
 compat-libevent-soname6
 compat-libical-soname2
 compat-libidn-soname11
-compat-libnftnl-soname7
 compat-libpng-soname12
 compat-libva-soname1
 compat-libvpx-soname5
