@@ -128,6 +128,7 @@ R-Formula
 R-GGally
 R-GPArotation
 R-GeneralizedHyperbolic
+R-GetoptLong
 R-GlobalOptions
 R-Guerry
 R-HistData
@@ -748,6 +749,7 @@ R-rhub
 R-rio
 R-ritis
 R-rjags
+R-rjson
 R-rjstat
 R-rlang
 R-rmarkdown
@@ -1450,7 +1452,6 @@ compat-gtksourceview-soname3
 compat-guile-soname20
 compat-hwloc-soname5
 compat-hyperscan-soname4
-compat-ilmbase-soname23
 compat-intel-gmmlib-soname1
 compat-ldc-soname90
 compat-libevent-soname6
@@ -4859,6 +4860,7 @@ xfdesktop
 xfontsel
 xfsprogs
 xfwm4
+xgboost
 xhost
 xinit
 xinput
