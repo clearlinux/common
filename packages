@@ -301,6 +301,7 @@ R-combinat
 R-commonmark
 R-compositions
 R-config
+R-conquer
 R-contfrac
 R-conting
 R-corpcor
@@ -877,6 +878,7 @@ R-tinytest
 R-tinytex
 R-tis
 R-tm
+R-tmvnsim
 R-toOrdinal
 R-topicmodels
 R-tree
@@ -1461,12 +1463,11 @@ compat-libpng-soname12
 compat-libva-soname1
 compat-libvpx-soname5
 compat-libwebp-soname6
-compat-llvm-soname5
-compat-llvm-soname6
 compat-mpfr-soname4
 compat-nettle-soname6
 compat-nettle-soname7
 compat-opencv-soname41
+compat-opencv-soname42
 compat-proj-soname13
 compat-protobuf-soname14
 compat-protobuf-soname15
