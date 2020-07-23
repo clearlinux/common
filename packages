@@ -1460,6 +1460,7 @@ compat-libevent-soname6
 compat-libical-soname2
 compat-libidn-soname11
 compat-libpng-soname12
+compat-libraw-soname19
 compat-libva-soname1
 compat-libvpx-soname5
 compat-libwebp-soname6
