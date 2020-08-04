@@ -80,6 +80,7 @@ PyWavelets
 PyYAML
 Pygments
 Pyro4
+QDarkStyle
 QGIS
 Qogir-theme
 QtAwesome
@@ -1467,11 +1468,12 @@ compat-libwebp-soname6
 compat-mpfr-soname4
 compat-nettle-soname6
 compat-nettle-soname7
-compat-opencv-soname41
 compat-opencv-soname42
 compat-proj-soname13
 compat-protobuf-soname21
+compat-protobuf-soname22
 compat-python36
+compat-re2-soname7
 compat-readline
 compat-readline-soname5
 compat-readline-soname7
@@ -1898,12 +1900,14 @@ gobject-introspection
 golang-github-cpuguy83-go-md2man
 gom
 goocanvas
+google-api-core
 google-api-python-client
 google-apitools
 google-auth
 google-auth-httplib2
 google-pasta
 google-reauth
+googleapis-common-protos
 googletest
 gparted
 gpaste
@@ -1976,6 +1980,7 @@ hdparm
 helloworld
 helm
 help2man
+helpdev
 hexchat
 hexedit
 hgtools
@@ -4235,6 +4240,7 @@ python-kconfiglib
 python-keystoneclient
 python-language-server
 python-ldap
+python-libsass
 python-magic
 python-magnumclient
 python-manilaclient
@@ -4313,6 +4319,7 @@ qtnetworkauth
 qtquickcontrols
 qtquickcontrols2
 qtremoteobjects
+qtsass
 qtscript
 qtscxml
 qtsensors
