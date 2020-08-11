@@ -1524,6 +1524,7 @@ cups-filters
 cups-pk-helper
 curl
 cursive
+custom_inherit
 cve-bin-tool
 cxxfilt
 cycler
@@ -2961,6 +2962,8 @@ nlopt
 nltk
 nmap
 nnn
+nocasedict
+nocaselist
 nodejs
 nose
 nose-cov
@@ -4912,6 +4915,7 @@ yajl
 yakuake
 yaml
 yaml-cpp
+yamlloader
 yappi
 yarg
 yarl
