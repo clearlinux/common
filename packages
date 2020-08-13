@@ -497,6 +497,7 @@ R-ineq
 R-influenceR
 R-ini
 R-inline
+R-insight
 R-inum
 R-invgamma
 R-ipred
@@ -1069,7 +1070,7 @@ arandr
 arc-theme
 argcomplete
 argon2
-argon2_cffi
+argon2-cffi
 aria2
 ark
 armadillo
