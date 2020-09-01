@@ -1457,6 +1457,7 @@ compat-gtksourceview-soname3
 compat-guile-soname20
 compat-hwloc-soname5
 compat-hyperscan-soname4
+compat-icu4c-soname64
 compat-intel-gmmlib-soname1
 compat-ldc-soname90
 compat-libevent-soname6
@@ -3857,6 +3858,7 @@ perl-Test-Warnings
 perl-Test-Without-Module
 perl-Test-YAML
 perl-Test-utf8
+perl-Test2-Plugin-NoWarnings
 perl-Test2-Suite
 perl-Text-Autoformat
 perl-Text-Brew
