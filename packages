@@ -1455,6 +1455,7 @@ compat-gmime-26
 compat-gspell-soname1
 compat-gtksourceview-soname3
 compat-guile-soname20
+compat-hunspell-soname1.6
 compat-hwloc-soname5
 compat-hyperscan-soname4
 compat-icu4c-soname64
