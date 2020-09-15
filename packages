@@ -2832,6 +2832,7 @@ mingw-gcc
 minicom
 minimodem
 mistune
+mitogen
 mixer-tools
 mkfontdir
 mkfontscale
@@ -4098,6 +4099,7 @@ polkit-qt
 poppler
 poppler-data-clr-rename
 popt
+port-for
 portalocker
 portaudio
 portend
