@@ -1462,6 +1462,7 @@ compat-icu4c-soname64
 compat-intel-gmmlib-soname1
 compat-ldc-soname90
 compat-libevent-soname6
+compat-libhandy-0.0
 compat-libical-soname2
 compat-libidn-soname11
 compat-libpng-soname12
@@ -1481,6 +1482,7 @@ compat-re2-soname7
 compat-readline
 compat-readline-soname5
 compat-readline-soname7
+compat-tracker-soname2.0
 component
 compute-image-packages
 conda
@@ -2355,7 +2357,6 @@ kshisen
 ksirk
 ksmtp
 ksnakeduel
-ksonnet
 kspaceduel
 ksquares
 ksshaskpass
@@ -2863,6 +2864,7 @@ motif
 mox
 mox3
 mozjs68
+mozjs78
 mpc
 mpfr
 mpg123
