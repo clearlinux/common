@@ -269,6 +269,7 @@ R-bootstrap
 R-brew
 R-brglm
 R-bridgesampling
+R-brio
 R-brms
 R-broom
 R-bvls
@@ -348,6 +349,7 @@ R-doParallel
 R-doRNG
 R-doSNOW
 R-dotCall64
+R-downlit
 R-downloader
 R-dplyr
 R-drc
