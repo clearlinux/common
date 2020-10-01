@@ -15,7 +15,6 @@ Cura
 CuraEngine
 Cython
 Django
-Edge-optimized-models
 F-Engrave
 Flask
 Flask-RESTful
@@ -1590,8 +1589,6 @@ django-nose
 django-pyscss
 django_compressor
 dkms
-dldt
-dldt-model-optimizer
 dlib
 dlm
 dlt-daemon
