@@ -1318,6 +1318,7 @@ colordiff
 columbiad
 commonmark
 compat-boost-soname1.72.0
+compat-boost-soname1.73.0
 compat-curl-gnutls-soname4
 compat-enchant-soname1
 compat-fuse-soname2
