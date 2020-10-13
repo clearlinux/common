@@ -961,6 +961,7 @@ acrn-hypervisor
 adal
 ade
 adwaita-icon-theme
+aiodns
 aiohttp
 aiohttp-cors
 akonadi
@@ -1234,6 +1235,7 @@ capturer
 caribou
 casync
 ccache
+cchardet
 ccid
 cdparanoia
 ceph
@@ -1741,6 +1743,7 @@ grpcio
 gsequencer
 gsettings-desktop-schemas
 gsl
+gsm
 gsound
 gspell
 gst-plugins-bad
@@ -3784,6 +3787,7 @@ pyasn1-modules
 pyatspi
 pybind11
 pycairo
+pycares
 pycodestyle
 pycosat
 pycparser
