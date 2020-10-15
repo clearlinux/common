@@ -498,7 +498,7 @@ generateupstream:
 				exit 1; \
 			fi; \
 		fi; \
-		echo $$(sha1sum $$filename | cut -d\  -f1)/$$filename >> upstream; \
+		echo $$(sha1sum -- $$filename | cut -d\  -f1)/$$filename >> upstream; \
 	done
 	@rm -f upstream.bak
 	@cat upstream
