@@ -1484,6 +1484,7 @@ eid-mw
 eigen
 elementary-xfce
 elfutils
+elisa
 ell
 emacs
 emacs-x11
@@ -1922,6 +1923,7 @@ jsonpatch
 jsonpickle
 jsonpointer
 jsonschema
+juk
 jupyter
 jupyter-nbgallery
 jupyter-notebook-gist
@@ -2555,6 +2557,7 @@ mingw-crt
 mingw-gcc
 minicom
 minimodem
+minuet
 mistune
 mixer-tools
 mkfontdir
@@ -3975,6 +3978,7 @@ rjsmin
 rlwrap
 rng-tools
 roboto
+rocs
 rofi
 rope
 rpcbind
@@ -4160,6 +4164,7 @@ tcpdump
 tdb
 telemetrics-client
 telepathy-glib
+telepathy-qt
 tempora
 tensorboard
 tensorflow
