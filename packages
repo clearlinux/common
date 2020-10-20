@@ -1430,6 +1430,7 @@ django_compressor
 dkms
 dlm
 dlt-daemon
+dm-tree
 dmap2gcode
 dmenu
 dmidecode
@@ -1711,6 +1712,7 @@ google-api-python-client
 google-apitools
 google-auth
 google-auth-httplib2
+google-auth-oauthlib
 google-pasta
 google-reauth
 googleapis-common-protos
@@ -1932,6 +1934,7 @@ jupyter_console
 jupyter_core
 jupyterlab
 jupyterlab_launcher
+jupyterlab_pygments
 jupyterlab_server
 kactivities
 kactivities-stats
@@ -4232,6 +4235,7 @@ traitlets
 tree
 twine
 typed_ast
+typeguard
 typing_extensions
 tzdata
 tzlocal
