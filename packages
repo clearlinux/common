@@ -224,6 +224,7 @@ R-animation
 R-ape
 R-argparse
 R-arm
+R-arsenal
 R-ash
 R-askpass
 R-assertthat
@@ -235,6 +236,7 @@ R-bazar
 R-bbmle
 R-bdsmatrix
 R-beeswarm
+R-bench
 R-benchr
 R-betareg
 R-bibtex
@@ -287,6 +289,7 @@ R-colourpicker
 R-combinat
 R-commonmark
 R-compositions
+R-conditionz
 R-config
 R-conquer
 R-contfrac
@@ -296,6 +299,7 @@ R-corrgram
 R-corrplot
 R-covr
 R-cowplot
+R-cpp11
 R-crayon
 R-crosstalk
 R-crul
@@ -558,6 +562,7 @@ R-measures
 R-memisc
 R-memoise
 R-mi
+R-mice
 R-microbenchmark
 R-mime
 R-miniUI
@@ -666,6 +671,7 @@ R-processx
 R-prodlim
 R-profdpm
 R-profileModel
+R-profmem
 R-progress
 R-promises
 R-proto
@@ -700,6 +706,7 @@ R-rappdirs
 R-raster
 R-rasterVis
 R-rbenchmark
+R-rbibutils
 R-rcmdcheck
 R-reactR
 R-reactlog
@@ -734,6 +741,7 @@ R-rjags
 R-rjson
 R-rjstat
 R-rlang
+R-rle
 R-rmarkdown
 R-rmatio
 R-rms
@@ -792,6 +800,7 @@ R-shinyjs
 R-shinystan
 R-shinythemes
 R-slam
+R-slider
 R-sm
 R-smoother
 R-sn
@@ -882,6 +891,7 @@ R-vioplot
 R-viridis
 R-viridisLite
 R-visNetwork
+R-warp
 R-webmockr
 R-webshot
 R-webutils
@@ -3147,6 +3157,7 @@ perl-Hash-Flatten
 perl-Hash-Merge
 perl-Hash-MoreUtils
 perl-Hash-MultiValue
+perl-Heap
 perl-Hook-LexWrap
 perl-I18N-Charset
 perl-IO-AIO
@@ -3976,6 +3987,7 @@ retype
 rfc3986
 rfc3987
 rhythmbox
+rich
 rinutils
 rjsmin
 rlwrap
