@@ -1398,6 +1398,7 @@ dapl
 darkflow
 darktable
 dask
+dataclasses
 datefudge
 dav1d
 db
@@ -1849,7 +1850,6 @@ ifaddr
 iftop
 igt-gpu-tools
 iio-sensor-proxy
-ilmbase
 imageio
 imagescan
 imagesize
