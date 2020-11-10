@@ -1174,6 +1174,7 @@ bind-utils
 binutils
 binwalk
 bison
+black
 bleach
 blender
 blinken
@@ -3827,6 +3828,8 @@ pyflakes
 pygobject
 pyhs100
 pylint
+pyls-black
+pyls-spyder
 pynvim
 pyotherside
 pyotp
@@ -4221,6 +4224,7 @@ thermal_daemon
 thermal_monitor
 thin-provisioning-tools
 threadweaver
+three-merge
 thunar-volman
 thunderbird
 thunderbolt-software-user-space
