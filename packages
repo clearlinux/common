@@ -88,6 +88,7 @@ R-BMS
 R-BatchJobs
 R-BayesFactor
 R-BiasedUrn
+R-BiocManager
 R-BoolNet
 R-BradleyTerry2
 R-Brobdingnag
@@ -256,6 +257,7 @@ R-bootstrap
 R-brew
 R-brglm
 R-bridgesampling
+R-brio
 R-brms
 R-broom
 R-bvls
