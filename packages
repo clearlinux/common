@@ -3866,6 +3866,7 @@ python-crfsuite
 python-dateutil
 python-digitalocean
 python-distutils-extra
+python-dotenv
 python-future
 python-gflags
 python-graphviz
