@@ -620,6 +620,7 @@ R-ordinal
 R-pROC
 R-packrat
 R-pamr
+R-parallelly
 R-parsedate
 R-partitions
 R-party
@@ -675,6 +676,7 @@ R-profdpm
 R-profileModel
 R-profmem
 R-progress
+R-projpred
 R-promises
 R-proto
 R-protolite
