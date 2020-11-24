@@ -4228,12 +4228,14 @@ the_silver_searcher
 thermal_daemon
 thermal_monitor
 thin-provisioning-tools
+threadpoolctl
 threadweaver
 three-merge
 thunar-volman
 thunderbird
 thunderbolt-software-user-space
 tiff
+tifffile
 tig
 tigervnc
 tilix
