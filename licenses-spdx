@@ -16,6 +16,7 @@ AMDPLPA
 AML
 AMPAS
 ANTLR-PD
+ANTLR-PD-fallback
 APAFML
 APL-1.0
 APSL-1.0
@@ -53,6 +54,7 @@ BSD-4-Clause-UC
 BSD-Protection
 BSD-Source-Code
 BSL-1.0
+BUSL-1.1
 Bahyph
 Barr
 Beerware
@@ -200,6 +202,7 @@ Glide
 Glulxe
 HPND
 HPND-sell-variant
+HTMLTIDY
 HaskellReport
 Hippocratic-2.1
 IBM-pibs
@@ -252,6 +255,7 @@ MIT-CMU
 MIT-advertising
 MIT-enna
 MIT-feh
+MIT-open-group
 MITNFA
 MPL-1.0
 MPL-1.1
