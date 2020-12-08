@@ -1399,6 +1399,7 @@ cve-bin-tool
 cxxfilt
 cycler
 cyrus-sasl
+dacite
 dapl
 darkflow
 darktable
