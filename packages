@@ -1619,6 +1619,7 @@ gdal
 gdb
 gdbm
 gdk-pixbuf
+gdk-pixbuf-xlib
 gdl
 gdm
 geany
