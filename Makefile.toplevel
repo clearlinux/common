@@ -178,13 +178,13 @@ log: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 #help versions: Displays the version of each package in the ./packages tree.
 versions: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 	@for p in $(addprefix packages/,$(PKGS_LOCAL)); do \
-		(cd $$p; if ls *.spec &> /dev/null; then rpmspec -q --queryformat '%{NAME}-%{VERSION}\n' *.spec | head -n1; fi) ;\
+		(cd $$p; if ls *.spec &> /dev/null; then $(call queryspec,%{NAME}-%{VERSION}\n,*.spec) | head -n1; fi) ;\
 	done
 
 #help releases: Like 'make versions', but also displays the release number.
 releases: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 	@for p in $(addprefix packages/,$(PKGS_LOCAL)); do \
-		(cd $$p; if ls *.spec &> /dev/null; then rpmspec -q --queryformat '%{NAME}-%{VERSION}-%{RELEASE}\n' *.spec | head -n1; fi) ;\
+		(cd $$p; if ls *.spec &> /dev/null; then $(call queryspec,%{NAME}-%{VERSION}-%{RELEASE}\n,*.spec) | head -n1; fi) ;\
 	done
 
 #help provides:     Is used to find out which RPM package provides some file.

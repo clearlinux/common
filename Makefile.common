@@ -11,7 +11,7 @@ SHELL  = /bin/bash
 
 SPECFILE = $(addsuffix .spec, $(PKG_NAME))
 
-SRPMVERS = $(shell [ ! -f $(SPECFILE) ] || rpmspec -D '_vendor clr' --srpm -q --queryformat '%{NAME}-%{VERSION}-%{RELEASE}\n' $(SPECFILE))
+SRPMVERS = $(shell [ ! -f $(SPECFILE) ] || $(call queryspec,%{NAME}-%{VERSION}-%{RELEASE}\n,$(SPECFILE)))
 SRPMFILE = results/$(SRPMVERS).src.rpm
 
 LATEST_RPMS = $(wildcard rpms/*.rpm)
@@ -46,7 +46,7 @@ upstream:
 #help spdxcheck: Checks that the package license is a valid SPDX license,
 #help or that it is in the exceptions list.
 spdxcheck: $(SPECFILE)
-	@for LICENSE in `rpmspec -D '_vendor clr' --srpm -q --queryformat '%{LICENSE}\n' $(SPECFILE)`; do \
+	@for LICENSE in `$(call queryspec,%{LICENSE}\n,$(SPECFILE))`; do \
 		if ! grep -qx "$$LICENSE" $(TOPLVL)/projects/common/licenses-{spdx,exceptions,extra}; then FAIL=yes; echo "ERROR: License '$$LICENSE' is not an allowed SPDX license ID"; fi; \
 	done; test -z "$$FAIL"
 
@@ -217,12 +217,12 @@ bump:
 	git pull --rebase
 	$(MAKE) bumpnogit
 	git add $(SPECFILE) release
-	git commit -a -m "version bump from $(shell rpmspec -D '_vendor clr' --srpm -q --queryformat '%{VERSION}-%{RELEASE}\n' $(SPECFILE)) to `rpmspec -D '_vendor clr' --srpm -q --queryformat '%{VERSION}-%{RELEASE}\n' $(SPECFILE)`"
+	git commit -a -m "version bump from $(shell $(call queryspec,%{VERSION}-%{RELEASE}\n,$(SPECFILE))) to `$(call queryspec,%{VERSION}-%{RELEASE}\n,$(SPECFILE))`"
 
 #help bumpnogit: Increments the release file by one and does not commit changes.
 bumpnogit:
 	@$(MAKE) spdxcheck
-	oldrel=$(shell rpmspec -D '_vendor clr' --srpm -q --queryformat '%{RELEASE}\n' $(SPECFILE)); \
+	oldrel=$(shell $(call queryspec,%{RELEASE}\n,$(SPECFILE))); \
 	newrel=$$(($$oldrel + 1)); \
 	sed -i "s/^\(Release[[:blank:]]*:[[:blank:]]*\)$$oldrel$$/\1$$newrel/" $(SPECFILE); \
 	echo "$$newrel" > release;
@@ -232,7 +232,7 @@ $(__missingsources): sources
 # First argument is a Clear Linux build number (e.g. 22000)
 define fetch-from-srpm
 	tmp=$$(mktemp -d -p "."); \
-	srpm=$$(rpmspec --srpm -q --qf "%{NVR}.src.rpm\n" $(SPECFILE)); \
+	srpm=$$($(call queryspec,%{NVR}.src.rpm\n,$(SPECFILE))); \
 	if cd "$$tmp" && ! curl -s -S -f -L -O $(MIRROR_CURL_OPTS) $(DOWNLOAD_MIRROR)/releases/$(1)/clear/source/SRPMS/$$srpm; then \
 		echo "Failed to download $$srpm from Clear Linux release $(1)." >&2; \
 		cd .. && rm -rf "$$tmp"; \
@@ -240,7 +240,7 @@ define fetch-from-srpm
 	fi; \
 	rpm2cpio $$srpm | cpio --quiet -id; \
 	cd ..; \
-	srclist=$$(rpmspec --srpm -q --qf "[%{SOURCE}\n]" $(SPECFILE)); \
+	srclist=$$($(call queryspec,[%{SOURCE}\n],$(SPECFILE))); \
 	for s in $$srclist; do \
 		if ! mv --no-clobber "$$tmp"/$$s .; then \
 			echo "Missing source file \"$$s\" in $${srpm}." >&2; \
@@ -279,7 +279,7 @@ else
 sources:
 	@$(MAKE) generateupstream; \
 	[ $$? -eq 0 ] && exit 0; \
-	nvr="$$(rpmspec --srpm -q --qf '%{NAME}\t%{VERSION}\t%{RELEASE}\n' $(SPECFILE))"; \
+	nvr="$$($(call queryspec,%{NAME}\t%{VERSION}\t%{RELEASE}\n,$(SPECFILE)))"; \
 	git -C $(TOPLVL)/projects/common fetch --tags >/dev/null 2>&1; \
 	latest_builds=$$(git -C $(TOPLVL)/projects/common tag -l | sort -rn); \
 	for b in $$latest_builds; do \
