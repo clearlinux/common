@@ -11,7 +11,7 @@ SHELL  = /bin/bash
 
 SPECFILE = $(addsuffix .spec, $(PKG_NAME))
 
-SRPMVERS = $(shell [ ! -f $(SPECFILE) ] || $(call queryspec,%{NAME}-%{VERSION}-%{RELEASE}\n,$(SPECFILE)))
+SRPMVERS = $(shell [ ! -f $(SPECFILE) ] || $(call queryspec,%{NVR}\n,$(SPECFILE)))
 SRPMFILE = results/$(SRPMVERS).src.rpm
 
 LATEST_RPMS = $(wildcard rpms/*.rpm)
