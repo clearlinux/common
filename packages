@@ -1064,10 +1064,9 @@ avahi
 awesome-wm
 awscli
 axel
+azure-appconfiguration
 azure-batch
-azure-cli
 azure-cli-command-modules-nspkg
-azure-cli-core
 azure-cli-nspkg
 azure-cli-telemetry
 azure-common
@@ -1079,8 +1078,10 @@ azure-functions-devops-build
 azure-graphrbac
 azure-iot-sdk
 azure-keyvault
+azure-keyvault-administration
 azure-keyvault-certificates
 azure-keyvault-keys
+azure-keyvault-nspkg
 azure-keyvault-secrets
 azure-loganalytics
 azure-mgmt-advisor
@@ -1146,12 +1147,17 @@ azure-mgmt-signalr
 azure-mgmt-sql
 azure-mgmt-sqlvirtualmachine
 azure-mgmt-storage
+azure-mgmt-synapse
 azure-mgmt-trafficmanager
 azure-mgmt-web
 azure-multiapi-storage
 azure-nspkg
 azure-storage-blob
 azure-storage-common
+azure-synapse-accesscontrol
+azure-synapse-artifacts
+azure-synapse-nspkg
+azure-synapse-spark
 babeltrace
 babl
 backcall
@@ -1341,7 +1347,6 @@ compat-curl-gnutls-soname4
 compat-enchant-soname1
 compat-fuse-soname2
 compat-gtksourceview-soname3
-compat-hunspell-soname1.6
 compat-icu4c-soname64
 compat-libhandy-0.0
 compat-libpng-soname12
@@ -1351,6 +1356,7 @@ compat-nettle-soname6
 compat-nettle-soname7
 compat-opencv-soname42
 compat-protobuf-soname22
+compat-python38
 compat-re2-soname7
 compat-readline-soname5
 compat-tracker-soname2.0
@@ -1420,6 +1426,7 @@ decorator
 defusedxml
 dejagnu
 dejavu-fonts
+deprecation
 desktop-file-utils
 devhelp
 dfc
@@ -1922,6 +1929,7 @@ iwd
 ixion
 jack2
 jansson
+janus
 jaraco.classes
 jaraco.collections
 jaraco.functools
@@ -2793,6 +2801,7 @@ p11-kit
 p7zip
 packaging
 pacrunner
+paho-mqtt
 paho.mqtt.c
 paho.mqtt.cpp
 palapeli
@@ -3994,6 +4003,7 @@ requests-mock
 requests-ntlm
 requests-oauthlib
 requests-toolbelt
+requests-unixsocket
 responses
 rest
 restic
@@ -4273,6 +4283,7 @@ typing_extensions
 tzdata
 tzlocal
 ua-parser
+uamqp
 ucpp
 udisks2
 udunits
