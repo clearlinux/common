@@ -1961,6 +1961,7 @@ juk
 jupyter
 jupyter-nbgallery
 jupyter-notebook-gist
+jupyter-packaging
 jupyter_client
 jupyter_console
 jupyter_core
@@ -1968,6 +1969,7 @@ jupyterlab
 jupyterlab_launcher
 jupyterlab_pygments
 jupyterlab_server
+jupyterlab_widgets
 kactivities
 kactivities-stats
 kactivitymanagerd
