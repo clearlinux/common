@@ -9,6 +9,8 @@ include $(TOPLVL)/projects/common/Makefile.shared
 
 SHELL  = /bin/bash
 
+CURRENT_BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
+
 SPECFILE = $(addsuffix .spec, $(PKG_NAME))
 
 SRPMVERS = $(shell [ ! -f $(SPECFILE) ] || $(call queryspec,%{NVR}\n,$(SPECFILE)))
@@ -305,8 +307,8 @@ prekoji-checks:
 koji: prekoji-checks kojidef
 	@$(MAKE) spdxcheck
 	@$(MAKE) checkblacklist
-	@if [ "$$(git rev-parse --abbrev-ref HEAD)" != "master" ]; then \
-		echo "Error: Must be on the master branch to submit to koji" >&2; \
+	@if [ "$(CURRENT_BRANCH)" != "master" ] && [ "$(CURRENT_BRANCH)" != "main" ]; then \
+		echo "Error: Must be on the \"master\" or \"main\" branch to submit to koji" >&2; \
 		exit 1; \
 	fi; \
 	if ! git diff --quiet HEAD -- ${SPECFILE}; then \
@@ -322,7 +324,7 @@ koji: prekoji-checks kojidef
 		exit 1; \
 	fi
 	git tag $(SRPMVERS)
-	git push origin master refs/tags/$(SRPMVERS)
+	git push origin $(CURRENT_BRANCH):master refs/tags/$(SRPMVERS)
 	$(KOJI_CMD) build $$KOJI_NOWAIT $(KOJI_TAG) $(PKG_BASE_URL)/$(PKG_NAME)?#$(SRPMVERS)
 
 #help rekoji: In case a previous 'make koji' failed, trigger a rebuild for the
