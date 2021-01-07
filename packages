@@ -1008,6 +1008,7 @@ amtk
 analitza
 ansible
 antlr4-python3-runtime
+anyio
 apache-ant
 apipkg
 appdirs
@@ -1045,6 +1046,7 @@ astunparse
 asunder
 asv
 async-timeout
+async_generator
 at
 at-spi2-atk
 at-spi2-core
@@ -1153,6 +1155,7 @@ byobu
 bz2file
 bzip2
 c-ares
+cJSON
 c_rehash
 ca-certs
 ca-certs-static
@@ -1315,6 +1318,7 @@ cups
 cups-bjnp
 cups-filters
 cups-pk-helper
+curio
 curl
 custom_inherit
 cve-bin-tool
@@ -1882,6 +1886,7 @@ jupyter-packaging
 jupyter_client
 jupyter_console
 jupyter_core
+jupyter_server
 jupyterlab
 jupyterlab_launcher
 jupyterlab_pygments
@@ -2576,6 +2581,7 @@ nagios-plugins
 nano
 nasm
 nautilus
+nbclassic
 nbconvert
 nbformat
 nbval
@@ -3577,6 +3583,7 @@ perl-prefork
 perl-strictures
 persistent
 pesign
+petastorm
 pexpect
 phonon
 phonon-vlc
