@@ -303,6 +303,7 @@ R-covr
 R-cowplot
 R-cpp11
 R-crayon
+R-credentials
 R-crosstalk
 R-crul
 R-csvy
@@ -397,6 +398,7 @@ R-fastmap
 R-fastmatch
 R-fauxpas
 R-fda
+R-fds
 R-feather
 R-ff
 R-fields
@@ -439,6 +441,7 @@ R-geiger
 R-generics
 R-geojson
 R-geometry
+R-gert
 R-getopt
 R-ggjoy
 R-ggplot2
@@ -447,6 +450,7 @@ R-ggridges
 R-ggvis
 R-gh
 R-git2r
+R-gitcreds
 R-glmnet
 R-globals
 R-glue
@@ -706,6 +710,8 @@ R-quantmod
 R-quantreg
 R-questionr
 R-qvcalc
+R-ragg
+R-rainbow
 R-randomForest
 R-randomNames
 R-randtests
@@ -903,6 +909,7 @@ R-vioplot
 R-viridis
 R-viridisLite
 R-visNetwork
+R-waldo
 R-warp
 R-webmockr
 R-webshot
