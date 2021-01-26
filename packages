@@ -452,6 +452,7 @@ R-ggvis
 R-gh
 R-git2r
 R-gitcreds
+R-gld
 R-glmnet
 R-globals
 R-glue
@@ -540,6 +541,7 @@ R-listviewer
 R-lle
 R-lme4
 R-lmerTest
+R-lmom
 R-lmtest
 R-locfit
 R-logcondens
