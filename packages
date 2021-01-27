@@ -260,9 +260,11 @@ R-bridgesampling
 R-brio
 R-brms
 R-broom
+R-bslib
 R-bvls
 R-ca
 R-caTools
+R-cachem
 R-calibrate
 R-calibrator
 R-callr
@@ -505,6 +507,7 @@ R-joineR
 R-joineRML
 R-jpeg
 R-jqr
+R-jquerylib
 R-jsonlite
 R-kableExtra
 R-keras
@@ -794,6 +797,7 @@ R-rvest
 R-sROC
 R-sampling
 R-sandwich
+R-sass
 R-scales
 R-scatterplot3d
 R-sde
@@ -836,6 +840,8 @@ R-spam
 R-sparkline
 R-spatstat
 R-spatstat.data
+R-spatstat.geom
+R-spatstat.sparse
 R-spatstat.utils
 R-spc
 R-spdep
