@@ -576,6 +576,7 @@ R-mda
 R-measures
 R-memisc
 R-memoise
+R-metafor
 R-mi
 R-mice
 R-microbenchmark
@@ -2784,6 +2785,7 @@ pdns
 pdns-recursor
 pdsh
 pecan
+ped
 pep517
 pep8
 perftest
