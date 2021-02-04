@@ -994,6 +994,7 @@ XStatic-term.js
 Z3
 abireport
 absl-py
+abydos
 accountsservice
 acl
 acme
@@ -1883,6 +1884,7 @@ javaproperties
 jdcal
 jedi
 jeepney
+jellyfish
 jemalloc
 jmespath
 joblib
@@ -2213,6 +2215,7 @@ libdmx
 libdnf
 libdrm
 libe-book
+libebur128
 libeconf
 libedit
 libepoxy
@@ -3861,6 +3864,7 @@ pyu2f
 pyudev
 pyusb
 pywbem
+pyxDamerauLevenshtein
 pyxattr
 pyxdg
 pyzmq
