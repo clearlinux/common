@@ -1126,6 +1126,8 @@ bleach
 blender
 blinken
 blinker
+blivet
+blivet-gui
 blktrace
 blockdiag
 bluedevil
@@ -2609,6 +2611,7 @@ nano
 nasm
 nautilus
 nbclassic
+nbclient
 nbconvert
 nbformat
 nbval
@@ -2621,6 +2624,7 @@ ndpi
 neofetch
 neomutt
 neovim
+nest_asyncio
 net-snmp
 net-tools
 netaddr
@@ -3684,6 +3688,7 @@ php-zmq
 pickleshare
 picmi
 picocom
+pid
 pidgin
 pidgin-sipe
 pigeonhole
@@ -3800,6 +3805,7 @@ pynvim
 pyotherside
 pyotp
 pyparsing
+pyparted
 pyperclip
 pyperf
 pyquery
