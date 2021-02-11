@@ -1091,6 +1091,7 @@ automake
 autossh
 avahi
 awesome-wm
+awesomeversion
 awscli
 axel
 azure-configs
@@ -2123,6 +2124,7 @@ ktp-desktop-applets
 ktuberling
 kturtle
 kubernetes
+kubernetes-migration-1.18
 kunitconversion
 kwallet
 kwallet-pam
