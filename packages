@@ -1147,6 +1147,7 @@ boto
 boto3
 botocore
 bovo
+box2d
 bpftrace
 breeze
 breeze-gtk
@@ -1580,6 +1581,7 @@ geany
 geany-plugins
 geary
 gedit
+gedit-plugins-gnome
 geeqie
 gegl
 gensim
