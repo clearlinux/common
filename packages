@@ -295,6 +295,7 @@ R-commonmark
 R-compositions
 R-conditionz
 R-config
+R-conflicted
 R-conquer
 R-contfrac
 R-conting
@@ -356,6 +357,7 @@ R-eRm
 R-earth
 R-eco
 R-ecodist
+R-eddington
 R-effects
 R-eha
 R-eiPack
@@ -916,6 +918,7 @@ R-vcdExtra
 R-vcr
 R-vctrs
 R-vegan
+R-vembedr
 R-vioplot
 R-viridis
 R-viridisLite
