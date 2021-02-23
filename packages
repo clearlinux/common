@@ -1306,7 +1306,6 @@ compat-nettle-soname7
 compat-opencv-soname42
 compat-pangomm-soname14
 compat-protobuf-soname22
-compat-python38
 compat-re2-soname7
 compat-readline-soname5
 compat-tracker-soname2.0
@@ -1389,6 +1388,7 @@ diffoscope
 diffstat
 diffutils
 digikam
+dill
 ding-libs
 dino
 direwolf
@@ -3386,6 +3386,7 @@ perl-SGMLS
 perl-SMTP-Server
 perl-SQL-Abstract
 perl-SQL-Abstract-Classic
+perl-SQL-Abstract-Pg
 perl-SQL-SplitStatement
 perl-SQL-Tokenizer
 perl-SQL-Translator
