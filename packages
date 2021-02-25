@@ -397,6 +397,7 @@ R-fUnitRoots
 R-fail
 R-fansi
 R-farver
+R-fastGHQuad
 R-fastICA
 R-fastcluster
 R-fastmap
@@ -469,6 +470,7 @@ R-gower
 R-gplots
 R-gridBase
 R-gridExtra
+R-gsl
 R-gss
 R-gtable
 R-gtools
@@ -790,6 +792,7 @@ R-rsdmx
 R-rstan
 R-rstanarm
 R-rstantools
+R-rstpm2
 R-rstudio
 R-rstudio-server
 R-rstudioapi
@@ -2180,7 +2183,6 @@ libXtst
 libXv
 libXvMC
 libXxf86dga
-libXxf86misc
 libabigail
 libabw
 libaio
