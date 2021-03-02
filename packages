@@ -1308,6 +1308,7 @@ compat-nettle-soname6
 compat-nettle-soname7
 compat-opencv-soname42
 compat-pangomm-soname14
+compat-proj-soname19
 compat-protobuf-soname22
 compat-re2-soname7
 compat-readline-soname5
@@ -3987,6 +3988,7 @@ rinutils
 rjsmin
 rlwrap
 rng-tools
+robin-map
 roboto
 rocs
 rofi
