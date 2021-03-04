@@ -163,7 +163,7 @@ status: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 #help diffstat. Requires that diffstat is installed.
 diff: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 	@for p in projects/common $(addprefix packages/,$(PKGS_LOCAL)); do \
-		(cd $$p ; git status | grep -q 'nothing to commit, working [^ ]* clean' || (echo "Uncommitted changes in: $$p"; git diff |diffstat -p1)) ;\
+		(cd $$p; git status --porcelain | grep -vq '^?? ' && (echo "Uncommitted changes in: $$p"; git diff | diffstat -p1); :) ;\
 	done
 
 #help log: Run git log origin/master..HEAD for all package repos, thus
