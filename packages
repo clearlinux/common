@@ -1290,7 +1290,6 @@ colordiff
 columbiad
 commonmark
 compat-atkmm-soname16
-compat-boost-soname1.72.0
 compat-boost-soname1.73.0
 compat-cairomm-soname10
 compat-curl-gnutls-soname4
@@ -1298,17 +1297,12 @@ compat-enchant-soname1
 compat-fuse-soname2
 compat-glibmm-soname24
 compat-gtksourceview-soname3
-compat-icu4c-soname64
 compat-libhandy-0.0
 compat-libpng-soname12
-compat-libraw-soname19
 compat-libsigc++-soname20
 compat-libva-soname1
-compat-nettle-soname6
 compat-nettle-soname7
-compat-opencv-soname42
 compat-pangomm-soname14
-compat-protobuf-soname22
 compat-re2-soname7
 compat-readline-soname5
 compat-tracker-soname2.0
