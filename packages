@@ -670,6 +670,7 @@ R-pkgload
 R-pkgmaker
 R-plm
 R-plogr
+R-plot3D
 R-plotly
 R-plotmo
 R-plotrix
@@ -870,6 +871,7 @@ R-subselect
 R-superpc
 R-survey
 R-svUnit
+R-svglite
 R-sys
 R-systemfit
 R-systemfonts
