@@ -78,7 +78,7 @@ configemail:
 
 #help checkblacklist: Verify rpms files to not include banned files for Clear Linux OS.
 checkblacklist:
-	@$(TOPLVL)/projects/common/checkblacklist.sh $(TOPLVL)/projects/common/blacklist results/*.rpm
+	@$(TOPLVL)/projects/common/checkblacklist.sh $(TOPLVL)/projects/common/blacklist $(filter-out ${DEBUGINFO_RPM},${RPMS})
 
 prebuild-checks:
 
