@@ -17,7 +17,7 @@ SRPMVERS = $(shell [ ! -f $(SPECFILE) ] || $(call queryspec,%{NVR}\n,$(SPECFILE)
 SRPMFILE = results/$(SRPMVERS).src.rpm
 
 LATEST_RPMS = $(wildcard rpms/*.rpm)
-DEBUGINFO_RPM = $(wildcard rpms/*-debuginfo-*.rpm)
+DEBUGINFO_RPM = $(wildcard rpms/${PKG_NAME}-debuginfo-$(shell $(call queryspec,%{V}-%{R},${SPECFILE})).*.rpm)
 RPMS ?= $(LATEST_RPMS)
 
 WITH_SUDO = $(shell cmp /usr/bin/mock /usr/sbin/mock &> /dev/null && echo sudo )
