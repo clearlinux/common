@@ -1304,6 +1304,8 @@ compat-libhandy-0.0
 compat-libpng-soname12
 compat-libsigc++-soname20
 compat-libva-soname1
+compat-lua-52
+compat-lua-53
 compat-nettle-soname7
 compat-pangomm-soname14
 compat-re2-soname7
@@ -2477,7 +2479,6 @@ lttng-tools
 lttng-ust
 lua
 lua-nginx-module
-lua52
 lualgi
 luarocks
 lutris
