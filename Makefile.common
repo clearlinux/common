@@ -451,6 +451,10 @@ install-debuginfo-local:
 		sudo chown -R dbginfo:dbginfo "$$d"; \
 		sudo cp -a "$$d" $$dest/; \
 	done; \
+	find $$tmpdir/usr/share/debug/.build-id -type l 2> /dev/null | while read -r link; do \
+		new_target=$$(readlink $$link | sed 's|/usr/share/debug|/usr/lib/debug|'); \
+		sudo ln -sf "$$new_target" "$$link"; \
+	done; \
 	find $$tmpdir/usr/share/debug/ -mindepth 1 -maxdepth 1 -regextype awk -regex '.*/(.build-id|boot|lib|sbin|usr)$$' 2> /dev/null | while read -r d; do \
 		sudo chown -R dbginfo:dbginfo "$$d"; \
 		sudo cp -a "$$d" $$dest/; \
