@@ -1422,6 +1422,7 @@ docbook-utils
 docbook-xml
 docbook2X
 docker
+docker-cli
 docker-compose
 docker-py
 docker-pycreds
