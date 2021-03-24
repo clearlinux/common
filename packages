@@ -848,8 +848,10 @@ R-spData
 R-spam
 R-sparkline
 R-spatstat
+R-spatstat.core
 R-spatstat.data
 R-spatstat.geom
+R-spatstat.linnet
 R-spatstat.sparse
 R-spatstat.utils
 R-spc
