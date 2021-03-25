@@ -2586,7 +2586,6 @@ mosh
 mosquitto
 motd-update
 motif
-mozjs68
 mozjs78
 mpc
 mpfr
@@ -4234,6 +4233,7 @@ tldextract
 tmux
 tokyocabinet
 toml
+tomlkit
 toolz
 tornado
 totem
