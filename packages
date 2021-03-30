@@ -72,6 +72,7 @@ PyWavelets
 PyYAML
 Pygments
 Pyro4
+QAT_engine
 QGIS
 QtAwesome
 QtPy
@@ -1304,6 +1305,7 @@ compat-enchant-soname1
 compat-fuse-soname2
 compat-glibmm-soname24
 compat-gtksourceview-soname3
+compat-libffi-soname6
 compat-libhandy-0.0
 compat-libpng-soname12
 compat-libsigc++-soname20
@@ -1860,6 +1862,7 @@ ipe
 iperf
 ipmctl
 ipmitool
+ipp-crypto
 iproute2
 ipset
 iptables
