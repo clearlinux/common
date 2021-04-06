@@ -1113,6 +1113,7 @@ azure-iot-sdk
 babeltrace
 babl
 backcall
+backports.entry_points_selectable
 backports.ssl_match_hostname
 backports.weakref
 baloo
@@ -1911,6 +1912,7 @@ joe
 josepy
 jpegoptim
 jq
+js8call
 jsmin
 json-c
 json-glib
