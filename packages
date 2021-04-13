@@ -1318,6 +1318,7 @@ compat-pangomm-soname14
 compat-re2-soname7
 compat-readline-soname5
 compat-tracker-soname2.0
+complete
 component
 compute-image-packages
 conda
