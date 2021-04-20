@@ -3733,6 +3733,7 @@ plasma-framework
 plasma-integration
 plasma-nm
 plasma-pa
+plasma-systemmonitor
 plasma-vault
 plasma-wayland-protocols
 plasma-workspace
