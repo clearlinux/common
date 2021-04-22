@@ -1307,6 +1307,7 @@ compat-enchant-soname1
 compat-fuse-soname2
 compat-glibmm-soname24
 compat-gtksourceview-soname3
+compat-ldc-soname94
 compat-libffi-soname6
 compat-libhandy-0.0
 compat-libpng-soname12
@@ -1844,9 +1845,7 @@ init-rdahead
 inkscape
 innoextract
 inotify-tools
-intel-compute-runtime
 intel-gmmlib
-intel-graphics-compiler
 intel-hybrid-driver
 intel-ipsec-mb
 intel-media-driver
@@ -2472,6 +2471,7 @@ lksctp-tools
 lldb
 llfuse
 llvm
+llvm10
 llvm8
 llvm9
 lm-sensors
@@ -3776,6 +3776,7 @@ prison
 processor-trace
 procmail
 procps-ng
+progress
 progressbar
 proj
 prometheus_client
