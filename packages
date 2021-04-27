@@ -1307,7 +1307,6 @@ compat-enchant-soname1
 compat-fuse-soname2
 compat-glibmm-soname24
 compat-gtksourceview-soname3
-compat-ldc-soname94
 compat-libffi-soname6
 compat-libhandy-0.0
 compat-libpng-soname12
@@ -2393,6 +2392,7 @@ libssh
 libssh2
 libstaroffice
 libstatgrab
+libstemmer_c
 libstoragemgmt
 libsysstat
 libtasn1
