@@ -3215,6 +3215,7 @@ perl-List-MoreUtils
 perl-List-MoreUtils-XS
 perl-List-SomeUtils
 perl-List-SomeUtils-XS
+perl-List-Util
 perl-List-UtilsBy
 perl-Locale-Maketext-Gettext
 perl-Locale-Maketext-Lexicon
@@ -4006,6 +4007,7 @@ rocs
 rofi
 rope
 rpcbind
+rpcsvc-proto
 rpm
 rr
 rrdtool
