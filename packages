@@ -1403,6 +1403,7 @@ dill
 ding-libs
 dino
 direwolf
+diskcache
 dist-pam-configs
 distlib
 distributed
@@ -1567,6 +1568,7 @@ fribidi
 fritzing-app
 fs
 fsearch
+fsspec
 funcparserlib
 funcsigs
 fuse
@@ -3868,6 +3870,8 @@ python-hwinfo
 python-jsonrpc-server
 python-kconfiglib
 python-language-server
+python-lsp-jsonrpc
+python-lsp-server
 python-magic
 python-memcached
 python-mimeparse
