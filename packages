@@ -438,6 +438,7 @@ R-future
 R-g.data
 R-gam
 R-gamm4
+R-gargle
 R-gbRd
 R-gbm
 R-gbutils
@@ -468,6 +469,8 @@ R-gmp
 R-gnm
 R-goftest
 R-googleVis
+R-googledrive
+R-googlesheets4
 R-gower
 R-gplots
 R-gridBase
@@ -495,6 +498,7 @@ R-hunspell
 R-hwriter
 R-hypergeo
 R-ica
+R-ids
 R-igraph
 R-import
 R-ineq
@@ -526,6 +530,7 @@ R-ks
 R-labeling
 R-labelled
 R-laeken
+R-lamW
 R-lambda.r
 R-languageR
 R-languageserver
@@ -737,6 +742,7 @@ R-rasterVis
 R-rbenchmark
 R-rbibutils
 R-rcmdcheck
+R-rcorpora
 R-reactR
 R-reactable
 R-reactlog
@@ -2533,6 +2539,7 @@ man-pages-posix
 marble
 mariadb
 matplotlib
+matplotlib-inline
 mc
 mccabe
 mcelog
