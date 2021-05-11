@@ -93,6 +93,7 @@ R-BiocManager
 R-BoolNet
 R-BradleyTerry2
 R-Brobdingnag
+R-C50
 R-CVST
 R-Cairo
 R-CircStats
@@ -793,6 +794,7 @@ R-robustbase
 R-rootSolve
 R-rotl
 R-roxygen2
+R-rpart.plot
 R-rprojroot
 R-rrcov
 R-rredlist
@@ -902,6 +904,7 @@ R-tfruns
 R-threejs
 R-tibble
 R-tidyr
+R-tidyrules
 R-tidyselect
 R-tidyverse
 R-tikzDevice
