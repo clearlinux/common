@@ -2349,6 +2349,7 @@ libnice
 libnl
 libnma
 libnotify
+libnsl
 libnumbertext
 liboauth
 libodfgen
@@ -3871,6 +3872,7 @@ python-Levenshtein
 python-augeas
 python-crfsuite
 python-dateutil
+python-dbusmock
 python-digitalocean
 python-distutils-extra
 python-dotenv
