@@ -645,6 +645,7 @@ R-optparse
 R-ordinal
 R-pROC
 R-packrat
+R-palmerpenguins
 R-pamr
 R-pander
 R-parallelly
@@ -2372,6 +2373,7 @@ libpwquality
 libqalculate
 libqb
 libqmi
+libqrtr-glib
 libqtxdg
 libqxp
 libratbag
@@ -2415,6 +2417,8 @@ libtheora
 libtirpc
 libtool
 libtorrent-rasterbar
+libtraceevent
+libtracefs
 libudev0-shim
 libuninameslist
 libunistring
