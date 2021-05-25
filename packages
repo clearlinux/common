@@ -3855,6 +3855,13 @@ pyquery
 pyreadline
 pyroma
 pyroute2
+pyroute2.core
+pyroute2.ethtool
+pyroute2.ipdb
+pyroute2.ipset
+pyroute2.ndb
+pyroute2.nftables
+pyroute2.nslink
 pyrsistent
 pyserial
 pyside2-setup
