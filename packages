@@ -23,6 +23,7 @@ Gradio
 GtkD
 HeapDict
 ImageMagick
+Imath
 JAGS
 Jinja2
 Judy
@@ -742,6 +743,7 @@ R-ranger
 R-rappdirs
 R-raster
 R-rasterVis
+R-ratelimitr
 R-rbenchmark
 R-rbibutils
 R-rcmdcheck
@@ -1049,6 +1051,7 @@ alsa-tools
 alsa-ucm-conf
 alsa-utils
 amazon-efs-utils
+amazon-ssm-agent
 amtk
 analitza
 ansible
@@ -1316,6 +1319,7 @@ compat-cairomm-soname10
 compat-curl-gnutls-soname4
 compat-enchant-soname1
 compat-fuse-soname2
+compat-gcc-10
 compat-glibmm-soname24
 compat-gtksourceview-soname3
 compat-libffi-soname6
@@ -1326,6 +1330,7 @@ compat-libva-soname1
 compat-lua-52
 compat-lua-53
 compat-nettle-soname7
+compat-openexr-soname25
 compat-pangomm-soname14
 compat-re2-soname7
 compat-readline-soname5
