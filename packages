@@ -1426,7 +1426,6 @@ distributed
 distro
 dj-database-url
 django-appconf
-django-babel
 django-discover-runner
 django-nose
 django-pyscss
@@ -2245,6 +2244,7 @@ libcomps
 libconfig
 libcroco
 libcryptui
+libcst
 libcxx
 libdaemon
 libdatrie
@@ -4087,6 +4087,7 @@ seahorse
 secretstorage
 sed
 selenium
+semantic_version
 seqdiag
 serf
 serpent
@@ -4094,6 +4095,7 @@ setproctitle
 setserial
 setuptools
 setuptools-legacy
+setuptools-rust
 setuptools_scm
 setuptools_scm_git_archive
 setxkbmap
@@ -4300,6 +4302,7 @@ twine
 typed_ast
 typeguard
 typing_extensions
+typing_inspect
 tzdata
 tzlocal
 ua-parser
@@ -4335,6 +4338,7 @@ usrbinpython
 usrbinvi
 utf8cpp
 util-linux
+util-linux-man
 util-macros
 uwsgi
 v4l-utils
