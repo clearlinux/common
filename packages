@@ -1330,6 +1330,7 @@ compat-libsigc++-soname20
 compat-libva-soname1
 compat-lua-52
 compat-lua-53
+compat-mlt-soname6
 compat-nettle-soname7
 compat-openexr-soname25
 compat-pangomm-soname14
