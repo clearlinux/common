@@ -562,6 +562,7 @@ R-lmom
 R-lmtest
 R-locfit
 R-logcondens
+R-logger
 R-logspline
 R-loo
 R-lpSolve
@@ -816,6 +817,7 @@ R-rsvg
 R-runjags
 R-rversions
 R-rvest
+R-s2
 R-sROC
 R-sampling
 R-sandwich
@@ -958,6 +960,7 @@ R-whoami
 R-wikitaxa
 R-winch
 R-withr
+R-wk
 R-worrms
 R-xfun
 R-xml2
@@ -973,6 +976,7 @@ R-zoo
 RawTherapee
 Remmina
 Routes
+Rtree
 SDL
 SDL2
 SDL2_gfx
@@ -1075,6 +1079,7 @@ ark
 armadillo
 arp-scan
 arpack-ng
+arrow
 artikulate
 asciidoc
 asciinema
@@ -1148,6 +1153,7 @@ bcrypt
 bdftopcf
 beautifulsoup4
 bijiben
+binaryornot
 bind-utils
 binutils
 binwalk
@@ -1237,6 +1243,7 @@ ceph-deploy
 certbot
 certifi
 cffi
+cfgv
 cfitsio
 cgdb
 cgit
@@ -1350,6 +1357,7 @@ conntrack-tools
 console-autostart
 containerd
 contextlib2
+cookiecutter
 cookies
 coreutils
 corosync
@@ -1842,6 +1850,7 @@ iceauth
 icecream
 icon-naming-utils
 icu4c
+identify
 idle-python3.7-assets
 idna
 idna-ssl
@@ -1926,6 +1935,7 @@ jedi
 jeepney
 jellyfish
 jemalloc
+jinja2-time
 jmespath
 joblib
 joe
@@ -2153,6 +2163,7 @@ kstars
 ksudoku
 ksysguard
 ksystemlog
+ksystemstats
 kteatime
 ktexteditor
 ktextwidgets
@@ -2182,6 +2193,7 @@ ladspa_sdk
 lark-parser
 latencytop
 latte-dock
+layer-shell-qt
 lazy-object-proxy
 lcms2
 lcov
@@ -2708,6 +2720,7 @@ nltk
 nmap
 nocasedict
 nocaselist
+nodeenv
 nodejs
 nose
 nose-parameterized
@@ -3432,6 +3445,7 @@ perl-SQL-SplitStatement
 perl-SQL-Tokenizer
 perl-SQL-Translator
 perl-SUPER
+perl-Safe-Isa
 perl-Scalar-String
 perl-Scope-Guard
 perl-Scope-Upper
@@ -3511,6 +3525,7 @@ perl-Test-File-ShareDir-Dist
 perl-Test-Fork
 perl-Test-Identity
 perl-Test-Inter
+perl-Test-LWP-UserAgent
 perl-Test-LeakTrace
 perl-Test-LectroTest
 perl-Test-LongString
@@ -3795,7 +3810,9 @@ powerline-fonts
 powerstat
 powertop
 poxml
+poyo
 ppp
+pre_commit
 pretend
 prettytable
 print-manager
@@ -4277,6 +4294,7 @@ tigervnc
 tilix
 time
 tini
+tinycss2
 tiptop
 tk
 tldextract
