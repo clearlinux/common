@@ -1152,6 +1152,7 @@ bcftools
 bcrypt
 bdftopcf
 beautifulsoup4
+beniget
 bijiben
 binaryornot
 bind-utils
@@ -1409,6 +1410,7 @@ dconf
 dconf-editor
 ddd
 deap
+debugedit
 decorator
 defusedxml
 dejagnu
@@ -3941,6 +3943,7 @@ python-zeep
 python-zstandard
 python3
 python37
+pythran
 pytorch
 pytz
 pyu2f
