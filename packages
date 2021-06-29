@@ -1500,6 +1500,7 @@ eigen
 elementary-xfce
 elfutils
 elisa
+elixir
 ell
 emacs
 emacs-x11
@@ -1760,6 +1761,10 @@ grisbi
 groff
 grpc
 grpcio
+grpcio-channelz
+grpcio-health-checking
+grpcio-reflection
+grpcio-tools
 gsequencer
 gsettings-desktop-schemas
 gsl
@@ -4103,6 +4108,7 @@ sddm
 sddm-kcm
 seaborn
 seahorse
+seatd
 secretstorage
 sed
 selenium
@@ -4328,6 +4334,7 @@ tzdata
 tzlocal
 ua-parser
 uamqp
+uchardet
 ucpp
 udisks2
 udunits
