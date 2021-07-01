@@ -1409,6 +1409,7 @@ dconf-editor
 ddd
 deap
 debugedit
+debugpy
 decorator
 defusedxml
 dejagnu
