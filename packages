@@ -3786,6 +3786,7 @@ plasma-vault
 plasma-wayland-protocols
 plasma-workspace
 plasma-workspace-wallpapers
+platformdirs
 plotly
 pluggy
 ply
