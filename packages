@@ -2158,6 +2158,7 @@ krusader
 kscreen
 kscreenlocker
 kservice
+ksh
 kshisen
 ksirk
 ksmtp
@@ -4068,6 +4069,7 @@ rope
 rpcbind
 rpcsvc-proto
 rpm
+rpmfile
 rr
 rrdtool
 rsa
@@ -4508,6 +4510,7 @@ xss-lock
 xterm
 xtrans
 xvfb-run
+xwayland
 xwd
 xwdrun
 xwininfo
