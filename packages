@@ -1197,6 +1197,7 @@ brotlipy
 bsdiff
 btrfs-progs
 bubblewrap
+build
 buildreq-R
 buildreq-cmake
 buildreq-configure
@@ -2507,6 +2508,7 @@ linux-libc-headers
 linux-lts2017
 linux-lts2018
 linux-lts2019
+linux-lts2020
 linux-mainline
 linux-oracle
 linux-preempt-rt
@@ -3811,6 +3813,7 @@ postgis
 postgresql
 postgresql11
 postgresql12
+postgresql13
 potrace
 powerdevil
 powerline-fonts
@@ -4311,6 +4314,7 @@ tldextract
 tmux
 tokyocabinet
 toml
+tomli
 tomlkit
 toolz
 tornado
@@ -4370,7 +4374,6 @@ usrbinpython
 usrbinvi
 utf8cpp
 util-linux
-util-linux-man
 util-macros
 uwsgi
 v4l-utils
