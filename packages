@@ -1250,6 +1250,7 @@ cfitsio
 cgdb
 cgit
 chardet
+charset-normalizer
 check
 check-manifest
 cheese
