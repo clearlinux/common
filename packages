@@ -1337,6 +1337,7 @@ compat-gcc-10
 compat-glibmm-soname24
 compat-goocanvas-soname2
 compat-gtksourceview-soname3
+compat-ldc-soname95
 compat-libffi-soname6
 compat-libpng-soname12
 compat-libsigc++-soname20
