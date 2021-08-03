@@ -223,6 +223,7 @@ R-ade4
 R-adegenet
 R-adegraphics
 R-adephylo
+R-adespatial
 R-afex
 R-alr3
 R-analogue
@@ -458,6 +459,7 @@ R-getopt
 R-ggjoy
 R-ggplot2
 R-ggplot2movies
+R-ggrepel
 R-ggridges
 R-ggvis
 R-gh
@@ -929,6 +931,7 @@ R-truncdist
 R-truncnorm
 R-tseries
 R-tsne
+R-tzdb
 R-ucminf
 R-units
 R-unix
@@ -949,6 +952,7 @@ R-vioplot
 R-viridis
 R-viridisLite
 R-visNetwork
+R-vroom
 R-waldo
 R-warp
 R-webfakes
@@ -1343,6 +1347,7 @@ compat-mlt-soname6
 compat-nettle-soname7
 compat-openexr-soname25
 compat-pangomm-soname14
+compat-poppler-soname111
 compat-readline-soname5
 compat-tracker-soname2.0
 complete
