@@ -562,6 +562,7 @@ R-lme4
 R-lmerTest
 R-lmom
 R-lmtest
+R-lobstr
 R-locfit
 R-logcondens
 R-logger
