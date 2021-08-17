@@ -659,6 +659,7 @@ R-parsedate
 R-partitions
 R-party
 R-partykit
+R-patchwork
 R-pbapply
 R-pbdZMQ
 R-pbivnorm
@@ -947,6 +948,7 @@ R-vcd
 R-vcdExtra
 R-vcr
 R-vctrs
+R-vdiffr
 R-vegan
 R-vembedr
 R-vioplot
@@ -1338,7 +1340,6 @@ compat-gcc-10
 compat-glibmm-soname24
 compat-goocanvas-soname2
 compat-gtksourceview-soname3
-compat-ldc-soname95
 compat-libffi-soname6
 compat-libpng-soname12
 compat-libsigc++-soname20
@@ -3807,6 +3808,7 @@ pmdk
 pmix
 pngcrush
 po4a
+podman
 polkit
 polkit-kde-agent
 polkit-qt
