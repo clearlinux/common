@@ -1880,6 +1880,7 @@ imagesize
 imapfilter
 imlib2
 importlib_metadata
+importlib_resources
 indent
 influxdb
 iniconfig
