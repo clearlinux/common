@@ -342,6 +342,7 @@ R-dimRed
 R-diptest
 R-distr
 R-distrEx
+R-distributional
 R-dlm
 R-doMC
 R-doMPI
@@ -700,6 +701,7 @@ R-polyCub
 R-polyclip
 R-polycor
 R-polynom
+R-posterior
 R-prabclus
 R-pracma
 R-praise
@@ -1824,6 +1826,7 @@ help2man
 hexchat
 hexedit
 hicolor-icon-theme
+hiredis-c
 home-assistant
 home-assistant-frontend
 horovod
