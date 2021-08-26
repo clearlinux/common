@@ -1784,6 +1784,7 @@ gsl
 gsm
 gsound
 gspell
+gssapi
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
@@ -4059,6 +4060,7 @@ reportlab
 repoze.lru
 requests
 requests-file
+requests-gssapi
 requests-kerberos
 requests-mock
 requests-ntlm
@@ -4088,6 +4090,7 @@ rope
 rpcbind
 rpcsvc-proto
 rpm
+rpm-py-installer
 rpmfile
 rr
 rrdtool
