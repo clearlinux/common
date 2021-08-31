@@ -1511,6 +1511,7 @@ efl
 eid-mw
 eigen
 elementary-xfce
+elementpath
 elfutils
 elisa
 elixir
@@ -2466,6 +2467,7 @@ libudev0-shim
 libuninameslist
 libunistring
 libunwind
+liburing
 libusb
 libusb-compat
 libuser
@@ -4404,6 +4406,7 @@ vim-fugitive
 vim-gnupg
 vim-go
 vinagre
+virglrenderer
 virt-manager
 virt-viewer
 virtualenv
@@ -4509,6 +4512,7 @@ xkill
 xl2tpd
 xlog
 xmlb
+xmlschema
 xmlsec1
 xmlstarlet
 xmlto
