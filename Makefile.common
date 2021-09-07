@@ -522,6 +522,44 @@ cloc: $(SRPMFILE)
 	@$(MOCK) --clean --scrub=chroot --uniqueext=$(PKG_NAME)
 	cat results/cloc.txt
 
+.PHONY: whatrequires
+#help whatrequires: Output a list of packages that directly depend on this one,
+#help showing the subpackage-level breakdown. Each line of output has the format
+#help "SUBPACKAGE(|SYMBOL)? <- PACKAGE (ARCH)". If ARCH is "src", the meaning is
+#help "PACKAGE has a BuildRequires (build dependency) on SUBPACKAGE". And if ARCH
+#help is "x86_64", the meaning is "PACKAGE has a Requires (runtime dependency) on
+#help SUBPACKAGE". The optional "|SYMBOL" portion is printed when the symbol
+#help required does not match the subpackage name. Note that the ability to query
+#help version-qualified dependencies is not yet implemented... (For example, if
+#help python3-core provides the version-qualified symbol "python(abi) = 3.9",
+#help running `make whatrequires` for `python3` will detect packages that depend on
+#help "python(abi)", but not "python(abi) = 3.9".)
+whatrequires:
+	@Q="dnf --config=${PM_CONF} repoquery --quiet --releasever=clear"; \
+	TMP=$$(mktemp -d); trap "rm -rf $$TMP" EXIT; \
+	$${Q} --provides ${PKG_NAME} | awk '{ print $$1 }' > $$TMP/${PKG_NAME}; \
+	( \
+	while read -r provide; do \
+		$${Q} --qf="${PKG_NAME} <- %{NAME} (x86_64)" --arch=x86_64 --srpm --whatrequires $$provide; \
+		$${Q} --qf="${PKG_NAME} <- %{NAME} (src)" --arch=src --whatrequires $$provide; \
+	done < $$TMP/${PKG_NAME} \
+	) | awk '$$3 != "${PKG_NAME}"' | LC_COLLATE=C sort -u; \
+	sed -n 's/^%package *\(.*\)$$/\1/p' ${PKG_NAME}.spec | sort > $$TMP/subpkgs; \
+	while read -r val; do \
+		if grep -qE '^-n +' <<< $$val; then \
+			subpkg=$$(awk '{ print $$2 }' <<< $$val); \
+		else \
+			subpkg=${PKG_NAME}-$$val; \
+		fi; \
+		$${Q} --provides $$subpkg | awk '{ print $$1 }' > $$TMP/$$subpkg; \
+		( \
+		while read -r provide; do \
+			$${Q} --qf="$$subpkg|$$provide <- %{NAME} (x86_64)" --arch=x86_64 --srpm --whatrequires $$provide; \
+			$${Q} --qf="$$subpkg|$$provide <- %{NAME} (src)" --arch=src --whatrequires $$provide; \
+		done < $$TMP/$$subpkg \
+		) | awk '$$3 != "${PKG_NAME}"' | sed "s/^$$subpkg|\($$subpkg\)/\1/" | LC_COLLATE=C sort -u; \
+	done < $$TMP/subpkgs
+
 # Define LTS-specific targets in a separate makefile
 -include $(TOPLVL)/projects/common/Makefile.common.lts
 
