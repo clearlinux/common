@@ -1340,7 +1340,6 @@ compat-enchant-soname1
 compat-fuse-soname2
 compat-gcc-10
 compat-glibmm-soname24
-compat-goocanvas-soname2
 compat-gtksourceview-soname3
 compat-libffi-soname6
 compat-libpng-soname12
@@ -1348,11 +1347,9 @@ compat-libsigc++-soname20
 compat-libva-soname1
 compat-lua-52
 compat-lua-53
-compat-mlt-soname6
 compat-nettle-soname7
 compat-openexr-soname25
 compat-pangomm-soname14
-compat-poppler-soname111
 compat-readline-soname5
 compat-tracker-soname2.0
 complete
@@ -2321,7 +2318,6 @@ libgee
 libgeotiff
 libgit2
 libgit2-glib
-libglade
 libgnome-keyring
 libgnomekbd
 libgpg-error
