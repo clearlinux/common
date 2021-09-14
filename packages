@@ -423,6 +423,7 @@ R-fitdistrplus
 R-flashClust
 R-flexmix
 R-flexsurv
+R-float
 R-fontBitstreamVera
 R-fontLiberation
 R-fontquiver
@@ -791,6 +792,7 @@ R-rjson
 R-rjstat
 R-rlang
 R-rle
+R-rlecuyer
 R-rmarkdown
 R-rmatio
 R-rms
@@ -1193,6 +1195,7 @@ boto
 boto3
 botocore
 bovo
+bowler
 box2d
 bpftrace
 breeze
@@ -1567,6 +1570,7 @@ firecracker
 firefox
 firewalld
 fish
+fissix
 fixtures
 flac
 flake8
@@ -1962,7 +1966,6 @@ josepy
 jpegoptim
 jq
 js8call
-jsmin
 json-c
 json-glib
 json5
@@ -2648,6 +2651,7 @@ mokutil
 mono
 monotonic
 more-itertools
+moreorless
 moreutils
 mosh
 mosquitto
@@ -4408,6 +4412,7 @@ virt-viewer
 virtualenv
 vkd3d
 vlc
+volatile
 volume_key
 voluptuous
 voluptuous-serialize
