@@ -441,6 +441,7 @@ R-furrr
 R-futile.logger
 R-futile.options
 R-future
+R-future.apply
 R-g.data
 R-gam
 R-gamm4
@@ -716,6 +717,7 @@ R-profdpm
 R-profileModel
 R-profmem
 R-progress
+R-progressr
 R-projpred
 R-promises
 R-proto
@@ -1070,6 +1072,7 @@ amazon-ssm-agent
 amtk
 analitza
 ansible
+ansible-core
 antlr4-python3-runtime
 anyio
 apache-ant
@@ -1351,7 +1354,6 @@ compat-libva-soname1
 compat-lua-52
 compat-lua-53
 compat-nettle-soname7
-compat-openexr-soname25
 compat-pangomm-soname14
 compat-readline-soname5
 compat-tracker-soname2.0
@@ -3493,6 +3495,7 @@ perl-Statistics-CaseResampling
 perl-Storable
 perl-Stream-Buffered
 perl-String-Approx
+perl-String-CRC32
 perl-String-CamelCase
 perl-String-Escape
 perl-String-Expand
@@ -4069,6 +4072,7 @@ requests-ntlm
 requests-oauthlib
 requests-toolbelt
 requests-unixsocket
+resolvelib
 responses
 rest
 restic
@@ -4353,6 +4357,7 @@ tracker-miners
 traefik
 traitlets
 tree
+tree-sitter
 twine
 typed_ast
 typeguard
