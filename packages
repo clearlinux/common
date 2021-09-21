@@ -12,6 +12,7 @@ CopyQ
 Cura
 CuraEngine
 Cython
+DML
 Django
 F-Engrave
 Flask
@@ -2660,6 +2661,7 @@ mosquitto
 motd-update
 motif
 mozjs78
+mozjs91
 mpc
 mpfr
 mpg123
@@ -3961,6 +3963,7 @@ python-openzwave
 python-pkgconfig
 python-pocketlint
 python-polib
+python-rpm-packaging
 python-slip
 python-slugify
 python-subunit
