@@ -1351,6 +1351,7 @@ compat-gtksourceview-soname3
 compat-libffi-soname6
 compat-libpng-soname12
 compat-libsigc++-soname20
+compat-libsoup-soname-24
 compat-libva-soname1
 compat-lua-52
 compat-lua-53
@@ -1367,6 +1368,7 @@ confuse
 conky
 conmon
 connect-proxy
+connections
 conntrack-tools
 console-autostart
 containerd
@@ -1800,6 +1802,7 @@ gstreamer-vaapi
 gsutil
 gtk+
 gtk-doc
+gtk-frdp
 gtk-vnc
 gtk-xfce-engine
 gtk3
@@ -2262,6 +2265,7 @@ libass
 libassuan
 libatasmart
 libatomic_ops
+libavif
 libavtp
 libb64
 libblockdev
@@ -4288,6 +4292,7 @@ tdb
 telemetrics-client
 telepathy-glib
 telepathy-qt
+templated-dictionary
 tempora
 tensorboard
 tensorflow
@@ -4521,6 +4526,7 @@ xkill
 xl2tpd
 xlog
 xmlb
+xmldiff
 xmlschema
 xmlsec1
 xmlstarlet
