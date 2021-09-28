@@ -1359,6 +1359,7 @@ compat-nettle-soname7
 compat-pangomm-soname14
 compat-readline-soname5
 compat-tracker-soname2.0
+compat-webkitgtk-soname40
 complete
 component
 compute-image-packages
@@ -1894,6 +1895,7 @@ imlib2
 importlib_metadata
 importlib_resources
 indent
+inflection
 influxdb
 iniconfig
 inih
@@ -3932,6 +3934,7 @@ pytest-asyncio
 pytest-cov
 pytest-forked
 pytest-localserver
+pytest-mock
 pytest-randomly
 pytest-repeat
 pytest-rerunfailures
@@ -3956,6 +3959,7 @@ python-hwinfo
 python-jsonrpc-server
 python-kconfiglib
 python-language-server
+python-lsp-black
 python-lsp-jsonrpc
 python-lsp-server
 python-magic
@@ -4003,6 +4007,7 @@ qqc2-desktop-style
 qrencode
 qscintilla
 qsstv
+qstylizer
 qt-creator
 qt3d
 qt5ct
@@ -4437,6 +4442,7 @@ vsts-cd-manager
 vte
 waffle
 waitress
+watchdog
 wavpack
 wayland
 wayland-protocols
