@@ -427,6 +427,7 @@ R-flexsurv
 R-float
 R-fontBitstreamVera
 R-fontLiberation
+R-fontawesome
 R-fontquiver
 R-forcats
 R-foreach
@@ -3971,6 +3972,7 @@ python-openzwave
 python-pkgconfig
 python-pocketlint
 python-polib
+python-remoto
 python-rpm-packaging
 python-slip
 python-slugify
