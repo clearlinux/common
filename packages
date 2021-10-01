@@ -1207,8 +1207,6 @@ breeze
 breeze-gtk
 breeze-icons
 bridge-utils
-bro
-bro-af_packet-plugin
 brotli
 brotlipy
 bsdiff
@@ -4579,6 +4577,8 @@ zabbix
 zathura
 zathura-pdf-poppler
 zc.lockfile
+zeek
+zeek-af_packet-plugin
 zenity
 zeroconf
 zeroconf-ioslave
