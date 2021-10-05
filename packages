@@ -155,6 +155,7 @@ R-NLP
 R-NMF
 R-NMOF
 R-PKI
+R-ParamHelpers
 R-PerformanceAnalytics
 R-R.cache
 R-R.methodsS3
@@ -172,6 +173,7 @@ R-RJSONIO
 R-RNeXML
 R-RNetCDF
 R-ROCR
+R-ROSE
 R-RProtoBuf
 R-RSQLite
 R-RSclient
@@ -226,6 +228,7 @@ R-adegraphics
 R-adephylo
 R-adespatial
 R-afex
+R-alabama
 R-alr3
 R-analogue
 R-animation
@@ -238,6 +241,9 @@ R-askpass
 R-assertthat
 R-backports
 R-base64enc
+R-base64url
+R-basefun
+R-batchtools
 R-bayesm
 R-bayesplot
 R-bazar
@@ -301,6 +307,7 @@ R-combinat
 R-commonmark
 R-compositions
 R-conditionz
+R-coneproj
 R-config
 R-conflicted
 R-conquer
@@ -615,6 +622,8 @@ R-mitools
 R-mixtools
 R-mlbench
 R-mlmRev
+R-mlr
+R-mlt
 R-mnormt
 R-mockery
 R-mockr
@@ -654,11 +663,13 @@ R-optextras
 R-optimx
 R-optparse
 R-ordinal
+R-orthopolynom
 R-pROC
 R-packrat
 R-palmerpenguins
 R-pamr
 R-pander
+R-parallelMap
 R-parallelly
 R-parsedate
 R-partitions
@@ -919,6 +930,7 @@ R-testthat
 R-texreg
 R-textshaping
 R-tfruns
+R-themis
 R-threejs
 R-tibble
 R-tidyr
@@ -937,12 +949,14 @@ R-topicmodels
 R-tree
 R-triebeard
 R-trimcluster
+R-trtf
 R-truncdist
 R-truncnorm
 R-tseries
 R-tsne
 R-tzdb
 R-ucminf
+R-unbalanced
 R-units
 R-unix
 R-urca
@@ -952,6 +966,7 @@ R-usethis
 R-utf8
 R-uuid
 R-varImp
+R-variables
 R-vcd
 R-vcdExtra
 R-vcr
@@ -3842,6 +3857,7 @@ postgresql
 postgresql11
 postgresql12
 postgresql13
+postgresql14
 potrace
 powerdevil
 powerline-fonts
