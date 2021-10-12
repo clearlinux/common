@@ -468,6 +468,7 @@ R-geojson
 R-geometry
 R-gert
 R-getopt
+R-ggfortify
 R-ggjoy
 R-ggplot2
 R-ggplot2movies
@@ -687,6 +688,7 @@ R-pdfCluster
 R-pdftools
 R-pdp
 R-permute
+R-perry
 R-phangorn
 R-pheatmap
 R-phylobase
@@ -818,6 +820,7 @@ R-rngWELL
 R-rngtools
 R-robCompositions
 R-robust
+R-robustHD
 R-robustbase
 R-rootSolve
 R-rotl
@@ -1310,6 +1313,7 @@ clr-bundle-screenshots
 clr-bundles
 clr-debug-info
 clr-desktop-defaults
+clr-elf-replace
 clr-find-bundle
 clr-fwupd-hooks
 clr-hardware-files
@@ -1367,6 +1371,7 @@ compat-libpng-soname12
 compat-libsigc++-soname20
 compat-libsoup-soname-24
 compat-libva-soname1
+compat-libvpx-soname6
 compat-lua-52
 compat-lua-53
 compat-nettle-soname7
@@ -4622,3 +4627,4 @@ zope.testrunner
 zopfli
 zsh
 zstd
+zstd-bin
