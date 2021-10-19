@@ -2019,6 +2019,7 @@ jupyterlab_launcher
 jupyterlab_pygments
 jupyterlab_server
 jupyterlab_widgets
+kaccounts-integration
 kactivities
 kactivities-stats
 kactivitymanagerd
@@ -2279,6 +2280,8 @@ libXvMC
 libXxf86dga
 libabigail
 libabw
+libaccounts-glib
+libaccounts-qt
 libadwaita
 libaio
 libappindicator
@@ -4197,6 +4200,7 @@ shared-mime-info
 sharutils
 shim
 siege
+signond
 simg-tools
 simple-scan
 simplegeneric
