@@ -31,11 +31,13 @@ $(proj_PKGS):
 	@proj=$(patsubst proj_%,%,$@); \
 	[ -d projects/$$proj ] || ( \
 	echo "Checking out: projects/$$proj"; \
-	git clone $(PRJ_BASE_URL)/$$proj projects/$$proj; \
-	cd projects/$$proj; \
 	if [ "$$proj" = "autospec" ] ; then \
-		git remote set-url --push origin git@github.com:clearlinux/autospec.git; \
+		git clone https://github.com/clearlinux/autospec.git projects/autospec; \
 	else \
+		git clone $(PRJ_BASE_URL)/$$proj projects/$$proj; \
+	fi; \
+	cd projects/$$proj; \
+	if [ "$$proj" != "autospec" ] ; then \
 		$(call gitoliteurl,projects/$$proj); \
 	fi; \
 	$(call subjectprefix,$$proj); \
@@ -76,9 +78,7 @@ ${PULL_PKGS}:
 			fi ; \
 			git --no-pager log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit $$O..$$N; echo; \
 		fi ; \
-		if [ "$$p" = "projects/autospec" ] ; then \
-			git remote set-url --push origin git@github.com:clearlinux/autospec.git; \
-		else \
+		if [ "$$p" != "projects/autospec" ] ; then \
 			$(call gitoliteurl,$$p); \
 		fi ; \
 	else \
