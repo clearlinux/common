@@ -1377,6 +1377,7 @@ compat-lua-53
 compat-nettle-soname7
 compat-pangomm-soname14
 compat-protobuf-soname23
+compat-python39
 compat-readline-soname5
 compat-tracker-soname2.0
 compat-webkitgtk-soname40
@@ -3932,7 +3933,6 @@ pygobject
 pyhs100
 pylint
 pyls-black
-pyls-spyder
 pynvim
 pyotherside
 pyotp
@@ -4006,6 +4006,7 @@ python-systemd
 python-tabulate
 python-urwid
 python-utils
+python-xlib
 python-zeep
 python-zstandard
 python3
@@ -4038,6 +4039,7 @@ qstylizer
 qt-creator
 qt3d
 qt5ct
+qt6base
 qtbase
 qtcanvas3d
 qtcharts
@@ -4253,8 +4255,6 @@ sphinxcontrib-websupport
 spice
 spice-gtk
 spice-protocol
-spyder-ide
-spyder-kernels
 spyrk
 sqlite-autoconf
 sqlparse
