@@ -648,6 +648,7 @@ R-mvtnorm
 R-natserv
 R-ncbit
 R-ncdf4
+R-neighbr
 R-network
 R-neuralnet
 R-nleqslv
@@ -4422,7 +4423,6 @@ unicodedata2
 unifdef
 unison
 unit
-unittest2
 unixODBC
 unzip
 upower
