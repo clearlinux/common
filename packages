@@ -28,9 +28,6 @@ Imath
 JAGS
 Jinja2
 Judy
-Keras
-Keras_Applications
-Keras_Preprocessing
 LPCNet
 LS_COLORS
 LVM2
@@ -1073,6 +1070,7 @@ aesara
 aiodns
 aiohttp
 aiohttp-cors
+aiosignal
 akonadi
 akonadi-calendar
 akonadi-calendar-tools
@@ -1136,6 +1134,7 @@ asunder
 asv
 async-timeout
 async_generator
+asynctest
 at
 at-spi2-atk
 at-spi2-core
@@ -1165,7 +1164,6 @@ awesomeversion
 awscli
 axel
 azure-configs
-azure-iot-sdk
 babeltrace
 babl
 backcall
@@ -1407,6 +1405,7 @@ coverage
 cpio
 cppcheck
 cppunit
+cppy
 cpuid
 cpuloadgen
 cracklib
@@ -1614,6 +1613,7 @@ flatpak-builder
 flatten_json
 fldigi
 flex
+flit_core
 fllog
 flmsg
 flnet
@@ -1636,6 +1636,7 @@ freetype
 freezegun
 fribidi
 fritzing-app
+frozenlist
 fs
 fsearch
 fsspec
@@ -1863,7 +1864,6 @@ hicolor-icon-theme
 hiredis-c
 home-assistant
 home-assistant-frontend
-horovod
 hostname
 hpack
 hplip
@@ -3984,6 +3984,7 @@ python-future
 python-gflags
 python-graphviz
 python-hwinfo
+python-install
 python-jsonrpc-server
 python-kconfiglib
 python-language-server
@@ -4006,6 +4007,7 @@ python-slugify
 python-subunit
 python-systemd
 python-tabulate
+python-tzdata
 python-urwid
 python-utils
 python-xlib
@@ -4016,6 +4018,7 @@ python37
 pythran
 pytorch
 pytz
+pytz-deprecation-shim
 pyu2f
 pyudev
 pyusb
@@ -4329,12 +4332,7 @@ telepathy-glib
 telepathy-qt
 templated-dictionary
 tempora
-tensorboard
-tensorflow
-tensorflow-addons
-tensorflow-estimator
-tensorflow-probability
-tensorflow-serving
+tenacity
 tepl
 termcolor
 terminado
