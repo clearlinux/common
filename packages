@@ -16,7 +16,6 @@ DML
 Django
 F-Engrave
 Flask
-FreeCAD
 FreeRDP
 GConf
 GitPython
@@ -1359,6 +1358,7 @@ columbiad
 commonmark
 compat-atkmm-soname16
 compat-boost-soname1.73.0
+compat-boost-soname1.74.0
 compat-cairomm-soname10
 compat-curl-gnutls-soname4
 compat-enchant-soname1
