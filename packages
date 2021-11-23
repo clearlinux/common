@@ -4,6 +4,7 @@ Botan
 CGAL
 CGNS
 CUnit
+CacheControl
 Cheetah3
 CherryPy
 Coin
@@ -218,6 +219,7 @@ R-XML
 R-abind
 R-acepack
 R-actuar
+R-ada
 R-ade4
 R-adegenet
 R-adegraphics
@@ -994,6 +996,7 @@ R-withr
 R-wk
 R-worrms
 R-xfun
+R-xgboost
 R-xml2
 R-xmlparsedata
 R-xopen
@@ -1161,6 +1164,7 @@ autossh
 avahi
 awesome-wm
 awesomeversion
+aws-sam-translator
 awscli
 axel
 azure-configs
@@ -1256,6 +1260,7 @@ ca-certs-static
 cabextract
 cached-property
 cachetools
+cachy
 cairo
 cairomm
 calc
@@ -1296,9 +1301,12 @@ ciso8601
 clamav
 clear-config-management
 clear-font
+cleo
 click
+click-completion
 click-datetime
 click-log
+clikit
 clinfo
 cln
 cloc
@@ -1347,6 +1355,7 @@ cni
 cni-plugins
 cockpit
 codec2
+codecov
 cogl
 coinmp
 collectd
@@ -1355,6 +1364,7 @@ colorama
 colord
 colord-gtk
 colordiff
+colorlog
 columbiad
 commonmark
 compat-atkmm-soname16
@@ -1409,6 +1419,7 @@ cppy
 cpuid
 cpuloadgen
 cracklib
+crashtest
 crcmod
 createrepo_c
 cri-o
@@ -1571,6 +1582,7 @@ exiv2
 exo
 expat
 expect
+expecttest
 extra-cmake-modules
 extras
 f2fs-tools
@@ -1954,6 +1966,7 @@ iputils
 ipvsadm
 ipxe
 ipykernel
+ipyparallel
 ipython
 ipython-sql
 ipython_genutils
@@ -2008,6 +2021,7 @@ jsonpointer
 jsonschema
 juk
 jupyter
+jupyter-cache
 jupyter-nbgallery
 jupyter-notebook-gist
 jupyter-packaging
@@ -2015,11 +2029,14 @@ jupyter_client
 jupyter_console
 jupyter_core
 jupyter_server
+jupyter_server_mathjax
+jupyter_sphinx
 jupyterlab
 jupyterlab_launcher
 jupyterlab_pygments
 jupyterlab_server
 jupyterlab_widgets
+jupytext
 kaccounts-integration
 kactivities
 kactivities-stats
@@ -2246,6 +2263,7 @@ kyotocabinet
 ladspa_sdk
 lark-parser
 latencytop
+latexcodec
 latte-dock
 layer-shell-qt
 lazy-object-proxy
@@ -2564,6 +2582,7 @@ linux-oracle
 linux-preempt-rt
 linux-tools
 linuxptp
+livereload
 lksctp-tools
 lldb
 llfuse
@@ -2626,6 +2645,7 @@ man-pages
 man-pages-posix
 marble
 mariadb
+markdown-it-py
 matplotlib
 matplotlib-inline
 mc
@@ -2634,6 +2654,7 @@ mcelog
 md4c
 mdadm
 mdds
+mdit-py-plugins
 media-player-info
 mediasdk
 meld
@@ -2725,6 +2746,8 @@ mxnet
 mypaint-brushes
 mypy
 mypy_extensions
+myst-nb
+myst-parser
 mythes
 nagios-plugins
 nano
@@ -2733,7 +2756,9 @@ nautilus
 nbclassic
 nbclient
 nbconvert
+nbdime
 nbformat
+nbsphinx
 nbval
 ncdu
 ncurses
@@ -2784,6 +2809,7 @@ nodeenv
 nodejs
 nose
 nose-parameterized
+nose-timer
 nosexcover
 not-ffmpeg
 notebook
@@ -2820,6 +2846,7 @@ octave
 oiio
 okteta
 okular
+oldest-supported-numpy
 olefile
 onig
 onnx
@@ -2891,6 +2918,7 @@ parso
 partd
 parted
 pass
+pastel
 patch
 patchelf
 patchutils
@@ -3852,6 +3880,7 @@ pmix
 pngcrush
 po4a
 podman
+poetry
 poetry-core
 polkit
 polkit-kde-agent
@@ -3915,6 +3944,8 @@ pyasn1
 pyasn1-modules
 pyatspi
 pybind11
+pybtex
+pybtex-docutils
 pycairo
 pycares
 pycodestyle
@@ -3922,6 +3953,7 @@ pycosat
 pycparser
 pycryptodomex
 pycurl
+pydata-sphinx-theme
 pydocstyle
 pydot
 pydot_ng
@@ -3931,6 +3963,7 @@ pyelftools
 pyflakes
 pygobject
 pyhs100
+pylev
 pylint
 pyls-black
 pynvim
@@ -3954,6 +3987,7 @@ pyroute2.nslink
 pyrsistent
 pyserial
 pyside2-setup
+pyspnego
 pysubnettree
 pytest
 pytest-asyncio
@@ -4119,6 +4153,7 @@ resolvelib
 responses
 rest
 restic
+restructuredtext_lint
 retry
 retry_decorator
 retrying
@@ -4129,6 +4164,7 @@ rhythmbox
 rich
 rinutils
 rjsmin
+rlPyCairo
 rlwrap
 rng-tools
 robin-map
@@ -4203,6 +4239,7 @@ shadow
 shapelib
 shared-mime-info
 sharutils
+shellingham
 shim
 siege
 signond
@@ -4239,10 +4276,19 @@ spdlog
 spectacle
 speex
 speexdsp
+sphinx-autobuild
+sphinx-book-theme
+sphinx-copybutton
 sphinx-feature-classification
+sphinx-gallery
+sphinx-last-updated-by-git
+sphinx-thebe
+sphinx-togglebutton
+sphinx_design
 sphinx_rtd_theme
 sphinxcontrib-apidoc
 sphinxcontrib-applehelp
+sphinxcontrib-bibtex
 sphinxcontrib-blockdiag
 sphinxcontrib-devhelp
 sphinxcontrib-htmlhelp
@@ -4253,7 +4299,9 @@ sphinxcontrib-programoutput
 sphinxcontrib-qthelp
 sphinxcontrib-seqdiag
 sphinxcontrib-serializinghtml
+sphinxcontrib-svg2pdfconverter
 sphinxcontrib-websupport
+sphinxcontrib_github_alt
 spice
 spice-gtk
 spice-protocol
@@ -4399,6 +4447,7 @@ tree-sitter
 twine
 typed_ast
 typeguard
+types-colorama
 typing_extensions
 typing_inspect
 tzdata
@@ -4415,6 +4464,7 @@ ujson
 unbundle
 unibilium
 unicodedata2
+unidiff
 unifdef
 unison
 unit
@@ -4591,6 +4641,7 @@ yakuake
 yaml
 yaml-cpp
 yamlloader
+yapf
 yarl
 yasm
 yelp
