@@ -234,6 +234,7 @@ R-ape
 R-argparse
 R-arm
 R-arsenal
+R-arules
 R-ash
 R-askpass
 R-assertthat
@@ -1394,6 +1395,7 @@ compat-webkitgtk-soname40
 complete
 component
 compute-image-packages
+comtypes
 conda
 configobj
 confuse
@@ -3949,6 +3951,7 @@ pybtex-docutils
 pycairo
 pycares
 pycodestyle
+pycollada
 pycosat
 pycparser
 pycryptodomex
@@ -4223,6 +4226,7 @@ secretstorage
 sed
 selenium
 semantic_version
+sentry-sdk
 seqdiag
 serf
 serpent
