@@ -1288,6 +1288,7 @@ cfgv
 cfitsio
 cgdb
 cgit
+chaospy
 chardet
 charset-normalizer
 check
@@ -1577,6 +1578,7 @@ evolution
 evolution-data-server
 evolution-ews
 evtest
+exdir
 execnet
 exempi
 exfat-utils
@@ -2736,6 +2738,7 @@ mtr
 multidict
 multimon-ng
 multipath-tools
+multiprocess
 mumble
 munge
 munkres
@@ -2833,6 +2836,7 @@ ntp
 numactl
 numatop
 numlockx
+numpoly
 numpy
 numpy-stl
 numpydoc
@@ -2926,6 +2930,7 @@ patchelf
 patchutils
 pathlib
 pathlib2
+pathos
 pathspec
 patsy
 pavucontrol
@@ -3906,8 +3911,10 @@ powerdevil
 powerline-fonts
 powerstat
 powertop
+pox
 poxml
 poyo
+ppft
 ppp
 pre_commit
 pretend
@@ -4199,6 +4206,7 @@ rxvt-unicode
 s2tc
 s3fs-fuse
 s3transfer
+salib
 salt
 samba
 samtools
@@ -4466,6 +4474,7 @@ uget
 uhttpmock
 ujson
 unbundle
+uncertainpy
 unibilium
 unicodedata2
 unidiff
@@ -4635,6 +4644,7 @@ xss-lock
 xterm
 xtrans
 xvfb-run
+xvfbwrapper
 xwayland
 xwd
 xwdrun
