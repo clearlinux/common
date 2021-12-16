@@ -2786,7 +2786,6 @@ netdata
 netdisco
 nethogs
 netifaces
-netkit-telnet
 nettle
 network-manager-applet
 networkmanager-qt
@@ -4113,6 +4112,7 @@ python-Levenshtein
 python-augeas
 python-dateutil
 python-dbusmock
+python-debian
 python-digitalocean
 python-distutils-extra
 python-dotenv
