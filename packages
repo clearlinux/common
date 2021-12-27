@@ -1392,6 +1392,7 @@ compat-nettle-soname7
 compat-pangomm-soname14
 compat-protobuf-soname23
 compat-readline-soname5
+compat-tbb-soname2
 compat-tracker-soname2.0
 compat-webkitgtk-soname40
 complete
@@ -4062,6 +4063,7 @@ pypi-pysnow
 pypi-python_string_utils
 pypi-requests_download
 pypi-selectors2
+pypi-selectors34
 pypi-selinux
 pypi-sentinels
 pypi-setuptools_git_ls_files
