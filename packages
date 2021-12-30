@@ -4067,6 +4067,7 @@ pypi-selectors34
 pypi-selinux
 pypi-sentinels
 pypi-setuptools_git_ls_files
+pypi-smartypants
 pypi-sphinx_argparse
 pypi-sphinxcontrib_plantuml
 pypi-subprocess_tee
@@ -4087,6 +4088,7 @@ pypi-types_requests
 pypi-types_setuptools
 pypi-types_six
 pypi-typing
+pypi-typogrify
 pypi-uc_micro_py
 pypi-ufolib2
 pypi-urlobject
