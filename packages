@@ -1380,6 +1380,7 @@ compat-fuse-soname2
 compat-gcc-10
 compat-glibmm-soname24
 compat-gtksourceview-soname3
+compat-icu4c-soname67
 compat-libffi-soname6
 compat-libpng-soname12
 compat-libsigc++-soname20
@@ -1392,7 +1393,7 @@ compat-nettle-soname7
 compat-pangomm-soname14
 compat-protobuf-soname23
 compat-readline-soname5
-compat-tbb-soname2
+compat-tbb-soname12
 compat-tracker-soname2.0
 compat-webkitgtk-soname40
 complete
