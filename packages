@@ -1005,6 +1005,7 @@ SVT-AV1
 SVT-HEVC
 SmartXbar
 Solaar
+Sphinx
 SuiteSparse
 TLP
 Thunar
@@ -1017,7 +1018,6 @@ Vulkan-Loader
 Vulkan-Tools
 Vulkan-ValidationLayers
 WALinuxAgent
-Whoosh
 WireGuard
 XStatic-term.js
 Z3
@@ -1113,7 +1113,6 @@ bash
 bash-completion
 bashdb
 bats
-bazel
 bc
 bcache-tools
 bcc
@@ -1205,7 +1204,6 @@ cifs-utils
 clamav
 clear-config-management
 clear-font
-click-datetime
 clinfo
 cln
 cloc
@@ -1430,7 +1428,6 @@ exo
 expat
 expect
 extra-cmake-modules
-extras
 f2fs-tools
 faas-cli
 fakeroot
@@ -1452,7 +1449,6 @@ firecracker
 firefox
 firewalld
 fish
-fixtures
 flac
 flare-engine
 flare-game
@@ -1484,7 +1480,6 @@ fritzing-app
 fs
 fsearch
 funcparserlib
-funcsigs
 fuse
 fwupd
 fwupd-efi
@@ -1744,7 +1739,6 @@ iptraf-ng
 iputils
 ipvsadm
 ipxe
-ipython_genutils
 irqbalance
 irrlicht
 irssi
@@ -3504,7 +3498,6 @@ pim-data-exporter
 pim-sieve-editor
 pimcommon
 pinentry
-pip-legacy
 pipewire
 pixman
 pkcs11-helper
@@ -3839,6 +3832,7 @@ pypi-ipdbplugin
 pypi-ipykernel
 pypi-ipyparallel
 pypi-ipython
+pypi-ipython_genutils
 pypi-ipython_sql
 pypi-ipywidgets
 pypi-iso8601
@@ -4052,7 +4046,6 @@ pypi-pyfakefs
 pypi-pyflakes
 pypi-pygithub
 pypi-pygments
-pypi-pyhs100
 pypi-pyicu
 pypi-pyjwt
 pypi-pylev
@@ -4117,7 +4110,6 @@ pypi-python_lsp_server
 pypi-python_multilib
 pypi-python_slugify
 pypi-python_string_utils
-pypi-python_subunit
 pypi-python_xlib
 pypi-pythran
 pypi-pytz
@@ -4250,7 +4242,6 @@ pypi-tenacity
 pypi-terminado
 pypi-terminaltables
 pypi-testpath
-pypi-testtools
 pypi-text_unidecode
 pypi-textdistance
 pypi-textfsm
@@ -4513,7 +4504,6 @@ seatd
 sed
 serf
 setserial
-setuptools-legacy
 setxkbmap
 sg3_utils
 shadow
@@ -4618,9 +4608,6 @@ terminology
 terminus-font
 tesseract
 testdisk
-testrepository
-testresources
-testscenarios
 tevent
 texinfo
 texlive
@@ -4652,7 +4639,6 @@ tpm2-abrmd
 tpm2-tools
 tpm2-tss
 trace-cmd
-traceback2
 traceroute
 tracker
 tracker-miners
