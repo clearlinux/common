@@ -2526,7 +2526,6 @@ open-isns
 open-lldp
 open-vm-tools
 openQA
-open_model_zoo
 openal-soft
 openblas
 openbox
@@ -2574,7 +2573,6 @@ pandoc
 pango
 pangomm
 parallel
-paramiko
 parley
 parted
 pass
@@ -3577,6 +3575,7 @@ pypi-abydos
 pypi-acme
 pypi-adal
 pypi-aiodns
+pypi-aiofiles
 pypi-aiohttp
 pypi-aiohttp_cors
 pypi-aiosignal
@@ -3678,11 +3677,13 @@ pypi-colorama
 pypi-colorlog
 pypi-commonmark
 pypi-complete
+pypi-compreffor
 pypi-comtypes
 pypi-configargparse
 pypi-configparser
 pypi-cons
 pypi-contextlib2
+pypi-contextvars
 pypi-cookiecutter
 pypi-cookies
 pypi-coverage
@@ -3767,6 +3768,7 @@ pypi-gast
 pypi-gcs_oauth2_boto_plugin
 pypi-gensim
 pypi-gevent
+pypi-geventhttpclient
 pypi-ghp_import
 pypi-gitdb
 pypi-gitpython
@@ -3795,6 +3797,7 @@ pypi-h2
 pypi-h5py
 pypi-hammock
 pypi-heapdict
+pypi-hkp4py
 pypi-home_assistant_frontend
 pypi-hpack
 pypi-html5lib
@@ -3815,6 +3818,7 @@ pypi-ifaddr
 pypi-ijson
 pypi-imageio
 pypi-imagesize
+pypi-immutables
 pypi-importlib_metadata
 pypi-importlib_resources
 pypi-infi.dtypes.iqn
@@ -3968,6 +3972,7 @@ pypi-outcome
 pypi-packaging
 pypi-paho_mqtt
 pypi-pandocfilters
+pypi-paramiko
 pypi-parsedatetime
 pypi-parso
 pypi-partd
@@ -4014,12 +4019,14 @@ pypi-progress
 pypi-progressbar
 pypi-prometheus_client
 pypi-prompt_toolkit
+pypi-psautohint
 pypi-psutil
 pypi-psycopg2
 pypi-ptyprocess
 pypi-purestorage
 pypi-purity_fb
 pypi-py
+pypi-py_pure_client
 pypi-pyaml
 pypi-pyasn1
 pypi-pyasn1_modules
@@ -4162,6 +4169,7 @@ pypi-ruamel.yaml
 pypi-ruamel.yaml.clib
 pypi-s3transfer
 pypi-salib
+pypi-sanic_routing
 pypi-scikit_image
 pypi-scp
 pypi-seaborn
@@ -4360,7 +4368,6 @@ python
 python-digitalocean
 python-distutils-extra
 python-gflags
-python-hwinfo
 python-kconfiglib
 python-magic
 python-memcached
@@ -4613,7 +4620,6 @@ texinfo
 texlive
 texmaker
 texttable
-tflearn
 tgt
 the_silver_searcher
 thermal_daemon
