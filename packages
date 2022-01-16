@@ -197,6 +197,7 @@ R-adegenet
 R-adegraphics
 R-adephylo
 R-adespatial
+R-admisc
 R-afex
 R-alabama
 R-alr3
@@ -3675,6 +3676,7 @@ pypi-cmd2
 pypi-codecov
 pypi-colorama
 pypi-colorlog
+pypi-columnize
 pypi-commonmark
 pypi-complete
 pypi-compreffor
@@ -4042,6 +4044,7 @@ pypi-pycountry
 pypi-pycparser
 pypi-pycryptodome
 pypi-pycryptodomex
+pypi-pycups
 pypi-pycurl
 pypi-pydata_sphinx_theme
 pypi-pydispatcher
