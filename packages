@@ -158,6 +158,7 @@ R-RcppEigen
 R-RcppParallel
 R-RcppProgress
 R-RcppRoll
+R-RcppTOML
 R-Rdpack
 R-Rmpfr
 R-Rmpi
@@ -506,6 +507,7 @@ R-iterators
 R-janitor
 R-joineR
 R-joineRML
+R-jomo
 R-jpeg
 R-jqr
 R-jquerylib
@@ -643,6 +645,7 @@ R-pROC
 R-packrat
 R-palmerpenguins
 R-pamr
+R-pan
 R-pander
 R-parallelMap
 R-parallelly
@@ -3595,6 +3598,7 @@ pypi-asn1crypto
 pypi-astor
 pypi-astral
 pypi-astroid
+pypi-asttokens
 pypi-astunparse
 pypi-async_generator
 pypi-async_timeout
@@ -3744,11 +3748,13 @@ pypi-etuples
 pypi-evdev
 pypi-exdir
 pypi-execnet
+pypi-executing
 pypi-expandvars
 pypi-expecttest
 pypi-fabric
 pypi-falcon
 pypi-fasteners
+pypi-fastimport
 pypi-fastjsonschema
 pypi-filelock
 pypi-fissix
@@ -3906,6 +3912,7 @@ pypi-lxml
 pypi-lz4
 pypi-mako
 pypi-markdown
+pypi-markdown2
 pypi-markdown_it_py
 pypi-matplotlib
 pypi-matplotlib_inline
@@ -3951,6 +3958,7 @@ pypi-netapp_lib
 pypi-netdisco
 pypi-netifaces
 pypi-networkx
+pypi-nibabel
 pypi-nocasedict
 pypi-nocaselist
 pypi-nodeenv
@@ -4025,9 +4033,11 @@ pypi-psautohint
 pypi-psutil
 pypi-psycopg2
 pypi-ptyprocess
+pypi-pure_eval
 pypi-purestorage
 pypi-purity_fb
 pypi-py
+pypi-py_cpuinfo
 pypi-py_pure_client
 pypi-pyaml
 pypi-pyasn1
@@ -4214,6 +4224,7 @@ pypi-sphinx_copybutton
 pypi-sphinx_design
 pypi-sphinx_feature_classification
 pypi-sphinx_gallery
+pypi-sphinx_issues
 pypi-sphinx_last_updated_by_git
 pypi-sphinx_rtd_theme
 pypi-sphinx_thebe
@@ -4240,6 +4251,7 @@ pypi-spyrk
 pypi-sqlalchemy
 pypi-sqlparse
 pypi-sshtunnel
+pypi-stack_data
 pypi-statsmodels
 pypi-subprocess_tee
 pypi-sure
@@ -4291,6 +4303,7 @@ pypi-types_pytz
 pypi-types_requests
 pypi-types_setuptools
 pypi-types_six
+pypi-types_urllib3
 pypi-typing
 pypi-typing_extensions
 pypi-typing_inspect
@@ -4311,6 +4324,7 @@ pypi-urllib3
 pypi-urlobject
 pypi-urwid
 pypi-user_agents
+pypi-uvloop
 pypi-virtualenv
 pypi-volatile
 pypi-voluptuous
