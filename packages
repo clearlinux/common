@@ -246,6 +246,7 @@ R-bridgesampling
 R-brio
 R-brms
 R-broom
+R-broom.mixed
 R-bslib
 R-bvls
 R-ca
@@ -594,6 +595,7 @@ R-mirt
 R-misc3d
 R-miscF
 R-miscTools
+R-mitml
 R-mitools
 R-mixtools
 R-mlbench
@@ -4183,6 +4185,7 @@ pypi-ruamel.yaml.clib
 pypi-s3transfer
 pypi-salib
 pypi-sanic_routing
+pypi-scikit_build
 pypi-scikit_image
 pypi-scp
 pypi-seaborn
@@ -4247,6 +4250,7 @@ pypi-sphinxcontrib_seqdiag
 pypi-sphinxcontrib_serializinghtml
 pypi-sphinxcontrib_svg2pdfconverter
 pypi-sphinxcontrib_websupport
+pypi-sphinxext_opengraph
 pypi-spyrk
 pypi-sqlalchemy
 pypi-sqlparse
