@@ -1716,6 +1716,7 @@ imagescan
 imapfilter
 imlib2
 indent
+inetutils
 inih
 iniparse
 init-rdahead
@@ -2212,6 +2213,7 @@ libsecret
 libsigc++
 libsignal-protocol-c
 libskk
+libslirp
 libsmbios
 libsndfile
 libsodium
@@ -4548,6 +4550,7 @@ simplejson
 simplescreenrecorder
 sip
 slang
+slirp4netns
 slurm
 smartcols
 smartmontools
