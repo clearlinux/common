@@ -1284,6 +1284,7 @@ compat-lua-52
 compat-lua-53
 compat-nettle-soname7
 compat-pangomm-soname14
+compat-poppler-soname112
 compat-protobuf-soname23
 compat-readline-soname5
 compat-tbb-soname12
