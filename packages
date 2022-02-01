@@ -1031,7 +1031,6 @@ abireport
 accountsservice
 acl
 acpica-unix2
-acrn-hypervisor
 ade
 adwaita-icon-theme
 aesara
@@ -1730,7 +1729,6 @@ intel-ipsec-mb
 intel-media-driver
 intelhex
 intltool
-ioc-cbc-tools
 ioping
 ioport
 iotop
