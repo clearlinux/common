@@ -12,7 +12,6 @@ F-Engrave
 FreeRDP
 GConf
 Gradio
-GtkD
 ImageMagick
 Imath
 JAGS
@@ -1005,7 +1004,6 @@ SDL_ttf
 SFCGAL
 SFML
 SPIRV-Cross
-SPIRV-Headers
 SPIRV-Tools
 SVT-AV1
 SVT-HEVC
@@ -1022,7 +1020,6 @@ Vc
 Vulkan-Headers
 Vulkan-Loader
 Vulkan-Tools
-Vulkan-ValidationLayers
 WALinuxAgent
 WireGuard
 XStatic-term.js
@@ -1196,6 +1193,7 @@ ccid
 cdparanoia
 ceph
 ceph-deploy
+cereal
 certbot
 cfitsio
 cgdb
@@ -1995,7 +1993,6 @@ layer-shell-qt
 lcms2
 lcov
 ldb
-ldc
 ledmon
 lensfun
 leptonica
@@ -2309,9 +2306,10 @@ linux-preempt-rt
 linux-tools
 linuxptp
 lksctp-tools
-lldb
 llvm
 llvm10
+llvm11
+llvm12
 llvm8
 llvm9
 lm-sensors
@@ -3588,7 +3586,9 @@ pypi-aiohttp
 pypi-aiohttp_cors
 pypi-aiosignal
 pypi-alabaster
+pypi-ansi2html
 pypi-ansible_compat
+pypi-ansible_pygments
 pypi-apacheconfig
 pypi-apipkg
 pypi-appdirs
@@ -4224,6 +4224,7 @@ pypi-snowballstemmer
 pypi-sortedcontainers
 pypi-soupsieve
 pypi-sphinx
+pypi-sphinx_ansible_theme
 pypi-sphinx_argparse
 pypi-sphinx_autobuild
 pypi-sphinx_book_theme
@@ -4233,6 +4234,7 @@ pypi-sphinx_feature_classification
 pypi-sphinx_gallery
 pypi-sphinx_issues
 pypi-sphinx_last_updated_by_git
+pypi-sphinx_notfound_page
 pypi-sphinx_rtd_theme
 pypi-sphinx_thebe
 pypi-sphinx_togglebutton
@@ -4657,7 +4659,6 @@ thunderbolt-software-user-space
 tiff
 tig
 tigervnc
-tilix
 time
 tini
 tiptop
