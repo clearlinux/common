@@ -423,6 +423,7 @@ R-fpc
 R-fracdiff
 R-fs
 R-fst
+R-fstcore
 R-furrr
 R-futile.logger
 R-futile.options
@@ -3980,7 +3981,6 @@ pypi-numpy_ringbuffer
 pypi-numpydoc
 pypi-oauth2client
 pypi-oauthlib
-pypi-oldest_supported_numpy
 pypi-olefile
 pypi-onnx
 pypi-opcodes
