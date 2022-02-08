@@ -273,6 +273,7 @@ R-cmprsk
 R-cobs
 R-coda
 R-coin
+R-collapse
 R-collections
 R-colorspace
 R-colourpicker
@@ -336,6 +337,7 @@ R-downlit
 R-downloader
 R-dplyr
 R-drc
+R-dreamerr
 R-dtplyr
 R-dtw
 R-dygraphs
@@ -402,6 +404,7 @@ R-findpython
 R-fit.models
 R-fitbitScraper
 R-fitdistrplus
+R-fixest
 R-flashClust
 R-flexmix
 R-flexsurv
@@ -1271,6 +1274,7 @@ compat-gcc-10
 compat-glibmm-soname24
 compat-gtksourceview-soname3
 compat-icu4c-soname67
+compat-json-c-soname4
 compat-libffi-soname6
 compat-libpng-soname12
 compat-libsigc++-soname20
@@ -1693,7 +1697,6 @@ i3
 i3blocks
 i3lock
 i3status
-ias
 iasimage
 ibus
 ibus-libpinyin
