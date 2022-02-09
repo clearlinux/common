@@ -4317,7 +4317,6 @@ pypi-types_requests
 pypi-types_setuptools
 pypi-types_six
 pypi-types_urllib3
-pypi-typing
 pypi-typing_extensions
 pypi-typing_inspect
 pypi-typogrify
