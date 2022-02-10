@@ -3905,13 +3905,13 @@ pypi-kerberos
 pypi-keyring
 pypi-khal
 pypi-kiwisolver
+pypi-krb5
 pypi-kubernetes
 pypi-lark_parser
 pypi-latexcodec
 pypi-lazy_object_proxy
 pypi-ldap3
 pypi-libarchive_c
-pypi-libcst
 pypi-linkify_it_py
 pypi-livereload
 pypi-llfuse
@@ -3937,7 +3937,6 @@ pypi-mkdocs_material
 pypi-mkdocs_material_extensions
 pypi-mock
 pypi-molecule
-pypi-monkeytype
 pypi-monotonic
 pypi-more_itertools
 pypi-moreorless
@@ -4318,7 +4317,6 @@ pypi-types_setuptools
 pypi-types_six
 pypi-types_urllib3
 pypi-typing_extensions
-pypi-typing_inspect
 pypi-typogrify
 pypi-tzdata
 pypi-tzlocal
