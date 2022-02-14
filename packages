@@ -1272,6 +1272,7 @@ compat-curl-gnutls-soname4
 compat-enchant-soname1
 compat-fuse-soname2
 compat-gcc-10
+compat-gdal-soname27
 compat-glibmm-soname24
 compat-gtksourceview-soname3
 compat-icu4c-soname67
