@@ -1082,7 +1082,6 @@ aspell-fr
 aspell-pt_BR
 assimp
 asunder
-asv
 at
 at-spi2-atk
 at-spi2-core
@@ -3609,6 +3608,7 @@ pypi-astral
 pypi-astroid
 pypi-asttokens
 pypi-astunparse
+pypi-asv
 pypi-async_generator
 pypi-async_timeout
 pypi-asynctest
