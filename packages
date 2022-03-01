@@ -3502,7 +3502,6 @@ picocom
 pidgin
 pidgin-sipe
 pigeonhole
-piglit
 pigz
 pim-data-exporter
 pim-sieve-editor
@@ -3644,6 +3643,7 @@ pypi-binaryornot
 pypi-bkcharts
 pypi-black
 pypi-bleach
+pypi-blessed
 pypi-blinker
 pypi-blivet
 pypi-blockdiag
@@ -3876,6 +3876,7 @@ pypi-jellyfish
 pypi-jinja2
 pypi-jinja2_pluralize
 pypi-jinja2_time
+pypi-jinxed
 pypi-jmespath
 pypi-joblib
 pypi-josepy
@@ -4315,9 +4316,11 @@ pypi-types_pyopenssl
 pypi-types_pyrfc3339
 pypi-types_python_dateutil
 pypi-types_pytz
+pypi-types_pyyaml
 pypi-types_requests
 pypi-types_setuptools
 pypi-types_six
+pypi-types_termcolor
 pypi-types_urllib3
 pypi-typing_extensions
 pypi-typogrify
