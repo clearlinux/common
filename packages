@@ -3941,6 +3941,7 @@ pypi-mkdocs_material
 pypi-mkdocs_material_extensions
 pypi-mock
 pypi-molecule
+pypi-mongo
 pypi-monotonic
 pypi-more_itertools
 pypi-moreorless
@@ -4084,7 +4085,9 @@ pypi-pyjwt
 pypi-pylev
 pypi-pylint
 pypi-pyls_black
+pypi-pymachinery
 pypi-pymdown_extensions
+pypi-pymongo
 pypi-pynacl
 pypi-pynsist
 pypi-pyopengl
@@ -4162,6 +4165,7 @@ pypi-qtpy
 pypi-rcssmin
 pypi-readme_renderer
 pypi-recommonmark
+pypi-redis
 pypi-regex
 pypi-reportlab
 pypi-repoze.lru
