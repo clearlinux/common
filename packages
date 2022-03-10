@@ -1291,6 +1291,7 @@ compat-pangomm-soname14
 compat-poppler-soname112
 compat-protobuf-soname23
 compat-readline-soname5
+compat-rest-soname07
 compat-tbb-soname12
 compat-tracker-soname2.0
 compat-webkitgtk-soname40
