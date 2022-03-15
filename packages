@@ -3751,6 +3751,7 @@ pypi-docstring_parser
 pypi-docutils
 pypi-dpcontracts
 pypi-ecdsa
+pypi-editables
 pypi-elementpath
 pypi-enrich
 pypi-entrypoints
@@ -3816,6 +3817,7 @@ pypi-h11
 pypi-h2
 pypi-h5py
 pypi-hammock
+pypi-hatchling
 pypi-heapdict
 pypi-hkp4py
 pypi-home_assistant_frontend
@@ -4342,6 +4344,7 @@ pypi-urllib3
 pypi-urlobject
 pypi-urwid
 pypi-user_agents
+pypi-userpath
 pypi-uvloop
 pypi-virtualenv
 pypi-volatile
