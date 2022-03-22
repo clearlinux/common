@@ -1249,6 +1249,7 @@ clutter
 clutter-gst
 clutter-gtk
 cmake
+cmark
 cmocka
 cmrt
 cmus
@@ -1275,6 +1276,7 @@ compat-fuse-soname2
 compat-gcc-10
 compat-gdal-soname27
 compat-glibmm-soname24
+compat-gnome-bluetooth-soname-13
 compat-gtksourceview-soname3
 compat-icu4c-soname67
 compat-json-c-soname4
@@ -1531,6 +1533,7 @@ gftp
 gh
 ghc
 ghostscript
+gi-docgen
 giflib
 gifsicle
 gimp
@@ -1575,7 +1578,6 @@ gnome-control-center
 gnome-desktop
 gnome-desktop-testing
 gnome-disk-utility
-gnome-flashback
 gnome-font-viewer
 gnome-getting-started-docs
 gnome-icon-theme
@@ -2113,6 +2115,7 @@ libgtop
 libgudev
 libgusb
 libgweather
+libgweather4
 libhandy
 libical
 libidn
@@ -2314,11 +2317,8 @@ linux-tools
 linuxptp
 lksctp-tools
 llvm
-llvm10
 llvm11
 llvm12
-llvm8
-llvm9
 lm-sensors
 lmdb
 logrotate
@@ -3983,7 +3983,6 @@ pypi-nose_timer
 pypi-notebook
 pypi-numpoly
 pypi-numpy
-pypi-numpy_ringbuffer
 pypi-numpydoc
 pypi-oauth2client
 pypi-oauthlib
