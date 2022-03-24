@@ -1574,6 +1574,7 @@ gnome-chess
 gnome-clocks
 gnome-color-manager
 gnome-common
+gnome-console
 gnome-contacts
 gnome-control-center
 gnome-desktop
@@ -1600,6 +1601,7 @@ gnome-shell-extensions
 gnome-software
 gnome-system-monitor
 gnome-terminal
+gnome-text-editor
 gnome-themes-extra
 gnome-todo
 gnome-tweaks
@@ -1665,6 +1667,7 @@ gtk4
 gtkmm2
 gtkmm3
 gtksourceview
+gtksourceview4
 gtkspell3
 gtkwave
 guile
