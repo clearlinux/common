@@ -26,6 +26,8 @@ WITH_SUDO = $(shell cmp /usr/bin/mock /usr/sbin/mock &> /dev/null && echo sudo )
 MOCK_SMP_FLAGS=$(patsubst -j%, -D_smp_mflags\ -j%,$(filter -j%, $(MAKEFLAGS)))
 MOCK ?= $(WITH_SUDO) /usr/bin/mock -r $(MOCK_CONFIG_VAL) $(MOCK_SMP_FLAGS) $(MOCK_OPTS)
 
+MOCK_CLEANUP_OPT := $(if $(CLEANUP),--cleanup-after,--no-cleanup-after)
+
 ifneq ($(wildcard upstream),)
 __allsources := $(notdir $(strip $(shell cat upstream)))
 __missingsources := $(filter-out $(wildcard ${__allsources}), ${__allsources})
@@ -88,7 +90,7 @@ prebuild-checks:
 #help which creates a src.rpm file from the spec file.
 #help Use MOCK_OPTS environment varible to pass down arbitrary mock options.
 build: prebuild-checks configemail $(SPECFILE) upstream $(SRPMFILE)
-	$(MOCK) $(SRPMFILE) --result=results/ --no-cleanup-after --uniqueext=$(PKG_NAME)
+	$(MOCK) $(SRPMFILE) --result=results/ $(MOCK_CLEANUP_OPT) --uniqueext=$(PKG_NAME)
 	$(MAKE) link-new-rpms PKG_REPO_DIR="."
 	@perl $(TOPLVL)/projects/common/logcheck.pl results/build.log
 	@perl $(TOPLVL)/projects/common/count.pl results/build.log &> testresults
@@ -96,7 +98,7 @@ build: prebuild-checks configemail $(SPECFILE) upstream $(SRPMFILE)
 
 #help build-nocheck: Same as 'make build', but do not run the package's test suite.
 build-nocheck: configemail $(SPECFILE) upstream $(SRPMFILE)
-	$(MOCK) $(SRPMFILE) --nocheck --result=results/ --no-cleanup-after --uniqueext=$(PKG_NAME)
+	$(MOCK) $(SRPMFILE) --nocheck --result=results/ $(MOCK_CLEANUP_OPT) --uniqueext=$(PKG_NAME)
 	$(MAKE) link-new-rpms PKG_REPO_DIR="."
 	@perl $(TOPLVL)/projects/common/logcheck.pl results/build.log
 	@perl $(TOPLVL)/projects/common/count.pl results/build.log &> testresults
@@ -117,7 +119,7 @@ shell:
 .PHONY: $(SRPMFILE)
 $(SRPMFILE): $(SPECFILE) $(__allsources) localreponotice clean-old-content
 	@$(MAKE) spdxcheck
-	$(MOCK) --buildsrpm --source=./ --spec=$(SPECFILE) --result=results/ --no-cleanup-after --uniqueext=$(PKG_NAME)
+	$(MOCK) --buildsrpm --source=./ --spec=$(SPECFILE) --result=results/ $(MOCK_CLEANUP_OPT) --uniqueext=$(PKG_NAME)
 	mv results/root.log results/srpm-root.log
 	mv results/build.log results/srpm-build.log
 
