@@ -3542,6 +3542,7 @@ poppler
 poppler-data-clr-rename
 popt
 portaudio
+portmidi
 postfix
 postgis
 postgresql
@@ -3973,6 +3974,7 @@ pypi-nbsphinx
 pypi-nbval
 pypi-ncclient
 pypi-ndg_httpsclient
+pypi-neat_python
 pypi-nest_asyncio
 pypi-netapp_lib
 pypi-netdisco
@@ -4083,6 +4085,7 @@ pypi-pydot_ng
 pypi-pyelftools
 pypi-pyfakefs
 pypi-pyflakes
+pypi-pygame
 pypi-pygithub
 pypi-pygments
 pypi-pyicu
