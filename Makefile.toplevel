@@ -170,7 +170,7 @@ diff: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 #help displaying any committed but unpushed changes.
 log: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 	@for p in projects/common $(addprefix packages/,$(PKGS_LOCAL)); do \
-		( cd $$p; if [ "$$(git rev-parse --verify HEAD)" != "$$(git rev-parse --verify origin/master)" ] ; then \
+		( cd $$p; if [ -n "$$(git rev-list origin/master..HEAD)" ] ; then \
 		echo $$p ; git --no-pager log --pretty="format:%s" origin/master..HEAD ; echo ; echo;\
 		fi ; ) \
 	done
