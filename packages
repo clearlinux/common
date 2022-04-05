@@ -408,6 +408,7 @@ R-fixest
 R-flashClust
 R-flexmix
 R-flexsurv
+R-flextable
 R-float
 R-fontBitstreamVera
 R-fontLiberation
@@ -640,6 +641,7 @@ R-npsurv
 R-numDeriv
 R-nws
 R-nycflights13
+R-officer
 R-openssl
 R-openxlsx
 R-optextras
@@ -4670,6 +4672,7 @@ thermal_daemon
 thermal_monitor
 thin-provisioning-tools
 threadweaver
+thrift
 thunar-volman
 thunderbird
 thunderbolt-software-user-space
