@@ -159,11 +159,11 @@ status: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 	if [ -d "$$p/.git" ] &&  [ -n "$$(git -C $$p status -uno --porcelain)" ]; then echo "Uncommitted changes in $$p:"; git -C "$$p" status --short; fi ;\
 	done
 
-#help diff: Runs git diff for all package repos and displays the output using
-#help diffstat. Requires that diffstat is installed.
+#help diff: Runs git diff for all package repos and displays the diffstat using
+#help the --stat flag.
 diff: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 	@for p in projects/common $(addprefix packages/,$(PKGS_LOCAL)); do \
-		(cd $$p; git status --porcelain | grep -vq '^?? ' && (echo "Uncommitted changes in: $$p"; git diff | diffstat -p1); :) ;\
+		(cd $$p; git status --porcelain | grep -vq '^?? ' && (echo "Uncommitted changes in: $$p"; git diff --stat); :) ;\
 	done
 
 #help log: Run git log origin/master..HEAD for all package repos, thus
