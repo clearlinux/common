@@ -49,6 +49,7 @@ QGIS
 R
 R-AER
 R-AMORE
+R-ATR
 R-Amelia
 R-AmesHousing
 R-BB
@@ -432,6 +433,8 @@ R-future
 R-future.apply
 R-g.data
 R-gam
+R-gamlss.data
+R-gamlss.dist
 R-gamm4
 R-gargle
 R-gbRd
@@ -648,6 +651,7 @@ R-optextras
 R-optimx
 R-optparse
 R-ordinal
+R-ordinalCont
 R-orthopolynom
 R-pROC
 R-packrat
@@ -1505,6 +1509,7 @@ gawk
 gc
 gcab
 gcc
+gcc11
 gcc7
 gcc8
 gcc9
@@ -3671,6 +3676,7 @@ pypi-cached_property
 pypi-cachetools
 pypi-cachy
 pypi-capturer
+pypi-cattrs
 pypi-cchardet
 pypi-cerberus
 pypi-certifi
@@ -3766,6 +3772,7 @@ pypi-envs
 pypi-eternalegypt
 pypi-etuples
 pypi-evdev
+pypi-exceptiongroup
 pypi-exdir
 pypi-execnet
 pypi-executing
@@ -3787,6 +3794,7 @@ pypi-flask
 pypi-flatten_json
 pypi-flit
 pypi-flit_core
+pypi-flit_scm
 pypi-fontmath
 pypi-freezegun
 pypi-frozenlist
