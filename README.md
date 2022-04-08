@@ -23,7 +23,7 @@ Download the [user setup](user-setup.sh) script and run it on your Clear Linux
 system as an unprivileged user.
 
 ```
-$ curl -O https://raw.githubusercontent.com/clearlinux/common/master/user-setup.sh
+$ curl -O https://raw.githubusercontent.com/clearlinux/common/main/user-setup.sh
 $ chmod +x user-setup.sh
 $ ./user-setup.sh
 ```

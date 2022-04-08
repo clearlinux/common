@@ -68,13 +68,18 @@ ${PULL_PKGS}:
 	if [ ! -d "$$p/.git" ]; then echo "Nothing to pull for $$p - $$p/.git missing"; exit 0; fi; \
 	cd "$$p" ; \
 	if git remote | grep origin >/dev/null 2>&1; then \
-		O=$$(git rev-parse origin/master 2>/dev/null); \
+		case "$$p" in \
+			("projects/"*) BRANCH=master ;; \
+			("packages/"*) BRANCH=main ;; \
+			(*) BRANCH=master ;; \
+		esac; \
+		O=$$(git rev-parse origin/"$$BRANCH" 2>/dev/null); \
 		git fetch --tags origin >/dev/null 2>&1; \
-		N=$$(git rev-parse origin/master); \
+		N=$$(git rev-parse origin/"$$BRANCH"); \
 		if [ "$$O" != "$$N" ]; then \
 			echo "Updating: $$p"; \
-			if ! git merge --ff-only origin/master 2>/dev/null; then \
-				echo "$$p: Cannot fast-forward $$(git rev-parse --abbrev-ref HEAD) to origin/master" ; \
+			if ! git merge --ff-only origin/"$$BRANCH" 2>/dev/null; then \
+				echo "$$p: Cannot fast-forward $$(git rev-parse --abbrev-ref HEAD) to origin/$$BRANCH" ; \
 			fi ; \
 			git --no-pager log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit $$O..$$N; echo; \
 		fi ; \
@@ -166,12 +171,12 @@ diff: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 		(cd $$p; git status --porcelain | grep -vq '^?? ' && (echo "Uncommitted changes in: $$p"; git diff --stat); :) ;\
 	done
 
-#help log: Run git log origin/master..HEAD for all package repos, thus
+#help log: Run git log origin/main..HEAD for all package repos, thus
 #help displaying any committed but unpushed changes.
 log: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 	@for p in projects/common $(addprefix packages/,$(PKGS_LOCAL)); do \
-		( cd $$p; if [ -n "$$(git rev-list origin/master..HEAD)" ] ; then \
-		echo $$p ; git --no-pager log --pretty="format:%s" origin/master..HEAD ; echo ; echo;\
+		( cd $$p; if [ -n "$$(git rev-list origin/main..HEAD)" ] ; then \
+		echo $$p ; git --no-pager log --pretty="format:%s" origin/main..HEAD ; echo ; echo;\
 		fi ; ) \
 	done
 

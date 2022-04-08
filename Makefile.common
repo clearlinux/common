@@ -132,7 +132,7 @@ $(SRPMFILE): $(SPECFILE) $(__allsources) localreponotice clean-old-content
 # initialized locally, or if the remote contains no commits.
 pullrebase:
 	@if [ -z "$$SKIP_GIT" ] && [ -e .git ]; then \
-		if ! git rev-parse --verify --quiet origin/master > /dev/null; then \
+		if ! git rev-parse --verify --quiet origin/main > /dev/null; then \
 			echo "Remote not yet initialized. Continuing."; \
 			exit 0; \
 		fi; \
@@ -146,7 +146,7 @@ pullrebase:
 			echo "Current branch up-to-date. Continuing."; \
 			exit 0; \
 		fi; \
-		echo "Rebasing to origin/master"; \
+		echo "Rebasing to origin/main"; \
 		if git status --porcelain | grep -q '^.[^?]'; \
 		then \
 			git stash save; \
@@ -310,8 +310,8 @@ prekoji-checks:
 koji: prekoji-checks kojidef
 	@$(MAKE) spdxcheck
 	@$(MAKE) checkblacklist
-	@if [ "$(CURRENT_BRANCH)" != "master" ] && [ "$(CURRENT_BRANCH)" != "main" ]; then \
-		echo "Error: Must be on the \"master\" or \"main\" branch to submit to koji" >&2; \
+	@if [ "$(CURRENT_BRANCH)" != "main" ]; then \
+		echo "Error: Must be on the \"main\" branch to submit to koji" >&2; \
 		exit 1; \
 	fi; \
 	if ! git diff --quiet HEAD -- ${SPECFILE}; then \
@@ -319,7 +319,7 @@ koji: prekoji-checks kojidef
 		exit 1; \
 	fi; \
 	git fetch; \
-	if git rev-parse --verify --quiet origin/master >/dev/null; then \
+	if git rev-parse --verify --quiet origin/main >/dev/null; then \
 		git pull --rebase; \
 	fi; \
 	if git ls-remote --tags --exit-code origin $(SRPMVERS) >/dev/null; then \
@@ -327,7 +327,7 @@ koji: prekoji-checks kojidef
 		exit 1; \
 	fi
 	git tag $(SRPMVERS)
-	git push origin $(CURRENT_BRANCH):master refs/tags/$(SRPMVERS)
+	git push origin $(CURRENT_BRANCH):main refs/tags/$(SRPMVERS)
 	$(KOJI_CMD) build $$KOJI_NOWAIT $(KOJI_TAG) $(PKG_BASE_URL)/$(PKG_NAME)?#$(SRPMVERS)
 
 #help rekoji: In case a previous 'make koji' failed, trigger a rebuild for the
