@@ -74,7 +74,7 @@ mockproper:
 	$(MOCK) --clean --uniqueext=$(PKG_NAME)
 
 configemail:
-	@test -d .git || git init
+	@test -d .git || git init -b main
 	@$(call subjectprefix,$(PKG_NAME))
 	@echo -n "Subject prefix email configured to: "
 	@git config --get format.subjectPrefix

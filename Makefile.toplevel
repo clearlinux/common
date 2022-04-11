@@ -216,7 +216,7 @@ autospecnew: preautospecnew-checks localreponotice
 		mkdir -p $(TOPLVL)/packages/$(NAME); \
 		( \
 			cd $(TOPLVL)/packages/$(NAME); \
-			git init; \
+			git init -b main; \
 			git remote add origin $(PKG_BASE_URL)/$(NAME); \
 			$(call gitoliteurl,packages/$(NAME)); \
 			$(call subjectprefix,$(NAME)); \
@@ -267,7 +267,7 @@ autospecnewgo: preautospecnew-checks localreponotice
 		mkdir -p $(TOPLVL)/packages/$(NAME); \
 		( \
 			cd $(TOPLVL)/packages/$(NAME); \
-			git init; \
+			git init -b main; \
 			git remote add origin $(PKG_BASE_URL)/$(NAME); \
 			$(call gitoliteurl,packages/$(NAME)); \
 			$(call subjectprefix,$(NAME)); \
