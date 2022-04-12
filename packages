@@ -433,6 +433,7 @@ R-future
 R-future.apply
 R-g.data
 R-gam
+R-gamlss
 R-gamlss.data
 R-gamlss.dist
 R-gamm4
@@ -941,6 +942,7 @@ R-tm
 R-tmvnsim
 R-toOrdinal
 R-topicmodels
+R-tram
 R-tree
 R-triebeard
 R-trimcluster
@@ -1065,7 +1067,6 @@ analitza
 ansible
 ansible-core
 antlr4-python3-runtime
-anyio
 apache-ant
 applaunchservices
 appstream
@@ -1206,7 +1207,6 @@ cdparanoia
 ceph
 ceph-deploy
 cereal
-certbot
 cfitsio
 cgdb
 cgit
@@ -3607,10 +3607,12 @@ pypi-alabaster
 pypi-ansi2html
 pypi-ansible_compat
 pypi-ansible_pygments
+pypi-anyio
 pypi-apacheconfig
 pypi-apipkg
 pypi-appdirs
 pypi-applicationinsights
+pypi-appnope
 pypi-argcomplete
 pypi-argon2_cffi
 pypi-argon2_cffi_bindings
@@ -3679,6 +3681,8 @@ pypi-capturer
 pypi-cattrs
 pypi-cchardet
 pypi-cerberus
+pypi-certbot
+pypi-certbot_dns_google
 pypi-certifi
 pypi-cffi
 pypi-cffsubr
@@ -3991,12 +3995,14 @@ pypi-netdisco
 pypi-netifaces
 pypi-networkx
 pypi-nibabel
+pypi-nltk
 pypi-nocasedict
 pypi-nocaselist
 pypi-nodeenv
 pypi-nose
 pypi-nose_timer
 pypi-notebook
+pypi-notebook_shim
 pypi-numpoly
 pypi-numpy
 pypi-numpydoc
