@@ -1389,6 +1389,7 @@ docbook2X
 docker
 docker-cli
 dockerpty
+docutils
 dolphin
 dolphin-plugins
 dos2unix
@@ -2075,6 +2076,7 @@ libcomps
 libconfig
 libcroco
 libcryptui
+libcuckoo
 libcxx
 libdaemon
 libdatrie
@@ -3761,7 +3763,6 @@ pypi-django_pyscss
 pypi-dns_lexicon
 pypi-dnspython
 pypi-docker
-pypi-docker_compose
 pypi-docker_pycreds
 pypi-docopt
 pypi-docstring_parser
@@ -3963,6 +3964,7 @@ pypi-mkdocs_material
 pypi-mkdocs_material_extensions
 pypi-mock
 pypi-molecule
+pypi-molecule_docker
 pypi-monotonic
 pypi-more_itertools
 pypi-moreorless
@@ -4381,6 +4383,7 @@ pypi-webcolors
 pypi-webencodings
 pypi-webob
 pypi-websocket_client
+pypi-websockets
 pypi-webtest
 pypi-werkzeug
 pypi-wheel
@@ -4892,3 +4895,4 @@ zopfli
 zsh
 zstd
 zstd-bin
+zxing
