@@ -3763,6 +3763,7 @@ pypi-django_pyscss
 pypi-dns_lexicon
 pypi-dnspython
 pypi-docker
+pypi-docker_compose
 pypi-docker_pycreds
 pypi-docopt
 pypi-docstring_parser
