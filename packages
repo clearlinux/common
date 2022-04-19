@@ -3649,6 +3649,7 @@ pypi-backcall
 pypi-backports.cached_property
 pypi-backports.entry_points_selectable
 pypi-backports.functools_lru_cache
+pypi-backports.shutil_get_terminal_size
 pypi-backports.ssl_match_hostname
 pypi-backports.weakref
 pypi-bash_kernel
@@ -3838,6 +3839,7 @@ pypi-h11
 pypi-h2
 pypi-h5py
 pypi-hammock
+pypi-hatch_vcs
 pypi-hatchling
 pypi-heapdict
 pypi-hkp4py
