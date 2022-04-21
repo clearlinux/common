@@ -1298,6 +1298,7 @@ compat-lua-53
 compat-nettle-soname7
 compat-pangomm-soname14
 compat-poppler-soname112
+compat-poppler-soname117
 compat-protobuf-soname23
 compat-readline-soname5
 compat-rest-soname07
@@ -2018,6 +2019,7 @@ ledmon
 lensfun
 leptonica
 less
+level-zero
 leveldb
 lftp
 libArcus
@@ -4274,6 +4276,7 @@ pypi-sphinx_last_updated_by_git
 pypi-sphinx_notfound_page
 pypi-sphinx_rtd_theme
 pypi-sphinx_thebe
+pypi-sphinx_theme_builder
 pypi-sphinx_togglebutton
 pypi-sphinxcontrib_apidoc
 pypi-sphinxcontrib_applehelp
@@ -4743,6 +4746,7 @@ usrbinjava
 usrbinpython
 usrbinvi
 utf8cpp
+utf8proc
 util-linux
 util-macros
 uwsgi
