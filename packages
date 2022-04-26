@@ -592,6 +592,7 @@ R-mda
 R-measures
 R-memisc
 R-memoise
+R-metadat
 R-metafor
 R-mi
 R-mice
@@ -1502,7 +1503,6 @@ fribidi
 fritzing-app
 fs
 fsearch
-funcparserlib
 fuse
 fwupd
 fwupd-efi
@@ -2334,6 +2334,7 @@ lksctp-tools
 llvm
 llvm11
 llvm12
+llvm13
 lm-sensors
 lmdb
 logrotate
@@ -3808,6 +3809,7 @@ pypi-fontmath
 pypi-freezegun
 pypi-frozenlist
 pypi-fsspec
+pypi-funcparserlib
 pypi-future
 pypi-gast
 pypi-gcs_oauth2_boto_plugin
