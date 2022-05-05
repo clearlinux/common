@@ -1133,6 +1133,7 @@ bcache-tools
 bcc
 bcftools
 bdftopcf
+bemenu
 bijiben
 bind-utils
 binutils
@@ -4120,6 +4121,7 @@ pypi-pylint
 pypi-pyls_black
 pypi-pymdown_extensions
 pypi-pynacl
+pypi-pynetbox
 pypi-pynsist
 pypi-pyopengl
 pypi-pyopenssl
