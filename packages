@@ -1186,6 +1186,7 @@ byobu
 bz2file
 bzip2
 c-ares
+c-basic-meta
 cJSON
 c_rehash
 ca-certs
@@ -3609,6 +3610,7 @@ pypi-aiofiles
 pypi-aiohttp
 pypi-aiohttp_cors
 pypi-aiosignal
+pypi-aiosmtpd
 pypi-alabaster
 pypi-ansi2html
 pypi-ansible_compat
@@ -3635,6 +3637,7 @@ pypi-async_generator
 pypi-async_timeout
 pypi-asynctest
 pypi-atomicwrites
+pypi-atpublic
 pypi-attrs
 pypi-awesomeversion
 pypi-awscrt
@@ -4040,6 +4043,7 @@ pypi-pathlib
 pypi-pathspec
 pypi-patsy
 pypi-pbr
+pypi-pdm_pep517
 pypi-pdocs
 pypi-pecan
 pypi-ped
