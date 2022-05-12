@@ -4326,6 +4326,7 @@ pypi-testpath
 pypi-text_unidecode
 pypi-textdistance
 pypi-textfsm
+pypi-texttable
 pypi-theano
 pypi-threadpoolctl
 pypi-three_merge
@@ -4511,6 +4512,7 @@ qtwebchannel
 qtwebengine
 qtwebsockets
 qtx11extras
+qtxdg-tools
 qtxmlpatterns
 quagga
 quassel
@@ -4697,7 +4699,6 @@ tevent
 texinfo
 texlive
 texmaker
-texttable
 tgt
 the_silver_searcher
 thermal_daemon
