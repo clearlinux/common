@@ -3612,6 +3612,7 @@ pypi-aiohttp_cors
 pypi-aiosignal
 pypi-aiosmtpd
 pypi-alabaster
+pypi-altgraph
 pypi-ansi2html
 pypi-ansible_compat
 pypi-ansible_pygments
@@ -3958,6 +3959,7 @@ pypi-logical_unification
 pypi-logilab_common
 pypi-lxml
 pypi-lz4
+pypi-macholib
 pypi-mako
 pypi-markdown
 pypi-markdown2
@@ -3974,6 +3976,7 @@ pypi-mkdocs
 pypi-mkdocs_material
 pypi-mkdocs_material_extensions
 pypi-mock
+pypi-modulegraph
 pypi-molecule
 pypi-molecule_docker
 pypi-monotonic
