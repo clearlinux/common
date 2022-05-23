@@ -1069,7 +1069,6 @@ ansible
 ansible-core
 antlr4-python3-runtime
 apache-ant
-applaunchservices
 appstream
 appstream-glib
 apr
@@ -3621,7 +3620,6 @@ pypi-apacheconfig
 pypi-apipkg
 pypi-appdirs
 pypi-applicationinsights
-pypi-appnope
 pypi-argcomplete
 pypi-argon2_cffi
 pypi-argon2_cffi_bindings
@@ -3724,7 +3722,6 @@ pypi-columnize
 pypi-commonmark
 pypi-complete
 pypi-compreffor
-pypi-comtypes
 pypi-configargparse
 pypi-configparser
 pypi-cons
