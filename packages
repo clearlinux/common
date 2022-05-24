@@ -3070,6 +3070,7 @@ perl-Metrics-Any
 perl-Minion
 perl-Mixin-Linewise
 perl-Mock-Config
+perl-Mock-Sub
 perl-Modern-Perl
 perl-Module-Build
 perl-Module-Build-Tiny
