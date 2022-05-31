@@ -2616,6 +2616,7 @@ pbzip2
 pciutils
 pcmanfm
 pcmanfm-qt
+pcp
 pcre
 pcre2
 pcs
@@ -3959,6 +3960,7 @@ pypi-logical_unification
 pypi-logilab_common
 pypi-lxml
 pypi-lz4
+pypi-m2r
 pypi-macholib
 pypi-mako
 pypi-markdown
@@ -4302,9 +4304,11 @@ pypi-sphinxcontrib_httpdomain
 pypi-sphinxcontrib_jsmath
 pypi-sphinxcontrib_napoleon
 pypi-sphinxcontrib_newsfeed
+pypi-sphinxcontrib_openapi
 pypi-sphinxcontrib_plantuml
 pypi-sphinxcontrib_programoutput
 pypi-sphinxcontrib_qthelp
+pypi-sphinxcontrib_redoc
 pypi-sphinxcontrib_seqdiag
 pypi-sphinxcontrib_serializinghtml
 pypi-sphinxcontrib_svg2pdfconverter
