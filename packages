@@ -3637,6 +3637,7 @@ pypi-astunparse
 pypi-asv
 pypi-async_generator
 pypi-async_timeout
+pypi-asyncssh
 pypi-asynctest
 pypi-atomicwrites
 pypi-atpublic
@@ -4038,6 +4039,7 @@ pypi-paho_mqtt
 pypi-pandocfilters
 pypi-paramiko
 pypi-parse
+pypi-parse_type
 pypi-parsedatetime
 pypi-parso
 pypi-partd
