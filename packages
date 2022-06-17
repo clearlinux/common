@@ -3623,6 +3623,7 @@ pypi-apipkg
 pypi-appdirs
 pypi-applicationinsights
 pypi-argcomplete
+pypi-argh
 pypi-argon2_cffi
 pypi-argon2_cffi_bindings
 pypi-argparse
@@ -3807,6 +3808,7 @@ pypi-flake8_blind_except
 pypi-flake8_class_newline
 pypi-flake8_docstrings
 pypi-flake8_import_order
+pypi-flaky
 pypi-flask
 pypi-flatten_json
 pypi-flit
@@ -3816,6 +3818,7 @@ pypi-fontmath
 pypi-freezegun
 pypi-frozenlist
 pypi-fsspec
+pypi-ftfy
 pypi-funcparserlib
 pypi-future
 pypi-gast
@@ -3949,6 +3952,7 @@ pypi-khal
 pypi-kiwisolver
 pypi-krb5
 pypi-kubernetes
+pypi-langcodes
 pypi-lark_parser
 pypi-latexcodec
 pypi-lazy_object_proxy
@@ -4067,6 +4071,7 @@ pypi-pickleshare
 pypi-pid
 pypi-pillow
 pypi-pip
+pypi-pip_tools
 pypi-pkgconfig
 pypi-pkginfo
 pypi-platformdirs
@@ -4418,6 +4423,7 @@ pypi-werkzeug
 pypi-wheel
 pypi-widgetsnbextension
 pypi-wikipedia
+pypi-wordfreq
 pypi-wrapt
 pypi-wsgiproxy2
 pypi-wsproto
