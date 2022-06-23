@@ -1392,7 +1392,6 @@ docbook2X
 docker
 docker-cli
 dockerpty
-docutils
 dolphin
 dolphin-plugins
 dos2unix
@@ -4039,6 +4038,7 @@ pypi-openshift
 pypi-opt_einsum
 pypi-ouimeaux
 pypi-outcome
+pypi-ovirt_imageio
 pypi-packaging
 pypi-paho_mqtt
 pypi-pandocfilters
@@ -4200,6 +4200,7 @@ pypi-python_slugify
 pypi-python_string_utils
 pypi-python_xlib
 pypi-pythran
+pypi-pytoolconfig
 pypi-pytz
 pypi-pytz_deprecation_shim
 pypi-pyu2f
