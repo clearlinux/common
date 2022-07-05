@@ -1185,7 +1185,6 @@ byobu
 bz2file
 bzip2
 c-ares
-c-basic-meta
 cJSON
 c_rehash
 ca-certs
@@ -2406,6 +2405,8 @@ mesa
 mesa-demos
 meson
 messagelib
+meta-c-basic
+meta-desktop-kde
 metacity
 metis
 metrics-discovery
@@ -3729,6 +3730,7 @@ pypi-compreffor
 pypi-configargparse
 pypi-configparser
 pypi-cons
+pypi-constantly
 pypi-contextlib2
 pypi-contextvars
 pypi-cookiecutter
@@ -3868,6 +3870,7 @@ pypi-hug
 pypi-humanfriendly
 pypi-humanize
 pypi-hyperframe
+pypi-hyperlink
 pypi-hypothesis
 pypi-icalendar
 pypi-identify
@@ -3880,6 +3883,7 @@ pypi-imagesize
 pypi-immutables
 pypi-importlib_metadata
 pypi-importlib_resources
+pypi-incremental
 pypi-infi.dtypes.iqn
 pypi-infi.dtypes.wwn
 pypi-inflect
@@ -4363,6 +4367,7 @@ pypi-tox
 pypi-tqdm
 pypi-traitlets
 pypi-trampolim
+pypi-trimesh
 pypi-trio
 pypi-trio_websocket
 pypi-ttp
@@ -4748,7 +4753,6 @@ trace-cmd
 traceroute
 tracker
 tracker-miners
-traefik
 tree
 tree-sitter
 tzdata
@@ -4815,6 +4819,7 @@ which
 whois
 wine
 wireless-regdb-master
+wireplumber
 wireshark
 wlroots
 wmctrl
