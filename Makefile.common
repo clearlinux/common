@@ -329,6 +329,12 @@ koji: prekoji-checks kojidef
 	git tag $(SRPMVERS)
 	git push origin $(CURRENT_BRANCH):main refs/tags/$(SRPMVERS)
 	$(KOJI_CMD) build $$KOJI_NOWAIT $(KOJI_TAG) $(PKG_BASE_URL)/$(PKG_NAME)?#$(SRPMVERS)
+	@if [ -f bump.list ]; then \
+		$(MAKE) koji-waitrepo; \
+		for bump_dep in $$(cat bump.list); do \
+			(cd ../"$$bump_dep" && $(MAKE) bump && $(MAKE) koji-nowait) \
+		done \
+	fi
 
 #help rekoji: In case a previous 'make koji' failed, trigger a rebuild for the
 #help same tag.
