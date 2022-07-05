@@ -352,6 +352,23 @@ koji-nowait:
 rekoji-nowait:
 	$(MAKE) KOJI_NOWAIT="--nowait --background" rekoji
 
+#help koji-waitrepo: Wait for current package changes to become available in the
+#help koji repo. If PKG_NAME is overridden on the command line, wait on changes for
+#help that package instead. This capability allows the developer to "chain" builds
+#help for submission to koji according to the state of the package repos on their
+#help system. Additional options for `koji wait-repo` can be specified via the
+#help WAIT_OPTS variable.
+koji-waitrepo: kojidef
+	@if [[ ! "${PKG_NAME}" =~ ^[A-Za-z0-9._+-]+$$ ]]; then \
+		echo "[ERROR] Invalid package name \"${PKG_NAME}\""; \
+		exit 1; \
+	fi; \
+	if [[ "${PKG_NAME}" != "$(notdir ${CURDIR})" ]]; then \
+		$(MAKE) -s -C ../${PKG_NAME} koji-waitrepo; \
+	else \
+		koji wait-repo --build=${SRPMVERS} ${WAIT_OPTS} ${KOJI_TAG}-build; \
+	fi
+
 logcheck:
 	@perl $(TOPLVL)/projects/common/logcheck.pl results/build.log
 
