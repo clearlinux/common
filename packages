@@ -508,6 +508,7 @@ R-influenceR
 R-ini
 R-inline
 R-insight
+R-interp
 R-inum
 R-invgamma
 R-ipred
@@ -1372,6 +1373,7 @@ diffutils
 digikam
 ding-libs
 dino
+directx-headers
 direwolf
 dist-pam-configs
 distro
@@ -2406,6 +2408,7 @@ mesa-demos
 meson
 messagelib
 meta-c-basic
+meta-desktop-gnome
 meta-desktop-kde
 metacity
 metis
@@ -4614,6 +4617,7 @@ sddm-kcm
 seahorse
 seatd
 sed
+seer
 serf
 setserial
 setxkbmap
