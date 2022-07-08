@@ -375,6 +375,27 @@ koji-waitrepo: kojidef
 		koji wait-repo --build=${SRPMVERS} ${WAIT_OPTS} ${KOJI_TAG}-build; \
 	fi
 
+update-versions:
+
+.PHONY: update
+#help update: Tries to run update.sh if it exists. update.sh is expected
+#help to check for version updates, exit (successfully) if none are found
+#help or update the package and push the update to koji.
+#help If no update.sh exists, update the version, autospec and push the
+#help update to koji (bumping the bump.list if found).
+update:
+	@if [ -f update.sh ]; then \
+		./update.sh; \
+	else \
+		$(MAKE) -s update-versions && \
+		$(MAKE) -s autospec && \
+		if [ -f bump.list ]; then \
+			$(MAKE) -s koji; \
+		else \
+			$(MAKE) -s koji-nowait; \
+		fi \
+	fi \
+
 logcheck:
 	@perl $(TOPLVL)/projects/common/logcheck.pl results/build.log
 
