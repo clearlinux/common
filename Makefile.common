@@ -388,7 +388,7 @@ update:
 		./update.sh; \
 	else \
 		$(MAKE) -s update-versions && \
-		$(MAKE) -s autospec && \
+		$(MAKE) autospec CLEANUP=1 && \
 		if [ -f bump.list ]; then \
 			$(MAKE) -s koji; \
 		else \
