@@ -3646,6 +3646,7 @@ pypi-asynctest
 pypi-atomicwrites
 pypi-atpublic
 pypi-attrs
+pypi-automat
 pypi-awesomeversion
 pypi-awscrt
 pypi-awxkit
