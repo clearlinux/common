@@ -166,6 +166,7 @@ R-Rserve
 R-Rsolnp
 R-Rtsne
 R-Rvmmin
+R-Ryacas
 R-SDMTools
 R-SGP
 R-SGPdata
@@ -1408,6 +1409,7 @@ dropwatch
 dssi
 dstat
 dtc
+duktape
 dunst
 duperemove
 dvisvgm
@@ -2410,6 +2412,8 @@ messagelib
 meta-c-basic
 meta-desktop-gnome
 meta-desktop-kde
+meta-os-core
+meta-os-core-plus
 metacity
 metis
 metrics-discovery
@@ -2450,7 +2454,6 @@ mosh
 mosquitto
 motd-update
 motif
-mozjs78
 mozjs91
 mpc
 mpfr
@@ -3644,6 +3647,7 @@ pypi-async_timeout
 pypi-asyncssh
 pypi-asynctest
 pypi-atomicwrites
+pypi-atomicwrites_homeassistant
 pypi-atpublic
 pypi-attrs
 pypi-automat
@@ -4216,6 +4220,7 @@ pypi-pyu2f
 pypi-pyusb
 pypi-pywavelets
 pypi-pywbem
+pypi-pywinrm
 pypi-pyxattr
 pypi-pyxdameraulevenshtein
 pypi-pyxdg
