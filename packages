@@ -3779,7 +3779,6 @@ pypi-django_appconf
 pypi-django_compressor
 pypi-django_discover_runner
 pypi-django_nose
-pypi-django_pyscss
 pypi-dnacentersdk
 pypi-dns_lexicon
 pypi-dnspython
@@ -4160,6 +4159,7 @@ pypi-pyopenssl
 pypi-pyparsing
 pypi-pyperclip
 pypi-pyperf
+pypi-pyproject_metadata
 pypi-pyprojectx
 pypi-pypsrp
 pypi-pyqrcode
