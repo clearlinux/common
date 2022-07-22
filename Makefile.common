@@ -217,12 +217,21 @@ autospecnostate:
 scanlicense:
 	python3 $(TOPLVL)/projects/autospec/autospec/autospec.py -t . --config $(AUTOSPEC_CONF) --license-only $(firstword $(NEWURL) $(URL)) --name $(PKG_NAME)
 
-#help bump: Increments the release file by one.
+#help bump: Increments the package release number by one and commits the result. If
+#help the variable BUMP_MSG is set, its value is used as the commit summary.
+#help Otherwise a generic commit summary is used.
 bump:
 	git pull --rebase
 	$(MAKE) bumpnogit
 	git add $(SPECFILE) release
-	git commit -a -m "version bump from $(shell $(call queryspec,%{VERSION}-%{RELEASE}\n,$(SPECFILE))) to `$(call queryspec,%{VERSION}-%{RELEASE}\n,$(SPECFILE))`"
+	fromver=$(shell $(call queryspec,%{VERSION}-%{RELEASE}\n,$(SPECFILE))); \
+	tover=`$(call queryspec,%{VERSION}-%{RELEASE}\n,$(SPECFILE))`; \
+	if [[ -n "$(BUMP_MSG)" ]]; then \
+		bumpmsg="$(BUMP_MSG)"; \
+	else \
+		bumpmsg="version bump from $$fromver to $$tover"; \
+	fi; \
+	git commit -a -m "$$bumpmsg"
 
 #help bumpnogit: Increments the release file by one and does not commit changes.
 bumpnogit:
