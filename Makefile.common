@@ -233,7 +233,8 @@ bump:
 	fi; \
 	git commit -a -m "$$bumpmsg"
 
-#help bumpnogit: Increments the release file by one and does not commit changes.
+#help bumpnogit: Increments the package release number by one and does not commit
+#help changes.
 bumpnogit:
 	@$(MAKE) spdxcheck
 	oldrel=$(shell $(call queryspec,%{RELEASE}\n,$(SPECFILE))); \
