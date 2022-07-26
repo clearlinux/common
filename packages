@@ -724,6 +724,7 @@ R-prodlim
 R-profdpm
 R-profileModel
 R-profmem
+R-profvis
 R-progress
 R-progressr
 R-projpred
@@ -960,6 +961,7 @@ R-unbalanced
 R-units
 R-unix
 R-urca
+R-urlchecker
 R-urltools
 R-uroot
 R-usethis
