@@ -56,7 +56,6 @@ R-BB
 R-BBmisc
 R-BH
 R-BMA
-R-BMS
 R-BatchJobs
 R-BayesFactor
 R-BiasedUrn
@@ -288,7 +287,6 @@ R-config
 R-conflicted
 R-conquer
 R-contfrac
-R-conting
 R-corpcor
 R-corrgram
 R-corrplot
@@ -372,18 +370,15 @@ R-evd
 R-expint
 R-expm
 R-expsmooth
-R-fAsianOptions
 R-fAssets
 R-fBasics
 R-fBonds
 R-fCopulae
-R-fExoticOptions
 R-fExtremes
 R-fGarch
 R-fImport
 R-fMultivar
 R-fNonlinear
-R-fOptions
 R-fRegression
 R-fTrading
 R-fUnitRoots
@@ -646,7 +641,6 @@ R-nnls
 R-nortest
 R-npsurv
 R-numDeriv
-R-nws
 R-nycflights13
 R-officer
 R-openssl
@@ -721,7 +715,6 @@ R-princurve
 R-processx
 R-procmaps
 R-prodlim
-R-profdpm
 R-profileModel
 R-profmem
 R-profvis
@@ -839,7 +832,6 @@ R-runjags
 R-rversions
 R-rvest
 R-s2
-R-sROC
 R-sampling
 R-sandwich
 R-sass
@@ -1297,17 +1289,13 @@ compat-libpng-soname12
 compat-libsigc++-soname20
 compat-libsoup-soname-24
 compat-libva-soname1
-compat-libvpx-soname6
 compat-lua-52
 compat-lua-53
 compat-nettle-soname7
 compat-pangomm-soname14
-compat-poppler-soname112
 compat-poppler-soname117
-compat-protobuf-soname23
 compat-readline-soname5
 compat-rest-soname07
-compat-tbb-soname12
 compat-tracker-soname2.0
 compat-webkitgtk-soname40
 component
