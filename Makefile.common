@@ -341,8 +341,9 @@ koji: prekoji-checks kojidef
 	$(KOJI_CMD) build $$KOJI_NOWAIT $(KOJI_TAG) $(PKG_BASE_URL)/$(PKG_NAME)?#$(SRPMVERS)
 	@if [ -f bump.list ]; then \
 		$(MAKE) koji-waitrepo; \
+		msg="Bump for $(shell $(call queryspec,%{NAME} %{VERSION}\n,$(SPECFILE)))"; \
 		for bump_dep in $$(cat bump.list); do \
-			(cd ../"$$bump_dep" && $(MAKE) bump && $(MAKE) koji-nowait) \
+			(cd ../"$$bump_dep" && $(MAKE) bump BUMP_MSG="$$msg" && $(MAKE) koji-nowait) \
 		done \
 	fi
 
