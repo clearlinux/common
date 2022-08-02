@@ -2317,6 +2317,7 @@ linux-lts2017
 linux-lts2018
 linux-lts2019
 linux-lts2020
+linux-lts2021
 linux-mainline
 linux-oracle
 linux-preempt-rt
@@ -2965,6 +2966,7 @@ perl-IO-All
 perl-IO-Async
 perl-IO-Capture
 perl-IO-CaptureOutput
+perl-IO-FDPass
 perl-IO-HTML
 perl-IO-Interactive
 perl-IO-Interactive-Tiny
@@ -3035,6 +3037,8 @@ perl-Log-Message
 perl-Log-Message-Simple
 perl-Log-Trace
 perl-MARC-Record
+perl-MCE
+perl-MCE-Shared
 perl-MIME-Base32
 perl-MIME-Base64
 perl-MIME-Base64-URLSafe
