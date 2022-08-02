@@ -4119,6 +4119,7 @@ pypi-pycryptodome
 pypi-pycryptodomex
 pypi-pycups
 pypi-pycurl
+pypi-pydantic
 pypi-pydata_sphinx_theme
 pypi-pydispatcher
 pypi-pydocstyle
@@ -4479,6 +4480,7 @@ python-zstandard
 python3
 pyudev
 qalculate-gtk
+qatlib
 qbittorrent
 qca-qt5
 qemu
