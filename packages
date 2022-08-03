@@ -4140,6 +4140,7 @@ pypi-pymdown_extensions
 pypi-pynacl
 pypi-pynetbox
 pypi-pynsist
+pypi-pyomo
 pypi-pyopengl
 pypi-pyopenssl
 pypi-pyparsing
@@ -4197,6 +4198,7 @@ pypi-python_lsp_server
 pypi-python_multilib
 pypi-python_slugify
 pypi-python_string_utils
+pypi-python_version
 pypi-python_xlib
 pypi-pythran
 pypi-pytoolconfig
