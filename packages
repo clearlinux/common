@@ -1691,7 +1691,6 @@ hexchat
 hexedit
 hicolor-icon-theme
 hiredis-c
-home-assistant
 hostname
 hplip
 htop
@@ -3640,7 +3639,6 @@ pypi-async_timeout
 pypi-asyncssh
 pypi-asynctest
 pypi-atomicwrites
-pypi-atomicwrites_homeassistant
 pypi-atpublic
 pypi-attrs
 pypi-automat
