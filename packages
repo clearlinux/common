@@ -949,7 +949,6 @@ R-tseries
 R-tsne
 R-tzdb
 R-ucminf
-R-unbalanced
 R-units
 R-unix
 R-urca
@@ -1160,6 +1159,7 @@ bridge-utils
 brotli
 bsdiff
 bspwm
+btop
 btrfs-progs
 bubblewrap
 buildreq-R
@@ -1763,7 +1763,6 @@ isa-l
 iso-codes
 isodate
 isomd5sum
-ister
 isync
 itstool
 iw
@@ -2304,13 +2303,10 @@ linux-aws
 linux-current
 linux-firmware
 linux-firmware-ipu
-linux-gce
-linux-hyperv
 linux-hyperv-lts
 linux-iot-lts2018
 linux-iot-lts2018-preempt-rt
 linux-kata
-linux-kvm
 linux-libc-headers
 linux-lts2017
 linux-lts2018
@@ -4049,7 +4045,6 @@ pypi-partd
 pypi-paste
 pypi-pastedeploy
 pypi-pastel
-pypi-pathlib
 pypi-pathspec
 pypi-pathtools
 pypi-patsy
@@ -4277,7 +4272,6 @@ pypi-sh
 pypi-shapely
 pypi-shellingham
 pypi-simplegeneric
-pypi-singledispatch
 pypi-six
 pypi-smart_open
 pypi-smartypants
@@ -4336,6 +4330,7 @@ pypi-tblib
 pypi-templated_dictionary
 pypi-tempora
 pypi-tenacity
+pypi-termcolor
 pypi-terminado
 pypi-terminaltables
 pypi-testpath
@@ -4559,7 +4554,6 @@ renderdoc
 requests-ntlm
 rest
 restic
-retrying
 rhythmbox
 rinutils
 rlwrap
@@ -4709,7 +4703,6 @@ telemetrics-client
 telepathy-glib
 telepathy-qt
 tepl
-termcolor
 terminology
 terminus-font
 tesseract
