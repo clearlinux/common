@@ -48,7 +48,6 @@ QAT_engine
 QGIS
 R
 R-AER
-R-AMORE
 R-ATR
 R-Amelia
 R-AmesHousing
@@ -166,7 +165,6 @@ R-Rsolnp
 R-Rtsne
 R-Rvmmin
 R-Ryacas
-R-SDMTools
 R-SGP
 R-SGPdata
 R-SQUAREM
@@ -201,7 +199,6 @@ R-adespatial
 R-admisc
 R-afex
 R-alabama
-R-alr3
 R-analogue
 R-animation
 R-ape
@@ -346,7 +343,6 @@ R-dynlm
 R-e1071
 R-eRm
 R-earth
-R-eco
 R-ecodist
 R-eddington
 R-effects
