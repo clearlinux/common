@@ -1721,6 +1721,7 @@ icon-naming-utils
 icu4c
 idle-python3.7-assets
 iftop
+igsc
 igt-gpu-tools
 iio-sensor-proxy
 imagescan
@@ -2400,6 +2401,7 @@ meta-desktop-kde
 meta-os-core
 meta-os-core-plus
 metacity
+metee
 metis
 metrics-discovery
 micro-config-drive
@@ -2539,6 +2541,7 @@ octave
 oiio
 okteta
 okular
+oneVPL
 onig
 opa-fm
 opa-psm2
