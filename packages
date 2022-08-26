@@ -3651,6 +3651,7 @@ pypi-azure_mgmt_resource
 pypi-azure_mgmt_storage
 pypi-babel
 pypi-backcall
+pypi-backoff
 pypi-backports.cached_property
 pypi-backports.entry_points_selectable
 pypi-backports.functools_lru_cache
@@ -3795,6 +3796,7 @@ pypi-falcon
 pypi-fasteners
 pypi-fastimport
 pypi-fastjsonschema
+pypi-filecache
 pypi-filelock
 pypi-fissix
 pypi-flake8
@@ -3833,6 +3835,8 @@ pypi-google_auth_oauthlib
 pypi-google_pasta
 pypi-google_reauth
 pypi-googleapis_common_protos
+pypi-gql
+pypi-graphql_core
 pypi-graphviz
 pypi-greenlet
 pypi-grpcio
@@ -4640,6 +4644,7 @@ speexdsp
 spice
 spice-gtk
 spice-protocol
+spice-vdagent
 sqlite-autoconf
 squashfs-tools
 squid
