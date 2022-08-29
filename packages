@@ -1291,7 +1291,6 @@ compat-pangomm-soname14
 compat-poppler-soname117
 compat-readline-soname5
 compat-rest-soname07
-compat-tracker-soname2.0
 compat-webkitgtk-soname40
 component
 compute-image-packages
@@ -1814,6 +1813,7 @@ kcharselect
 kcmutils
 kcodecs
 kcolorchooser
+kcolorpicker
 kcompletion
 kconfig
 kconfigwidgets
@@ -1884,6 +1884,7 @@ kidletime
 kig
 kigo
 killbots
+kimageannotator
 kimageformats
 kimagemapeditor
 kimap
@@ -1954,6 +1955,7 @@ kross
 kruler
 krunner
 krusader
+ksanecore
 kscreen
 kscreenlocker
 kservice
@@ -4818,6 +4820,7 @@ woff2
 wol
 wpa_supplicant
 wsjtx
+wslu
 wxWidgets
 x11perf
 x11vnc
