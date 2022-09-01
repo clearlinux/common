@@ -2119,7 +2119,6 @@ libgtop
 libgudev
 libgusb
 libgweather
-libgweather4
 libhandy
 libical
 libidn
@@ -3777,6 +3776,7 @@ pypi-docopt
 pypi-docstring_parser
 pypi-docutils
 pypi-dpcontracts
+pypi-dulwich
 pypi-ecdsa
 pypi-editables
 pypi-elementpath
@@ -3853,6 +3853,7 @@ pypi-h11
 pypi-h2
 pypi-h5py
 pypi-hammock
+pypi-hatch_fancy_pypi_readme
 pypi-hatch_vcs
 pypi-hatchling
 pypi-heapdict
@@ -4079,6 +4080,7 @@ pypi-ply
 pypi-pockets
 pypi-poetry
 pypi-poetry_core
+pypi-poetry_plugin_export
 pypi-polib
 pypi-port_for
 pypi-portalocker
