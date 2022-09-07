@@ -1458,7 +1458,6 @@ filelight
 filesystem
 findutils
 fio
-firecracker
 firefox
 firewalld
 fish
@@ -1491,6 +1490,7 @@ freetype
 fribidi
 fritzing-app
 fs
+fsarchiver
 fsearch
 fuse
 fwupd
@@ -1790,11 +1790,6 @@ kapidox
 kapman
 kapptemplate
 karchive
-kata-image
-kata-proxy
-kata-qemu-lite
-kata-runtime
-kata-shim
 kate
 katomic
 kauth
@@ -2306,7 +2301,6 @@ linux-firmware-ipu
 linux-hyperv-lts
 linux-iot-lts2018
 linux-iot-lts2018-preempt-rt
-linux-kata
 linux-libc-headers
 linux-lts2017
 linux-lts2018
@@ -4153,6 +4147,7 @@ pypi-pyproject_metadata
 pypi-pyprojectx
 pypi-pypsrp
 pypi-pyqrcode
+pypi-pyqt6_sip
 pypi-pyquery
 pypi-pyreadline
 pypi-pyrfc3339
