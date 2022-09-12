@@ -1288,6 +1288,7 @@ compat-libva-soname1
 compat-lua-52
 compat-lua-53
 compat-nettle-soname7
+compat-openssl-soname11
 compat-pangomm-soname14
 compat-poppler-soname117
 compat-poppler-soname123
@@ -4437,7 +4438,6 @@ pypi-yamlloader
 pypi-yapf
 pypi-yarg
 pypi-yarl
-pypi-yaspin
 pypi-zabbix_api
 pypi-zc.lockfile
 pypi-zeroconf
