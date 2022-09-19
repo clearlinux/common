@@ -1292,6 +1292,7 @@ compat-openssl-soname11
 compat-pangomm-soname14
 compat-poppler-soname117
 compat-poppler-soname123
+compat-protobuf-soname29
 compat-readline-soname5
 compat-rest-soname07
 compat-webkitgtk-soname40
