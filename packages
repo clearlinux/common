@@ -2436,6 +2436,7 @@ mosh
 mosquitto
 motd-update
 motif
+mozjs102
 mozjs91
 mpc
 mpfr
@@ -3727,6 +3728,7 @@ pypi-cons
 pypi-constantly
 pypi-contextlib2
 pypi-contextvars
+pypi-contourpy
 pypi-cookiecutter
 pypi-cookies
 pypi-coverage
