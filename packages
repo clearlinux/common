@@ -1758,6 +1758,7 @@ ipvsadm
 ipxe
 irqbalance
 irrlicht
+irrlichtmt
 irssi
 isa-l
 iso-codes
@@ -3854,6 +3855,7 @@ pypi-h2
 pypi-h5py
 pypi-hammock
 pypi-hatch_fancy_pypi_readme
+pypi-hatch_nodejs_version
 pypi-hatch_vcs
 pypi-hatchling
 pypi-heapdict
