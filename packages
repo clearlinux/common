@@ -1084,9 +1084,7 @@ aspell-pt_BR
 assimp
 asunder
 at
-at-spi2-atk
 at-spi2-core
-atk
 atkmm
 attica
 attr
@@ -1274,6 +1272,7 @@ compat-curl-gnutls-soname4
 compat-enchant-soname1
 compat-fuse-soname2
 compat-gcc-10
+compat-gcr-soname1
 compat-gdal-soname27
 compat-glibmm-soname24
 compat-gnome-bluetooth-soname-13
@@ -2062,6 +2061,7 @@ libcerf
 libcgroup
 libchamplain
 libclc
+libcloudproviders
 libcmis
 libcomps
 libconfig
@@ -4809,6 +4809,7 @@ wayland
 wayland-protocols
 wcslib
 webkitgtk
+webkitgtk50
 weechat
 weston
 wget
