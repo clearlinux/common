@@ -20,7 +20,7 @@ LATEST_RPMS = $(wildcard rpms/*.rpm)
 DEBUGINFO_RPM = $(wildcard rpms/${PKG_NAME}-debuginfo-$(shell $(call queryspec,%{V}-%{R},${SPECFILE})).*.rpm)
 RPMS ?= $(LATEST_RPMS)
 
-WITH_SUDO = $(shell cmp /usr/bin/mock /usr/sbin/mock &> /dev/null && echo sudo )
+WITH_SUDO = sudo
 
 # MOCK_CONFIG_VAL is set in Makefile.shared
 MOCK_SMP_FLAGS=$(patsubst -j%, -D_smp_mflags\ -j%,$(filter -j%, $(MAKEFLAGS)))
