@@ -168,7 +168,7 @@ status: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 #help the --stat flag.
 diff: $(PACKAGES_FILE) $(addprefix packages/,$(PKGS_LOCAL))
 	@for p in projects/common $(addprefix packages/,$(PKGS_LOCAL)); do \
-		(cd $$p; git status --porcelain | grep -vq '^?? ' && (echo "Uncommitted changes in: $$p"; git diff --stat); :) ;\
+		(cd $$p; git status --porcelain | grep -vq '^?? ' && (echo "Uncommitted changes in: $$p"; git --no-pager diff --stat); :) ;\
 	done
 
 #help log: Run git log origin/main..HEAD for all package repos, thus
