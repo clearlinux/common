@@ -1406,6 +1406,7 @@ e2fsprogs
 earlyoom
 ebtables
 ed
+editorconfig-core-c
 edk2
 efibootmgr
 efitools
@@ -4773,7 +4774,6 @@ usb-modeswitch-data
 usbredir
 usbutils
 user-manager
-usermode
 userspace-rcu
 usrbinjava
 usrbinpython
