@@ -2601,7 +2601,6 @@ pass
 patch
 patchelf
 patchutils
-pathlib2
 pathos
 pavucontrol
 pbzip2
@@ -4055,6 +4054,7 @@ pypi-partd
 pypi-paste
 pypi-pastedeploy
 pypi-pastel
+pypi-pathlib2
 pypi-pathspec
 pypi-pathtools
 pypi-patsy
@@ -4222,6 +4222,7 @@ pypi-pyzmq
 pypi-qtawesome
 pypi-qtconsole
 pypi-qtpy
+pypi-rapidfuzz_capi
 pypi-rcssmin
 pypi-readme_renderer
 pypi-recommonmark
@@ -4380,6 +4381,7 @@ pypi-types_dataclasses
 pypi-types_enum34
 pypi-types_ipaddress
 pypi-types_mock
+pypi-types_psutil
 pypi-types_pyopenssl
 pypi-types_pyrfc3339
 pypi-types_python_dateutil
@@ -4389,6 +4391,7 @@ pypi-types_requests
 pypi-types_setuptools
 pypi-types_six
 pypi-types_termcolor
+pypi-types_typed_ast
 pypi-types_urllib3
 pypi-typing_extensions
 pypi-typogrify
