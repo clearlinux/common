@@ -2198,6 +2198,7 @@ libpipeline
 libplacebo
 libpng
 libportal
+libproxy
 libpsl
 libpthread-stubs
 libpwquality
@@ -2586,7 +2587,6 @@ oxygen
 oxygen-icons5
 p11-kit
 p7zip
-pacrunner
 paho.mqtt.c
 paho.mqtt.cpp
 palapeli
