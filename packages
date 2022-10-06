@@ -3765,6 +3765,7 @@ pypi-distlib
 pypi-dj_database_url
 pypi-django
 pypi-django_appconf
+pypi-django_babel
 pypi-django_compressor
 pypi-django_discover_runner
 pypi-django_nose
