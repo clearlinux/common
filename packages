@@ -1329,6 +1329,7 @@ cups-bjnp
 cups-filters
 cups-pk-helper
 curl
+curl-mini
 custom_inherit
 cycler
 cyrus-sasl
@@ -4074,6 +4075,7 @@ pypi-phabricator
 pypi-pickleshare
 pypi-pid
 pypi-pillow
+pypi-pint
 pypi-pip
 pypi-pip_tools
 pypi-pkgconfig
