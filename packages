@@ -4052,6 +4052,7 @@ pypi-paramiko
 pypi-parse
 pypi-parse_type
 pypi-parsedatetime
+pypi-parsley
 pypi-parso
 pypi-partd
 pypi-paste
@@ -4242,6 +4243,7 @@ pypi-requests_mock
 pypi-requests_oauthlib
 pypi-requests_toolbelt
 pypi-requests_unixsocket
+pypi-requirements_parser
 pypi-resolvelib
 pypi-responses
 pypi-restructuredtext_lint
