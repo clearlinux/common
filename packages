@@ -1628,6 +1628,7 @@ gpgme
 gphoto2
 gpm
 gpredict
+gpsd
 gptfdisk
 gramps
 granatier
@@ -3557,10 +3558,6 @@ portmidi
 postfix
 postgis
 postgresql
-postgresql11
-postgresql12
-postgresql13
-postgresql9
 potrace
 powerdevil
 powerline-fonts
