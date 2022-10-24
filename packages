@@ -1392,6 +1392,7 @@ doxygen
 dpdk
 dracut
 dragon
+dragonbox
 drkonqi
 dropwatch
 dssi
@@ -2407,6 +2408,7 @@ metrics-discovery
 micro-config-drive
 micro-config-drive-aliyun
 micro-config-drive-aws
+micro-config-drive-equinix
 micro-config-drive-oci
 milou
 minetest
@@ -3608,6 +3610,7 @@ pypi-aiosmtpd
 pypi-alabaster
 pypi-altgraph
 pypi-ansi2html
+pypi-ansible_builder
 pypi-ansible_compat
 pypi-ansible_pygments
 pypi-anyio
@@ -3664,6 +3667,7 @@ pypi-bcrypt
 pypi-beautifulsoup4
 pypi-beniget
 pypi-binaryornot
+pypi-bindep
 pypi-bkcharts
 pypi-black
 pypi-bleach
