@@ -1292,6 +1292,7 @@ compat-pangomm-soname14
 compat-poppler-soname117
 compat-poppler-soname123
 compat-protobuf-soname29
+compat-python310
 compat-readline-soname5
 compat-rest-soname07
 compat-webkitgtk-soname40
@@ -2099,6 +2100,7 @@ libexttextcat
 libfakekey
 libfastjson
 libffi
+libfixmath
 libfm
 libfm-qt
 libfontenc
@@ -3894,7 +3896,6 @@ pypi-inflect
 pypi-inflection
 pypi-influxdb
 pypi-iniconfig
-pypi-inspursmsdk
 pypi-intervaltree
 pypi-invoke
 pypi-iocapture
@@ -3985,6 +3986,7 @@ pypi-matplotlib_inline
 pypi-mdit_py_plugins
 pypi-mdurl
 pypi-mergedeep
+pypi-meson_python
 pypi-mido
 pypi-minikanren
 pypi-mistune
@@ -4398,6 +4400,7 @@ pypi-types_requests
 pypi-types_setuptools
 pypi-types_six
 pypi-types_termcolor
+pypi-types_toml
 pypi-types_typed_ast
 pypi-types_urllib3
 pypi-typing_extensions
