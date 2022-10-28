@@ -1292,13 +1292,11 @@ compat-pangomm-soname14
 compat-poppler-soname117
 compat-poppler-soname123
 compat-protobuf-soname29
-compat-python310
 compat-readline-soname5
 compat-rest-soname07
 compat-webkitgtk-soname40
 component
 compute-image-packages
-conda
 configobj
 confuse
 conky
@@ -1366,7 +1364,6 @@ dino
 directx-headers
 direwolf
 dist-pam-configs
-distro
 dkms
 dlm
 dlt-daemon
@@ -3736,7 +3733,6 @@ pypi-contextlib2
 pypi-contextvars
 pypi-contourpy
 pypi-cookiecutter
-pypi-cookies
 pypi-coverage
 pypi-coveralls
 pypi-cppy
@@ -3766,6 +3762,7 @@ pypi-diffoscope
 pypi-dill
 pypi-diskcache
 pypi-distlib
+pypi-distro
 pypi-dj_database_url
 pypi-django
 pypi-django_appconf
@@ -3828,7 +3825,6 @@ pypi-funcparserlib
 pypi-future
 pypi-gast
 pypi-gcs_oauth2_boto_plugin
-pypi-gensim
 pypi-gevent
 pypi-geventhttpclient
 pypi-ghp_import
@@ -4014,7 +4010,6 @@ pypi-natsort
 pypi-nbclassic
 pypi-nbclient
 pypi-nbconvert
-pypi-nbdime
 pypi-nbformat
 pypi-nbsphinx
 pypi-nbval
@@ -4163,6 +4158,7 @@ pypi-pyprojectx
 pypi-pypsrp
 pypi-pyqrcode
 pypi-pyqt6_sip
+pypi-pyqt_builder
 pypi-pyquery
 pypi-pyreadline
 pypi-pyrfc3339
@@ -4408,7 +4404,6 @@ pypi-typogrify
 pypi-tzdata
 pypi-tzlocal
 pypi-ua_parser
-pypi-uamqp
 pypi-uc_micro_py
 pypi-ufolib2
 pypi-uharfbuzz
@@ -4574,7 +4569,6 @@ redis2-nginx-module
 redland
 redshift
 redsocks
-renderdoc
 requests-ntlm
 rest
 restic
