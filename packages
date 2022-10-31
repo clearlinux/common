@@ -1203,7 +1203,6 @@ cgdb
 cgit
 check
 cheese
-chrome-gnome-shell
 chrony
 chrpath
 cifs-utils
@@ -3691,7 +3690,6 @@ pypi-cachetools
 pypi-cachy
 pypi-capturer
 pypi-cattrs
-pypi-cchardet
 pypi-cerberus
 pypi-certbot
 pypi-certbot_dns_google
