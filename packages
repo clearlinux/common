@@ -4445,6 +4445,8 @@ pypi-xmlschema
 pypi-xmltodict
 pypi-xpra
 pypi-xstatic
+pypi-xstatic_angular
+pypi-xstatic_angular_bootstrap
 pypi-xvfbwrapper
 pypi-yamlloader
 pypi-yapf
