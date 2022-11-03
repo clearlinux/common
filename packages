@@ -821,8 +821,6 @@ R-rstan
 R-rstanarm
 R-rstantools
 R-rstpm2
-R-rstudio
-R-rstudio-server
 R-rstudioapi
 R-rsvg
 R-runjags
@@ -1264,7 +1262,6 @@ colord-gtk
 colordiff
 columbiad
 compat-atkmm-soname16
-compat-boost-soname1.73.0
 compat-boost-soname1.74.0
 compat-cairomm-soname10
 compat-curl-gnutls-soname4
@@ -1285,11 +1282,8 @@ compat-libsoup-soname-24
 compat-libva-soname1
 compat-lua-52
 compat-lua-53
-compat-nettle-soname7
 compat-openssl-soname11
 compat-pangomm-soname14
-compat-poppler-soname117
-compat-poppler-soname123
 compat-protobuf-soname29
 compat-readline-soname5
 compat-rest-soname07
@@ -3653,12 +3647,7 @@ pypi-azure_mgmt_storage
 pypi-babel
 pypi-backcall
 pypi-backoff
-pypi-backports.cached_property
-pypi-backports.entry_points_selectable
-pypi-backports.functools_lru_cache
-pypi-backports.shutil_get_terminal_size
 pypi-backports.ssl_match_hostname
-pypi-backports.weakref
 pypi-bash_kernel
 pypi-bashlex
 pypi-bcrypt
