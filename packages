@@ -298,6 +298,7 @@ R-csvy
 R-cubature
 R-curl
 R-cvTools
+R-cvar
 R-cyclocomp
 R-data.table
 R-data.tree
@@ -927,6 +928,7 @@ R-tidyverse
 R-tikzDevice
 R-timeDate
 R-timeSeries
+R-timechange
 R-tinytex
 R-tis
 R-tm
@@ -2317,6 +2319,7 @@ llvm
 llvm11
 llvm12
 llvm13
+llvm14
 lm-sensors
 lmdb
 logrotate
