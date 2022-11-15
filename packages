@@ -264,6 +264,7 @@ R-classInt
 R-cli
 R-clipr
 R-clisymbols
+R-clock
 R-clue
 R-clustMixType
 R-clusterGeneration
@@ -1981,6 +1982,7 @@ kturtle
 kubernetes
 kubernetes-migration-1.18
 kunitconversion
+kuserfeedback
 kwallet
 kwallet-pam
 kwalletmanager
@@ -4658,6 +4660,7 @@ squashfs-tools
 squid
 sshfs
 sshpass
+sshuttle
 ssocr
 sssd
 ssw
