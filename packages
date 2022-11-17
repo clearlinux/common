@@ -4782,8 +4782,8 @@ userspace-rcu
 usrbinjava
 usrbinpython
 usrbinvi
-utf8cpp
 utf8proc
+utfcpp
 util-linux
 util-macros
 uwsgi
