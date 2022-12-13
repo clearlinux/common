@@ -2628,6 +2628,7 @@ perl-Algorithm-Diff-XS
 perl-Algorithm-Merge
 perl-Algorithm-Munkres
 perl-Alien-Build
+perl-Alien-Build-Plugin-Download-GitLab
 perl-Alien-Libxml2
 perl-Alien-m4
 perl-AnyEvent
