@@ -1519,6 +1519,7 @@ gedit
 gedit-plugins-gnome
 geeqie
 gegl
+gengetopt
 geocam-v4l2
 geoclue
 geocode-glib
@@ -2217,6 +2218,7 @@ libreswan
 librevenge
 librsvg
 librtlsdr
+librttopo
 libsamplerate
 libsass
 libseccomp
@@ -2566,6 +2568,7 @@ openjdk13
 openjpeg
 openldap
 openmpi
+openpace
 openscad
 openshot-qt
 opensm
@@ -2615,6 +2618,7 @@ pcre
 pcre2
 pcs
 pcsc-lite
+pcsc-tools
 pdns
 pdns-recursor
 pdsh
@@ -2694,6 +2698,7 @@ perl-Carp-Always
 perl-Carp-Assert
 perl-Carp-Assert-More
 perl-Carp-Clan
+perl-Chipcard-PCSC
 perl-Class-Accessor
 perl-Class-Accessor-Chained
 perl-Class-Accessor-Grouped
