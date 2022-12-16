@@ -52,7 +52,7 @@ $(clone_PKGS): $(PACKAGES_FILE) packages/common/Makefile.common
 	remotepkg=$(call remotepkgname,$$pkg); \
 	[ -d packages/$$pkg ] || ( \
 	echo "Checking out: packages/$$pkg"; \
-	git clone $(PKG_BASE_URL)/$$remotepkg packages/$$pkg; \
+	git clone -b main $(PKG_BASE_URL)/$$remotepkg packages/$$pkg; \
 	cd packages/$$pkg; \
 	$(call gitoliteurl,packages/$$pkg); \
 	$(call subjectprefix,$$pkg); \
