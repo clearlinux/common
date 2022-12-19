@@ -37,6 +37,7 @@ OpenCASCADE
 OpenCSG
 OpenColorIO
 OpenIPMI
+OpenSC
 OpenSP
 Pacemaker
 ParaView
@@ -2560,6 +2561,7 @@ openbox
 opencl-clang
 opencl-headers
 openconnect
+openct
 opencv
 openexr
 openjade
