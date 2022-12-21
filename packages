@@ -2057,6 +2057,7 @@ libcacard
 libcanberra
 libcap
 libcap-ng
+libcbor
 libcddb
 libcdio
 libcdr
@@ -2098,6 +2099,7 @@ libexttextcat
 libfakekey
 libfastjson
 libffi
+libfido2
 libfixmath
 libfm
 libfm-qt
@@ -3750,6 +3752,7 @@ pypi-cssselect
 pypi-cu2qu
 pypi-curio
 pypi-cve_bin_tool
+pypi-cvss
 pypi-cxxfilt
 pypi-cython
 pypi-cytoolz
