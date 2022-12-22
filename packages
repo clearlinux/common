@@ -4277,6 +4277,7 @@ pypi-ruamel.yaml.clib
 pypi-s3transfer
 pypi-salib
 pypi-sanic_routing
+pypi-scikit-learn
 pypi-scikit_build
 pypi-scikit_image
 pypi-scp
@@ -4633,7 +4634,6 @@ sbc
 sbsigntools
 scdoc
 scene-alembic
-scikit-learn
 scipy
 scons
 scour
