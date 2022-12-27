@@ -1268,6 +1268,7 @@ colord-gtk
 colordiff
 columbiad
 compat-atkmm-soname16
+compat-babeltrace-one
 compat-boost-soname1.74.0
 compat-cairomm-soname10
 compat-curl-gnutls-soname4
