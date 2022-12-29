@@ -3689,6 +3689,7 @@ pypi-booleanoperations
 pypi-boto
 pypi-bowler
 pypi-bracex
+pypi-branca
 pypi-brotli
 pypi-brotlicffi
 pypi-brotlipy
@@ -3830,6 +3831,7 @@ pypi-flatten_json
 pypi-flit
 pypi-flit_core
 pypi-flit_scm
+pypi-folium
 pypi-fontmath
 pypi-freezegun
 pypi-frozenlist
@@ -3851,6 +3853,7 @@ pypi-google_apitools
 pypi-google_auth
 pypi-google_auth_httplib2
 pypi-google_auth_oauthlib
+pypi-google_cloud_secret_manager
 pypi-google_pasta
 pypi-google_reauth
 pypi-googleapis_common_protos
@@ -3858,6 +3861,7 @@ pypi-gql
 pypi-graphql_core
 pypi-graphviz
 pypi-greenlet
+pypi-grpc_google_iam_v1
 pypi-grpcio
 pypi-grpcio_channelz
 pypi-grpcio_health_checking
@@ -4116,6 +4120,7 @@ pypi-progress
 pypi-progressbar
 pypi-prometheus_client
 pypi-prompt_toolkit
+pypi-proto_plus
 pypi-psautohint
 pypi-psutil
 pypi-psycopg2
