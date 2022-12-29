@@ -2872,6 +2872,7 @@ perl-Exporter-Easy
 perl-Exporter-Lite
 perl-Exporter-Tidy
 perl-Exporter-Tiny
+perl-ExtUtils-CChecker
 perl-ExtUtils-Config
 perl-ExtUtils-Depends
 perl-ExtUtils-Helpers
@@ -3268,6 +3269,7 @@ perl-Sub-Quote
 perl-Sub-Uplevel
 perl-Switch
 perl-Symbol-Global-Name
+perl-Syntax-Keyword-Try
 perl-Sys-Hostname-Long
 perl-Sys-MemInfo
 perl-Sys-Mmap
@@ -3429,6 +3431,7 @@ perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
 perl-XML-XPathEngine
+perl-XS-Parse-Keyword
 perl-XString
 perl-YAML
 perl-YAML-LibYAML
@@ -3730,6 +3733,7 @@ pypi-codecov
 pypi-colorama
 pypi-colorlog
 pypi-columnize
+pypi-comm
 pypi-commonmark
 pypi-complete
 pypi-compreffor
@@ -3948,10 +3952,12 @@ pypi-jupyter_cache
 pypi-jupyter_client
 pypi-jupyter_console
 pypi-jupyter_core
+pypi-jupyter_events
 pypi-jupyter_nbgallery
 pypi-jupyter_packaging
 pypi-jupyter_server
 pypi-jupyter_server_mathjax
+pypi-jupyter_server_terminals
 pypi-jupyter_sphinx
 pypi-jupyterlab
 pypi-jupyterlab_launcher
@@ -4210,6 +4216,7 @@ pypi-python_dbusmock
 pypi-python_debian
 pypi-python_dotenv
 pypi-python_install
+pypi-python_json_logger
 pypi-python_jsonrpc_server
 pypi-python_language_server
 pypi-python_levenshtein
