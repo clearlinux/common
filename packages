@@ -4099,6 +4099,7 @@ pypi-pip
 pypi-pip_tools
 pypi-pkgconfig
 pypi-pkginfo
+pypi-pkgutil_resolve_name
 pypi-platformdirs
 pypi-plotly
 pypi-pluggy
