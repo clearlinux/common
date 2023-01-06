@@ -4412,6 +4412,7 @@ pypi-typeguard
 pypi-types_colorama
 pypi-types_cryptography
 pypi-types_dataclasses
+pypi-types_docutils
 pypi-types_enum34
 pypi-types_ipaddress
 pypi-types_mock
