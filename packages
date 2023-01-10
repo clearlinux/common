@@ -2816,6 +2816,7 @@ perl-DateTime-Format-Natural
 perl-DateTime-Format-Pg
 perl-DateTime-Format-Strptime
 perl-DateTime-Format-W3CDTF
+perl-DateTime-HiRes
 perl-DateTime-Locale
 perl-DateTime-TimeZone
 perl-Debug-ShowStuff
@@ -3318,6 +3319,7 @@ perl-Test-MemoryGrowth
 perl-Test-Metrics-Any
 perl-Test-MockModule
 perl-Test-MockTime
+perl-Test-MockTime-HiRes
 perl-Test-More-UTF8
 perl-Test-Most
 perl-Test-Needs
