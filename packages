@@ -4278,7 +4278,9 @@ pypi-restructuredtext_lint
 pypi-retry
 pypi-retry_decorator
 pypi-retype
+pypi-rfc3339_validator
 pypi-rfc3986
+pypi-rfc3986_validator
 pypi-rfc3987
 pypi-rich
 pypi-rjsmin
