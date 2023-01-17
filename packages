@@ -446,6 +446,7 @@ R-geojson
 R-geometry
 R-gert
 R-getopt
+R-gfonts
 R-ggfortify
 R-ggjoy
 R-ggplot2
@@ -3771,6 +3772,7 @@ pypi-dataclasses
 pypi-datetime
 pypi-debugpy
 pypi-decorator
+pypi-deepmerge
 pypi-deprecated
 pypi-deprecation
 pypi-diff_cover
@@ -4344,6 +4346,7 @@ pypi-sphinx_feature_classification
 pypi-sphinx_gallery
 pypi-sphinx_issues
 pypi-sphinx_last_updated_by_git
+pypi-sphinx_mdinclude
 pypi-sphinx_notfound_page
 pypi-sphinx_rtd_theme
 pypi-sphinx_theme_builder
