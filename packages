@@ -4300,9 +4300,9 @@ pypi-ruamel.yaml.clib
 pypi-s3transfer
 pypi-salib
 pypi-sanic_routing
-pypi-scikit-learn
 pypi-scikit_build
 pypi-scikit_image
+pypi-scikit_learn
 pypi-scp
 pypi-scrypt
 pypi-seaborn
@@ -4704,6 +4704,7 @@ soundmodem
 source-code-pro
 source-highlight
 sox
+sparsezoo
 spdlog
 spectacle
 speex
