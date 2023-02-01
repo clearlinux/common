@@ -3642,6 +3642,7 @@ pypi-argh
 pypi-argon2_cffi
 pypi-argon2_cffi_bindings
 pypi-argparse
+pypi-argparse_manpage
 pypi-arrow
 pypi-asgiref
 pypi-asn1crypto
@@ -3760,6 +3761,7 @@ pypi-cryptography
 pypi-cryptography_vectors
 pypi-cs
 pypi-cssselect
+pypi-cssselect2
 pypi-cu2qu
 pypi-curio
 pypi-cve_bin_tool
@@ -3867,6 +3869,7 @@ pypi-gql
 pypi-graphql_core
 pypi-graphviz
 pypi-greenlet
+pypi-griffe
 pypi-grpc_google_iam_v1
 pypi-grpcio
 pypi-grpcio_channelz
@@ -4013,7 +4016,11 @@ pypi-meson_python
 pypi-mido
 pypi-minikanren
 pypi-mistune
+pypi-mkdocs
+pypi-mkdocs_autorefs
 pypi-mkdocs_material_extensions
+pypi-mkdocstrings
+pypi-mkdocstrings_python
 pypi-mock
 pypi-modulegraph
 pypi-molecule
@@ -4548,6 +4555,7 @@ python-utils
 python-zeep
 python-zstandard
 python3
+pytorch
 pyudev
 qalculate-gtk
 qatlib
@@ -4706,7 +4714,6 @@ soundmodem
 source-code-pro
 source-highlight
 sox
-sparsezoo
 spdlog
 spectacle
 speex
