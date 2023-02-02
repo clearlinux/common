@@ -2262,6 +2262,7 @@ libtorrent-rasterbar
 libtraceevent
 libtracefs
 libudev0-shim
+libunibreak
 libuninameslist
 libunistring
 libunwind
