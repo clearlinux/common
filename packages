@@ -3858,6 +3858,7 @@ pypi-geventhttpclient
 pypi-ghp_import
 pypi-gitdb
 pypi-gitpython
+pypi-glfw
 pypi-gmqtt
 pypi-google_api_core
 pypi-google_api_python_client
@@ -4112,6 +4113,7 @@ pypi-pep517
 pypi-pep621
 pypi-pep8
 pypi-perl
+pypi-persist_queue
 pypi-persistent
 pypi-pexpect
 pypi-phabricator
@@ -4200,6 +4202,7 @@ pypi-pyopenssl
 pypi-pyparsing
 pypi-pyperclip
 pypi-pyperf
+pypi-pypowerflex
 pypi-pyproject_api
 pypi-pyproject_hooks
 pypi-pyproject_metadata
@@ -4398,6 +4401,7 @@ pypi-sqlparse
 pypi-sshtunnel
 pypi-stack_data
 pypi-statsmodels
+pypi-storops
 pypi-subprocess_tee
 pypi-sure
 pypi-svg.path
