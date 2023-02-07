@@ -3901,6 +3901,7 @@ pypi-heapdict
 pypi-hkp4py
 pypi-home_assistant_frontend
 pypi-hpack
+pypi-hsluv
 pypi-html5lib
 pypi-httpcore
 pypi-httplib2
@@ -4718,9 +4719,11 @@ slirp4netns
 slurm
 smartcols
 smartmontools
+smemstat
 snappy
 socat
 sof-bin
+softflowd
 solid
 sonnet
 sos
