@@ -583,6 +583,7 @@ R-mathjaxr
 R-matrixStats
 R-matrixcalc
 R-maxLik
+R-mclogit
 R-mclust
 R-mcmc
 R-mda
@@ -1289,6 +1290,7 @@ compat-libpng-soname12
 compat-libsigc++-soname20
 compat-libsoup-soname-24
 compat-libva-soname1
+compat-libvpx-soname7
 compat-lua-52
 compat-lua-53
 compat-openssl-soname11
@@ -1483,6 +1485,7 @@ font-util
 fontconfig
 fontforge
 fonttools
+forkstat
 fortune-mod
 fossil
 frameworkintegration
@@ -4375,6 +4378,7 @@ pypi-sphinx_notfound_page
 pypi-sphinx_rtd_theme
 pypi-sphinx_theme_builder
 pypi-sphinx_togglebutton
+pypi-sphinxcontrib.jquery
 pypi-sphinxcontrib_apidoc
 pypi-sphinxcontrib_applehelp
 pypi-sphinxcontrib_bibtex
