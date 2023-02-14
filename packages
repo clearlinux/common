@@ -2119,6 +2119,7 @@ libgee
 libgeotiff
 libgit2
 libgit2-glib
+libglvnd
 libgnome-keyring
 libgnomekbd
 libgpg-error
