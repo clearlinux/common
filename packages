@@ -3632,6 +3632,7 @@ pypi-aiosignal
 pypi-aiosmtpd
 pypi-alabaster
 pypi-altgraph
+pypi-amqp
 pypi-aniso8601
 pypi-ansi2html
 pypi-ansible_builder
@@ -4488,6 +4489,7 @@ pypi-urwid
 pypi-user_agents
 pypi-userpath
 pypi-uvloop
+pypi-vine
 pypi-virtualenv
 pypi-volatile
 pypi-voluptuous
