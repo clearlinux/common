@@ -492,6 +492,7 @@ R-htmlwidgets
 R-httpcode
 R-httpuv
 R-httr
+R-httr2
 R-hunspell
 R-hwriter
 R-hypergeo
@@ -3716,6 +3717,8 @@ pypi-cached_property
 pypi-cachetools
 pypi-cachez
 pypi-cachy
+pypi-cairocffi
+pypi-cairosvg
 pypi-calver
 pypi-capturer
 pypi-cattrs
@@ -3825,6 +3828,7 @@ pypi-eternalegypt
 pypi-etils
 pypi-etuples
 pypi-evdev
+pypi-eventlet
 pypi-exceptiongroup
 pypi-exdir
 pypi-execnet
@@ -4360,6 +4364,7 @@ pypi-shapely
 pypi-shellingham
 pypi-simplegeneric
 pypi-six
+pypi-slugify
 pypi-smart_open
 pypi-smartypants
 pypi-smmap
