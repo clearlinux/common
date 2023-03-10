@@ -3795,6 +3795,7 @@ pypi-deprecation
 pypi-diff_cover
 pypi-diff_match_patch
 pypi-diffoscope
+pypi-diffusers
 pypi-dill
 pypi-diskcache
 pypi-distlib
@@ -3850,6 +3851,7 @@ pypi-flake8_docstrings
 pypi-flake8_import_order
 pypi-flaky
 pypi-flask
+pypi-flatbuffers
 pypi-flatten_json
 pypi-flit
 pypi-flit_core
@@ -3909,6 +3911,7 @@ pypi-hatch_requirements_txt
 pypi-hatch_vcs
 pypi-hatchling
 pypi-heapdict
+pypi-hjson
 pypi-hkp4py
 pypi-home_assistant_frontend
 pypi-hpack
@@ -3918,6 +3921,7 @@ pypi-httpcore
 pypi-httplib2
 pypi-httpretty
 pypi-httpx
+pypi-huggingface_hub
 pypi-humanfriendly
 pypi-humanize
 pypi-hyperframe
@@ -4499,6 +4503,7 @@ pypi-urwid
 pypi-user_agents
 pypi-userpath
 pypi-uvloop
+pypi-verboselogs
 pypi-vine
 pypi-virtualenv
 pypi-volatile
