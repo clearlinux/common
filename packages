@@ -4176,6 +4176,7 @@ pypi-pure_eval
 pypi-purestorage
 pypi-purity_fb
 pypi-py
+pypi-py3nvml
 pypi-py_cpuinfo
 pypi-pyaml
 pypi-pyasn1
@@ -4529,6 +4530,7 @@ pypi-wrapt
 pypi-wsgiproxy2
 pypi-wsproto
 pypi-wurlitzer
+pypi-xgboost
 pypi-xmldiff
 pypi-xmljson
 pypi-xmlschema
@@ -4805,7 +4807,6 @@ sympy
 syndication
 synergy
 syntax-highlighting
-sysdig
 syslinux
 sysprof
 sysstat
