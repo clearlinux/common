@@ -3625,6 +3625,7 @@ pyotp
 pyparted
 pypi-absl_py
 pypi-abydos
+pypi-accelerate
 pypi-acme
 pypi-adal
 pypi-aiodns
@@ -3790,6 +3791,7 @@ pypi-datetime
 pypi-debugpy
 pypi-decorator
 pypi-deepmerge
+pypi-deepspeed
 pypi-deprecated
 pypi-deprecation
 pypi-diff_cover
@@ -3837,6 +3839,7 @@ pypi-executing
 pypi-expandvars
 pypi-expecttest
 pypi-fabric
+pypi-fairscale
 pypi-falcon
 pypi-fasteners
 pypi-fastimport
@@ -4021,6 +4024,7 @@ pypi-lazy_object_proxy
 pypi-ldap3
 pypi-libarchive_c
 pypi-libevdev
+pypi-lightning_utilities
 pypi-linkify_it_py
 pypi-livereload
 pypi-llfuse
@@ -4285,6 +4289,7 @@ pypi-python_version
 pypi-python_xlib
 pypi-pythran
 pypi-pytoolconfig
+pypi-pytorch_lightning
 pypi-pytz
 pypi-pytz_deprecation_shim
 pypi-pyu2f
@@ -4452,6 +4457,7 @@ pypi-tomli
 pypi-tomli_w
 pypi-tomlkit
 pypi-toolz
+pypi-torchmetrics
 pypi-tornado
 pypi-tornado_xstatic
 pypi-tox
