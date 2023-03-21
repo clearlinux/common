@@ -1035,6 +1035,7 @@ Vulkan-Headers
 Vulkan-Loader
 Vulkan-Tools
 WALinuxAgent
+WPEBackend-fdo
 WireGuard
 XStatic-term.js
 Z3
@@ -2293,6 +2294,7 @@ libwebp
 libwnck
 libwnck3
 libwpd
+libwpe
 libwpg
 libwps
 libxcvt
@@ -3691,6 +3693,7 @@ pypi-bashlex
 pypi-bcrypt
 pypi-beautifulsoup4
 pypi-beniget
+pypi-billiard
 pypi-binaryornot
 pypi-bindep
 pypi-bitmath
@@ -3753,6 +3756,7 @@ pypi-cmarkgfm
 pypi-cmd2
 pypi-codecov
 pypi-colorama
+pypi-coloredlogs
 pypi-colorlog
 pypi-columnize
 pypi-comm
@@ -4019,6 +4023,7 @@ pypi-kubernetes
 pypi-langcodes
 pypi-lark_parser
 pypi-latexcodec
+pypi-lavacli
 pypi-lazy_loader
 pypi-lazy_object_proxy
 pypi-ldap3
@@ -4114,6 +4119,7 @@ pypi-ovirt_imageio
 pypi-packaging
 pypi-paho_mqtt
 pypi-pandocfilters
+pypi-parameterized
 pypi-paramiko
 pypi-parse
 pypi-parse_type
@@ -4930,6 +4936,7 @@ wayland-protocols
 wcslib
 webkitgtk
 webkitgtk50
+webkitgtk60
 weechat
 weston
 wget
