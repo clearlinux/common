@@ -15,12 +15,16 @@ import requests
 
 
 def vendor_check():
+    if not os.path.isfile('options.conf'):
+        return False
     config = configparser.ConfigParser(interpolation=None)
     config.read('options.conf')
+    if 'autospec' not in config.sections():
+        return False
     if config['autospec'].get('cargo_vendor'):
         return 'cargo'
-    else:
-        return False
+
+    return False
 
 
 def get_args():
