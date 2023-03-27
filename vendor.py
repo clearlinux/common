@@ -21,8 +21,9 @@ def vendor_check():
     config.read('options.conf')
     if 'autospec' not in config.sections():
         return False
-    if config['autospec'].get('cargo_vendor'):
-        return 'cargo'
+    if vendor := config['autospec'].get('cargo_vendor'):
+        if vendor:
+            return 'cargo'
 
     return False
 
