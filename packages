@@ -3670,6 +3670,7 @@ pypi-asyncssh
 pypi-asynctest
 pypi-atomicwrites
 pypi-atpublic
+pypi-attrdict
 pypi-attrs
 pypi-autocommand
 pypi-automat
@@ -4047,6 +4048,7 @@ pypi-markdown2
 pypi-markdown_it_py
 pypi-matplotlib
 pypi-matplotlib_inline
+pypi-maturin
 pypi-mdit_py_plugins
 pypi-mdurl
 pypi-mergedeep
@@ -4438,6 +4440,7 @@ pypi-stack_data
 pypi-statsmodels
 pypi-storops
 pypi-subprocess_tee
+pypi-suds
 pypi-sure
 pypi-svg.path
 pypi-tabulate
@@ -4459,6 +4462,7 @@ pypi-three_merge
 pypi-tifffile
 pypi-tinycss2
 pypi-tldextract
+pypi-tokenizers
 pypi-toml
 pypi-tomli
 pypi-tomli_w
@@ -4564,11 +4568,13 @@ pypi-xstatic_objectpath
 pypi-xstatic_roboto_fontface
 pypi-xvfbwrapper
 pypi-xyzservices
+pypi-y_py
 pypi-yamllint
 pypi-yamlloader
 pypi-yapf
 pypi-yarg
 pypi-yarl
+pypi-yattag
 pypi-zabbix_api
 pypi-zc.lockfile
 pypi-zeroconf
