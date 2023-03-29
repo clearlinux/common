@@ -22,7 +22,7 @@ def vendor_check():
     if 'autospec' not in config.sections():
         return False
     if vendor := config['autospec'].get('cargo_vendor'):
-        if vendor:
+        if vendor == "true":
             return 'cargo'
 
     return False
