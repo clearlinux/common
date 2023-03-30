@@ -4010,6 +4010,7 @@ pypi-jupyter_server_terminals
 pypi-jupyter_sphinx
 pypi-jupyterlab
 pypi-jupyterlab_launcher
+pypi-jupyterlab_link_share
 pypi-jupyterlab_pygments
 pypi-jupyterlab_server
 pypi-jupyterlab_widgets
@@ -4152,6 +4153,7 @@ pypi-phabricator
 pypi-pickleshare
 pypi-picobox
 pypi-pid
+pypi-pidigits
 pypi-pillow
 pypi-pint
 pypi-pip
@@ -4335,6 +4337,7 @@ pypi-requirements_parser
 pypi-resolvelib
 pypi-responses
 pypi-restructuredtext_lint
+pypi-retrolab
 pypi-retry
 pypi-retry_decorator
 pypi-retryz
