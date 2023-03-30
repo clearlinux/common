@@ -3799,6 +3799,10 @@ pypi-deepmerge
 pypi-deepspeed
 pypi-deprecated
 pypi-deprecation
+pypi-devpi_client
+pypi-devpi_common
+pypi-devpi_process
+pypi-devpi_server
 pypi-diff_cover
 pypi-diff_match_patch
 pypi-diffoscope
@@ -3933,6 +3937,7 @@ pypi-httpx
 pypi-huggingface_hub
 pypi-humanfriendly
 pypi-humanize
+pypi-hupper
 pypi-hyperframe
 pypi-hyperlink
 pypi-hypothesis
@@ -4027,6 +4032,7 @@ pypi-langcodes
 pypi-lark_parser
 pypi-latexcodec
 pypi-lavacli
+pypi-lazy
 pypi-lazy_loader
 pypi-lazy_object_proxy
 pypi-ldap3
@@ -4063,6 +4069,7 @@ pypi-mkdocs_exclude
 pypi-mkdocs_material_extensions
 pypi-mkdocstrings
 pypi-mkdocstrings_python
+pypi-ml_dtypes
 pypi-mock
 pypi-modulegraph
 pypi-molecule
@@ -4131,6 +4138,7 @@ pypi-parsedatetime
 pypi-parsley
 pypi-parso
 pypi-partd
+pypi-passlib
 pypi-paste
 pypi-pastedeploy
 pypi-pastel
@@ -4161,6 +4169,8 @@ pypi-pip_tools
 pypi-pkgconfig
 pypi-pkginfo
 pypi-pkgutil_resolve_name
+pypi-plaster
+pypi-plaster_pastedeploy
 pypi-platformdirs
 pypi-plotly
 pypi-pluggy
@@ -4247,6 +4257,7 @@ pypi-pyqrcode
 pypi-pyqt6_sip
 pypi-pyqt_builder
 pypi-pyquery
+pypi-pyramid
 pypi-pyreadline
 pypi-pyrfc3339
 pypi-pyro4
@@ -4442,6 +4453,7 @@ pypi-sshtunnel
 pypi-stack_data
 pypi-statsmodels
 pypi-storops
+pypi-strictyaml
 pypi-subprocess_tee
 pypi-suds
 pypi-sure
@@ -4478,6 +4490,7 @@ pypi-tox
 pypi-tqdm
 pypi-traitlets
 pypi-trampolim
+pypi-translationstring
 pypi-trimesh
 pypi-trio
 pypi-trio_websocket
@@ -4525,6 +4538,7 @@ pypi-urwid
 pypi-user_agents
 pypi-userpath
 pypi-uvloop
+pypi-venusian
 pypi-verboselogs
 pypi-vine
 pypi-virtualenv
