@@ -1599,6 +1599,7 @@ gnome-music
 gnome-online-accounts
 gnome-panel
 gnome-photos
+gnome-remote-desktop
 gnome-screensaver
 gnome-screenshot
 gnome-session
@@ -2552,6 +2553,7 @@ numactl
 numatop
 numlockx
 numpy-stl
+nv-codec-headers
 nvme-cli
 oath-toolkit
 obs-studio
