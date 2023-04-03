@@ -317,6 +317,7 @@ R-dendextend
 R-desc
 R-devtools
 R-dfoptim
+R-diagram
 R-dichromat
 R-diffobj
 R-diffusionMap
@@ -3638,6 +3639,7 @@ pypi-aiohttp
 pypi-aiohttp_cors
 pypi-aiosignal
 pypi-aiosmtpd
+pypi-aiosqlite
 pypi-alabaster
 pypi-altgraph
 pypi-amqp
@@ -4012,9 +4014,12 @@ pypi-jupyter_events
 pypi-jupyter_nbgallery
 pypi-jupyter_packaging
 pypi-jupyter_server
+pypi-jupyter_server_fileid
 pypi-jupyter_server_mathjax
 pypi-jupyter_server_terminals
+pypi-jupyter_server_ydoc
 pypi-jupyter_sphinx
+pypi-jupyter_ydoc
 pypi-jupyterlab
 pypi-jupyterlab_launcher
 pypi-jupyterlab_link_share
@@ -4542,6 +4547,7 @@ pypi-userpath
 pypi-uvloop
 pypi-venusian
 pypi-verboselogs
+pypi-versioneer
 pypi-vine
 pypi-virtualenv
 pypi-volatile
@@ -4594,6 +4600,7 @@ pypi-yapf
 pypi-yarg
 pypi-yarl
 pypi-yattag
+pypi-ypy_websocket
 pypi-zabbix_api
 pypi-zc.lockfile
 pypi-zeroconf
@@ -4906,6 +4913,7 @@ tracker
 tracker-miners
 tree
 tree-sitter
+trurl
 tzdata
 uchardet
 ucpp
