@@ -2342,8 +2342,8 @@ lksctp-tools
 llvm
 llvm11
 llvm12
-llvm13
 llvm14
+llvm15
 lm-sensors
 lmdb
 logrotate
@@ -2577,7 +2577,6 @@ openQA
 openal-soft
 openblas
 openbox
-opencl-clang
 opencl-headers
 openconnect
 openct
