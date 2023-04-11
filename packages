@@ -4156,6 +4156,7 @@ pypi-pbr
 pypi-pdm_pep517
 pypi-pecan
 pypi-ped
+pypi-pefile
 pypi-pep517
 pypi-pep621
 pypi-pep8
@@ -4969,7 +4970,6 @@ wayland
 wayland-protocols
 wcslib
 webkitgtk
-webkitgtk50
 webkitgtk60
 weechat
 weston
