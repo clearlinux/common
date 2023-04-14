@@ -259,6 +259,7 @@ R-caret
 R-cclust
 R-cellranger
 R-checkmate
+R-chk
 R-chron
 R-circlize
 R-classInt
@@ -1390,6 +1391,7 @@ dolphin
 dolphin-plugins
 dos2unix
 dosfstools
+dotconf
 double-conversion
 dovecot
 doxygen
@@ -2049,6 +2051,7 @@ libaccounts-glib
 libaccounts-qt
 libadwaita
 libaio
+libao
 libappindicator
 libarchive
 libass
@@ -3578,6 +3581,7 @@ pmdk
 pmix
 pngcrush
 po4a
+poco
 podman
 polkit
 polkit-kde-agent
@@ -4793,6 +4797,7 @@ smartcols
 smartmontools
 smemstat
 snappy
+sndio
 socat
 sof-bin
 softflowd
