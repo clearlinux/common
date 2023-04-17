@@ -3787,6 +3787,7 @@ pypi-crcmod
 pypi-cryptography
 pypi-cryptography_vectors
 pypi-cs
+pypi-csscompressor
 pypi-cssselect
 pypi-cssselect2
 pypi-cu2qu
@@ -4002,6 +4003,7 @@ pypi-jmespath
 pypi-joblib
 pypi-josepy
 pypi-jpype1
+pypi-jsmin
 pypi-json5
 pypi-jsondiff
 pypi-jsonlines
@@ -4076,7 +4078,10 @@ pypi-mistune
 pypi-mkdocs
 pypi-mkdocs_autorefs
 pypi-mkdocs_exclude
+pypi-mkdocs_gen_files
+pypi-mkdocs_htmlproofer_plugin
 pypi-mkdocs_material_extensions
+pypi-mkdocs_monorepo_plugin
 pypi-mkdocstrings
 pypi-mkdocstrings_python
 pypi-ml_dtypes
