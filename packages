@@ -80,6 +80,7 @@ R-DendSer
 R-Deriv
 R-DescTools
 R-DiagrammeR
+R-DiceDesign
 R-DistributionUtils
 R-DoseFinding
 R-Ecdat
@@ -319,6 +320,7 @@ R-desc
 R-devtools
 R-dfoptim
 R-diagram
+R-dials
 R-dichromat
 R-diffobj
 R-diffusionMap
@@ -2115,7 +2117,6 @@ libffi
 libfido2
 libfixmath
 libfm
-libfm-qt
 libfontenc
 libfreehand
 libftdi1
@@ -2171,7 +2172,6 @@ libksieve
 libksysguard
 liblangtag
 liblogging
-liblxqt
 libmaxminddb
 libmbim
 libmediaart
@@ -2225,7 +2225,6 @@ libqalculate
 libqb
 libqmi
 libqrtr-glib
-libqtxdg
 libqxp
 libratbag
 librdkafka
@@ -2262,7 +2261,6 @@ libstaroffice
 libstatgrab
 libstemmer_c
 libstoragemgmt
-libsysstat
 libtasn1
 libtermkey
 libthai
@@ -2369,21 +2367,6 @@ luarocks
 lutris
 luv
 lv2
-lxqt-about
-lxqt-admin
-lxqt-build-tools
-lxqt-config
-lxqt-globalkeys
-lxqt-notificationd
-lxqt-openssh-askpass
-lxqt-panel
-lxqt-policykit
-lxqt-powermanagement
-lxqt-qtplugin
-lxqt-runner
-lxqt-session
-lxqt-sudo
-lxqt-themes
 lynx
 lz4
 lzlib
@@ -2636,7 +2619,6 @@ pavucontrol
 pbzip2
 pciutils
 pcmanfm
-pcmanfm-qt
 pcp
 pcre
 pcre2
@@ -4703,7 +4685,6 @@ qtwebchannel
 qtwebengine
 qtwebsockets
 qtx11extras
-qtxdg-tools
 qtxmlpatterns
 quagga
 quassel
