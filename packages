@@ -4164,6 +4164,7 @@ pypi-pillow
 pypi-pint
 pypi-pip
 pypi-pip_tools
+pypi-pipdeptree
 pypi-pkgconfig
 pypi-pkginfo
 pypi-pkgutil_resolve_name
@@ -4564,6 +4565,7 @@ pypi-wrapt
 pypi-wsgiproxy2
 pypi-wsproto
 pypi-wurlitzer
+pypi-xcffib
 pypi-xgboost
 pypi-xmldiff
 pypi-xmljson
@@ -4971,6 +4973,7 @@ wine
 wireless-regdb-master
 wireplumber
 wireshark
+wl-clipboard
 wlroots
 wmctrl
 woff2
