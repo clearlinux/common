@@ -75,7 +75,7 @@ def update_cargo_vendor(path, name, git):
     subprocess.run(f"cp -a {backup_vendor_git} {vendor_git}", cwd=path,
                    shell=True, check=True)
     repo = Repo(vendor_path)
-    if not len(repo.untracked_files) > 0 or repo.is_dirty():
+    if not (len(repo.untracked_files) > 0 or repo.is_dirty()):
         return False
     subprocess.run('git add .', cwd=vendor_path, shell=True, check=True)
     subprocess.run('git commit -m "vendor update"', cwd=vendor_path,
