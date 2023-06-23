@@ -5,9 +5,8 @@ CGNS
 CUnit
 Coin
 CopyQ
-Cura
-CuraEngine
 DML
+Endeavour
 F-Engrave
 FreeRDP
 GConf
@@ -40,13 +39,11 @@ OpenIPMI
 OpenSC
 OpenSP
 Pacemaker
-ParaView
 PyMySQL
 PyQt5
 PySocks
 PyYAML
 QAT_engine
-QGIS
 R
 R-AER
 R-ATR
@@ -1019,20 +1016,17 @@ SDL_image
 SDL_mixer
 SDL_net
 SDL_ttf
-SFCGAL
 SFML
 SPIRV-Cross
 SPIRV-Tools
 SVT-AV1
 SVT-HEVC
-SmartXbar
 Solaar
 Sphinx
 SuiteSparse
 TLP
 Thunar
 UCD
-Uranium
 VTK
 Vc
 Vulkan-Headers
@@ -1044,6 +1038,7 @@ WireGuard
 XStatic-term.js
 Z3
 abireport
+abseil-cpp
 accel-config
 accountsservice
 acl
@@ -1088,6 +1083,7 @@ arpack-ng
 artikulate
 asciidoc
 asciinema
+asio
 aspell
 aspell-de
 aspell-en
@@ -1135,7 +1131,6 @@ bcc
 bcftools
 bdftopcf
 bemenu
-bijiben
 bind-utils
 binutils
 binwalk
@@ -1278,18 +1273,17 @@ colordiff
 columbiad
 compat-atkmm-soname16
 compat-babeltrace-one
-compat-boost-soname1.74.0
 compat-cairomm-soname10
+compat-codec2-soname1
 compat-curl-gnutls-soname4
 compat-enchant-soname1
 compat-fuse-soname2
 compat-gcc-10
 compat-gcr-soname1
-compat-gdal-soname27
 compat-glibmm-soname24
 compat-gnome-bluetooth-soname-13
 compat-gtksourceview-soname3
-compat-icu4c-soname67
+compat-icu4c-soname70
 compat-json-c-soname4
 compat-libffi-soname6
 compat-libpng-soname12
@@ -1304,7 +1298,7 @@ compat-pangomm-soname14
 compat-protobuf-soname29
 compat-readline-soname5
 compat-rest-soname07
-compat-webkitgtk-soname40
+compat-tiff-soname5
 component
 compute-image-packages
 configobj
@@ -1433,7 +1427,6 @@ emacs
 emacs-x11
 embree
 enchant
-enlightenment
 eog
 eog-plugins
 epm
@@ -1456,10 +1449,10 @@ extra-cmake-modules
 f2fs-tools
 faas-cli
 fakeroot
+falcosecurity-libs
 fann
 farstream
 fcgi
-fdm_materials
 fdupes
 feh
 fetchmail
@@ -1495,6 +1488,7 @@ fonttools
 forkstat
 fortune-mod
 fossil
+fprintd
 frameworkintegration
 freedv
 freeglut
@@ -1616,7 +1610,6 @@ gnome-system-monitor
 gnome-terminal
 gnome-text-editor
 gnome-themes-extra
-gnome-todo
 gnome-tweaks
 gnome-user-docs
 gnome-video-effects
@@ -1649,7 +1642,6 @@ grantleetheme
 graphene
 graphite
 graphviz
-grass
 grep
 grig
 grilo
@@ -1737,7 +1729,6 @@ iftop
 igsc
 igt-gpu-tools
 iio-sensor-proxy
-imagescan
 imapfilter
 imlib2
 indent
@@ -1753,6 +1744,7 @@ intel-gmmlib
 intel-hybrid-driver
 intel-ipsec-mb
 intel-media-driver
+intel-one-mono
 intelhex
 intltool
 ioping
@@ -1801,7 +1793,6 @@ kactivities
 kactivities-stats
 kactivitymanagerd
 kalarm
-kalarmcal
 kamera
 kanagram
 kapidox
@@ -1853,7 +1844,6 @@ kdegraphics-thumbnailers
 kdelibs4support
 kdenetwork-filesharing
 kdenlive
-kdepim-apps-libs
 kdepim-runtime
 kdeplasma-addons
 kdesdk-kioslaves
@@ -1956,6 +1946,7 @@ kpackage
 kparts
 kpeople
 kpimtextedit
+kpipewire
 kpkpass
 kplotting
 kpty
@@ -1988,6 +1979,7 @@ ksysguard
 ksystemlog
 ksystemstats
 kteatime
+ktextaddons
 ktexteditor
 ktextwidgets
 ktimer
@@ -2027,10 +2019,8 @@ less
 level-zero
 leveldb
 lftp
-libArcus
-libCharon
+lib4sbom
 libMED
-libSavitar
 libX11
 libXScrnSaver
 libXaw
@@ -2101,6 +2091,7 @@ libe-book
 libebur128
 libeconf
 libedit
+libei
 libepoxy
 libepubgen
 liberation-fonts
@@ -2118,6 +2109,7 @@ libfido2
 libfixmath
 libfm
 libfontenc
+libfprint
 libfreehand
 libftdi1
 libgcrypt
@@ -2340,6 +2332,7 @@ linux-preempt-rt
 linux-tools
 linuxptp
 lksctp-tools
+lldpd
 llvm
 llvm11
 llvm12
@@ -2494,6 +2487,7 @@ netbase
 netcdf
 netdata
 nethogs
+netplan
 nettle
 network-manager-applet
 networkmanager-qt
@@ -2603,6 +2597,7 @@ pacrunner
 paho.mqtt.c
 paho.mqtt.cpp
 palapeli
+pam_wrapper
 pandas
 pandoc
 pango
@@ -3038,6 +3033,7 @@ perl-List-UtilsBy
 perl-Locale-Maketext-Gettext
 perl-Locale-Maketext-Lexicon
 perl-Locale-Msgfmt
+perl-Locale-gettext
 perl-Log-Agent
 perl-Log-Any
 perl-Log-Contextual
@@ -3306,6 +3302,7 @@ perl-Test-Fatal
 perl-Test-File
 perl-Test-File-ShareDir-Dist
 perl-Test-Fork
+perl-Test-Future-IO-Impl
 perl-Test-Identity
 perl-Test-Inter
 perl-Test-LWP-UserAgent
@@ -3449,7 +3446,6 @@ perl-boolean
 perl-common-sense
 perl-constant-defer
 perl-curry
-perl-gettext
 perl-inc-latest
 perl-indirect
 perl-latest
@@ -3574,7 +3570,6 @@ popt
 portaudio
 portmidi
 postfix
-postgis
 postgresql
 potrace
 powerdevil
@@ -3659,6 +3654,7 @@ pypi-asyncssh
 pypi-asynctest
 pypi-atomicwrites
 pypi-atpublic
+pypi-attr
 pypi-attrdict
 pypi-attrs
 pypi-autocommand
@@ -3674,6 +3670,7 @@ pypi-azure_mgmt_netapp
 pypi-azure_mgmt_network
 pypi-azure_mgmt_resource
 pypi-azure_mgmt_storage
+pypi-b4
 pypi-babel
 pypi-backcall
 pypi-backoff
@@ -3762,6 +3759,7 @@ pypi-contextvars
 pypi-contourpy
 pypi-cookiecutter
 pypi-coverage
+pypi-coverage_enable_subprocess
 pypi-coveralls
 pypi-cppy
 pypi-crashtest
@@ -3808,6 +3806,7 @@ pypi-django_babel
 pypi-django_compressor
 pypi-django_discover_runner
 pypi-django_nose
+pypi-dkimpy
 pypi-dnacentersdk
 pypi-dns_lexicon
 pypi-dnspython
@@ -3845,7 +3844,9 @@ pypi-fastimport
 pypi-fastjsonschema
 pypi-filecache
 pypi-filelock
+pypi-findpython
 pypi-fissix
+pypi-fixtures
 pypi-flake8
 pypi-flake8_blind_except
 pypi-flake8_class_newline
@@ -3860,6 +3861,7 @@ pypi-flit_core
 pypi-flit_scm
 pypi-folium
 pypi-fontmath
+pypi-freetype_py
 pypi-freezegun
 pypi-frozenlist
 pypi-fsspec
@@ -3871,10 +3873,12 @@ pypi-gcs_oauth2_boto_plugin
 pypi-gevent
 pypi-geventhttpclient
 pypi-ghp_import
+pypi-git_filter_repo
 pypi-gitdb
 pypi-gitpython
 pypi-glad
 pypi-glfw
+pypi-glyphslib
 pypi-gmqtt
 pypi-google_api_core
 pypi-google_api_python_client
@@ -4046,6 +4050,8 @@ pypi-macholib
 pypi-mako
 pypi-markdown
 pypi-markdown2
+pypi-markdown_exec
+pypi-markdown_include
 pypi-markdown_it_py
 pypi-matplotlib
 pypi-matplotlib_inline
@@ -4068,6 +4074,7 @@ pypi-mkdocstrings
 pypi-mkdocstrings_python
 pypi-ml_dtypes
 pypi-mock
+pypi-moddb
 pypi-modulegraph
 pypi-molecule
 pypi-molecule_docker
@@ -4119,6 +4126,7 @@ pypi-olefile
 pypi-onnx
 pypi-opcodes
 pypi-openshift
+pypi-openstep_plist
 pypi-opt_einsum
 pypi-ordered_set
 pypi-ouimeaux
@@ -4139,11 +4147,14 @@ pypi-passlib
 pypi-paste
 pypi-pastedeploy
 pypi-pastel
+pypi-patatt
 pypi-pathlib2
 pypi-pathspec
 pypi-pathtools
 pypi-patsy
 pypi-pbr
+pypi-pdm
+pypi-pdm_backend
 pypi-pdm_pep517
 pypi-pecan
 pypi-ped
@@ -4199,7 +4210,9 @@ pypi-ptyprocess
 pypi-pure_eval
 pypi-purestorage
 pypi-purity_fb
+pypi-purl
 pypi-py
+pypi-py3dns
 pypi-py3nvml
 pypi-py_cpuinfo
 pypi-pyaml
@@ -4247,16 +4260,19 @@ pypi-pyparsing
 pypi-pyperclip
 pypi-pyperf
 pypi-pypowerflex
+pypi-pypresence
 pypi-pyproject_api
 pypi-pyproject_hooks
 pypi-pyproject_metadata
 pypi-pyprojectx
 pypi-pypsrp
 pypi-pyqrcode
+pypi-pyqt5_sip
 pypi-pyqt6_sip
 pypi-pyqt_builder
 pypi-pyquery
 pypi-pyramid
+pypi-pyrate_limiter
 pypi-pyreadline
 pypi-pyrfc3339
 pypi-pyro4
@@ -4329,6 +4345,7 @@ pypi-qtpy
 pypi-rapidfuzz
 pypi-rapidfuzz_capi
 pypi-rcssmin
+pypi-rdflib
 pypi-readme_renderer
 pypi-recommonmark
 pypi-regex
@@ -4408,6 +4425,7 @@ pypi-sniffio
 pypi-snowballstemmer
 pypi-sortedcontainers
 pypi-soupsieve
+pypi-spdx_tools
 pypi-sphinx
 pypi-sphinx_ansible_theme
 pypi-sphinx_argparse
@@ -4504,6 +4522,7 @@ pypi-types_dataclasses
 pypi-types_docutils
 pypi-types_enum34
 pypi-types_ipaddress
+pypi-types_jsonschema
 pypi-types_mock
 pypi-types_psutil
 pypi-types_pyopenssl
@@ -4524,13 +4543,16 @@ pypi-tzdata
 pypi-tzlocal
 pypi-ua_parser
 pypi-uc_micro_py
+pypi-ufo2ft
 pypi-ufolib2
 pypi-uharfbuzz
 pypi-ujson
+pypi-unearth
 pypi-unicodedata2
 pypi-unidecode
 pypi-unidiff
 pypi-uritemplate
+pypi-uritools
 pypi-urllib3
 pypi-urlobject
 pypi-urwid
@@ -4549,6 +4571,7 @@ pypi-vsts_cd_manager
 pypi-waitress
 pypi-warlock
 pypi-watchdog
+pypi-wcmatch
 pypi-wcwidth
 pypi-webcolors
 pypi-webencodings
@@ -4640,6 +4663,7 @@ qalculate-gtk
 qatlib
 qbittorrent
 qca-qt5
+qcoro
 qemu
 qemu-guest-additions
 qgit
@@ -4655,6 +4679,8 @@ qt-creator
 qt3d
 qt5ct
 qt6base
+qt6svg
+qt6tools
 qtbase
 qtcanvas3d
 qtcharts
@@ -4697,6 +4723,7 @@ rabbitmq-c
 rabbitmq-server
 rage
 ragel
+rapidjson
 raptor2
 rasqal
 rclone
@@ -4787,6 +4814,7 @@ smemstat
 snappy
 sndio
 socat
+socket.io-client-cpp
 sof-bin
 softflowd
 solid
@@ -4940,6 +4968,7 @@ uwsgi
 v4l-utils
 vala
 valgrind
+valijson
 vbox-integration
 vifm
 vim
@@ -4964,6 +4993,7 @@ wayland-protocols
 wcslib
 webkitgtk
 webkitgtk60
+websocketpp
 weechat
 weston
 wget
@@ -4996,6 +5026,7 @@ xcursor-themes
 xcursorgen
 xdg-dbus-proxy
 xdg-desktop-portal
+xdg-desktop-portal-gnome
 xdg-desktop-portal-gtk
 xdg-desktop-portal-kde
 xdg-user-dirs
