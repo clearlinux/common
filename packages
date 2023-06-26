@@ -1297,7 +1297,6 @@ compat-openssl-soname11
 compat-pangomm-soname14
 compat-protobuf-soname29
 compat-readline-soname5
-compat-rest-soname07
 compat-tiff-soname5
 component
 compute-image-packages
@@ -1534,7 +1533,6 @@ geocode-glib
 geos
 gettext
 gexiv2
-gfbgraph
 gflags
 gftp
 gh
