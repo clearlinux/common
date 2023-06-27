@@ -1203,8 +1203,6 @@ casync
 ccache
 ccid
 cdparanoia
-ceph
-ceph-deploy
 cereal
 cfitsio
 cgdb
@@ -1283,7 +1281,6 @@ compat-gcr-soname1
 compat-glibmm-soname24
 compat-gnome-bluetooth-soname-13
 compat-gtksourceview-soname3
-compat-icu4c-soname70
 compat-json-c-soname4
 compat-libffi-soname6
 compat-libpng-soname12
@@ -1297,7 +1294,6 @@ compat-openssl-soname11
 compat-pangomm-soname14
 compat-protobuf-soname29
 compat-readline-soname5
-compat-rest-soname07
 compat-tiff-soname5
 component
 compute-image-packages
@@ -1534,7 +1530,6 @@ geocode-glib
 geos
 gettext
 gexiv2
-gfbgraph
 gflags
 gftp
 gh
