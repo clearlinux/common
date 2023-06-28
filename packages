@@ -2189,6 +2189,7 @@ libnma
 libnotify
 libnsl
 libnumbertext
+libnvme
 liboauth
 libodfgen
 libogg
@@ -2829,6 +2830,7 @@ perl-Devel-Refactor
 perl-Devel-Size
 perl-Devel-StackTrace
 perl-Devel-StackTrace-AsHTML
+perl-Devel-StackTrace-Extract
 perl-Devel-Symdump
 perl-Digest-CRC
 perl-Digest-HMAC
