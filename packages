@@ -2976,6 +2976,7 @@ perl-IO-Interactive
 perl-IO-Interactive-Tiny
 perl-IO-Interface
 perl-IO-Multiplex
+perl-IO-Pager
 perl-IO-Pipely
 perl-IO-Prompter
 perl-IO-Socket-INET6
@@ -4034,6 +4035,7 @@ pypi-ldap3
 pypi-libarchive_c
 pypi-libevdev
 pypi-lightning_utilities
+pypi-linkchecker
 pypi-linkify_it_py
 pypi-livereload
 pypi-llfuse
@@ -4150,6 +4152,7 @@ pypi-pathspec
 pypi-pathtools
 pypi-patsy
 pypi-pbr
+pypi-pdfminer.six
 pypi-pdm
 pypi-pdm_backend
 pypi-pdm_pep517
