@@ -1290,6 +1290,7 @@ compat-libva-soname1
 compat-libvpx-soname7
 compat-lua-52
 compat-lua-53
+compat-openldap-soname24
 compat-openssl-soname11
 compat-pangomm-soname14
 compat-protobuf-soname29
@@ -1328,7 +1329,6 @@ cups-bjnp
 cups-filters
 cups-pk-helper
 curl
-curl-mini
 custom_inherit
 cycler
 cyrus-sasl
