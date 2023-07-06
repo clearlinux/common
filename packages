@@ -1273,7 +1273,6 @@ compat-atkmm-soname16
 compat-babeltrace-one
 compat-cairomm-soname10
 compat-codec2-soname1
-compat-curl-gnutls-soname4
 compat-enchant-soname1
 compat-fuse-soname2
 compat-gcc-10
@@ -1290,8 +1289,6 @@ compat-libva-soname1
 compat-libvpx-soname7
 compat-lua-52
 compat-lua-53
-compat-openldap-soname24
-compat-openssl-soname11
 compat-pangomm-soname14
 compat-protobuf-soname29
 compat-readline-soname5
@@ -1448,6 +1445,7 @@ fakeroot
 falcosecurity-libs
 fann
 farstream
+faultstat
 fcgi
 fdupes
 feh
@@ -1476,6 +1474,7 @@ flrig
 fltk
 fluidsynth
 fmt
+fnotifystat
 folks
 font-util
 fontconfig
@@ -2312,7 +2311,6 @@ linux-current
 linux-firmware
 linux-firmware-ipu
 linux-hyperv-lts
-linux-iot-lts2018
 linux-iot-lts2018-preempt-rt
 linux-libc-headers
 linux-lts2017
@@ -2322,7 +2320,6 @@ linux-lts2020
 linux-lts2021
 linux-ltscurrent
 linux-ltsprev
-linux-mainline
 linux-oracle
 linux-preempt-rt
 linux-tools
@@ -3622,6 +3619,7 @@ pypi-alabaster
 pypi-altgraph
 pypi-amqp
 pypi-aniso8601
+pypi-annotated_types
 pypi-ansi2html
 pypi-ansible_builder
 pypi-ansible_compat
