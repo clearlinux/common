@@ -2587,6 +2587,7 @@ oxygen-icons5
 p11-kit
 p7zip
 pacrunner
+pagemon
 paho.mqtt.c
 paho.mqtt.cpp
 palapeli
@@ -3254,6 +3255,7 @@ perl-Sub-Exporter
 perl-Sub-Exporter-ForMethods
 perl-Sub-Exporter-Progressive
 perl-Sub-Identify
+perl-Sub-Infix
 perl-Sub-Info
 perl-Sub-Install
 perl-Sub-Name
@@ -3447,6 +3449,7 @@ perl-latest
 perl-libwww-perl
 perl-libxml-perl
 perl-local-lib
+perl-match-simple
 perl-multidimensional
 perl-namespace-autoclean
 perl-namespace-clean
