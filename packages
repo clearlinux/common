@@ -1209,6 +1209,7 @@ cgdb
 cgit
 check
 cheese
+chirp
 chrony
 chrpath
 cifs-utils
@@ -2488,6 +2489,7 @@ newt
 nfs-utils
 nftables
 nghttp2
+nghttp3
 nginx
 nginx-mainline
 nginx-rtmp-module
@@ -4588,6 +4590,7 @@ pypi-wrapt
 pypi-wsgiproxy2
 pypi-wsproto
 pypi-wurlitzer
+pypi-wxPython
 pypi-xcffib
 pypi-xgboost
 pypi-xmldiff
@@ -4873,6 +4876,7 @@ swupd-probe
 swupd-search
 sxiv
 sympy
+syncthing
 syndication
 synergy
 syntax-highlighting
