@@ -3,6 +3,7 @@ Botan
 CGAL
 CGNS
 CUnit
+CalcMySky
 Coin
 CopyQ
 DML
@@ -44,6 +45,7 @@ PyQt5
 PySocks
 PyYAML
 QAT_engine
+QXlsx
 R
 R-AER
 R-ATR
@@ -780,6 +782,7 @@ R-rematch2
 R-remote
 R-remotes
 R-rentrez
+R-renv
 R-repr
 R-reprex
 R-repurrrsive
