@@ -39,7 +39,6 @@ OpenColorIO
 OpenIPMI
 OpenSC
 OpenSP
-Pacemaker
 PyMySQL
 PyQt5
 PySocks
@@ -670,6 +669,7 @@ R-partitions
 R-party
 R-partykit
 R-patchwork
+R-patrick
 R-pbapply
 R-pbdZMQ
 R-pbivnorm
@@ -1021,6 +1021,7 @@ SDL_net
 SDL_ttf
 SFML
 SPIRV-Cross
+SPIRV-Headers
 SPIRV-Tools
 SVT-AV1
 SVT-HEVC
@@ -1365,7 +1366,6 @@ directx-headers
 direwolf
 dist-pam-configs
 dkms
-dlm
 dlt-daemon
 dmap2gcode
 dmenu
@@ -1534,9 +1534,7 @@ geos
 gettext
 gexiv2
 gflags
-gftp
 gh
-ghc
 ghostscript
 gi-docgen
 giflib
@@ -1730,6 +1728,7 @@ iio-sensor-proxy
 imapfilter
 imlib2
 indent
+indi
 inetutils
 inih
 iniparse
@@ -2191,6 +2190,7 @@ libnice
 libnl
 libnma
 libnotify
+libnova
 libnsl
 libnumbertext
 libnvme
@@ -2332,8 +2332,6 @@ linuxptp
 lksctp-tools
 lldpd
 llvm
-llvm11
-llvm12
 llvm14
 llvm15
 lm-sensors
@@ -2472,7 +2470,6 @@ nasm
 nautilus
 ncdu
 ncurses
-ncurses-compat
 ndctl
 ndpi
 neofetch
@@ -2616,7 +2613,6 @@ pcmanfm
 pcp
 pcre
 pcre2
-pcs
 pcsc-lite
 pcsc-tools
 pdns
@@ -4682,7 +4678,6 @@ qrencode
 qscintilla
 qsstv
 qstylizer
-qt-creator
 qt3d
 qt5ct
 qt6base
