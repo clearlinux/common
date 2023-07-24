@@ -3908,6 +3908,7 @@ pypi-grpcio_tools
 pypi-gssapi
 pypi-gsutil
 pypi-gtts_token
+pypi-gunicorn
 pypi-h11
 pypi-h2
 pypi-h5py
@@ -4863,6 +4864,7 @@ sundials
 supertuxkart
 suricata
 svgpart
+svxlink
 sway
 swaybg
 swayidle
