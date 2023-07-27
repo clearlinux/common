@@ -3678,6 +3678,7 @@ pypi-backports.ssl_match_hostname
 pypi-bash_kernel
 pypi-bashlex
 pypi-bcrypt
+pypi-beartype
 pypi-beautifulsoup4
 pypi-beniget
 pypi-billiard
@@ -3692,6 +3693,7 @@ pypi-blinker
 pypi-blivet
 pypi-blockdiag
 pypi-bokeh
+pypi-boolean.py
 pypi-booleanoperations
 pypi-boto
 pypi-bowler
@@ -4037,6 +4039,7 @@ pypi-lazy_object_proxy
 pypi-ldap3
 pypi-libarchive_c
 pypi-libevdev
+pypi-license_expression
 pypi-lightning_utilities
 pypi-linkchecker
 pypi-linkify_it_py
