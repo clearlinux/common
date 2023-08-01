@@ -1292,8 +1292,6 @@ compat-libsigc++-soname20
 compat-libsoup-soname-24
 compat-libva-soname1
 compat-libvpx-soname7
-compat-lua-52
-compat-lua-53
 compat-pangomm-soname14
 compat-protobuf-soname29
 compat-readline-soname5
@@ -4391,6 +4389,7 @@ pypi-rtree
 pypi-ruamel.yaml
 pypi-ruamel.yaml.clib
 pypi-s3transfer
+pypi-safetensors
 pypi-salib
 pypi-sanic_routing
 pypi-scikit_build
@@ -4998,6 +4997,7 @@ waffle
 wavpack
 wayland
 wayland-protocols
+waypipe
 wcslib
 webkitgtk
 webkitgtk60
