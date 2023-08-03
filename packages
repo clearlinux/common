@@ -1231,6 +1231,7 @@ clr-boot-manager
 clr-bundle-icons
 clr-bundle-screenshots
 clr-bundles
+clr-check-perl-modules
 clr-debug-info
 clr-desktop-defaults
 clr-elf-replace
@@ -1951,7 +1952,6 @@ kquickcharts
 krb5
 krdc
 kreversi
-krita
 kronosnet
 kross
 kruler
@@ -3998,6 +3998,7 @@ pypi-jsonpatch
 pypi-jsonpickle
 pypi-jsonpointer
 pypi-jsonschema
+pypi-jsonschema_specifications
 pypi-jupyter_cache
 pypi-jupyter_client
 pypi-jupyter_console
@@ -4352,6 +4353,7 @@ pypi-rcssmin
 pypi-rdflib
 pypi-readme_renderer
 pypi-recommonmark
+pypi-referencing
 pypi-regex
 pypi-reportlab
 pypi-repoze.lru
@@ -4382,6 +4384,7 @@ pypi-rjsmin
 pypi-rlpycairo
 pypi-rope
 pypi-routes
+pypi-rpds_py
 pypi-rpm_py_installer
 pypi-rpmfile
 pypi-rsa
