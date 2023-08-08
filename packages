@@ -39,6 +39,7 @@ OpenColorIO
 OpenIPMI
 OpenSC
 OpenSP
+PDAL
 PyMySQL
 PyQt5
 PySocks
@@ -1637,6 +1638,7 @@ grantleetheme
 graphene
 graphite
 graphviz
+grass
 grep
 grig
 grilo
