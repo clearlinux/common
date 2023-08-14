@@ -1185,6 +1185,7 @@ buildreq-nginx
 buildreq-php
 buildreq-qmake
 buildreq-scons
+buildx
 byobu
 bz2file
 bzip2
