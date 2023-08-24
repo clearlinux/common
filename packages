@@ -1320,6 +1320,7 @@ cov-core
 cpio
 cppcheck
 cppunit
+cpufetch
 cpuid
 cpuloadgen
 cracklib
@@ -1499,6 +1500,7 @@ freeipmi
 freetype
 fribidi
 fritzing-app
+frozen
 fs
 fsarchiver
 fsearch
