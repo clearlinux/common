@@ -4859,6 +4859,7 @@ spice-vdagent
 sqlite-autoconf
 squashfs-tools
 squid
+srt
 sshfs
 sshpass
 sshuttle
@@ -4995,6 +4996,7 @@ vala
 valgrind
 valijson
 vbox-integration
+vid.stab
 vifm
 vim
 vim-fugitive
@@ -5040,6 +5042,7 @@ wslu
 wxWidgets
 x11perf
 x11vnc
+x264
 xapian-core
 xastir
 xauth
