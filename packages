@@ -741,6 +741,7 @@ R-psy
 R-psych
 R-psychotools
 R-purrr
+R-purrrlyr
 R-pvclust
 R-pwt
 R-pwt8
@@ -2049,6 +2050,7 @@ libaccounts-qt
 libadwaita
 libaio
 libao
+libaom
 libappindicator
 libarchive
 libass
@@ -2204,6 +2206,7 @@ libnvme
 liboauth
 libodfgen
 libogg
+libopenmpt
 libopenzwave
 liborcus
 libosinfo
@@ -4363,6 +4366,7 @@ pypi-rapidfuzz_capi
 pypi-rcssmin
 pypi-rdflib
 pypi-readme_renderer
+pypi-readtime
 pypi-recommonmark
 pypi-referencing
 pypi-regex
