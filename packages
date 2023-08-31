@@ -1286,6 +1286,7 @@ compat-babeltrace-one
 compat-cairomm-soname10
 compat-codec2-soname1
 compat-enchant-soname1
+compat-ffmpeg-4.4
 compat-fuse-soname2
 compat-gcc-10
 compat-gcr-soname1
@@ -5043,6 +5044,7 @@ wxWidgets
 x11perf
 x11vnc
 x264
+x265
 xapian-core
 xastir
 xauth
@@ -5125,6 +5127,7 @@ xss-lock
 xterm
 xtrans
 xvfb-run
+xvidcore
 xwayland
 xwd
 xwdrun
@@ -5147,6 +5150,7 @@ zeek
 zeek-af_packet-plugin
 zenity
 zeroconf-ioslave
+zimg
 zip
 zlib
 znc
