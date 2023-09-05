@@ -3928,6 +3928,7 @@ pypi-h2
 pypi-h5py
 pypi-hammock
 pypi-hatch_fancy_pypi_readme
+pypi-hatch_jupyter_builder
 pypi-hatch_nodejs_version
 pypi-hatch_requirements_txt
 pypi-hatch_vcs
@@ -4149,6 +4150,7 @@ pypi-opt_einsum
 pypi-ordered_set
 pypi-ouimeaux
 pypi-outcome
+pypi-overrides
 pypi-ovirt_imageio
 pypi-packaging
 pypi-paginate
@@ -4536,6 +4538,7 @@ pypi-trimesh
 pypi-trio
 pypi-trio_websocket
 pypi-trove_classifiers
+pypi-truststore
 pypi-ttp
 pypi-twine
 pypi-typed_ast
