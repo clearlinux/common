@@ -1302,6 +1302,7 @@ compat-libva-soname1
 compat-libvpx-soname7
 compat-pangomm-soname14
 compat-protobuf-soname29
+compat-re2-soname10
 compat-readline-soname5
 compat-tiff-soname5
 component
@@ -2560,7 +2561,6 @@ open-iscsi
 open-isns
 open-lldp
 open-vm-tools
-openQA
 openal-soft
 openblas
 openbox
@@ -3661,6 +3661,7 @@ pypi-asttokens
 pypi-astunparse
 pypi-asv
 pypi-async_generator
+pypi-async_lru
 pypi-async_timeout
 pypi-asyncssh
 pypi-asynctest
@@ -4019,6 +4020,7 @@ pypi-jupyter_client
 pypi-jupyter_console
 pypi-jupyter_core
 pypi-jupyter_events
+pypi-jupyter_lsp
 pypi-jupyter_nbgallery
 pypi-jupyter_packaging
 pypi-jupyter_server
@@ -4864,7 +4866,6 @@ sqlite-autoconf
 squashfs-tools
 squid
 srt
-sshfs
 sshpass
 sshuttle
 ssocr
