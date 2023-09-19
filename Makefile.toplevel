@@ -126,7 +126,8 @@ endif
 pull: ${PULL_PKGS}
 
 #help clean-pkgs-dir: For packages that are no longer present in the distro,
-#help removes the associated package repos from the ./packages tree
+#help removes the associated package repos from the ./packages tree and stores
+#help it in packages_old. If it already exists in packages_old, skip it.
 clean-pkgs-dir: $(PACKAGES_FILE)
 	@for p in ${PKGS_ORPHANED}; do \
 		mkdir -p packages_old; \
