@@ -1906,6 +1906,7 @@ kimap
 kinfocenter
 kinit
 kio
+kio-admin
 kio-extras
 kirigami2
 kitemmodels
@@ -2597,6 +2598,7 @@ ostree
 otp
 oxygen
 oxygen-icons5
+oxygen-sounds
 p11-kit
 p7zip
 pacrunner
