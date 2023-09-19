@@ -129,8 +129,13 @@ pull: ${PULL_PKGS}
 #help removes the associated package repos from the ./packages tree
 clean-pkgs-dir: $(PACKAGES_FILE)
 	@for p in ${PKGS_ORPHANED}; do \
-		echo "Removing $$p from packages, it is no longer in common/packages."; \
-		rm -rf packages/$$p; \
+		mkdir -p packages_old; \
+		if [ -d "packages_old/$$p" ]; then \
+			echo "packages_old/$$p already exists, not touching it"; \
+		else \
+			echo "Moving $$p from packages to packages_old, as it is no longer in common/packages."; \
+			mv packages/$$p packages_old/$$p; \
+		fi; \
 	done
 	@echo "packages directory cleaned";
 
