@@ -998,6 +998,7 @@ R-winch
 R-withr
 R-wk
 R-worrms
+R-writexl
 R-xfun
 R-xgboost
 R-xml2
@@ -4024,7 +4025,6 @@ pypi-jupyter_console
 pypi-jupyter_core
 pypi-jupyter_events
 pypi-jupyter_lsp
-pypi-jupyter_nbgallery
 pypi-jupyter_packaging
 pypi-jupyter_server
 pypi-jupyter_server_fileid
@@ -4056,6 +4056,7 @@ pypi-lazy
 pypi-lazy_loader
 pypi-lazy_object_proxy
 pypi-ldap3
+pypi-levenshtein
 pypi-libarchive_c
 pypi-libevdev
 pypi-license_expression
@@ -4342,7 +4343,6 @@ pypi-python_install
 pypi-python_json_logger
 pypi-python_jsonrpc_server
 pypi-python_language_server
-pypi-python_levenshtein
 pypi-python_lsp_black
 pypi-python_lsp_jsonrpc
 pypi-python_lsp_server
@@ -5067,6 +5067,7 @@ xdg-desktop-portal
 xdg-desktop-portal-gnome
 xdg-desktop-portal-gtk
 xdg-desktop-portal-kde
+xdg-desktop-portal-wlr
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
