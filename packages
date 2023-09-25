@@ -1209,6 +1209,7 @@ cantarell-fonts
 cantata
 cantor
 capnproto
+capslock
 capstone
 caribou
 casync
@@ -2096,6 +2097,7 @@ libdazzle
 libdbusmenu
 libdbusmenu-qt
 libdeps
+libdex
 libdmx
 libdnf
 libdrm
@@ -2453,6 +2455,7 @@ mosquitto
 motd-update
 motif
 mozjs102
+mozjs115
 mozjs91
 mpc
 mpfr
@@ -4034,7 +4037,6 @@ pypi-jupyter_server_ydoc
 pypi-jupyter_sphinx
 pypi-jupyter_ydoc
 pypi-jupyterlab
-pypi-jupyterlab_launcher
 pypi-jupyterlab_link_share
 pypi-jupyterlab_pygments
 pypi-jupyterlab_server
@@ -4140,7 +4142,6 @@ pypi-nocaselist
 pypi-nodeenv
 pypi-nose
 pypi-nose_timer
-pypi-notebook
 pypi-notebook_shim
 pypi-numpoly
 pypi-numpy
