@@ -2129,6 +2129,7 @@ libftdi1
 libgcrypt
 libgd
 libgdata
+libgedit-amtk
 libgee
 libgeotiff
 libgit2
@@ -2218,6 +2219,7 @@ libopenzwave
 liborcus
 libosinfo
 libpagemaker
+libpanel
 libpcap
 libpciaccess
 libpeas
@@ -4927,6 +4929,7 @@ tbb
 tcl
 tcpdump
 tdb
+tecla
 telemetrics-client
 telepathy-glib
 telepathy-qt
