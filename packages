@@ -2097,6 +2097,7 @@ libdatrie
 libdazzle
 libdbusmenu
 libdbusmenu-qt
+libdecor
 libdeps
 libdex
 libdisplay-info
@@ -2585,7 +2586,6 @@ openjpeg
 openldap
 openmpi
 openpace
-openscad
 openshot-qt
 opensm
 openssh
