@@ -4445,6 +4445,7 @@ pypi-seqdiag
 pypi-serpent
 pypi-setproctitle
 pypi-setuptools
+pypi-setuptools_changelog_shortener
 pypi-setuptools_git_ls_files
 pypi-setuptools_git_versioning
 pypi-setuptools_rust
