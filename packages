@@ -1281,6 +1281,7 @@ cogl
 coinmp
 collectd
 collectl
+colm
 colord
 colord-gtk
 colordiff
@@ -2391,6 +2392,7 @@ make
 man-db
 man-pages
 man-pages-posix
+mandoc
 marble
 mariadb
 mc
