@@ -35,6 +35,7 @@ NetworkManager-openvpn
 NetworkManager-vpnc
 OpenCASCADE
 OpenCSG
+OpenColorIO
 OpenIPMI
 OpenSC
 OpenSP
@@ -1431,6 +1432,7 @@ elixir
 ell
 emacs
 emacs-x11
+embree
 enchant
 eog
 eog-plugins
@@ -2241,6 +2243,7 @@ libreoffice
 librepo
 libreswan
 librevenge
+librist
 librsvg
 librtlsdr
 librttopo
@@ -2388,6 +2391,7 @@ man-pages-posix
 mandoc
 marble
 mariadb
+mbedtls
 mc
 mccabe
 mcelog
@@ -2554,6 +2558,7 @@ ocaml
 ocamlbuild
 ocl-icd
 octave
+oiio
 okteta
 okular
 oneVPL
