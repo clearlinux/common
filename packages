@@ -35,7 +35,6 @@ NetworkManager-openvpn
 NetworkManager-vpnc
 OpenCASCADE
 OpenCSG
-OpenColorIO
 OpenIPMI
 OpenSC
 OpenSP
@@ -45,7 +44,6 @@ PyQt5
 PySocks
 PyYAML
 QAT_engine
-QGIS
 QXlsx
 R
 R-AER
@@ -161,6 +159,7 @@ R-RcppProgress
 R-RcppRoll
 R-RcppTOML
 R-Rdpack
+R-RhpcBLASctl
 R-Rmpfr
 R-Rmpi
 R-Rserve
@@ -529,6 +528,7 @@ R-kableExtra
 R-keras
 R-kernlab
 R-kimisc
+R-kit
 R-klaR
 R-kmi
 R-knitr
@@ -1146,7 +1146,6 @@ bind-utils
 binutils
 binwalk
 bison
-blender
 blinken
 blivet-gui
 blktrace
@@ -1212,7 +1211,6 @@ cantor
 capnproto
 capslock
 capstone
-caribou
 casync
 ccache
 ccid
@@ -1311,7 +1309,6 @@ compat-re2-soname10
 compat-readline-soname5
 compat-tiff-soname5
 component
-compute-image-packages
 configobj
 confuse
 conky
@@ -1344,7 +1341,6 @@ cups-bjnp
 cups-filters
 cups-pk-helper
 curl
-custom_inherit
 cycler
 cyrus-sasl
 dapl
@@ -1435,7 +1431,6 @@ elixir
 ell
 emacs
 emacs-x11
-embree
 enchant
 eog
 eog-plugins
@@ -1747,7 +1742,6 @@ indent
 indi
 inetutils
 inih
-iniparse
 init-rdahead
 inkscape
 innoextract
@@ -1813,7 +1807,6 @@ kapidox
 kapman
 kapptemplate
 karchive
-kate
 katomic
 kauth
 kbackup
@@ -2548,7 +2541,6 @@ nss
 nss-altfiles
 nss-pam-ldapd
 ntfs-3g
-ntlm-auth
 ntopng
 ntp
 numactl
@@ -2558,12 +2550,10 @@ numpy-stl
 nv-codec-headers
 nvme-cli
 oath-toolkit
-obs-studio
 ocaml
 ocamlbuild
 ocl-icd
 octave
-oiio
 okteta
 okular
 oneVPL
@@ -2588,7 +2578,6 @@ openjpeg
 openldap
 openmpi
 openpace
-openshot-qt
 opensm
 openssh
 openssl
@@ -3722,7 +3711,6 @@ pypi-blockdiag
 pypi-bokeh
 pypi-boolean.py
 pypi-booleanoperations
-pypi-boto
 pypi-bowler
 pypi-bracex
 pypi-branca
@@ -3782,7 +3770,6 @@ pypi-compreffor
 pypi-configargparse
 pypi-configparser
 pypi-cons
-pypi-constantly
 pypi-contextlib2
 pypi-contextvars
 pypi-contourpy
@@ -3808,7 +3795,6 @@ pypi-cython
 pypi-cytoolz
 pypi-dacite
 pypi-dask
-pypi-dataclasses
 pypi-datetime
 pypi-debugpy
 pypi-decorator
@@ -3919,7 +3905,6 @@ pypi-google_cloud_core
 pypi-google_cloud_secret_manager
 pypi-google_cloud_storage
 pypi-google_crc32c
-pypi-google_pasta
 pypi-google_reauth
 pypi-google_resumable_media
 pypi-googleapis_common_protos
@@ -4020,7 +4005,6 @@ pypi-jinxed
 pypi-jmespath
 pypi-joblib
 pypi-josepy
-pypi-jpype1
 pypi-jsmin
 pypi-json5
 pypi-jsondiff
@@ -4078,9 +4062,9 @@ pypi-llfuse
 pypi-locket
 pypi-logical_unification
 pypi-logilab_common
+pypi-looseversion
 pypi-lxml
 pypi-lz4
-pypi-m2r
 pypi-macholib
 pypi-mako
 pypi-markdown
@@ -4135,7 +4119,6 @@ pypi-nbconvert
 pypi-nbformat
 pypi-nbsphinx
 pypi-nbval
-pypi-ncclient
 pypi-ndg_httpsclient
 pypi-neat_python
 pypi-nest_asyncio
@@ -4143,6 +4126,7 @@ pypi-netapp_lib
 pypi-netdisco
 pypi-netifaces
 pypi-networkx
+pypi-nh3
 pypi-nibabel
 pypi-nltk
 pypi-nocasedict
@@ -4186,7 +4170,6 @@ pypi-pastel
 pypi-patatt
 pypi-pathlib2
 pypi-pathspec
-pypi-pathtools
 pypi-patsy
 pypi-pbr
 pypi-pdfminer.six
@@ -4270,7 +4253,7 @@ pypi-pycryptodomex
 pypi-pycups
 pypi-pycurl
 pypi-pydantic
-pypi-pydata_sphinx_theme
+pypi-pydantic_core
 pypi-pydispatcher
 pypi-pydocstyle
 pypi-pydot
@@ -4285,7 +4268,6 @@ pypi-pyicu
 pypi-pyjwt
 pypi-pylev
 pypi-pylint
-pypi-pyls_black
 pypi-pymdown_extensions
 pypi-pynacl
 pypi-pynetbox
@@ -4350,8 +4332,6 @@ pypi-python_debian
 pypi-python_dotenv
 pypi-python_install
 pypi-python_json_logger
-pypi-python_jsonrpc_server
-pypi-python_language_server
 pypi-python_lsp_black
 pypi-python_lsp_jsonrpc
 pypi-python_lsp_server
@@ -4371,7 +4351,6 @@ pypi-pywavelets
 pypi-pywbem
 pypi-pywinrm
 pypi-pyxattr
-pypi-pyxdameraulevenshtein
 pypi-pyxdg
 pypi-pyyaml_env_tag
 pypi-pyzmq
@@ -4447,12 +4426,9 @@ pypi-seqdiag
 pypi-serpent
 pypi-setproctitle
 pypi-setuptools
-pypi-setuptools_changelog_shortener
-pypi-setuptools_git_ls_files
 pypi-setuptools_git_versioning
 pypi-setuptools_rust
 pypi-setuptools_scm
-pypi-setuptools_scm_git_archive
 pypi-sh
 pypi-shapely
 pypi-shellingham
@@ -4509,7 +4485,6 @@ pypi-sqlalchemy
 pypi-sqlparse
 pypi-sshtunnel
 pypi-stack_data
-pypi-statsmodels
 pypi-storops
 pypi-strictyaml
 pypi-subprocess_tee
@@ -4535,7 +4510,6 @@ pypi-three_merge
 pypi-tifffile
 pypi-tinycss2
 pypi-tldextract
-pypi-tokenizers
 pypi-toml
 pypi-tomli
 pypi-tomli_w
@@ -4681,7 +4655,6 @@ pypi-zope.security
 pypi-zope.testing
 pypi-zope.testrunner
 pypi-zopfli
-pyside2-setup
 python
 python-digitalocean
 python-distutils-extra
@@ -4812,7 +4785,6 @@ recode
 redis-native
 redis2-nginx-module
 redland
-redshift
 redsocks
 requests-ntlm
 rest
@@ -4884,7 +4856,6 @@ sip
 slang
 slirp4netns
 slurm
-smartcols
 smartmontools
 smemstat
 snappy
@@ -5063,7 +5034,6 @@ vkd3d
 vlc
 volume_key
 vpnc
-vpp
 vsqlite
 vte
 waffle
@@ -5199,8 +5169,6 @@ ytnef
 zabbix
 zathura
 zathura-pdf-poppler
-zeek
-zeek-af_packet-plugin
 zenity
 zeroconf-ioslave
 zimg
