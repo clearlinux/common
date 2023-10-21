@@ -2531,7 +2531,6 @@ nlopt
 nmap
 nodejs
 nose-parameterized
-nosexcover
 not-ffmpeg
 notmuch
 noto-cjk
@@ -3825,7 +3824,6 @@ pypi-django_appconf
 pypi-django_babel
 pypi-django_compressor
 pypi-django_discover_runner
-pypi-django_nose
 pypi-dkimpy
 pypi-dnacentersdk
 pypi-dns_lexicon
@@ -3981,7 +3979,6 @@ pypi-invoke
 pypi-iocapture
 pypi-ipaddress
 pypi-ipdb
-pypi-ipdbplugin
 pypi-ipykernel
 pypi-ipyparallel
 pypi-ipython
@@ -4137,8 +4134,6 @@ pypi-nltk
 pypi-nocasedict
 pypi-nocaselist
 pypi-nodeenv
-pypi-nose
-pypi-nose_timer
 pypi-notebook_shim
 pypi-numpoly
 pypi-numpy
@@ -4427,10 +4422,10 @@ pypi-send2trash
 pypi-sentencepiece
 pypi-sentinels
 pypi-sentry_sdk
-pypi-seqdiag
 pypi-serpent
 pypi-setproctitle
 pypi-setuptools
+pypi-setuptools_changelog_shortener
 pypi-setuptools_git_versioning
 pypi-setuptools_rust
 pypi-setuptools_scm
@@ -4480,7 +4475,6 @@ pypi-sphinxcontrib_plantuml
 pypi-sphinxcontrib_programoutput
 pypi-sphinxcontrib_qthelp
 pypi-sphinxcontrib_redoc
-pypi-sphinxcontrib_seqdiag
 pypi-sphinxcontrib_serializinghtml
 pypi-sphinxcontrib_svg2pdfconverter
 pypi-sphinxcontrib_websupport
