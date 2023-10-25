@@ -44,6 +44,7 @@ PyMySQL
 PyQt5
 PySocks
 PyYAML
+QAT-ZSTD-Plugin
 QAT_engine
 QXlsx
 R
