@@ -3793,7 +3793,6 @@ pypi-cssselect
 pypi-cssselect2
 pypi-cu2qu
 pypi-curio
-pypi-cve_bin_tool
 pypi-cvss
 pypi-cxxfilt
 pypi-cython
@@ -3888,7 +3887,6 @@ pypi-ftfy
 pypi-funcparserlib
 pypi-future
 pypi-gast
-pypi-gcs_oauth2_boto_plugin
 pypi-gevent
 pypi-geventhttpclient
 pypi-ghp_import
@@ -3924,7 +3922,6 @@ pypi-grpcio_health_checking
 pypi-grpcio_reflection
 pypi-grpcio_tools
 pypi-gssapi
-pypi-gsutil
 pypi-gtts_token
 pypi-gunicorn
 pypi-h11
