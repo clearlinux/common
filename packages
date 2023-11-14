@@ -1214,6 +1214,7 @@ capnproto
 capslock
 capstone
 casync
+catch2
 ccache
 ccid
 cdparanoia
@@ -2497,6 +2498,7 @@ ndctl
 ndpi
 neofetch
 neomutt
+neon
 neovim
 net-snmp
 net-tools
@@ -2551,6 +2553,7 @@ numactl
 numatop
 numlockx
 numpy-stl
+nut
 nv-codec-headers
 nvme-cli
 oath-toolkit
@@ -4773,6 +4776,7 @@ rapidjson
 raptor2
 rasqal
 rclone
+rdfind
 rdma-core
 re2
 re2c
