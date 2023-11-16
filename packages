@@ -1255,6 +1255,7 @@ clr-installer
 clr-man-pages
 clr-network-troubleshooter
 clr-one-shot-updates
+clr-optimized-link-scripts
 clr-power-tweaks
 clr-python-timestamp
 clr-pyversion-strip
@@ -1401,6 +1402,7 @@ double-conversion
 dovecot
 doxygen
 dpdk
+draco
 dracut
 dragon
 dragonbox
