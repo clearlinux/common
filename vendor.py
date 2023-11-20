@@ -97,8 +97,8 @@ def update_cargo_sources(name, tag):
     with open('Makefile', encoding='utf8') as mfile:
         for line in mfile.readlines():
             if line.startswith('ARCHIVES'):
-                if re.match(archive_match + '[a-zA-Z0-9_\-.]+\.tar\.xz', line):
-                    new_archives = re.sub(archive_match + '[a-zA-Z0-9_\-.]+\.tar\.xz',
+                if re.match(archive_match + r'[a-zA-Z0-9_\-.]+\.tar\.xz', line):
+                    new_archives = re.sub(archive_match + r'[a-zA-Z0-9_\-.]+\.tar\.xz',
                                           f"{archive_match}-{tag}.tar.xz\n", line)
                 else:
                     new_archives = f"ARCHIVES = {archive_match}-{tag}.tar.xz ./vendor\n"
