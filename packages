@@ -2357,6 +2357,7 @@ lldpd
 llvm
 llvm14
 llvm15
+llvm16
 lm-sensors
 lmdb
 logrotate
@@ -4680,6 +4681,7 @@ pyudev
 qalculate-gtk
 qatlib
 qbittorrent
+qca
 qca-qt5
 qcoro
 qemu
