@@ -2182,6 +2182,7 @@ libkscreen
 libksieve
 libksysguard
 liblangtag
+libliftoff
 liblogging
 libmaxminddb
 libmbim
@@ -4065,6 +4066,7 @@ pypi-linkchecker
 pypi-linkify_it_py
 pypi-livereload
 pypi-llfuse
+pypi-locate
 pypi-locket
 pypi-logical_unification
 pypi-logilab_common
@@ -4276,6 +4278,7 @@ pypi-pymdown_extensions
 pypi-pynacl
 pypi-pynetbox
 pypi-pynsist
+pypi-pynvml
 pypi-pyomo
 pypi-pyopengl
 pypi-pyopenssl
