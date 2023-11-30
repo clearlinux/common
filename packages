@@ -1912,6 +1912,7 @@ kinit
 kio
 kio-admin
 kio-extras
+kirigami-addons
 kirigami2
 kitemmodels
 kitemviews
@@ -4373,6 +4374,7 @@ pypi-readtime
 pypi-recommonmark
 pypi-referencing
 pypi-regex
+pypi-regress
 pypi-reportlab
 pypi-repoze.lru
 pypi-requests
