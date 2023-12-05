@@ -228,6 +228,7 @@ R-bench
 R-benchr
 R-betareg
 R-bibtex
+R-bigD
 R-biglm
 R-binGroup
 R-bindr
@@ -247,6 +248,7 @@ R-bridgesampling
 R-brio
 R-brms
 R-broom
+R-broom.helpers
 R-broom.mixed
 R-bslib
 R-bvls
@@ -459,6 +461,7 @@ R-ggplot2
 R-ggplot2movies
 R-ggrepel
 R-ggridges
+R-ggstats
 R-ggvis
 R-gh
 R-git2r
@@ -2788,7 +2791,6 @@ perl-DBD-MariaDB
 perl-DBD-Pg
 perl-DBD-SQLite
 perl-DBD-SQLite2
-perl-DBD-mysql
 perl-DBI
 perl-DBICx-TestDatabase
 perl-DBIx-Class
@@ -4042,7 +4044,6 @@ pypi-jupyterlab_link_share
 pypi-jupyterlab_pygments
 pypi-jupyterlab_server
 pypi-jupyterlab_widgets
-pypi-jupytext
 pypi-jxmlease
 pypi-kcc
 pypi-kerberos
@@ -4471,6 +4472,7 @@ pypi-sphinx_togglebutton
 pypi-sphinxcontrib.jquery
 pypi-sphinxcontrib_apidoc
 pypi-sphinxcontrib_applehelp
+pypi-sphinxcontrib_asyncio
 pypi-sphinxcontrib_bibtex
 pypi-sphinxcontrib_blockdiag
 pypi-sphinxcontrib_devhelp
@@ -4550,6 +4552,7 @@ pypi-types_ipaddress
 pypi-types_jsonschema
 pypi-types_mock
 pypi-types_psutil
+pypi-types_pycurl
 pypi-types_pyopenssl
 pypi-types_pyrfc3339
 pypi-types_python_dateutil
@@ -4596,6 +4599,7 @@ pypi-vsts_cd_manager
 pypi-waitress
 pypi-warlock
 pypi-watchdog
+pypi-wbdata
 pypi-wcmatch
 pypi-wcwidth
 pypi-webcolors
@@ -4608,6 +4612,7 @@ pypi-werkzeug
 pypi-wheel
 pypi-widgetsnbextension
 pypi-wikipedia
+pypi-wordcloud
 pypi-wordfreq
 pypi-wrapt
 pypi-wsgiproxy2
