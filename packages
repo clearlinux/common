@@ -2951,6 +2951,7 @@ perl-Geo-Distance
 perl-Geo-IP
 perl-Geo-IPfree
 perl-Getopt-Euclid
+perl-Getopt-Long
 perl-Getopt-Long-Descriptive
 perl-Getopt-Long-Modern
 perl-Getopt-Tabular
@@ -3325,6 +3326,7 @@ perl-Test-Deep
 perl-Test-DiagINC
 perl-Test-Differences
 perl-Test-Exception
+perl-Test-ExpectAndCheck
 perl-Test-FailWarnings
 perl-Test-Fatal
 perl-Test-File
@@ -3494,16 +3496,12 @@ phoronix-test-suite
 php
 php-APCu
 php-Bitset
-php-Molten
-php-PDO_SQLANYWHERE
 php-SeasClick
 php-SeasLog
 php-Xdebug
-php-Yaf
 php-ahocorasick
 php-apfd
 php-ast
-php-componere
 php-crypto
 php-datadog_trace
 php-dbase
@@ -3512,7 +3510,6 @@ php-ds
 php-eio
 php-ev
 php-gRPC
-php-gender
 php-geospatial
 php-gnupg
 php-hprose
@@ -3533,10 +3530,8 @@ php-oauth
 php-parle
 php-pcov
 php-proctitle
-php-propro
 php-protobuf
 php-psr
-php-radius
 php-raphf
 php-rdkafka
 php-redis
@@ -3544,8 +3539,6 @@ php-scrypt
 php-stomp
 php-svm
 php-sync
-php-taint
-php-timecop
 php-timezonedb
 php-trader
 php-uopz
@@ -3554,7 +3547,6 @@ php-xattr
 php-xlswriter
 php-xxtea
 php-yaml
-php-yar
 php-zmq
 picmi
 picocom
