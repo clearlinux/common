@@ -1408,6 +1408,7 @@ dotconf
 double-conversion
 dovecot
 doxygen
+dpcpp-compiler
 dpdk
 draco
 dracut
@@ -4867,6 +4868,7 @@ simplescreenrecorder
 sip
 slang
 slirp4netns
+sluice
 slurm
 smartmontools
 smemstat
