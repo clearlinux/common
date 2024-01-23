@@ -1313,6 +1313,7 @@ compat-libsigc++-soname20
 compat-libsoup-soname-24
 compat-libva-soname1
 compat-libvpx-soname7
+compat-libvpx-soname8
 compat-pangomm-soname14
 compat-protobuf-soname29
 compat-re2-soname10
@@ -2578,6 +2579,7 @@ octave
 oiio
 okteta
 okular
+oneDPL
 oneVPL
 onig
 opa-fm
