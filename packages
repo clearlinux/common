@@ -1318,6 +1318,7 @@ compat-pangomm-soname14
 compat-protobuf-soname29
 compat-re2-soname10
 compat-readline-soname5
+compat-taglib-soname1
 compat-tbb-soname2
 compat-tiff-soname5
 component
@@ -1907,6 +1908,7 @@ kholidays
 khotkeys
 khtml
 ki18n
+kicad
 kiconthemes
 kidentitymanagement
 kidletime
@@ -4521,6 +4523,7 @@ pypi-three_merge
 pypi-tifffile
 pypi-tinycss2
 pypi-tldextract
+pypi-tokenizers
 pypi-toml
 pypi-tomli
 pypi-tomli_w
@@ -4533,6 +4536,7 @@ pypi-tox
 pypi-tqdm
 pypi-traitlets
 pypi-trampolim
+pypi-transformers
 pypi-translationstring
 pypi-trimesh
 pypi-trio
