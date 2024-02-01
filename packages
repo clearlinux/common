@@ -1533,6 +1533,7 @@ gc
 gcab
 gcc
 gcc11
+gcc14
 gcc7
 gcc8
 gcc9
