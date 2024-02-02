@@ -10,6 +10,7 @@ DML
 Endeavour
 F-Engrave
 FreeRDP
+FreeRDP2
 GConf
 Gradio
 ImageMagick
@@ -2332,6 +2333,7 @@ libwpd
 libwpe
 libwpg
 libwps
+libxcrypt
 libxcvt
 libxdg-basedir
 libxfce4ui
