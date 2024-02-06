@@ -2253,6 +2253,7 @@ libproxy
 libpsl
 libpthread-stubs
 libpwquality
+libqaccessibilityclient
 libqalculate
 libqb
 libqmi
@@ -2333,6 +2334,7 @@ libwpd
 libwpe
 libwpg
 libwps
+libxcrypt
 libxcvt
 libxdg-basedir
 libxfce4ui
@@ -3814,6 +3816,7 @@ pypi-cython
 pypi-cytoolz
 pypi-dacite
 pypi-dask
+pypi-dateparser
 pypi-datetime
 pypi-debugpy
 pypi-decorator
@@ -4448,6 +4451,7 @@ pypi-setuptools_scm
 pypi-sh
 pypi-shapely
 pypi-shellingham
+pypi-shelved_cache
 pypi-simplegeneric
 pypi-six
 pypi-slugify
@@ -5205,4 +5209,5 @@ zopfli
 zsh
 zstd
 zstd-bin
+zxcvbn-c
 zxing
