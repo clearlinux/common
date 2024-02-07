@@ -1323,6 +1323,7 @@ compat-taglib-soname1
 compat-tbb-soname2
 compat-tiff-soname5
 component
+compose
 configobj
 confuse
 conky
@@ -3848,7 +3849,6 @@ pypi-dnacentersdk
 pypi-dns_lexicon
 pypi-dnspython
 pypi-docker
-pypi-docker_compose
 pypi-docker_pycreds
 pypi-docopt
 pypi-docstring_parser
