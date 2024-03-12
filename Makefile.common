@@ -391,6 +391,17 @@ koji-waitrepo: kojidef
 		koji wait-repo --build=${SRPMVERS} ${WAIT_OPTS} ${KOJI_TAG}-build; \
 	fi
 
+.PHONY: koji-tag
+#help koji-tag: runs koji tag-pkg on what's in the current specfile's nvr
+koji-tag:
+	koji tag-pkg dist-clear echo $(SRPMVERS)
+
+.PHONY: koji-untag
+#help koji-untag: runs koji untag-pkg on what's in the current specfile's nvr
+koji-untag:
+	koji untag-pkg dist-clear echo $(SRPMVERS)
+
+
 update-versions:
 
 .PHONY: update
