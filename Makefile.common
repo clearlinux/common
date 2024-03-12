@@ -394,12 +394,12 @@ koji-waitrepo: kojidef
 .PHONY: koji-tag
 #help koji-tag: runs koji tag-pkg on what's in the current specfile's nvr
 koji-tag:
-	koji tag-pkg dist-clear echo $(SRPMVERS)
+	koji tag-pkg dist-clear $(SRPMVERS)
 
 .PHONY: koji-untag
 #help koji-untag: runs koji untag-pkg on what's in the current specfile's nvr
 koji-untag:
-	koji untag-pkg dist-clear echo $(SRPMVERS)
+	koji untag-pkg dist-clear $(SRPMVERS)
 
 
 update-versions:
