@@ -1046,6 +1046,7 @@ SuiteSparse
 TLP
 Thunar
 UCD
+UxPlay
 VTK
 Vc
 Vulkan-Headers
@@ -1101,6 +1102,7 @@ arp-scan
 arpack-ng
 artikulate
 asciidoc
+asciidoctor
 asciinema
 asio
 aspell
@@ -1293,8 +1295,10 @@ collectl
 colm
 colord
 colord-gtk
+colord-kde
 colordiff
 columbiad
+compat-Botan-soname2
 compat-atkmm-soname16
 compat-babeltrace-one
 compat-cairomm-soname10
@@ -1309,6 +1313,7 @@ compat-gnome-bluetooth-soname-13
 compat-gtksourceview-soname3
 compat-json-c-soname4
 compat-libffi-soname6
+compat-libffi-soname7
 compat-libpng-soname12
 compat-libsigc++-soname20
 compat-libsoup-soname-24
@@ -1322,6 +1327,7 @@ compat-readline-soname5
 compat-taglib-soname1
 compat-tbb-soname2
 compat-tiff-soname5
+compat-wlroots-soname11
 component
 compose
 configobj
@@ -1390,6 +1396,7 @@ directx-headers
 direwolf
 dist-pam-configs
 dkms
+dlib
 dlt-daemon
 dmap2gcode
 dmenu
@@ -1421,7 +1428,6 @@ dragonbox
 drkonqi
 dropwatch
 dssi
-dstat
 dtc
 duktape
 dunst
@@ -1464,7 +1470,7 @@ evolution-data-server
 evolution-ews
 evtest
 exempi
-exfat-utils
+exfatprogs
 exiv2
 exo
 expat
@@ -1481,6 +1487,7 @@ fcgi
 fdupes
 feh
 fetchmail
+ffmpegthumbs
 fftw
 file
 file-roller
@@ -1572,6 +1579,7 @@ gimp
 girara
 git
 git-gui
+git-lfs
 gitg
 gitolite
 gjs
@@ -1724,6 +1732,7 @@ hexedit
 hicolor-icon-theme
 hiredis-c
 hostname
+howdy
 hplip
 htop
 htslib
@@ -1767,6 +1776,7 @@ inkscape
 innoextract
 inotify-tools
 input-leap
+input-remapper
 intel-cmt-cat
 intel-gmmlib
 intel-hybrid-driver
@@ -1821,6 +1831,7 @@ kactivities
 kactivities-stats
 kactivitymanagerd
 kalarm
+kalgebra
 kamera
 kanagram
 kapidox
@@ -1874,7 +1885,7 @@ kdenetwork-filesharing
 kdenlive
 kdepim-runtime
 kdeplasma-addons
-kdesdk-kioslaves
+kdesdk-kio
 kdesdk-thumbnailers
 kdesignerplugin
 kdesu
@@ -1904,6 +1915,7 @@ kgeography
 kget
 kglobalaccel
 kgoldrunner
+kgpg
 kguiaddons
 khangman
 khelpcenter
@@ -1928,8 +1940,11 @@ kinit
 kio
 kio-admin
 kio-extras
+kio-zeroconf
 kirigami-addons
+kirigami-gallery
 kirigami2
+kiriki
 kitemmodels
 kitemviews
 kiten
@@ -1953,6 +1968,7 @@ kmediaplayer
 kmenuedit
 kmime
 kmines
+kmix
 kmod
 kmousetool
 kmouth
@@ -1961,6 +1977,7 @@ knack
 knavalbattle
 knetwalk
 knewstuff
+knights
 knotes
 knotifications
 knotifyconfig
@@ -2012,6 +2029,7 @@ ksystemstats
 kteatime
 ktextaddons
 ktexteditor
+ktexttemplate
 ktextwidgets
 ktimer
 ktnef
@@ -2248,6 +2266,7 @@ libpeas
 libpinyin
 libpipeline
 libplacebo
+libplist
 libpng
 libportal
 libproxy
@@ -2289,6 +2308,7 @@ libspatialite
 libspectre
 libspiro
 libspnav
+libspng
 libsrtp
 libssh
 libssh2
@@ -2528,6 +2548,7 @@ net-tools
 netaddr
 netbase
 netcdf
+netcdf-fortran
 netdata
 nethogs
 netplan
@@ -2599,6 +2620,7 @@ open-vm-tools
 openal-soft
 openblas
 openbox
+opencl-clang
 opencl-headers
 openconnect
 openct
@@ -2637,6 +2659,7 @@ pagemon
 paho.mqtt.c
 paho.mqtt.cpp
 palapeli
+pam-python
 pam_wrapper
 pandas
 pandoc
@@ -3234,6 +3257,7 @@ perl-Plack
 perl-Pod-Constants
 perl-Pod-Coverage
 perl-Pod-LaTeX
+perl-Pod-Markdown
 perl-Pod-POM
 perl-Pod-Parser
 perl-Pod-Plainer
@@ -3349,6 +3373,7 @@ perl-Test-File-ShareDir-Dist
 perl-Test-Fork
 perl-Test-Future-IO-Impl
 perl-Test-Identity
+perl-Test-InDistDir
 perl-Test-Inter
 perl-Test-LWP-UserAgent
 perl-Test-LeakTrace
@@ -3417,6 +3442,8 @@ perl-Text-Trim
 perl-Text-Unidecode
 perl-Text-WrapI18N
 perl-Text-Wrapper
+perl-Throwable
+perl-Throwable-SugarFactory
 perl-Tie-Cycle
 perl-Tie-IxHash
 perl-Tie-Simple
@@ -4271,6 +4298,7 @@ pypi-pycups
 pypi-pycurl
 pypi-pydantic
 pypi-pydantic_core
+pypi-pydbus
 pypi-pydispatcher
 pypi-pydocstyle
 pypi-pydot
@@ -4868,6 +4896,7 @@ serf
 setserial
 setxkbmap
 sg3_utils
+shaderc
 shadow
 shapelib
 shared-mime-info
@@ -5036,7 +5065,6 @@ usbutils
 user-manager
 userspace-rcu
 usrbinjava
-usrbinpython
 usrbinvi
 utf8proc
 utfcpp
@@ -5200,7 +5228,6 @@ zabbix
 zathura
 zathura-pdf-poppler
 zenity
-zeroconf-ioslave
 zimg
 zip
 zlib
