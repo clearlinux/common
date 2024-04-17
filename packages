@@ -43,6 +43,7 @@ OpenSP
 PDAL
 PyMySQL
 PyQt5
+PyQt6
 PySocks
 PyYAML
 QAT-ZSTD-Plugin
@@ -1100,7 +1101,6 @@ ark
 armadillo
 arp-scan
 arpack-ng
-artikulate
 asciidoc
 asciidoctor
 asciinema
@@ -1218,7 +1218,6 @@ calendarsupport
 can-utils
 cantarell-fonts
 cantata
-cantor
 capnproto
 capslock
 capstone
@@ -1434,6 +1433,7 @@ dunst
 duperemove
 dvisvgm
 dwarves
+dymo-cups-drivers
 dyskctl
 e2fsprogs
 earlyoom
@@ -1484,6 +1484,7 @@ fann
 farstream
 faultstat
 fcgi
+fdk-aac
 fdupes
 feh
 fetchmail
@@ -1501,6 +1502,7 @@ fish
 flac
 flare-engine
 flare-game
+flatpack-kcm
 flatpak
 flatpak-builder
 fldigi
@@ -1707,6 +1709,7 @@ gtk3
 gtk4
 gtkmm2
 gtkmm3
+gtkmm4
 gtksourceview
 gtksourceview4
 gtkspell3
@@ -1715,7 +1718,6 @@ guile
 gutenprint
 gvfs
 gvim
-gwenview
 gzip
 hamlib
 haproxy
@@ -1827,8 +1829,6 @@ json-glib
 jsoncpp
 juk
 kaccounts-integration
-kactivities
-kactivities-stats
 kactivitymanagerd
 kalarm
 kalgebra
@@ -1845,7 +1845,6 @@ kbackup
 kbd
 kblackbox
 kblocks
-kblog
 kbookmarks
 kbounce
 kbreakout
@@ -1859,6 +1858,7 @@ kcmutils
 kcodecs
 kcolorchooser
 kcolorpicker
+kcolorscheme
 kcompletion
 kconfig
 kconfigwidgets
@@ -1880,27 +1880,24 @@ kded
 kdeedu-data
 kdegraphics-mobipocket
 kdegraphics-thumbnailers
-kdelibs4support
 kdenetwork-filesharing
 kdenlive
 kdepim-runtime
 kdeplasma-addons
 kdesdk-kio
 kdesdk-thumbnailers
-kdesignerplugin
 kdesu
 kdf
 kdiagram
 kdialog
 kdiamond
-kdiff3
 kdnssd
 kdoctools
 kdsoap
+kdsoap-ws-discovery-client
 keditbookmarks
 keepalived
 keepassxc
-kemoticons
 kernel-config
 kernel-install
 kexec-tools
@@ -1908,27 +1905,24 @@ keychain
 keyutils
 kfilemetadata
 kfind
-kfloppy
 kfourinline
-kgamma5
+kgamma
 kgeography
 kget
 kglobalaccel
+kglobalacceld
 kgoldrunner
 kgpg
 kguiaddons
 khangman
 khelpcenter
 kholidays
-khotkeys
-khtml
 ki18n
 kicad
 kicad-packages3D
 kiconthemes
 kidentitymanagement
 kidletime
-kig
 kigo
 killbots
 kimageannotator
@@ -1936,11 +1930,11 @@ kimageformats
 kimagemapeditor
 kimap
 kinfocenter
-kinit
 kio
 kio-admin
 kio-extras
 kio-zeroconf
+kirigami
 kirigami-addons
 kirigami-gallery
 kirigami2
@@ -1951,7 +1945,6 @@ kiten
 kitinerary
 kjobwidgets
 kjs
-kjsembed
 kjumpingcube
 kldap
 kleopatra
@@ -1964,11 +1957,9 @@ kmail
 kmail-account-wizard
 kmailtransport
 kmbox
-kmediaplayer
 kmenuedit
 kmime
 kmines
-kmix
 kmod
 kmousetool
 kmouth
@@ -1985,6 +1976,7 @@ koji
 kolf
 kollision
 kolourpaint
+kompare
 konqueror
 konquest
 konsole
@@ -2005,10 +1997,8 @@ krb5
 krdc
 kreversi
 kronosnet
-kross
 kruler
 krunner
-krusader
 ksanecore
 kscreen
 kscreenlocker
@@ -2021,9 +2011,9 @@ ksnakeduel
 kspaceduel
 ksquares
 ksshaskpass
-kstars
+kstatusnotifieritem
 ksudoku
-ksysguard
+ksvg
 ksystemlog
 ksystemstats
 kteatime
@@ -2033,7 +2023,6 @@ ktexttemplate
 ktextwidgets
 ktimer
 ktnef
-ktp-desktop-applets
 ktuberling
 kturtle
 kubernetes
@@ -2044,7 +2033,6 @@ kwallet
 kwallet-pam
 kwalletmanager
 kwayland
-kwayland-integration
 kwayland-server
 kwidgetsaddons
 kwin
@@ -2052,11 +2040,9 @@ kwindowsystem
 kwordquiz
 kwrited
 kxmlgui
-kxmlrpcclient
 kyotocabinet
 ladspa_sdk
 latencytop
-latte-dock
 layer-shell-qt
 lcms2
 lcov
@@ -2103,6 +2089,7 @@ libatomic_ops
 libavif
 libavtp
 libb64
+libbacktrace
 libblockdev
 libbpf
 libbsd
@@ -2207,7 +2194,6 @@ libkdepim
 libkeduvocdocument
 libkexiv2
 libkgapi
-libkipi
 libkleo
 libkmahjongg
 libkomparediff2
@@ -2230,6 +2216,7 @@ libmodplug
 libmodulemd
 libmpack
 libmpack-lua
+libmsgraph
 libmspack
 libmspub
 libmtp
@@ -2266,6 +2253,7 @@ libpeas
 libpinyin
 libpipeline
 libplacebo
+libplasma
 libplist
 libpng
 libportal
@@ -2402,7 +2390,6 @@ lm-sensors
 lmdb
 logrotate
 logutils
-lokalize
 lpeg
 lsacpi
 lshw
@@ -2458,7 +2445,6 @@ meson
 messagelib
 meta-c-basic
 meta-desktop-gnome
-meta-desktop-kde
 meta-os-core
 meta-os-core-plus
 metacity
@@ -2471,6 +2457,7 @@ micro-config-drive-aws
 micro-config-drive-equinix
 micro-config-drive-oci
 milou
+mimetreeparser
 minetest
 minetest_game
 mingw-binutils
@@ -2606,7 +2593,6 @@ ocamlbuild
 ocl-icd
 octave
 oiio
-okteta
 okular
 oneDPL
 oneVPL
@@ -2650,7 +2636,7 @@ osm-gps-map
 ostree
 otp
 oxygen
-oxygen-icons5
+oxygen-icons
 oxygen-sounds
 p11-kit
 p7zip
@@ -3604,18 +3590,23 @@ pipewire
 pixman
 pkcs11-helper
 pkg-config
+plasma-activities
+plasma-activities-stats
 plasma-browser-integration
 plasma-desktop
 plasma-discover
-plasma-framework
+plasma-disks
+plasma-firewall
 plasma-integration
 plasma-nm
 plasma-pa
 plasma-systemmonitor
 plasma-vault
 plasma-wayland-protocols
+plasma-welcome
 plasma-workspace
 plasma-workspace-wallpapers
+plasma5support
 plzip
 pm-graph
 pmdk
@@ -3627,6 +3618,7 @@ podman
 polkit
 polkit-kde-agent
 polkit-qt
+polkit-qt6
 poppler
 poppler-data-clr-rename
 popt
@@ -3660,7 +3652,9 @@ psstop
 pth
 pugixml
 pulseaudio
+pulseaudio-qt
 purpose
+puzzles
 pv
 pwgen
 pyatspi
@@ -3787,6 +3781,7 @@ pypi-certifi
 pypi-cffi
 pypi-cffsubr
 pypi-cfgv
+pypi-chai
 pypi-chaospy
 pypi-chardet
 pypi-charset_normalizer
@@ -3881,6 +3876,8 @@ pypi-docopt
 pypi-docstring_parser
 pypi-docstring_to_markdown
 pypi-docutils
+pypi-doxypypy
+pypi-doxyqml
 pypi-dpcontracts
 pypi-dulwich
 pypi-ecdsa
@@ -3981,6 +3978,7 @@ pypi-hatch_requirements_txt
 pypi-hatch_vcs
 pypi-hatchling
 pypi-heapdict
+pypi-hishel
 pypi-hjson
 pypi-hkp4py
 pypi-home_assistant_frontend
@@ -4179,6 +4177,7 @@ pypi-nocasedict
 pypi-nocaselist
 pypi-nodeenv
 pypi-notebook_shim
+pypi-numexpr
 pypi-numpoly
 pypi-numpy
 pypi-numpydoc
@@ -4216,6 +4215,7 @@ pypi-pathlib2
 pypi-pathspec
 pypi-patsy
 pypi-pbr
+pypi-pbs_installer
 pypi-pdfminer.six
 pypi-pdm
 pypi-pdm_backend
@@ -4307,6 +4307,7 @@ pypi-pyelftools
 pypi-pyfakefs
 pypi-pyflakes
 pypi-pygame
+pypi-pygdbmi
 pypi-pygithub
 pypi-pygments
 pypi-pyicu
@@ -4533,6 +4534,7 @@ pypi-sqlalchemy
 pypi-sqlparse
 pypi-sshtunnel
 pypi-stack_data
+pypi-starlette
 pypi-storops
 pypi-strictyaml
 pypi-subprocess_tee
@@ -4625,6 +4627,7 @@ pypi-urlobject
 pypi-urwid
 pypi-user_agents
 pypi-userpath
+pypi-uvicorn
 pypi-uvloop
 pypi-venusian
 pypi-verboselogs
@@ -4734,6 +4737,7 @@ qbittorrent
 qca
 qca-qt5
 qcoro
+qcoro6
 qemu
 qemu-guest-additions
 qgit
@@ -4851,7 +4855,6 @@ rlwrap
 rng-tools
 robin-map
 roboto
-rocs
 rofi
 rpcbind
 rpcsvc-proto
@@ -5062,7 +5065,6 @@ usb-modeswitch
 usb-modeswitch-data
 usbredir
 usbutils
-user-manager
 userspace-rcu
 usrbinjava
 usrbinvi
