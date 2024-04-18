@@ -92,6 +92,7 @@ def update_cargo_vendor(path, name, git):
 
 def update_cargo_sources(name, tag):
     makefile = []
+    options = []
     archive_match = os.path.join('$(CGIT_BASE_URL)', 'vendor', name,
                                  'snapshot', name)
     with open('Makefile', encoding='utf8') as mfile:
@@ -107,6 +108,20 @@ def update_cargo_sources(name, tag):
                 makefile.append(line)
     with open('Makefile', 'w', encoding='utf8') as mfile:
         mfile.writelines(makefile)
+
+    with open('options.conf', encoding='utf8') as ofile:
+        for line in ofile.readlines():
+            if line.startswith('archives'):
+                if re.match(archive_match + r'[a-zA-Z0-9_\-.]+\.tar\.xz', line):
+                    new_archives = re.sub(archive_match + r'[a-zA-Z0-9_\-.]+\.tar\.xz',
+                                          f"{archive_match}-{tag}.tar.xz\n", line)
+                else:
+                    new_archives = f"achives = {archive_match}-{tag}.tar.xz ./vendor\n"
+                options.append(new_archives)
+            else:
+                options.append(line)
+    with open('options.conf', 'w', encoding='utf8') as ofile:
+        ofile.writelines(options)
 
 
 def main():
