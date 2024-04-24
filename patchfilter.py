@@ -98,9 +98,13 @@ def zap_entire_file_end(filename):
     global files
     global files_chunks
     global files_header
+    files_to_remove = list()
     for file in files:
         if file.endswith(filename):
-            files.remove(file)                
+            # Don't modify the original list while iterating over it
+            files_to_remove.append(file)
+    for file in files_to_remove:
+        files.remove(file)                
             
 def zap_line_in_file_substring(filename, match):
     global header
@@ -186,7 +190,7 @@ def zap_empty_chunks():
     files_to_remove = list()
     for file in files:
         if file not in files_chunks:
-            files.remove(file)
+            files_to_remove.append(file)
             continue
         to_remove = list()
         for chunk in files_chunks[file]:
