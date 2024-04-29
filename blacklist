@@ -2,4 +2,3 @@
 /usr/lib/systemd/system/sysinit.target.wants/systemd-firstboot.service
 /usr/lib/systemd/system/sysinit.target.wants/systemd-hwdb-update.service
 /usr/lib/systemd/system/sysinit.target.wants/systemd-update-done.service
-/usr/lib/systemd/system/update-triggers.target.wants
