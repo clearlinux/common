@@ -157,10 +157,6 @@ pullrebase:
 		fi \
 	fi
 
-# help vendor: Attempt to create an updated vendor tar archive if needed
-vendor: preautospec-checks pullrebase clean-old-content
-	@ $(TOPLVL)/projects/common/vendor.py $(firstword $(NEWURL) $(URL)) $(PKG_NAME) $(VND_BASE_URL)
-
 preautospec-checks:
 
 #help autospec: automatically generates a specfile. If there is
@@ -174,8 +170,8 @@ autospec: preautospec-checks pullrebase localreponotice clean-old-content
 		echo "Specfile already exists and was not created by autospec.py! Aborting."; \
 		exit 1; \
 	fi
+	$(eval ARCHIVES = $(shell $(TOPLVL)/projects/common/vendor.py '$(value ARCHIVES)' $(firstword $(NEWURL) $(URL)) $(PKG_NAME) $(VND_BASE_URL)))
 	@printf 'PKG_NAME := %s\nURL = %s\nARCHIVES = %s\n\ninclude ../common/Makefile.common\n' $(PKG_NAME) '$(firstword $(value NEWURL) $(value URL))' '$(value ARCHIVES)' > Makefile
-	@$(MAKE) vendor
 	python3 $(TOPLVL)/projects/autospec/autospec/autospec.py \
 		--target . \
 		--integrity \
