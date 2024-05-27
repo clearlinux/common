@@ -110,6 +110,7 @@ R-ISOcodes
 R-ISwR
 R-Iso
 R-JM
+R-KMsurv
 R-Lahman
 R-LearnBayes
 R-Luminescence
@@ -376,6 +377,7 @@ R-estimability
 R-etm
 R-evaluate
 R-evd
+R-exactRankTests
 R-expint
 R-expm
 R-expsmooth
@@ -414,6 +416,7 @@ R-fixest
 R-flashClust
 R-flexmix
 R-flexsurv
+R-flexsurvcure
 R-flextable
 R-float
 R-fontBitstreamVera
@@ -461,9 +464,13 @@ R-ggfortify
 R-ggjoy
 R-ggplot2
 R-ggplot2movies
+R-ggpubr
 R-ggrepel
 R-ggridges
+R-ggsci
+R-ggsignif
 R-ggstats
+R-ggtext
 R-ggvis
 R-gh
 R-git2r
@@ -483,6 +490,7 @@ R-gower
 R-gplots
 R-gridBase
 R-gridExtra
+R-gridtext
 R-gsl
 R-gss
 R-gtable
@@ -537,6 +545,7 @@ R-kernlab
 R-kimisc
 R-kit
 R-klaR
+R-km.ci
 R-kmi
 R-knitr
 R-ks
@@ -597,6 +606,7 @@ R-mathjaxr
 R-matrixStats
 R-matrixcalc
 R-maxLik
+R-maxstat
 R-mclogit
 R-mclust
 R-mcmc
@@ -843,6 +853,7 @@ R-rsdmx
 R-rstan
 R-rstanarm
 R-rstantools
+R-rstatix
 R-rstpm2
 R-rstudioapi
 R-rsvg
@@ -923,7 +934,9 @@ R-styler
 R-subplex
 R-subselect
 R-superpc
+R-survMisc
 R-survey
+R-survminer
 R-svUnit
 R-svglite
 R-sys
@@ -1175,6 +1188,7 @@ boto3
 botocore
 bovo
 box2d
+bpftool
 bpftrace
 breeze
 breeze-gtk
@@ -1544,7 +1558,6 @@ gc
 gcab
 gcc
 gcc11
-gcc14
 gcc7
 gcc8
 gcc9
@@ -4086,6 +4099,7 @@ pypi-kiwisolver
 pypi-krb5
 pypi-kubernetes
 pypi-langcodes
+pypi-language_data
 pypi-lark_parser
 pypi-latexcodec
 pypi-lavacli
@@ -4111,6 +4125,7 @@ pypi-lxml
 pypi-lz4
 pypi-macholib
 pypi-mako
+pypi-marisa_trie
 pypi-markdown
 pypi-markdown2
 pypi-markdown_exec
@@ -4130,6 +4145,7 @@ pypi-mkdocs
 pypi-mkdocs_autorefs
 pypi-mkdocs_exclude
 pypi-mkdocs_gen_files
+pypi-mkdocs_get_deps
 pypi-mkdocs_htmlproofer_plugin
 pypi-mkdocs_material_extensions
 pypi-mkdocs_monorepo_plugin
@@ -4195,6 +4211,7 @@ pypi-outcome
 pypi-overrides
 pypi-ovirt_imageio
 pypi-packaging
+pypi-packaging_legacy
 pypi-paginate
 pypi-paho_mqtt
 pypi-pandocfilters
@@ -4260,6 +4277,7 @@ pypi-portend
 pypi-posix_ipc
 pypi-poyo
 pypi-pre_commit
+pypi-pretty_errors
 pypi-prettytable
 pypi-probed
 pypi-progress
@@ -4455,6 +4473,7 @@ pypi-safetensors
 pypi-salib
 pypi-sanic_routing
 pypi-scikit_build
+pypi-scikit_build_core
 pypi-scikit_image
 pypi-scikit_learn
 pypi-scp
@@ -4584,6 +4603,7 @@ pypi-ttp
 pypi-twine
 pypi-typed_ast
 pypi-typeguard
+pypi-types_cffi
 pypi-types_colorama
 pypi-types_cryptography
 pypi-types_dataclasses
@@ -4641,6 +4661,7 @@ pypi-vsts_cd_manager
 pypi-waitress
 pypi-warlock
 pypi-watchdog
+pypi-watchfiles
 pypi-wbdata
 pypi-wcmatch
 pypi-wcwidth
@@ -4869,6 +4890,7 @@ rtmpdump
 rttr
 ruby
 runc
+rust-bindgen
 rustc
 rxvt-unicode
 s2tc
