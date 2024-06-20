@@ -1081,7 +1081,6 @@ acl
 acpica-unix2
 ade
 adwaita-icon-theme
-aesara
 akonadi
 akonadi-calendar
 akonadi-calendar-tools
@@ -1239,6 +1238,7 @@ capslock
 capstone
 casync
 catch2
+cbindgen
 ccache
 ccid
 cdparanoia
@@ -2583,6 +2583,7 @@ nload
 nlohmann_json
 nlopt
 nmap
+node-addon-api
 nodejs
 nose-parameterized
 not-ffmpeg
@@ -2642,6 +2643,7 @@ openpace
 opensm
 openssh
 openssl
+openvino
 openvpn
 openvswitch
 optipng
@@ -4061,7 +4063,6 @@ pypi-jaraco.functools
 pypi-jaraco.text
 pypi-jarn.viewdoc
 pypi-javaproperties
-pypi-jax
 pypi-jedi
 pypi-jeepney
 pypi-jellyfish
@@ -5105,6 +5106,7 @@ usrbinvi
 usrsctp
 utf8proc
 utfcpp
+uthash
 util-linux
 util-macros
 uwsgi
@@ -5211,6 +5213,7 @@ xfce4-whiskermenu-plugin
 xfconf
 xfdesktop
 xfontsel
+xfsdump
 xfsprogs
 xfwm4
 xhost
