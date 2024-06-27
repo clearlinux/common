@@ -75,9 +75,10 @@ def update_cargo_vendor(path, name, git):
     shutil.rmtree(vendor_path)
     cargo_vendors = subprocess.run('cargo vendor', cwd=path, shell=True, check=True,
                             stdout=subprocess.PIPE, universal_newlines=True).stdout
-    vendors_file = os.path.join(vendor_path, 'vendors.txt')
-    with open(vendors_file, 'w') as f:
-        f.write(cargo_vendors)
+    if 'git' in cargo_vendors:
+        vendors_file = os.path.join(vendor_path, 'vendors.txt')
+        with open(vendors_file, 'w') as f:
+            f.write(cargo_vendors)
     subprocess.run(f"cp -a {backup_vendor_git} {vendor_git}", cwd=path,
                    shell=True, check=True, stdout=subprocess.DEVNULL)
     repo = Repo(vendor_path)
