@@ -106,7 +106,6 @@ R-ICEbox
 R-ICS
 R-ICSNP
 R-IRdisplay
-R-IRkernel
 R-ISOcodes
 R-ISwR
 R-Iso
@@ -1162,6 +1161,7 @@ bashdb
 bats
 bc
 bcache-tools
+bcachefs-tools
 bcc
 bcftools
 bdftopcf
@@ -1810,7 +1810,6 @@ iotop
 ipaddr
 ipe
 iperf
-ipmctl
 ipmitool
 ipp-crypto
 iproute2
@@ -2279,6 +2278,7 @@ libportal
 libproxy
 libpsl
 libpthread-stubs
+libptytty
 libpwquality
 libqaccessibilityclient
 libqalculate
@@ -4247,6 +4247,7 @@ pypi-pbs_installer
 pypi-pdfminer.six
 pypi-pdm
 pypi-pdm_backend
+pypi-pdm_build_locked
 pypi-pdm_pep517
 pypi-pecan
 pypi-ped
