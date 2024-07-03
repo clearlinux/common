@@ -237,7 +237,7 @@ autospecnew: preautospecnew-checks localreponotice
 			--mock-config $(MOCK_CONFIG_VAL) \
 			--mock-opts="$(MOCK_OPTS)" \
 			$${SETVERSION:+ --version $${SETVERSION}} \
-			${NON_INTERACTIVE} ${SKIP_GIT} ${CLEANUP} \
+			${NON_INTERACTIVE} ${SKIP_GIT} $(if $(CLEANUP),-C) \
 			$(URL); \
 		if [ $$? -eq 0 ]; then \
 			$(MAKE) link-new-rpms PKG_REPO_DIR="${TOPLVL}/packages/${NAME}"; \
