@@ -407,16 +407,18 @@ update-versions:
 #help If no update.sh exists, update the version, autospec and push the
 #help update to koji (bumping the bump.list if found).
 update:
+	@if [ -f update.first ]; then \
+		for pkg in $$(< update.first); do \
+			(cd "../$${pkg}" || exit 1; $(MAKE) update-versions || exit 0; $(MAKE) update) || exit; \
+		done; \
+	fi
 	@if [ -f update.sh ]; then \
 		./update.sh; \
 	else \
 		$(MAKE) -s update-versions && \
 		$(MAKE) autospec CLEANUP=1 && \
-		if [ -f bump.list ]; then \
-			$(MAKE) -s koji; \
-		else \
-			$(MAKE) -s koji-nowait; \
-		fi \
+		$(MAKE) -s koji && \
+		$(MAKE) koji-waitrepo; \
 	fi \
 
 logcheck:
