@@ -440,21 +440,6 @@ repoadd: $(TOPLVL)/repo
 	$(MAKE) -s localrepocreate
 	$(MAKE) -s localrepoenable
 
-#help repostage: Stages locally-built RPMs for this package to the local RPM
-#help directory. If this directory does not yet exist, it is created and
-#help enabled.
-repostage: $(TOPLVL)/repo
-	@if [ -z "${LATEST_RPMS}" ]; then \
-		echo "No rpms found in rpms/ directory."; \
-		exit 1; \
-	fi
-	$(MAKE) -s repodel NO_CREATEREPO=1
-	@for r in ${LATEST_RPMS}; do \
-		echo "+$${rpm#rpms/}"; \
-		echo "$${rpm#rpms/}" >> .repo-index; \
-	done; \
-	flock $</repo.lock ln -f -t $< ${LATEST_RPMS}
-
 #help repodel: Removes RPMs from the local RPM repository that were
 #help previously added by 'make repoadd' for this package.
 repodel: $(TOPLVL)/repo

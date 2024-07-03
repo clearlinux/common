@@ -256,51 +256,6 @@ autospecnew: preautospecnew-checks localreponotice
 		exit 1; \
 	fi
 
-#help autospecnewgo: Creates a new autospec package with (dependencies)
-#help for a given URL=$(URL) with NAME=$(NAME). Several files used by
-#help autospec will be created in the help process.
-#help Use MOCK_OPTS environment varible to pass down arbitrary mock options
-#help to autospec.
-#help For more information about autospec, see the project page on Github https://github.com/clearlinux/autospec
-autospecnewgo: preautospecnew-checks localreponotice
-	@if [ -z $(NAME) ] || [ -z $(URL) ]; then \
-		echo "Please specify NAME and URL. The ARCHIVES variable is optional."; \
-		exit 1; \
-	fi
-	-$(MAKE) clone_$(NAME)
-	@if [ ! -d $(TOPLVL)/packages/$(NAME)/.git ]; then \
-		echo "no remote repository found, creating new package repository and running autospec"; \
-		mkdir -p $(TOPLVL)/packages/$(NAME); \
-		( \
-			cd $(TOPLVL)/packages/$(NAME); \
-			git init -b main; \
-			git remote add origin $(PKG_BASE_URL)/$(NAME); \
-			$(call gitoliteurl,packages/$(NAME)); \
-			$(call subjectprefix,$(NAME)); \
-		); \
-		printf 'PKG_NAME := %s\nURL = %s\nARCHIVES = %s\n\ninclude ../common/Makefile.common\n' $(NAME) '$(value URL)' '$(value ARCHIVES)' > $(TOPLVL)/packages/$(NAME)/Makefile; \
-		python3 $(TOPLVL)/projects/common/go-builder.py \
-			--target packages/$(NAME) \
-			--integrity \
-			--config "$(AUTOSPEC_CONF)" \
-			--name $(NAME) \
-			--archives $(ARCHIVES) \
-			--mock-config $(MOCK_CONFIG_VAL) \
-			--mock-opts "$(MOCK_OPTS)" \
-			$(URL); \
-		if [ $$? -eq 0 ]; then \
-			$(MAKE) link-new-rpms PKG_REPO_DIR="${TOPLVL}/packages/${NAME}"; \
-			$(TOPLVL)/projects/common/checkblacklist.sh $(TOPLVL)/projects/common/blacklist $(TOPLVL)/packages/${NAME}/results/*.rpm; \
-			python3 $(TOPLVL)/projects/common/patchfilter.py <(git -C $(TOPLVL)/packages/$(NAME) show) > $(TOPLVL)/packages/$(NAME)/for-review.txt; \
-			python3 $(TOPLVL)/projects/common/patchfilter.py <(git -C $(TOPLVL)/packages/$(NAME) show); \
-		else \
-			exit 1; \
-		fi; \
-	else \
-		echo "$(NAME) already exists at $(TOPLVL)/packages/$(NAME)"; \
-		exit 1; \
-	fi
-
 #help repoenable: Enables the local RPM repository for use with Yum/DNF and
 #help Mock. If this repository does not yet exist, it is created.
 repoenable: localrepoenable ;
