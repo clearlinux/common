@@ -9,9 +9,8 @@ import subprocess
 import tempfile
 import time
 
-from git import Repo
-
 import requests
+from git import Repo
 
 
 def vendor_check():
