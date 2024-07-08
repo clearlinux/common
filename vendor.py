@@ -73,13 +73,14 @@ def update_cargo_vendor(path, name, git):
     subprocess.run(f"cp -a {vendor_git} {backup_vendor_git}", cwd=path,
                    shell=True, check=True, stdout=subprocess.DEVNULL)
     shutil.rmtree(vendor_path)
-    subprocess.run('cargo vendor', cwd=path, shell=True, check=True,
-                   stdout=subprocess.DEVNULL)
+    cargo_vendors = subprocess.run('cargo vendor', cwd=path, shell=True,
+                                   check=True, stdout=subprocess.PIPE,
+                                   universal_newlines=True).stdout
     subprocess.run(f"cp -a {backup_vendor_git} {vendor_git}", cwd=path,
                    shell=True, check=True, stdout=subprocess.DEVNULL)
     repo = Repo(vendor_path)
     if not (len(repo.untracked_files) > 0 or repo.is_dirty()):
-        return False
+        return False, ""
     subprocess.run('git add .', cwd=vendor_path, shell=True, check=True,
                    stdout=subprocess.DEVNULL)
     subprocess.run('git commit -m "vendor update"', cwd=vendor_path,
@@ -91,10 +92,10 @@ def update_cargo_vendor(path, name, git):
     subprocess.run(f"git push origin main:main {tag}", cwd=vendor_path,
                    shell=True, check=True, stdout=subprocess.DEVNULL)
     time.sleep(30)
-    return tag
+    return tag, cargo_vendors
 
 
-def update_cargo_sources(name, tag):
+def update_cargo_sources(name, tag, cargo_vendors):
     makefile = []
     options = []
     archive_match = os.path.join(r'\$\(CGIT_BASE_URL\)', 'vendor', name,
@@ -131,6 +132,8 @@ def update_cargo_sources(name, tag):
                 options.append(line)
     with open('options.conf', 'w', encoding='utf8') as ofile:
         ofile.writelines(options)
+    with open('cargo_vendors', 'w', encoding='utf8') as cfile:
+        cfile.write(cargo_vendors)
 
 
 def main():
@@ -146,9 +149,9 @@ def main():
     if vtype == 'cargo':
         vdir = setup_cargo_vendor(tdir)
         if vdir:
-            tag = update_cargo_vendor(vdir, args.name, args.git)
+            tag, cargo_vendors = update_cargo_vendor(vdir, args.name, args.git)
             if tag:
-                update_cargo_sources(args.name, tag)
+                update_cargo_sources(args.name, tag, cargo_vendors)
                 updated = True
     if not updated:
         print(args.archives)
