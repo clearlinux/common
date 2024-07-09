@@ -338,6 +338,7 @@ R-distr
 R-distrEx
 R-distributional
 R-dlm
+R-doBy
 R-doMC
 R-doMPI
 R-doParallel
@@ -1072,6 +1073,7 @@ WPEBackend-fdo
 WireGuard
 XStatic-term.js
 Z3
+aardvark-dns
 abireport
 abseil-cpp
 accel-config
@@ -1160,7 +1162,6 @@ bash-completion
 bashdb
 bats
 bc
-bcache-tools
 bcachefs-tools
 bcc
 bcftools
@@ -1221,6 +1222,7 @@ byobu
 bz2file
 bzip2
 c-ares
+c-blosc2
 cJSON
 c_rehash
 ca-certs
@@ -1246,6 +1248,7 @@ cereal
 cfitsio
 cgdb
 cgit
+chafa
 check
 cheese
 chirp
@@ -1392,6 +1395,7 @@ dbus-glib
 dbus-python
 dconf
 dconf-editor
+ddcutil
 ddd
 deap
 debugedit
@@ -1500,6 +1504,7 @@ fakeroot
 falcosecurity-libs
 fann
 farstream
+fastfetch
 faultstat
 fcgi
 fdk-aac
@@ -2503,6 +2508,7 @@ modsecurity
 modsecurity-nginx
 modules
 mokutil
+mold
 mono
 moreutils
 mosh
@@ -2552,6 +2558,7 @@ neovim
 net-snmp
 net-tools
 netaddr
+netavark
 netbase
 netcdf
 netcdf-fortran
@@ -2678,6 +2685,7 @@ parallel
 parley
 parted
 pass
+passt
 passwdqc
 patch
 patchelf
