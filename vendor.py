@@ -76,6 +76,8 @@ def update_cargo_vendor(path, name, git):
     cargo_vendors = subprocess.run('cargo vendor', cwd=path, shell=True,
                                    check=True, stdout=subprocess.PIPE,
                                    universal_newlines=True).stdout
+    with open(os.path.join(vendor_path, ".gitattributes"), "w", encoding='utf8') as gafile:
+        gafile.write("* text=false\n")
     subprocess.run(f"cp -a {backup_vendor_git} {vendor_git}", cwd=path,
                    shell=True, check=True, stdout=subprocess.DEVNULL)
     repo = Repo(vendor_path)
