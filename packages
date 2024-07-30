@@ -355,6 +355,7 @@ R-drc
 R-dreamerr
 R-dtplyr
 R-dtw
+R-duckdb
 R-dygraphs
 R-dynamicTreeCut
 R-dynlm
@@ -660,6 +661,7 @@ R-mvnormtest
 R-mvoutlier
 R-mvtnorm
 R-nanoarrow
+R-nanoparquet
 R-natserv
 R-ncbit
 R-ncdf4
@@ -1307,7 +1309,6 @@ cmocka
 cmrt
 cmus
 cnf
-cni
 cni-plugins
 cockpit
 codec2
