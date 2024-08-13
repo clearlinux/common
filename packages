@@ -885,6 +885,7 @@ R-sessioninfo
 R-setRNG
 R-sets
 R-sf
+R-sfd
 R-sfsmisc
 R-sgeostat
 R-shape
@@ -1560,7 +1561,6 @@ freeglut
 freeipmi
 freetype
 fribidi
-fritzing-app
 frozen
 fs
 fsarchiver
@@ -1589,8 +1589,6 @@ gdm
 geany
 geany-plugins
 geary
-gedit
-gedit-plugins-gnome
 geeqie
 gegl
 gengetopt
@@ -3441,7 +3439,6 @@ perl-Test-Without-Module
 perl-Test-YAML
 perl-Test-utf8
 perl-Test2-Plugin-NoWarnings
-perl-Test2-Suite
 perl-Text-Autoformat
 perl-Text-Brew
 perl-Text-CSV
@@ -3713,6 +3710,7 @@ pypi-acme
 pypi-adal
 pypi-aiodns
 pypi-aiofiles
+pypi-aiohappyeyeballs
 pypi-aiohttp
 pypi-aiohttp_cors
 pypi-aiosignal
@@ -4796,6 +4794,7 @@ qemu
 qemu-guest-additions
 qgit
 qhull
+qmapshack
 qml-box2d
 qpdf
 qqc2-desktop-style
@@ -4895,7 +4894,6 @@ re2c
 readline
 rebootmgr
 recode
-redis-native
 redis2-nginx-module
 redland
 redsocks
@@ -4910,6 +4908,7 @@ rng-tools
 robin-map
 roboto
 rofi
+routino
 rpcbind
 rpcsvc-proto
 rpm
@@ -5135,6 +5134,7 @@ v4l-utils
 vala
 valgrind
 valijson
+valkey
 vbox-integration
 vid.stab
 vifm
@@ -5148,6 +5148,7 @@ virt-manager
 virt-viewer
 vkd3d
 vlc
+volk
 volume_key
 vpnc
 vsqlite
