@@ -3915,6 +3915,7 @@ pypi-docopt
 pypi-docstring_parser
 pypi-docstring_to_markdown
 pypi-docutils
+pypi-doit
 pypi-doxypypy
 pypi-doxyqml
 pypi-dpcontracts
@@ -4117,6 +4118,9 @@ pypi-jupyterlab_link_share
 pypi-jupyterlab_pygments
 pypi-jupyterlab_server
 pypi-jupyterlab_widgets
+pypi-jupyterlite_core
+pypi-jupyterlite_pyodide_kernel
+pypi-jupyterlite_sphinx
 pypi-jxmlease
 pypi-kcc
 pypi-kerberos
