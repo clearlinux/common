@@ -26,6 +26,7 @@ LibreCAD
 Linux-PAM
 LuaJIT
 LyX
+MangoHud
 MarkupSafe
 ModemManager
 MuseScore
@@ -1570,6 +1571,7 @@ fwupd
 fwupd-efi
 garcon
 gawk
+gbinder-python
 gc
 gcab
 gcc
@@ -2179,6 +2181,7 @@ libfontenc
 libfprint
 libfreehand
 libftdi1
+libgbinder
 libgcrypt
 libgd
 libgdata
@@ -2187,6 +2190,7 @@ libgee
 libgeotiff
 libgit2
 libgit2-glib
+libglibutil
 libglvnd
 libgnome-keyring
 libgnomekbd
@@ -2437,6 +2441,7 @@ luarocks
 lutris
 luv
 lv2
+lxc
 lynx
 lz4
 lzlib
@@ -4339,6 +4344,7 @@ pypi-pybind11
 pypi-pybtex
 pypi-pybtex_docutils
 pypi-pycares
+pypi-pyclip
 pypi-pyclipper
 pypi-pycodestyle
 pypi-pycollada
@@ -5159,6 +5165,7 @@ vsqlite
 vte
 waffle
 wavpack
+waydroid
 wayland
 wayland-protocols
 waypipe
