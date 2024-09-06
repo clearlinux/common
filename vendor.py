@@ -82,7 +82,11 @@ def update_cargo_vendor(path, name, git):
                    shell=True, check=True, stdout=subprocess.DEVNULL)
     repo = Repo(vendor_path)
     if not (len(repo.untracked_files) > 0 or repo.is_dirty()):
-        return False, ""
+        # Always use the newest tag as sometimes a new tag will
+        # be created but the package won't be updated to use it
+        # for a different failure reason.
+        tag = sorted(repo.tags, key=lambda x: x.name, reverse=True)[0]
+        return tag, cargo_vendors
     subprocess.run('git add .', cwd=vendor_path, shell=True, check=True,
                    stdout=subprocess.DEVNULL)
     subprocess.run('git commit -m "vendor update"', cwd=vendor_path,
@@ -139,7 +143,6 @@ def update_cargo_sources(name, tag, cargo_vendors):
 
 
 def main():
-    updated = False
     args = get_args()
 
     vtype = vendor_check()
@@ -150,13 +153,11 @@ def main():
     tdir = setup_content(args.url)
     if vtype == 'cargo':
         vdir = setup_cargo_vendor(tdir)
-        if vdir:
+        if not vdir:
+            print(args.archives)
+        else:
             tag, cargo_vendors = update_cargo_vendor(vdir, args.name, args.git)
-            if tag:
-                update_cargo_sources(args.name, tag, cargo_vendors)
-                updated = True
-    if not updated:
-        print(args.archives)
+            update_cargo_sources(args.name, tag, cargo_vendors)
     shutil.rmtree(tdir)
 
 
