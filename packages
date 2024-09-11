@@ -63,6 +63,8 @@ R-BMA
 R-BatchJobs
 R-BayesFactor
 R-BiasedUrn
+R-Biobase
+R-BiocGenerics
 R-BiocManager
 R-BoolNet
 R-BradleyTerry2
@@ -267,6 +269,7 @@ R-calibrator
 R-callr
 R-car
 R-carData
+R-cards
 R-caret
 R-cclust
 R-cellranger
@@ -1761,6 +1764,7 @@ help2man
 hexchat
 hexedit
 hicolor-icon-theme
+highway
 hiredis-c
 hostname
 howdy
@@ -1772,7 +1776,6 @@ hub
 hugo
 hunspell
 hwloc
-hyperscan
 hyphen
 i2c-tools
 i3
@@ -2275,6 +2278,7 @@ libodfgen
 libogg
 libopenmpt
 libopenzwave
+libopusenc
 liborcus
 libosinfo
 libpagemaker
@@ -3091,6 +3095,7 @@ perl-IPC-ShareLite
 perl-IPC-Shareable
 perl-IPC-System-Simple
 perl-Image-Base
+perl-Image-ExifTool
 perl-Image-Info
 perl-Image-Size
 perl-Image-Xbm
@@ -3927,6 +3932,7 @@ pypi-dpcontracts
 pypi-dulwich
 pypi-ecdsa
 pypi-editables
+pypi-einops
 pypi-elementpath
 pypi-enrich
 pypi-entrypoints
@@ -4617,6 +4623,7 @@ pypi-texttable
 pypi-threadpoolctl
 pypi-three_merge
 pypi-tifffile
+pypi-timm
 pypi-tinycss2
 pypi-tldextract
 pypi-tokenizers
@@ -4626,6 +4633,7 @@ pypi-tomli_w
 pypi-tomlkit
 pypi-toolz
 pypi-torchmetrics
+pypi-torchvision
 pypi-tornado
 pypi-tornado_xstatic
 pypi-tox
@@ -4807,6 +4815,7 @@ qhull
 qmapshack
 qml-box2d
 qpdf
+qpl
 qqc2-desktop-style
 qrencode
 qscintilla
@@ -5094,6 +5103,7 @@ tig
 tigervnc
 time
 tini
+tinyxml2
 tiptop
 tk
 tmux
@@ -5145,7 +5155,9 @@ vala
 valgrind
 valijson
 valkey
+vapoursynth
 vbox-integration
+vectorscan
 vid.stab
 vifm
 vim
@@ -5179,10 +5191,12 @@ wget
 which
 whois
 wine
+winegui
 wireless-regdb-master
 wireplumber
 wireshark
 wl-clipboard
+wlrobs
 wlroots
 wmctrl
 woff2
@@ -5200,6 +5214,7 @@ xapian-core
 xastir
 xauth
 xbitmaps
+xboxdrv
 xcb-proto
 xcb-util-cursor
 xcb-util-xrm
