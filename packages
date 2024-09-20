@@ -1163,7 +1163,10 @@ avahi
 awesome-wm
 awscli
 axel
+azure-c-logging
 azure-configs
+azure-macro-utils-c
+azure-umock-c
 babeltrace
 babl
 baloo
@@ -1341,6 +1344,7 @@ compat-glibmm-soname24
 compat-gnome-bluetooth-soname-13
 compat-gsl-soname27
 compat-gtksourceview-soname3
+compat-icu4c-rolling
 compat-json-c-soname4
 compat-libffi-soname6
 compat-libffi-soname7
@@ -1691,6 +1695,9 @@ goaccess
 gobject-introspection
 golang-github-cpuguy83-go-md2man
 goocanvas
+google-benchmark
+google-cloud-cpp
+google-crc32c
 googletest
 gparted
 gpaste
@@ -1754,6 +1761,7 @@ gzip
 hamlib
 haproxy
 hardinfo
+hardinfo2
 harfbuzz
 haveged
 hdf5
@@ -2424,6 +2432,7 @@ llvm
 llvm14
 llvm15
 llvm16
+llvm17
 lm-sensors
 lmdb
 logrotate
@@ -2496,6 +2505,7 @@ micro-config-drive-aws
 micro-config-drive-equinix
 micro-config-drive-oci
 milou
+mimalloc
 mimetreeparser
 minetest
 minetest_game
@@ -2532,6 +2542,7 @@ motd-update
 motif
 mozjs102
 mozjs115
+mozjs128
 mozjs91
 mpc
 mpfr
@@ -3727,6 +3738,7 @@ pypi-aiosignal
 pypi-aiosmtpd
 pypi-aiosqlite
 pypi-alabaster
+pypi-altair
 pypi-altgraph
 pypi-amqp
 pypi-aniso8601
@@ -3866,6 +3878,7 @@ pypi-cons
 pypi-contextlib2
 pypi-contextvars
 pypi-contourpy
+pypi-controlnet_aux
 pypi-cookiecutter
 pypi-coverage
 pypi-coverage_enable_subprocess
@@ -3983,6 +3996,7 @@ pypi-ftfy
 pypi-funcparserlib
 pypi-future
 pypi-gast
+pypi-gdown
 pypi-gevent
 pypi-geventhttpclient
 pypi-ghp_import
@@ -4214,6 +4228,7 @@ pypi-mutagen
 pypi-mypy_extensions
 pypi-myst_nb
 pypi-myst_parser
+pypi-narwhals
 pypi-natsort
 pypi-nbclassic
 pypi-nbclient
@@ -5291,6 +5306,7 @@ xscreensaver
 xsel
 xset
 xsetroot
+xsimd
 xss-lock
 xterm
 xtrans
