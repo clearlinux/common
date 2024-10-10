@@ -223,6 +223,7 @@ scanlicense:
 #help the variable BUMP_MSG is set, its value is used as the commit summary.
 #help Otherwise a generic commit summary is used.
 bump:
+	git stash
 	git pull --rebase
 	$(MAKE) bumpnogit
 	git add $(SPECFILE) release
