@@ -1117,6 +1117,7 @@ ansible
 ansible-core
 antlr4-python3-runtime
 apache-ant
+apache-arrow
 appstream
 appstream-glib
 apr
@@ -2339,6 +2340,7 @@ libsoup
 libspatialindex
 libspatialite
 libspectre
+libspelling
 libspiro
 libspnav
 libspng
@@ -2433,6 +2435,7 @@ llvm14
 llvm15
 llvm16
 llvm17
+llvm18
 lm-sensors
 lmdb
 logrotate
@@ -2595,6 +2598,7 @@ nettle
 network-manager-applet
 networkmanager-qt
 newt
+nextcloud-desktop
 nfs-utils
 nftables
 nghttp2
@@ -3943,8 +3947,11 @@ pypi-doxypypy
 pypi-doxyqml
 pypi-dpcontracts
 pypi-dulwich
+pypi-durationpy
 pypi-ecdsa
 pypi-editables
+pypi-editdistance
+pypi-edlib
 pypi-einops
 pypi-elementpath
 pypi-enrich
@@ -4331,6 +4338,7 @@ pypi-poetry
 pypi-poetry_core
 pypi-poetry_plugin_export
 pypi-polib
+pypi-polyleven
 pypi-port_for
 pypi-portalocker
 pypi-portend
@@ -4359,6 +4367,7 @@ pypi-py3dns
 pypi-py3nvml
 pypi-py_cpuinfo
 pypi-pyaml
+pypi-pyarrow
 pypi-pyasn1
 pypi-pyasn1_modules
 pypi-pybind11
@@ -4635,6 +4644,7 @@ pypi-text_unidecode
 pypi-textdistance
 pypi-textfsm
 pypi-texttable
+pypi-thefuzz
 pypi-threadpoolctl
 pypi-three_merge
 pypi-tifffile
