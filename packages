@@ -1332,6 +1332,7 @@ colord-kde
 colordiff
 columbiad
 compat-Botan-soname2
+compat-abseil-cpp-rolling
 compat-atkmm-soname16
 compat-babeltrace-one
 compat-cairomm-soname10
@@ -1343,6 +1344,7 @@ compat-gcc-10
 compat-gcr-soname1
 compat-glibmm-soname24
 compat-gnome-bluetooth-soname-13
+compat-grpc-soname66
 compat-gsl-soname27
 compat-gtksourceview-soname3
 compat-icu4c-rolling
@@ -4381,6 +4383,7 @@ pypi-pycollada
 pypi-pycosat
 pypi-pycountry
 pypi-pycparser
+pypi-pycrdt
 pypi-pycryptodome
 pypi-pycryptodomex
 pypi-pycups
