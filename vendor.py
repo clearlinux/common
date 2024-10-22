@@ -111,11 +111,11 @@ def update_cargo_sources(name, tag, cargo_vendors):
     with open('Makefile', encoding='utf8') as mfile:
         for line in mfile.readlines():
             if line.startswith('ARCHIVES'):
-                if re.search(archive_match + r'[a-zA-Z0-9_\-.]+\.tar\.xz', line):
-                    new_archives = re.sub(archive_match + r'[a-zA-Z0-9_\-.]+\.tar\.xz',
-                                          f"{archive_replace}-{tag}.tar.xz", line)
+                if re.search(archive_match + r'[a-zA-Z0-9_\-.]+\.tar\.gz', line):
+                    new_archives = re.sub(archive_match + r'[a-zA-Z0-9_\-.]+\.tar\.gz',
+                                          f"{archive_replace}-{tag}.tar.gz", line)
                 else:
-                    new_archives = f"{line[:-1]} {archive_replace}-{tag}.tar.xz ./vendor\n"
+                    new_archives = f"{line[:-1]} {archive_replace}-{tag}.tar.gz ./vendor\n"
                 print(new_archives.replace('ARCHIVES = ', '', 1))
                 makefile.append(new_archives)
             else:
@@ -128,11 +128,11 @@ def update_cargo_sources(name, tag, cargo_vendors):
     with open('options.conf', encoding='utf8') as ofile:
         for line in ofile.readlines():
             if line.startswith('archives'):
-                if re.search(archive_match + r'[a-zA-Z0-9_\-.]+\.tar\.xz', line):
-                    new_archives = re.sub(archive_match + r'[a-zA-Z0-9_\-.]+\.tar\.xz',
-                                          f"{archive_match}-{tag}.tar.xz", line)
+                if re.search(archive_match + r'[a-zA-Z0-9_\-.]+\.tar\.gz', line):
+                    new_archives = re.sub(archive_match + r'[a-zA-Z0-9_\-.]+\.tar\.gz',
+                                          f"{archive_match}-{tag}.tar.gz", line)
                 else:
-                    new_archives = f"{line[:-1]} {archive_match}-{tag}.tar.xz ./vendor\n"
+                    new_archives = f"{line[:-1]} {archive_match}-{tag}.tar.gz ./vendor\n"
                 options.append(new_archives)
             else:
                 options.append(line)
