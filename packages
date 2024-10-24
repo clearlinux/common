@@ -1238,6 +1238,7 @@ byobu
 bz2file
 bzip2
 c-ares
+c-blosc
 c-blosc2
 cJSON
 c_rehash
@@ -1401,6 +1402,7 @@ cups-filters
 cups-pk-helper
 curl
 cycler
+cyme
 cyrus-sasl
 dapl
 darktable
@@ -3818,6 +3820,8 @@ pypi-blessed
 pypi-blinker
 pypi-blivet
 pypi-blockdiag
+pypi-blosc
+pypi-blosc2
 pypi-bokeh
 pypi-boolean.py
 pypi-booleanoperations
@@ -4246,6 +4250,7 @@ pypi-nbformat
 pypi-nbsphinx
 pypi-nbval
 pypi-ndg_httpsclient
+pypi-ndindex
 pypi-neat_python
 pypi-nest_asyncio
 pypi-netapp_lib
@@ -4634,6 +4639,7 @@ pypi-subprocess_tee
 pypi-suds
 pypi-sure
 pypi-svg.path
+pypi-tables
 pypi-tabulate
 pypi-tap.py
 pypi-tblib
