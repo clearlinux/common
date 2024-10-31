@@ -50,16 +50,17 @@ def setup_content(url):
 
 
 def setup_cargo_vendor(path):
+    cargo_paths = []
     for dirpath, _, files in os.walk(path):
         for fname in files:
             if fname == "Cargo.toml":
-                return dirpath
-    return False
+                cargo_paths.append(os.path.join(dirpath, fname))
+    return cargo_paths
 
 
-def update_cargo_vendor(path, name, git):
+def update_cargo_vendor(tmpdir, cargo_paths, name, git):
     git_uri = os.path.join(git, name)
-    vendor_path = os.path.join(path, 'vendor')
+    vendor_path = os.path.join(tmpdir, 'vendor')
     subprocess.run(f"git clone {git_uri} {vendor_path}", shell=True, check=True,
                    stdout=subprocess.DEVNULL)
     vendor_git = os.path.join(vendor_path, '.git')
@@ -69,16 +70,18 @@ def update_cargo_vendor(path, name, git):
                        stdout=subprocess.DEVNULL)
         subprocess.run(f"git remote add origin {git_uri}", cwd=vendor_path,
                        shell=True, check=True, stdout=subprocess.DEVNULL)
-    backup_vendor_git = os.path.join(path, 'clear-linux-vendor-git')
-    subprocess.run(f"cp -a {vendor_git} {backup_vendor_git}", cwd=path,
+    backup_vendor_git = os.path.join(tmpdir, 'clear-linux-vendor-git')
+    subprocess.run(f"cp -a {vendor_git} {backup_vendor_git}", cwd=tmpdir,
                    shell=True, check=True, stdout=subprocess.DEVNULL)
     shutil.rmtree(vendor_path)
-    cargo_vendors = subprocess.run('cargo vendor', cwd=path, shell=True,
+    vendor_cmd = 'cargo vendor ' + ' '.join([f"-s {x}" for x in cargo_paths[:-1]])
+    vendor_cmd += f" --manifest-path {cargo_paths[-1]}"
+    cargo_vendors = subprocess.run(vendor_cmd, cwd=tmpdir, shell=True,
                                    check=True, stdout=subprocess.PIPE,
                                    universal_newlines=True).stdout
     with open(os.path.join(vendor_path, ".gitattributes"), "w", encoding='utf8') as gafile:
         gafile.write("* text=false\n")
-    subprocess.run(f"cp -a {backup_vendor_git} {vendor_git}", cwd=path,
+    subprocess.run(f"cp -a {backup_vendor_git} {vendor_git}", cwd=tmpdir,
                    shell=True, check=True, stdout=subprocess.DEVNULL)
     repo = Repo(vendor_path)
     if not (len(repo.untracked_files) > 0 or repo.is_dirty()):
@@ -152,11 +155,11 @@ def main():
 
     tdir = setup_content(args.url)
     if vtype == 'cargo':
-        vdir = setup_cargo_vendor(tdir)
-        if not vdir:
+        cargo_paths = setup_cargo_vendor(tdir)
+        if len(cargo_paths) == 0:
             print(args.archives)
         else:
-            tag, cargo_vendors = update_cargo_vendor(vdir, args.name, args.git)
+            tag, cargo_vendors = update_cargo_vendor(tdir, cargo_paths, args.name, args.git)
             update_cargo_sources(args.name, tag, cargo_vendors)
     shutil.rmtree(tdir)
 
