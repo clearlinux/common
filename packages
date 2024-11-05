@@ -1361,6 +1361,7 @@ compat-libvpx-soname8
 compat-pangomm-soname14
 compat-protobuf-soname29
 compat-protobuf-soname32
+compat-python3-rolling
 compat-re2-soname10
 compat-readline-soname5
 compat-taglib-soname1
@@ -3749,7 +3750,6 @@ pypi-alabaster
 pypi-altair
 pypi-altgraph
 pypi-amqp
-pypi-aniso8601
 pypi-annotated_types
 pypi-ansi2html
 pypi-ansible_builder
@@ -3785,7 +3785,6 @@ pypi-atpublic
 pypi-attr
 pypi-attrdict
 pypi-attrs
-pypi-autocommand
 pypi-automat
 pypi-awesomeversion
 pypi-awscrt
@@ -3803,7 +3802,6 @@ pypi-babel
 pypi-backcall
 pypi-backoff
 pypi-backports.ssl_match_hostname
-pypi-bash_kernel
 pypi-bashlex
 pypi-bcrypt
 pypi-beartype
@@ -3842,14 +3840,12 @@ pypi-cachy
 pypi-cairocffi
 pypi-cairosvg
 pypi-calver
-pypi-capturer
 pypi-cattrs
 pypi-cerberus
 pypi-certbot
 pypi-certbot_dns_google
 pypi-certifi
 pypi-cffi
-pypi-cffsubr
 pypi-cfgv
 pypi-chai
 pypi-chaospy
@@ -3859,7 +3855,6 @@ pypi-check_jsonschema
 pypi-check_manifest
 pypi-cheetah3
 pypi-cheroot
-pypi-cherrypy
 pypi-cibuildwheel
 pypi-ciscoisesdk
 pypi-ciso8601
@@ -3875,7 +3870,6 @@ pypi-cmarkgfm
 pypi-cmd2
 pypi-codecov
 pypi-colorama
-pypi-coloredlogs
 pypi-colorlog
 pypi-columnize
 pypi-comm
@@ -3896,6 +3890,7 @@ pypi-coveralls
 pypi-cppy
 pypi-crashtest
 pypi-crcmod
+pypi-crypt_r
 pypi-cryptography
 pypi-cryptography_vectors
 pypi-cs
@@ -4112,10 +4107,8 @@ pypi-isort
 pypi-itsdangerous
 pypi-janus
 pypi-jaraco.classes
-pypi-jaraco.collections
 pypi-jaraco.context
 pypi-jaraco.functools
-pypi-jaraco.text
 pypi-jarn.viewdoc
 pypi-javaproperties
 pypi-jedi
@@ -4128,7 +4121,6 @@ pypi-jinxed
 pypi-jmespath
 pypi-joblib
 pypi-josepy
-pypi-jsmin
 pypi-json5
 pypi-jsondiff
 pypi-jsonlines
@@ -4176,6 +4168,7 @@ pypi-lazy
 pypi-lazy_loader
 pypi-lazy_object_proxy
 pypi-ldap3
+pypi-legacy_cgi
 pypi-levenshtein
 pypi-libarchive_c
 pypi-libevdev
@@ -4360,6 +4353,7 @@ pypi-progress
 pypi-progressbar
 pypi-prometheus_client
 pypi-prompt_toolkit
+pypi-propcache
 pypi-proto_plus
 pypi-protobuf
 pypi-psautohint
@@ -4375,7 +4369,6 @@ pypi-py3dns
 pypi-py3nvml
 pypi-py_cpuinfo
 pypi-pyaml
-pypi-pyarrow
 pypi-pyasn1
 pypi-pyasn1_modules
 pypi-pybind11
@@ -4415,7 +4408,6 @@ pypi-pylint
 pypi-pymdown_extensions
 pypi-pynacl
 pypi-pynetbox
-pypi-pynsist
 pypi-pynvml
 pypi-pyomo
 pypi-pyopengl
@@ -4514,7 +4506,6 @@ pypi-regress
 pypi-reportlab
 pypi-repoze.lru
 pypi-requests
-pypi-requests_download
 pypi-requests_file
 pypi-requests_gssapi
 pypi-requests_kerberos
@@ -4530,7 +4521,6 @@ pypi-retrolab
 pypi-retry
 pypi-retry_decorator
 pypi-retryz
-pypi-retype
 pypi-rfc3339_validator
 pypi-rfc3986
 pypi-rfc3986_validator
@@ -4674,7 +4664,6 @@ pypi-tornado_xstatic
 pypi-tox
 pypi-tqdm
 pypi-traitlets
-pypi-trampolim
 pypi-transformers
 pypi-translationstring
 pypi-trimesh
@@ -4684,7 +4673,6 @@ pypi-trove_classifiers
 pypi-truststore
 pypi-ttp
 pypi-twine
-pypi-typed_ast
 pypi-typeguard
 pypi-types_cffi
 pypi-types_colorama
@@ -4715,7 +4703,6 @@ pypi-tzdata
 pypi-tzlocal
 pypi-ua_parser
 pypi-uc_micro_py
-pypi-ufo2ft
 pypi-ufolib2
 pypi-uharfbuzz
 pypi-ujson
