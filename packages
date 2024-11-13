@@ -1340,6 +1340,7 @@ compat-cairomm-soname10
 compat-codec2-soname1
 compat-enchant-soname1
 compat-ffmpeg-4.4
+compat-ffmpeg-6
 compat-fuse-soname2
 compat-gcc-10
 compat-gcr-soname1
@@ -3866,6 +3867,7 @@ pypi-click_log
 pypi-clikit
 pypi-cloudevents
 pypi-cloudflare
+pypi-clr_artifact
 pypi-cmarkgfm
 pypi-cmd2
 pypi-codecov
