@@ -180,6 +180,7 @@ R-Ryacas
 R-SGP
 R-SGPdata
 R-SQUAREM
+R-SimDesign
 R-Sleuth2
 R-SnowballC
 R-SparseM
@@ -232,6 +233,7 @@ R-bayesplot
 R-bazar
 R-bbmle
 R-bdsmatrix
+R-beepr
 R-beeswarm
 R-bench
 R-benchr
@@ -871,6 +873,7 @@ R-rsvg
 R-runjags
 R-rversions
 R-rvest
+R-rworldmap
 R-s2
 R-sampling
 R-sandwich
@@ -1583,6 +1586,7 @@ fsearch
 fuse
 fwupd
 fwupd-efi
+game-music-emu
 garcon
 gawk
 gbinder-python
@@ -2260,6 +2264,7 @@ libmbim
 libmediaart
 libmemcached
 libmicrohttpd
+libmikmod
 libmnl
 libmodbus
 libmodplug
@@ -3915,6 +3920,7 @@ pypi-decorator
 pypi-deepmerge
 pypi-deepspeed
 pypi-dep_logic
+pypi-dependency_groups
 pypi-deprecated
 pypi-deprecation
 pypi-devpi_client
@@ -5311,6 +5317,7 @@ xrandr
 xrdb
 xrdp
 xrestop
+xscorch
 xscreensaver
 xsel
 xset
