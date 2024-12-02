@@ -582,6 +582,36 @@ cloc: $(SRPMFILE)
 	@$(MOCK) --clean --scrub=chroot --uniqueext=$(PKG_NAME)
 	cat results/cloc.txt
 
+#help backport-<commit>: Retrieve a commit from the upstream git repository and save it as a backport patch.
+#help Currently only works with GitHub repositories. The giturl is read from options.conf.
+backport-%:
+	@commit=$*; \
+	echo "Backporting commit: $${commit}"; \
+	giturl=$$(grep -E '^giturl\s*=\s*https://github.com' options.conf | sed 's/giturl\s*=\s*//' | sed 's/\.git$$//' | sed 's/\/$$//' 2>/dev/null); \
+	if [[ -z "$${giturl}" ]]; then \
+		echo "Error: giturl not defined in options.conf"; \
+		exit 1; \
+	fi; \
+	if ! curl -s -L -o $@.patch $${giturl}/commit/$*.patch || [[ "Not Found" == $$(< $@.patch) ]]; then \
+		rm -f $@.patch; \
+		echo "Error: Failed to download commit $*"; \
+		exit 1; \
+	fi; \
+	patch=$@.patch; \
+	full_commit=$$(head -1 $@.patch | grep -oE '\b$*\S+' 2>/dev/null); \
+	if ! [[ -z "$${full_commit}" ]]; then \
+		patch=backport-$${full_commit}.patch; \
+		mv $@.patch $${patch}; \
+	fi; \
+	if [[ -s $${patch} ]]; then \
+		echo "$${patch} created"; \
+		grep -qE "^$${patch}$$" series 2>/dev/null || echo "$${patch}" >> series; \
+	else \
+		rm -f $${patch}; \
+		echo "Error: Failed to create backport patch"; \
+		exit 1; \
+	fi \
+
 .PHONY: whatrequires
 #help whatrequires: Output a list of packages that directly depend on this one,
 #help showing the subpackage-level breakdown. Each line of output has the format
