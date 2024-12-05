@@ -582,27 +582,68 @@ cloc: $(SRPMFILE)
 	@$(MOCK) --clean --scrub=chroot --uniqueext=$(PKG_NAME)
 	cat results/cloc.txt
 
-#help backport-<commit>: Retrieve a commit from the upstream git repository and save it as a backport patch.
-#help Currently only works with GitHub repositories. The giturl is read from options.conf.
-backport-%:
-	@commit=$*; \
-	echo "Backporting commit: $${commit}"; \
-	giturl=$$(grep -E '^giturl\s*=\s*https://github.com' options.conf | sed 's/giturl\s*=\s*//' | sed 's/\.git$$//' | sed 's/\/$$//' 2>/dev/null); \
+#help catchup: Backport the commits from the current version to the upstream HEAD (not release).
+#help Only works if giturl is defined and the current package version can be mapped to a git tag.
+catchup:
+	$(MAKE) catchup-HEAD
+
+#help catchup-<commit|tag>: Backport the commits from the current version to the specified commit or tag.
+#help Only works if giturl is defined and the current package version can be mapped to a git tag.
+catchup-%:
+	@target=$*; \
+	giturl=$$(grep -E '^giturl\s*=\s*\S+' options.conf | sed 's/giturl\s*=\s*//' 2>/dev/null); \
 	if [[ -z "$${giturl}" ]]; then \
 		echo "Error: giturl not defined in options.conf"; \
 		exit 1; \
 	fi; \
-	if ! curl -s -L -o $@.patch $${giturl}/commit/$*.patch || [[ "Not Found" == $$(< $@.patch) ]]; then \
-		rm -f $@.patch; \
-		echo "Error: Failed to download commit $*"; \
+	mkdir -p results; \
+	if [[ -d results/$(PKG_NAME) ]]; then \
+		echo "Reusing existing repository..."; \
+		git -C results/$(PKG_NAME) fetch origin; \
+	else \
+		echo "Cloning upstream repository..."; \
+		git -C results clone "$${giturl}" $(PKG_NAME); \
+	fi; \
+	if ! git -C results/$(PKG_NAME) rev-parse --verify --quiet "$${target}" >/dev/null; then \
+		echo "Error: Target commit/tag $${target} not found"; \
 		exit 1; \
 	fi; \
-	patch=$@.patch; \
-	full_commit=$$(head -1 $@.patch | grep -oE '\b$*\S+' 2>/dev/null); \
-	if ! [[ -z "$${full_commit}" ]]; then \
-		patch=backport-$${full_commit}.patch; \
-		mv $@.patch $${patch}; \
+	echo "Version: $$(rpm -q --qf '%{VERSION}\n' --specfile $(SPECFILE) | head -1)"; \
+	current_tag=$$(git -C results/$(PKG_NAME) tag --list | grep -E "^($(PKG_NAME)-)?v?$$(rpm -q --qf '%{VERSION}\n' --specfile $(SPECFILE) | head -1)$$") || { \
+		echo "Error: No tag found for current package version"; \
+		exit 1; \
+	}; \
+	echo "Catching up from $${current_tag} to $${target}"; \
+	for commit in $$(git -C results/$(PKG_NAME) log --reverse --pretty=oneline $${current_tag}..$${target} | cut -d' ' -f1); do \
+		$(MAKE) backport-$${commit}; \
+	done;
+
+
+#help backport-<commit>: Retrieve a commit from the upstream git repository and save it as a backport patch.
+#help The giturl is read from options.conf.
+backport-%:
+	@commit=$*; \
+	echo "Backporting commit: $${commit}"; \
+	giturl=$$(grep -E '^giturl\s*=\s*\S+' options.conf | sed 's/giturl\s*=\s*//' 2>/dev/null); \
+	if [[ -z "$${giturl}" ]]; then \
+		echo "Error: giturl not defined in options.conf"; \
+		exit 1; \
 	fi; \
+	mkdir -p results; \
+	if [[ -d results/$(PKG_NAME) ]]; then \
+		echo "Reusing existing repository..."; \
+		git -C results/$(PKG_NAME) fetch origin; \
+	else \
+		echo "Cloning upstream repository..."; \
+		git -C results clone "$${giturl}" $(PKG_NAME); \
+	fi; \
+	full_commit=$$(git -C results/$(PKG_NAME) show --pretty=oneline $${commit} 2>/dev/null | head -1 | cut -d' ' -f 1); \
+	if [[ -z "$${full_commit}" ]]; then \
+		echo "Error: Commit for $${commit} not found"; \
+		exit 1; \
+	fi; \
+	patch=backport-$${full_commit}.patch; \
+	git -C results/$(PKG_NAME) format-patch -1 --stdout $${full_commit} > $${patch}; \
 	if [[ -s $${patch} ]]; then \
 		echo "$${patch} created"; \
 		grep -qE "^$${patch}$$" series 2>/dev/null || echo "$${patch}" >> series; \
