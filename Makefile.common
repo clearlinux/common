@@ -608,8 +608,9 @@ catchup-%:
 		echo "Error: Target commit/tag $${target} not found"; \
 		exit 1; \
 	fi; \
-	echo "Version: $$(rpm -q --qf '%{VERSION}\n' --specfile $(SPECFILE) | head -1)"; \
-	current_tag=$$(git -C results/$(PKG_NAME) tag --list | grep -E "^($(PKG_NAME)-)?v?$$(rpm -q --qf '%{VERSION}\n' --specfile $(SPECFILE) | head -1)$$") || { \
+	version=$$(rpm -q --qf '%{VERSION}\n' --specfile $(SPECFILE) | head -1); \
+	echo "Version: $${version}"; \
+	current_tag=$$(git -C results/$(PKG_NAME) tag --list | grep -E "^($(PKG_NAME)-)?v?$${version}$$") || { \
 		echo "Error: No tag found for current package version"; \
 		exit 1; \
 	}; \
