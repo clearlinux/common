@@ -1858,6 +1858,7 @@ irrlicht
 irrlichtmt
 irssi
 isa-l
+isl
 iso-codes
 isodate
 isomd5sum
@@ -2385,6 +2386,7 @@ libva
 libva-intel-driver
 libva-utils
 libvdpau
+libversion
 libvirt
 libvirt-dbus
 libvirt-glib
@@ -5172,7 +5174,6 @@ usb-modeswitch-data
 usbredir
 usbutils
 userspace-rcu
-usrbinjava
 usrbinvi
 usrsctp
 utf8proc
