@@ -1207,6 +1207,7 @@ boost
 borgbackup
 boto3
 botocore
+bottom
 bovo
 box2d
 bpftool
@@ -1237,6 +1238,7 @@ buildreq-qmake
 buildreq-qt6
 buildreq-scons
 buildx
+bwidget
 byobu
 bz2file
 bzip2
@@ -1846,6 +1848,7 @@ ipe
 iperf
 ipmitool
 ipp-crypto
+ipp-usb
 iproute2
 ipset
 iptables
@@ -3741,6 +3744,7 @@ pynvim
 pyotherside
 pyotp
 pyparted
+pypi-Yapps
 pypi-absl_py
 pypi-abydos
 pypi-accelerate
@@ -4507,6 +4511,7 @@ pypi-rapidfuzz
 pypi-rapidfuzz_capi
 pypi-rcssmin
 pypi-rdflib
+pypi-re2
 pypi-readme_renderer
 pypi-readtime
 pypi-recommonmark
@@ -4981,6 +4986,7 @@ s3fs-fuse
 salt
 samba
 samtools
+sane-airscan
 sane-backends
 sassc
 sbc
@@ -5105,7 +5111,9 @@ tallow
 tar
 taskwarrior
 tbb
+tbtools
 tcl
+tclx
 tcpdump
 tdb
 tecla
