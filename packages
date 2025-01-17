@@ -4164,7 +4164,6 @@ pypi-jupyterlab_server
 pypi-jupyterlab_widgets
 pypi-jupyterlite_core
 pypi-jupyterlite_pyodide_kernel
-pypi-jupyterlite_sphinx
 pypi-jxmlease
 pypi-kcc
 pypi-kerberos
