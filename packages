@@ -2443,6 +2443,7 @@ linux-ltscurrent
 linux-ltsprev
 linux-preempt-rt
 linux-tools
+linuxcnc
 linuxptp
 lksctp-tools
 lldpd
