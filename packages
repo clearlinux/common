@@ -811,6 +811,7 @@ R-readr
 R-readstata13
 R-readxl
 R-recipes
+R-reformulas
 R-registry
 R-relimp
 R-rematch
@@ -1374,6 +1375,7 @@ compat-taglib-soname1
 compat-tbb-soname2
 compat-tiff-soname5
 compat-wlroots-soname11
+compat-yaml-cpp-soname6
 component
 compose
 configobj
@@ -1755,6 +1757,7 @@ gstreamer-vaapi
 gtk+
 gtk-doc
 gtk-frdp
+gtk-layer-shell
 gtk-vnc
 gtk-xfce-engine
 gtk3
@@ -2511,7 +2514,6 @@ mesa
 mesa-demos
 meson
 messagelib
-meta-c-basic
 meta-desktop-gnome
 meta-os-core
 meta-os-core-plus
@@ -2534,6 +2536,7 @@ mingw-crt
 mingw-gcc
 minicom
 minimodem
+minizip-ng
 minuet
 mixer-tools
 mkfontdir
@@ -4816,6 +4819,7 @@ pypi-zope.security
 pypi-zope.testing
 pypi-zope.testrunner
 pypi-zopfli
+pystring
 python
 python-digitalocean
 python-distutils-extra
@@ -5240,6 +5244,7 @@ wlroots
 wmctrl
 woff2
 wol
+wolfssl
 wpa_supplicant
 wsjtx
 wslu
@@ -5360,6 +5365,7 @@ zenity
 zimg
 zip
 zlib
+zlib-ng
 znc
 zopfli
 zsh
