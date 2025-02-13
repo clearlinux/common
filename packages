@@ -3600,7 +3600,6 @@ perl-prefork
 perl-strictures
 pesign
 phonon
-phonon-vlc
 phoronix-test-suite
 php
 php-APCu
@@ -3992,6 +3991,7 @@ pypi-falcon
 pypi-fasteners
 pypi-fastimport
 pypi-fastjsonschema
+pypi-fido2
 pypi-filecache
 pypi-filelock
 pypi-findpython
@@ -4458,6 +4458,7 @@ pypi-pyroute2.nftables
 pypi-pyroute2.nslink
 pypi-pyrsistent
 pypi-pysaml2
+pypi-pyscard
 pypi-pyscss
 pypi-pyserial
 pypi-pysnow
@@ -4798,6 +4799,7 @@ pypi-yarg
 pypi-yarl
 pypi-yattag
 pypi-ypy_websocket
+pypi-yubikey_manager
 pypi-zabbix_api
 pypi-zc.lockfile
 pypi-zeroconf
@@ -5213,7 +5215,6 @@ virglrenderer
 virt-manager
 virt-viewer
 vkd3d
-vlc
 volk
 volume_key
 vpnc
