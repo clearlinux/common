@@ -4720,6 +4720,7 @@ pypi-typogrify
 pypi-tzdata
 pypi-tzlocal
 pypi-ua_parser
+pypi-ua_parser_builtins
 pypi-uc_micro_py
 pypi-ufolib2
 pypi-uharfbuzz
@@ -4740,6 +4741,7 @@ pypi-uvloop
 pypi-venusian
 pypi-verboselogs
 pypi-versioneer
+pypi-versioningit
 pypi-vine
 pypi-virtualenv
 pypi-volatile
@@ -5360,6 +5362,7 @@ yelp-tools
 yelp-xsl
 yq
 ytnef
+yyjson
 zabbix
 zathura
 zathura-pdf-poppler
