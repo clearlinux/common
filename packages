@@ -920,6 +920,7 @@ R-sp
 R-spData
 R-spam
 R-sparkline
+R-sparsevctrs
 R-spatstat
 R-spatstat.core
 R-spatstat.data
@@ -4546,6 +4547,7 @@ pypi-rfc3987
 pypi-rich
 pypi-rjsmin
 pypi-rlpycairo
+pypi-roman_numerals_py
 pypi-rope
 pypi-routes
 pypi-rpds_py
@@ -5335,6 +5337,7 @@ xrandr
 xrdb
 xrdp
 xrestop
+xsane
 xscorch
 xscreensaver
 xsel
