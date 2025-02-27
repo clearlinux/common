@@ -2727,6 +2727,7 @@ paho.mqtt.c
 paho.mqtt.cpp
 palapeli
 pam-python
+pam_u2f
 pam_wrapper
 pandas
 pandoc
