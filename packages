@@ -1392,6 +1392,7 @@ coreutils
 corosync
 coturn
 cov-core
+cpdb-libs
 cpio
 cppcheck
 cppunit
@@ -2663,6 +2664,7 @@ numactl
 numatop
 numlockx
 numpy-stl
+nushell
 nut
 nv-codec-headers
 nvme-cli
@@ -4116,8 +4118,8 @@ pypi-iocapture
 pypi-ipaddress
 pypi-ipdb
 pypi-ipykernel
-pypi-ipyparallel
 pypi-ipython
+pypi-ipython-pygments-lexers
 pypi-ipython_genutils
 pypi-ipython_sql
 pypi-ipywidgets
@@ -4537,7 +4539,6 @@ pypi-requirements_parser
 pypi-resolvelib
 pypi-responses
 pypi-restructuredtext_lint
-pypi-retrolab
 pypi-retry
 pypi-retry_decorator
 pypi-retryz
@@ -4963,6 +4964,7 @@ recode
 redis2-nginx-module
 redland
 redsocks
+redumper
 requests-ntlm
 rest
 restic
