@@ -1128,6 +1128,7 @@ appstream-glib
 apr
 apr-util
 arandr
+ardopcf
 argon2
 aria2
 ark
