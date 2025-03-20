@@ -1214,7 +1214,6 @@ bottom
 bovo
 box2d
 bpftool
-bpftrace
 breeze
 breeze-gtk
 breeze-icons
@@ -1632,6 +1631,7 @@ gi-docgen
 giflib
 gifsicle
 gimp
+gimp-xsanecli
 girara
 git
 git-gui
@@ -2459,6 +2459,7 @@ llvm15
 llvm16
 llvm17
 llvm18
+llvm19
 lm-sensors
 lmdb
 logrotate
