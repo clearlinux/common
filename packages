@@ -586,6 +586,7 @@ R-linprog
 R-lintr
 R-listenv
 R-listviewer
+R-litedown
 R-lle
 R-lme4
 R-lmerTest
@@ -827,7 +828,6 @@ R-reshape
 R-reshape2
 R-reticulate
 R-rex
-R-rgdal
 R-rgenoud
 R-rgeos
 R-rgl
@@ -1535,6 +1535,7 @@ fakeroot
 falcosecurity-libs
 fann
 farstream
+fast_float
 fastfetch
 faultstat
 fcgi
@@ -4779,7 +4780,6 @@ pypi-wsproto
 pypi-wurlitzer
 pypi-wxPython
 pypi-xcffib
-pypi-xgboost
 pypi-xmldiff
 pypi-xmljson
 pypi-xmlschema
@@ -5187,6 +5187,7 @@ umockdev
 unbundle
 unibilium
 unifdef
+unified-memory-framework
 unison
 unit
 unixODBC
