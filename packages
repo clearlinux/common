@@ -9,6 +9,7 @@ CopyQ
 DML
 Endeavour
 F-Engrave
+FreeCAD
 FreeRDP
 FreeRDP2
 GConf
@@ -1061,6 +1062,7 @@ SDL2_image
 SDL2_mixer
 SDL2_net
 SDL2_ttf
+SDL3
 SDL_gfx
 SDL_image
 SDL_mixer
@@ -2312,6 +2314,7 @@ libopenzwave
 libopusenc
 liborcus
 libosinfo
+libp11
 libpagemaker
 libpanel
 libpcap
@@ -2516,6 +2519,7 @@ memtier_benchmark
 menu-cache
 mercurial
 mesa
+mesa-clc
 mesa-demos
 meson
 messagelib
@@ -2645,6 +2649,7 @@ nload
 nlohmann_json
 nlopt
 nmap
+nng
 node-addon-api
 nodejs
 nose-parameterized
@@ -4723,6 +4728,7 @@ pypi-types_toml
 pypi-types_typed_ast
 pypi-types_urllib3
 pypi-typing_extensions
+pypi-typing_inspection
 pypi-typogrify
 pypi-tzdata
 pypi-tzlocal
@@ -4954,6 +4960,7 @@ rage
 ragel
 rapidjson
 raptor2
+rasdaemon
 rasqal
 rclone
 rdfind
