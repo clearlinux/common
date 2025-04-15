@@ -50,6 +50,7 @@ PySocks
 PyYAML
 QAT-ZSTD-Plugin
 QAT_engine
+QGIS
 QR-Code-generator
 QXlsx
 R
@@ -1100,6 +1101,7 @@ accountsservice
 acl
 acpica-unix2
 ade
+adwaita-fonts
 adwaita-icon-theme
 akonadi
 akonadi-calendar
