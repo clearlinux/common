@@ -1370,6 +1370,7 @@ compat-libsoup-soname-24
 compat-libva-soname1
 compat-libvpx-soname7
 compat-libvpx-soname8
+compat-libvpx-soname9
 compat-pangomm-soname14
 compat-protobuf-soname29
 compat-protobuf-soname32
@@ -4104,6 +4105,7 @@ pypi-hyperlink
 pypi-hypothesis
 pypi-icalendar
 pypi-icecream
+pypi-id
 pypi-identify
 pypi-idna
 pypi-idna_ssl
