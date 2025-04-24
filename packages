@@ -1371,6 +1371,7 @@ compat-libva-soname1
 compat-libvpx-soname7
 compat-libvpx-soname8
 compat-libvpx-soname9
+compat-libxml2-soname2
 compat-pangomm-soname14
 compat-protobuf-soname29
 compat-protobuf-soname32
