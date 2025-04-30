@@ -610,7 +610,7 @@ catchup-%:
 	fi; \
 	version=$$(rpm -q --qf '%{VERSION}\n' --specfile $(SPECFILE) | head -1); \
 	echo "Version: $${version}"; \
-	current_tag=$$(git -C results/$(PKG_NAME) tag --list | grep -E "^($(PKG_NAME)-)?v?$${version}$$") || { \
+	current_tag=$$(git -C results/$(PKG_NAME) tag --list | grep -E "^($(PKG_NAME)-)?(.+-|v)?$${version}$$") || { \
 		echo "Error: No tag found for current package version"; \
 		exit 1; \
 	}; \
