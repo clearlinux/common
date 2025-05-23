@@ -1610,6 +1610,7 @@ gcc11
 gcc7
 gcc8
 gcc9
+gccmakedep
 gcompris-qt
 gcr
 gdal
@@ -2500,6 +2501,7 @@ m4
 mailcommon
 mailimporter
 make
+makedepend
 man-db
 man-pages
 man-pages-posix
