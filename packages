@@ -1453,6 +1453,7 @@ dino
 directx-headers
 direwolf
 dist-pam-configs
+dive
 dkms
 dlib
 dlt-daemon
@@ -2486,6 +2487,7 @@ lttng-ust
 lua
 lua-nginx-module
 lualgi
+luanti
 luarocks
 lutris
 luv
@@ -2544,7 +2546,6 @@ micro-config-drive-oci
 milou
 mimalloc
 mimetreeparser
-minetest
 minetest_game
 mingw-binutils
 mingw-crt
