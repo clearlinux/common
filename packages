@@ -4088,6 +4088,7 @@ pypi-hatch_requirements_txt
 pypi-hatch_vcs
 pypi-hatchling
 pypi-heapdict
+pypi-hf_xet
 pypi-hishel
 pypi-hjson
 pypi-hkp4py
