@@ -1453,6 +1453,7 @@ dino
 directx-headers
 direwolf
 dist-pam-configs
+distrobox
 dive
 dkms
 dlib
@@ -2538,6 +2539,7 @@ metacity
 metee
 metis
 metrics-discovery
+metrics-library
 micro-config-drive
 micro-config-drive-aliyun
 micro-config-drive-aws
@@ -2691,6 +2693,7 @@ ocl-icd
 octave
 oiio
 okular
+ollama
 oneDPL
 oneVPL
 onig
@@ -4303,6 +4306,7 @@ pypi-nvidia_ml_py
 pypi-oauth2client
 pypi-oauthlib
 pypi-olefile
+pypi-ollama
 pypi-onnx
 pypi-opcodes
 pypi-openshift
@@ -4845,7 +4849,6 @@ pypi-zope.testing
 pypi-zope.testrunner
 pypi-zopfli
 pystring
-python
 python-digitalocean
 python-distutils-extra
 python-gflags
@@ -4926,7 +4929,6 @@ qt6webengine
 qt6websockets
 qt6webview
 qtbase
-qtcanvas3d
 qtcharts
 qtconnectivity
 qtdatavis3d
@@ -4936,7 +4938,6 @@ qtgraphicaleffects
 qtimageformats
 qtkeychain
 qtlocation
-qtmqtt
 qtmultimedia
 qtnetworkauth
 qtquickcontrols
