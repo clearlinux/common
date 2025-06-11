@@ -2463,6 +2463,7 @@ linux-tools
 linuxcnc
 linuxptp
 lksctp-tools
+llama.cpp
 lldpd
 llvm
 llvm14
@@ -5208,6 +5209,7 @@ unified-memory-framework
 unison
 unit
 unixODBC
+unsloth
 unzip
 upower
 usb-modeswitch
@@ -5232,6 +5234,7 @@ vapoursynth
 vbox-integration
 vc-intrinsics
 vectorscan
+verilator
 vid.stab
 vifm
 vim
@@ -5357,6 +5360,7 @@ xorg-server
 xorgproto
 xorriso
 xprop
+xpumanager
 xrandr
 xrdb
 xrdp
@@ -5387,6 +5391,7 @@ yasm
 yelp
 yelp-tools
 yelp-xsl
+yosys
 yq
 ytnef
 yyjson
