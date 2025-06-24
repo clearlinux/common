@@ -5019,6 +5019,7 @@ rustc
 rxvt-unicode
 s2tc
 s3fs-fuse
+s5cmd
 salt
 samba
 samtools
