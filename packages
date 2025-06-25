@@ -3943,7 +3943,6 @@ pypi-cython
 pypi-cytoolz
 pypi-dacite
 pypi-dask
-pypi-datasets
 pypi-dateparser
 pypi-datetime
 pypi-debugpy
@@ -4715,7 +4714,6 @@ pypi-translationstring
 pypi-trimesh
 pypi-trio
 pypi-trio_websocket
-pypi-trl
 pypi-trove_classifiers
 pypi-truststore
 pypi-ttp
