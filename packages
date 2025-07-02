@@ -4570,6 +4570,7 @@ pypi-rfc3986
 pypi-rfc3986_validator
 pypi-rfc3987
 pypi-rich
+pypi-rich_argparse
 pypi-rjsmin
 pypi-rlpycairo
 pypi-roman_numerals_py
