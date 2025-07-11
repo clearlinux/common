@@ -4512,7 +4512,6 @@ pypi-python_debian
 pypi-python_dotenv
 pypi-python_install
 pypi-python_json_logger
-pypi-python_lsp_black
 pypi-python_lsp_jsonrpc
 pypi-python_lsp_server
 pypi-python_multilib
